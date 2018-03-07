@@ -1,0 +1,87 @@
+An user's guide to BIP148 success
+
+bitcoindesigned.com
+
+A little bit of context...
+
+BIP148 is the proposed activation of SegWit by the mechanism known as UASF, that is set to happen on August 1st.
+
+SegWit
+
+It's an improvement in Bitcoin's protocol (originally proposed on BIP 141) that, besides fixing important things in the protocol, will make it easier to implement future upgrades and scalability solutions, such as the Lightning Network.
+
+It's also an effective block size increase.
+
+UASF
+
+UASF (User Activated Soft Fork) is a mechanism of soft fork activation enforced by full nodes that represent the economic majority (this means they have to be nodes that actually receive transactions).
+
+Why the need for BIP148?
+
+The current soft fork activation mechanism is MASF (Miner Activated Soft Fork), which depends on a majority of miners signaling they are prepared for the upgrade (not to confuse with an actual majority voting mechanism).
+
+MASF was a convenient mechanism suggested in 2015.
+
+But, due to a somewhat currently centralized mining industry, it's being used as a way to block the SegWit activation, even though the majority of users is showing their support for it.
+
+BIP148 is a way out of this attempt to block an important Bitcoin upgrade.
+
+But why not Segwit2x?
+
+This implementation was suggested only a short time ago, after the pressure of the upcoming UASF. It's being criticized by respected Bitcoin developers because of its obscure development process and rushed implementation.
+
+And besides, it's a political instead of a technical solution per se.
+
+Future of Bitcoin Conf
+
+How can you help BIP148?
+
+Spread the word
+
+Tell all bitcoin users you know about BIP148 so they can prepare themselves. Not everyone knows everything that's happening on social media and forums.
+
+Run an economic node
+
+Remember, just running a full node isn't helping BIP148. It has to be a node that is economically active (i.e. sends and receives transactions).
+
+You can do that by setting your own node and configuring your wallet to use it.
+
+We support BIP148!
+
+Download wallet
+
+Or you can choose a wallet that's publicly committed to supporting BIP148.
+
+Wanna do more than just running your own node? Help other people set theirs!
+
+Run it the right way
+
+If running a node, make sure you are using the BIP148 build of Bitcoin Core (https://bitcoinuasf.org/) and not just signaling as a comment in your bitcoin.conf file.
+
+Use your consumer influence
+
+Contact exchanges and businesses you use and tell them they should support BIP148.
+
+Even prepare yourself and publicly announce that you'll leave the companies that don't. And actually stick to it. :)
+
+What to expect after August 1st?
+
+Nodes that are running BIP148 will reject any blocks that don't signal for SegWit. So if these nodes represent an economic majority, miners will have all the logical incentives to adopt the changes. Otherwise, they will lose money mining invalid blocks.
+
+Only segwit allowed
+
+A chain split will only happen if miners actively choose to do so, by ignoring user's decision and running software incompatible with BIP148 SegWit.
+
+If this happens, fasten your seatbelt. But it's no end of the world for Bitcoin, it will just have to move forward without the attacking miners.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Thanks to these great sources:
+
+https://medium.com/@lukedashjr/how-you-can-help-ensure-bip148-is-a-success-2fb63bf5114f
+
+http://www.uasf.co/
+
+https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki

@@ -1,0 +1,85 @@
+Is Bitcoin really decentralized?
+
+bitcoindesigned.com
+
+When we talk about decentralization and centralization, it’s not like black and white. Instead, there’s a whole range of grays in the middle.
+
+Being more decentralized or less is a thing.
+
+Fully centralized
+
+Nuance of centralization
+
+Fully decentralized
+
+Also, decentralization doesn’t mean good while centralization means bad. Both can be useful depending on the context, we just have to know when.
+
+But enough with the introduction:
+
+How decentralized is Bitcoin?
+
+Nodes
+
+Node decentralization is essential for a healthy Bitcoin. But not just any node, an economically active full node.
+
+The nodes that really make a difference in the decision of protocol changes are the ones that accept transactions and validate them using their own full nodes, usually merchants. That’s what we call the economic majority.
+
+If there were fewer merchants, there would be fewer people to enforce Bitcoin’s consensus rules, leaving it more prone to manipulation.
+
+Mining
+
+Mining is pretty centralized nowadays. It can happen in a variety of ways, such as the centralization of:
+
+Hardware suppliers
+
+Miners (pooling)
+
+Location of mining operations
+
+With a centralized mining, the inclusion of transactions in the blockchain is less secure.
+
+Operations that hold too much mining power can effectively censor and, at some point, reorder transactions.
+
+New POW
+
+One of the considered wepons against centralized mining is a thoroughly planned change in the Proof-of-Work algorithm, which would render all current mining hardware useless.
+
+Development
+
+Most nodes currently use one single Bitcoin implementation, that’s quite centralized.
+
+Positive side:
+
+Avoids problems with the consensus rules (different implementations might be incompatible).
+
+Negative side:
+
+The main team of developers has the possibility of over influencing the system.
+
+The centralization of development has worked well until now, but it’s pointed as a possible issue in the future.
+
+The protection against this lies in the fact that the code is open and people can choose if they will run it or not.
+
+Also, the software license allows anyone to start working on their own implementation of Bitcoin.
+
+Custodial Exchanges and Wallets
+
+Even though they are not a fundamental part of Bitcoin’s existence, exchanges have a relevant role since they are the main interface with the traditional economic system.
+
+As for custodial wallets, they are chosen, many times, by users who don’t want or don’t know how to protect their private keys. So they outsource the responsibility to a company.
+
+In both cases, the more centralized they are, the easier it is to steal funds from a large number of people and cause a market disruption as they become huge honeypots for attackers.
+
+Decentralized and non-custodial exchanges, and non-custodial wallets are a better approach to avoid a huge concentration of funds in one place.
+
+So what is the conclusion here?
+
+Bitcoin is still well enough to keep going for now. But it should be an ongoing concern to take care of its degree of decentralization and the attack vectors originated by it.
+
+Otherwise, we’ll be just waiting for a time bomb to go off when some of these elements get out of control.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Sources: https://github.com/libbitcoin/libbitcoin/wiki/Centralization-Risk
