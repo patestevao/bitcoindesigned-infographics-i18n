@@ -1,0 +1,114 @@
+{{ _('Understanding the Lightning Network - Part 2:') }}
+
+{{ _('Shaping the network') }}
+
+{{ _('bitcoindesigned.com') }}
+
+{{ _('Adding a new party') }}
+
+{{ _('Alice and Bob have already succeeded in creating a bidirectional payment channel. Now, Alice wants to pay 1 bitcoin to her friend Carol.') }}
+
+{{ _('Instead of creating a channel between Alice and Carol, Carol will be added to the payroll using the already stablished channel.') }}
+
+{{ _('Here’s the general idea of how it will work:') }}
+
+{{ _('Step-by-step') }}
+
+{{ _('Carol creates a secret and sends its hash to Alice.') }}
+
+{{ _('Carol’s secret hash') }}
+
+{{ _('sends to Alice') }}
+
+{{ _('Carol gives her secret to Bob in exchange for a bitcoin.') }}
+
+{{ _('1 BTC') }}
+
+{{ _('Alice asks Bob to show Carol’s secret and promisses a bitcoin in exchange.') }}
+
+{{ _('Alice knows Bob must have gotten the secret from Carol, so she can be sure Carol got her bitcoin.') }}
+
+{{ _('1 BTC') }}
+
+{{ _('Alice gives Bob one bitcoin.') }}
+
+{{ _('1 BTC') }}
+
+{{ _('Fixing trust issues') }}
+
+{{ _('But what about Bob?') }}
+
+{{ _('In this scenario, he can be tricked by Carol, if she receives his bitcoin and doesn’t give him the secret, or by Alice, if he shows Carol’s secret and she doesn’t give him a bitcoin.') }}
+
+{{ _('1 BTC') }}
+
+{{ _('1 BTC') }}
+
+{{ _('To solve that, we are going to rethink these last steps adding a time lock clause called Hash Time-Locked Contracts (HTLC) as protection for Bob.') }}
+
+{{ _('Step-by-step') }}
+
+{{ _('Alice sends 1 btc to a multisig address that can be unlocked by:') }}
+
+{{ _('Bob, if he presents Carol’s secret.') }}
+
+{{ _('Alice, but only after some time, let’s say 2 weeks.') }}
+
+{{ _('Alice’s transaction with Bob') }}
+
+{{ _('multisig') }}
+
+{{ _('1 BTC') }}
+
+{{ _('to Bob’s key + Carol’s secret') }}
+
+{{ _('to Alice’s key + 14 days') }}
+
+{{ _('This means Bob has 2 weeks to perform his deal with Carol and broadcast a transaction that claims this bitcoin. And, if he decides not to go on with his part, Alice can still get her bitcoin back.') }}
+
+{{ _('Bob sends 1 btc to a multisig address that can be unlocked by:') }}
+
+{{ _('Carol, if she presents her secret.') }}
+
+{{ _('Bob, but only after some time, let’s say 10 days.') }}
+
+{{ _('Bob’s transaction with Carol') }}
+
+{{ _('multisig') }}
+
+{{ _('1 BTC') }}
+
+{{ _('to Carol’s key + Carol’s secret') }}
+
+{{ _('to Bob’s key + 10 days') }}
+
+{{ _('It’s important for the time lock on this contract to end before the lock on Alice’s contract. Otherwise, Bob is in risk of paying Carol and not getting paid by Alice because she could reclaim her bitcoin.') }}
+
+{{ _('Carol will present her secret to Bob’s contract, before the 10 days time lock ends, and receive the bitcoin.') }}
+
+{{ _('1 BTC') }}
+
+{{ _('Bob will present Carol’s secret to Alice’s contract, before the end of 14 days, and receive the bitcoin.') }}
+
+{{ _('1 BTC') }}
+
+{{ _('Alice will have blockchain proof that Carol received her bitcoin (the secret she presented in Bob’s contract).') }}
+
+{{ _('The guarantees') }}
+
+{{ _('The point of these HTLC contracts is to guarantee some important outcomes:') }}
+
+{{ _('If Carol presents her secret, stamping it publicly on the blockchain, she is guaranteed to get her bitcoin from Bob.') }}
+
+{{ _('If Carol claims her bitcoin from Bob, Bob is guaranteed to have her secret.') }}
+
+{{ _('If Bob presents Carol’s secret, he’s guaranteed to get a bitcoin from Alice.') }}
+
+{{ _('If Alice sees Carol’s secret on the blockchain, she’s guaranteed that Carol got the payment she was due.') }}
+
+{{ _('Author: Patrícia Estevão') }}
+
+{{ _('Editor: Marco Agner') }}
+
+{{ _('Main resources: https://bitcoinmagazine.com/articles/understanding-the-lightning-network-part-creating-the-network-1465326903/') }}
+
