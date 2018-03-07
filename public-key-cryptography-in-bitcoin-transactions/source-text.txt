@@ -1,0 +1,125 @@
+Public Key Cryptography in Bitcoin transactions
+
+bitcoindesigned.com
+
+Public key cryptography is also known as Asymmetrical Encryption because it uses 2 different keys – a pair of a public and a private key – instead of one to encrypt data.
+
+Symmetrical encryption
+
+Only 1 encryption key (both communicating parties have to know it)
+
+When you receive a message:
+
+Sender’s message
+
+Encrypts with key
+
+Cipher text
+
+Sends to
+
+You
+
+Decrypts with key
+
+Message
+
+Asymmetrical encryption
+
+Public key (show to people you want to communicate with)
+
+Private key (keep it a secret, only you know it)
+
+When you receive a message:
+
+Sender’s message
+
+Encrypts with  your public key
+
+Cipher text
+
+Sends to
+
+You
+
+Decrypts with your private key
+
+Message
+
+The general goal of public key cryptography is to prove you have a secret without having to show it to anyone. And the secret is your private key.
+
+Not having to share your private key is one of the advantages of this type of encryption.
+
+Digital signature
+
+When you use your private key to sign a message you create a digital signature.
+
+That can prove the message was written by the owner of the private key.
+
+It’s a type of authentication.
+
+This digital signature was created with the pair of this public key.
+
+Bitcoin Address
+
+The address we use in Bitcoin to receive money is actually a derivation from your public key.
+
+When you send money to an address, you are saying “the bitcoins can be used by the owner of the keys correspondent to this address”.
+
+Bitcoin ownership:
+
+Private key
+
+Public key
+
+Derived into
+
+Bitcoin address
+
+Bitcoin Transactions
+
+The most common type of Bitcoin transaction is called Pay to Public Key Hash (P2PKH), which basically means “Pay to an address”.
+
+A transaction is essentially a message that uses Public Key Cryptography to make sure the right person can unlock it.
+
+Payment to Bob:
+
+Pays to
+
+Bob’s address
+
+Controlled by
+
+Bob’s keys
+
+So here’s an example with the simplified dynamic of how Public Key Cryptography acts in a Bitcoin P2PKH transaction:
+
+Bob sends you bitcoins:
+
+Bob “locks” the bitcoins with the condition that the correct signature is presented.
+
+He transmits the transaction to the network.
+
+The transaction is validated by network nodes and mined.
+
+You spend the bitcoins:
+
+You unlock the bitcoins by answering to the previous condition (signing the transaction) and then you lock the funds with a new condition (that the signature of the recipient is presented).
+
+Locked bitcoins
+
+Private key
+
+Signature + New condition
+
+Locked bitcoins
+
+You transmit the transaction to the network.
+
+The transaction is validated by network nodes and mined.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+External source: https://en.wikipedia.org/wiki/Public-key_cryptography

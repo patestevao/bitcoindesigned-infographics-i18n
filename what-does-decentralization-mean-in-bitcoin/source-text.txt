@@ -1,0 +1,53 @@
+What does Decentralization mean in bitcoin?
+
+bitcoindesigned.com
+
+Bitcoin is called decentralized because it has no central point of control.
+
+Its resources (hardware and software) are distributed around the world and connected remotely in a network.
+
+And the “authority” to decide over Bitcoin is divided between its network participants.
+
+Who are the participants?
+
+The shared responsibility includes the following agents:
+
+Nodes
+
+Transaction is valid
+
+Verify and relay transactions.
+
+Miners
+
+Secure transactions by writing and ordering them on the blockchain in exchange for fees and newly minted bitcoins.
+
+Until the ~21 million limit is reached.
+
+Both roles can be played by anyone willing to commit the resources to it, there’s no permission to be asked.
+
+Look, I’m mining.
+
+What are the implications?
+
+Miners and nodes are responsible for a decentralized economic policy, replacing the need for a central bank to take care of currency issuance and clearing functions.
+
+CENTRAL BANK
+
+Permanent vacation
+
+Bitcoin’s decentralization is a protection against a single point of failure.
+
+That means it’s robust in face of external intervention because there’s no single entity to be attacked or corrupted.
+
+Where do we attack?
+
+But this decentralization is not a guaranteed feature and there are risks to it as well.
+
+We’ll explore some of these issues in the continuation of this infographic.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Sources: Mastering Bitcoin by Andreas Antonopoulos. Available at https://github.com/bitcoinbook/bitcoinbook

@@ -1,0 +1,46 @@
+What does Censorship resistance mean in Bitcoin?
+
+bitcoindesigned.com
+
+You’ve probably heard a bitcoiner talk about Bitcoin’s censorship resistance, but what does it really mean?
+
+Well, it means that Bitcoin transactions can’t be censored. That was easy, right?
+
+Free Bitcoin
+
+But isn’t censorship usually about suppressing free speech or information? What does money have to do with that?
+
+The way you spend your money is an expression of yourself (your values, habits, etc). Money is actually a form of speech.
+
+Here’s a traditional system simulation:
+
+Let’s say you want to support an NGO that has a particular ideology.
+
+The government from your country decides it doesn’t approve that ideology.
+
+An official statement tells financial institutions that they shouldn’t allow
+transactions to the NGO.
+
+The institutions oblige and you are blocked from spending money in a cause you believe in.
+
+You’re actually being
+
+censored
+
+This can happen in other circumstances that don’t involve much ideology, such as wanting to buy prohibited drugs.
+
+In Bitcoin, as long as the network is decentralized, nodes will relay your transaction and miners will compete to add your transaction to the blockchain.
+
+It might not be a very glamorous definition, but Bitcoin’s censorship resistance is ultimately about being able to
+
+spend your money on whatever you want.
+
+And that isn’t just something that was added by an incident to Bitcoin.
+
+It’s one of the reasons it was created in the first place.
+
+Free money
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
