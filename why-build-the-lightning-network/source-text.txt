@@ -1,0 +1,67 @@
+Why build the Lightning Network?
+
+bitcoindesigned.com
+
+What is the big idea?
+
+The lightning network is a scaling approach to Bitcoin.
+
+It’s really about moving a lot of Bitcoin transactions out of the blockchain and into private channels between users, but still counting on the blockchain’s security.
+
+Off-chain transactions
+
+blockchain
+
+It’s like a contract and arbitration system (with a poetic license, of course):
+
+Imagine you want to make a deal with someone and, for that, you create a contract and register it with a notary.
+
+That’s you opening a lightning network channel with someone.
+
+You expect to do this deal without any hassles, with both parties fulfilling their duties. But, anyway, you have a contract to protect yourself.
+
+You create commitment transactions that are not really broadcast, unless necessary to resolve a dispute.
+
+If one of you breaks the agreement, you can take this contract to a court that will recognize it as valid and give gain to the honest party.
+
+If someone tries to rob you (broadcasting an old channel state), you can take the contract to the blockchain and get all the bitcoins in the channel. Only, in this case, there’s no subjectivity in interpreting the contract.
+
+In practice, most people don’t ever need to go to a court because nobody broke their contract, so the arbitration system doesn’t get bloated.
+
+Countless transactions can occur in private and off-chain while a channel is open and both parties are being honest, therefore, unburdening the blockchain.
+
+If using the lightning network, only 3 types of transactions need to be broadcast to the blockchain:
+
+The transaction that opens a channel.
+
+The transaction that closes a channel.
+
+Disputes that need to be settled.
+
+The big features
+
+Fast and cheap
+
+Now you can actually get instant and almost free payments since you can mainly transact without the limitations of writing on the blockchain. Which means micro-payments are now totally viable!
+
+Practical
+
+You only have to open a few channels to be able to transact with the whole network because channels are interconnected.
+
+No expiration date
+
+Channels can stay open indefinitely, maximizing the unburdening effect on the blockchain and dissolving the fees for the opening and closing transactions of a channel.
+
+OPEN 24/7
+
+Improved privacy
+
+It can use encryption and intermediary nodes that relay transactions without knowing its origin and destiny (onion-style routing).
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Sources: https://en.bitcoin.it/wiki/Lightning_Network
+
+The court analogy was described in reddit a while ago, I just couldn’t find a link to it. If someone finds it, please send it to me. :)

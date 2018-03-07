@@ -1,0 +1,205 @@
+Understanding the Lightning Network - Part 1:
+
+Payment Channels
+
+bitcoindesigned.com
+
+Payment channels are one of the main elements playing a role in the Lightning network, so let’s take a look at how they works.
+
+What is a payment channel?
+
+It’s a manner to make a series of transactions “off-chain”, i.e. without actually relaying them to the blockchain, but still benefitting from the “on-chain” security.
+
+That allows a huge number of really fast and almost free transactions to be made through the channel, because you don’t need to settle each of them on the blockchain.
+
+For the Lightning Network, we need bidirectional payment channels, which means that both parties that start a channel have to be able to send bitcoins.
+
+And, of course, this channel has to work trustlessly, so the parties don’t need to trust each other to agree with beginning transacting.
+
+Opening a channel
+
+Alice needs to send 1 btc to Bob. Since they know they are going to do a lot of transactions in the near future, they decide to use a lightning network channel to make things faster and cheaper. They will start a channel with a 4 bitcoins deposit by creating an opening transaction.
+
+Step-by-step
+
+Each of them sends 4 bitcoins to a multisig address that needs both their keys to sign a valid spending transaction.
+
+Opening transaction
+
+multisig
+
+4 BTC
+
+from Bob
+
+4 BTC
+
+from Alice
+
+They create a secret (string of numbers) and a hash of the secret, and exchange the hash with the other.
+
+Bob’s secret hash
+
+Alice’s secret hash
+
+Remember, the first transaction we want to make is the 1 bitcoin that Alice has to give Bob.
+
+Alice creates a commitment transaction from the opening transaction sending 3 bitcoins to herself and 5 to a new multisig address.
+
+Alice’s first commitment transaction
+
+1st condition
+
+Alice
+
+3 BTC
+
+2nd condition
+
+multisig
+
+5 BTC
+
+This new multisig address can be unlocked by:
+
+Bob, only after 1000 extra blocks are mined (this condition has a time lock called CheckSequenceVerify).
+
+Alice, if she presents the secret for which Bob gave her the hash previously (having only the hash will not work so, for now, she can’t unlock the transaction).
+
+multisig
+
+5 BTC
+
+to Bob’s key + 1000 block wait
+
+OR
+
+to Alice’s key + Bob’s secret
+
+Alice signs the commitment transaction and gives the half-valid transaction (needs Bob signature to be valid) to Bob.
+
+Bob also creates a half-valid transaction with his signature sending 5 btcs to himself and 3 to a new multisig address and gives it to Alice.
+
+Bob’s first commitment transaction
+
+1st condition
+
+Bob
+
+5 BTC
+
+2nd condition
+
+multisig
+
+3 BTC
+
+This new multisig address can be unlocked by:
+
+Alice, after waiting 1000 new blocks being mined.
+
+Bob, if presenting Alice’s secret.
+
+multisig
+
+3 BTC
+
+to Alice’s key + 1000 block wait
+
+to Bob’s key + Alice’s secret
+
+After the exchange of the half-valid transactions, the opening transaction is broadcast and recorded on the blockchain. The channel is officially open.
+
+Opening transaction
+
+Updating a channel
+
+Now, Bob has to give 2 bitcoins to Alice, so they need to update the channel state with new commitment transactions that will reflect the new balance.
+
+Step-by-step
+
+New secrets are created and their hashes exchanged. They will be used for this next commitment transaction.
+
+Bob’s secret
+
+hash
+
+Alice’s secret
+
+hash
+
+Alice creates a commitment transaction sending 5 btc to herself and 3 btc to a new multisig address that has the same unlocking conditions as before, signs and gives it to Bob.
+
+Alice’s second commitment transaction
+
+1st condition
+
+Alice
+
+5 BTC
+
+2nd condition
+
+multisig
+
+3 BTC
+
+to Bob’s key + 1000 block wait
+
+OR
+
+to Alice’s key + Bob’s secret
+
+Bob creates a commitment transaction sending 3 btc to himself and 5 btc to the new multisig address with the same unlocking conditions as before, signs and gives it to Alice.
+
+Bob’s second commitment transaction
+
+1st condition
+
+Bob
+
+3 BTC
+
+2nd condition
+
+multisig
+
+5 BTC
+
+to Alice’s key + 1000 block wait
+
+OR
+
+to Bob’s key + Alice’s secret
+
+Alice and Bob exchange their old secrets, used in the first commitment.
+
+This process is repeated every time the balance needs to be updated.
+
+Incentives for a trustless system
+
+So now Bob has 2 commitment transactions, the first one giving him more money than the second. So why doesn’t he broadcast the first one now and scam Alice? Let’s see what would happen.
+
+Step-by-step
+
+Bob signs and broadcasts the half-valid transaction that Alice first sent him.
+
+Alice will get 3 btc (her balance at the time of the commitment) immediately.
+
+The other 5 btc will go to the address that Bob can only unlock after 1000 blocks.
+
+Bob’s key + 1000 block wait
+
+But now Alice has Bob’s secret from that commitment, so she can access the multisig address before Bob (she doesn’t have to wait 1000 blocks) and get all the bitcoins to herself.
+
+to Alice’s key + Bob’s secret
+
+Bob’s attempt to defraud Alice has just backfired!
+
+The same will happen if Alice is the one trying to broadcast an old commitment. This way, both parties are strongly incentivized to respect the most recent state of the channel.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Main resources: https://bitcoinmagazine.com/articles/understanding-the-lightning-network-part-building-a-bidirectional-payment-channel-1464710791/

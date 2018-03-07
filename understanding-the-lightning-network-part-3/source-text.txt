@@ -1,0 +1,187 @@
+Understanding the Lightning Network - Part 3:
+
+Going Off-chain
+
+bitcoindesigned.com
+
+Last time, we used HTLC (Hash Time-Locked Contracts) so Alice could pay 1 btc to Carol using the already open channel between Alice and Bob. This effectively turned our bidirectional channel into a network.
+
+Now, we are going to see how the HTLC transaction will be included in the channel balance so that we don’t need to update it immediately on the blockchain.
+
+On their last commitment transactions before the HTLC, Alice and Bob had decided on the following balance:
+
+Three bitcoins for Bob
+
+Five bitcoins for Alice
+
+To include the HTLC, they will follow almost the same procedure as before.
+
+Create new secret, exchange the hash and create new commitment transactions with the following structure:
+
+Alice’s commitment
+
+4 bitcoins to herself.
+
+4 BTC
+
+to Alice’s key
+
+3 bitcoins to a multisig address that can be unlocked by:
+
+3 BTC
+
+Bob, after 1000 blocks.
+
+Alice, if she presents Bob’s secret.
+
+All businness as usual until now. But then...
+
+1 bitcoin to a multisig address that can be unlocked by:
+
+1 BTC
+
+Bob, if he presents Carol’s secret and waits 1000 blocks.
+
+Security measure to give Alice time to “steal” the funds if Bob drops an old channel state and tries to rob her. In which case, she will unlock like this:
+
+Alice, after 14 days.
+
+Alice,  if she presents Bob’s secret.
+
+Bob’s commitment
+
+3 bitcoins to himself.
+
+3 BTC
+
+to Bob’s key
+
+4 bitcoins to a multisig address that can be unlocked by:
+
+4 BTC
+
+Alice, after 1000 blocks.
+
+Bob, if he presents Alice’s secret.
+
+1 bitcoin to a multisig address that can be unlocked by:
+
+1 BTC
+
+Bob, if he presents Carol’s secret.
+
+Alice, after 14 days.
+
+Time for Alice to retrieve the bitcoin in case Bob doesn’t present the secret.
+
+Bob, if he presents Alice’s secret.
+
+If Alice tries to rob him by droping an old channel state, he doesn’t need to have Carol’s secret to unlock the bitcoin.
+
+Again, each of them signs their  half-valid transaction and gives it to the other.
+
+Current state of things
+
+So this is what will happen next if one of them drops this current channel state on the blockchain:
+
+Alice drops the channel:
+
+Bob gets 3 bitcoins immediately.
+
+3 BTC
+
+Alice gets 4 bitcoins in 1000 blocks.
+
+4 BTC
+
+Bob has 2 weeks to present Carol’s secret and retrieve the remaining bitcoin. If he doesn’t, Alice can take it back to herself.
+
+1 BTC
+
+Bob drops the channel:
+
+Alice gets 4 bitcoins immediately.
+
+4 BTC
+
+Bob gets 3 bitcoins in 1000 blocks.
+
+3 BTC
+
+Bob has 2 weeks to present Carol’s secret and retrieve the remaining bitcoin. If he doesn’t, Alice can take it back to herself.
+
+1 BTC
+
+And if any of them tries to broadcast this state when it’s already outdated, the other can “steal” all the bitcoins.
+
+The updating agreement
+
+Both Alice and Bob know that Bob will have the HTLC bitcoin if he has Carol’s secret. So, in order to keep the channel open and simplify things, they can agree to update the balance with new commitment transactions as follows:
+
+Alice’s new commitment
+
+4 bitcoins to herself.
+
+4 BTC
+
+to Alice’s key
+
+4 bitcoins to a multisig address that can be unlocked by:
+
+4 BTC
+
+Bob, after 1000 blocks.
+
+Alice, if she presents Bob’s secret.
+
+Bob’s new commitment
+
+4 bitcoins to himself.
+
+4 BTC
+
+to Bob’s key
+
+4 bitcoins to a multisig address that can be unlocked by:
+
+4 BTC
+
+Alice, after 1000 blocks.
+
+Bob, if he presents Alice’s secret.
+
+Closing the channel
+
+To finally close the channel, Alice and Bob will create and broadcast a transaction directly from the opening transaction with the final balance, i.e., the most recent channel state.
+
+4 BTC
+
+4 bitcoins to Bob.
+
+4 BTC
+
+4 bitcoins to Alice.
+
+This means that only 2 transactions actually got to be written on the blockchain: the opening and the closing transaction.
+
+Off-chain transactions
+
+Opening transaction
+
+Closing transaction
+
+It works the same no matter how many times they transacted with the channel open.
+
+That’s why the lightning network is such a huge step to reduce the overload of transactions on the blockchain; and, therefore, improve Bitcoin’s scalability.
+
+POWERED BY
+
+Off-chain
+
+On-chain
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Main resources: https://bitcoinmagazine.com/articles/understanding-the-lightning-network-part-completing-the-puzzle-and-closing-the-channel-1466178980/

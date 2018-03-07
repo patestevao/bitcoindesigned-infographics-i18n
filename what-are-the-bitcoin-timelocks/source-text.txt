@@ -1,0 +1,65 @@
+The Lightning network basics series
+
+What are the Bitcoin Timelocks?
+
+bitcoindesigned.com
+
+A time lock is a type of smart contract primitive that restricts the spending of bitcoins until a specified time in the future.
+
+Types of timelocks
+
+NLockTime
+
+CheckLockTimeVerify (CLTV)
+
+CheckSequenceVerify (CSV)
+
+It’s a transaction field.
+
+It’s an opcode (code used in Bitcoin’s script language).
+
+Specifies the earliest time or the lowest block height a transaction may be added to a valid block.
+
+Locks transaction’s outputs so they can’t be spent before a specified time/date.
+
+Locks transaction’s outputs so they can’t be spent before a specified number of blocks has been mined.
+
+Absolute time lock: you choose an specific time (UNIX date or block height) as your unlocking parameter.
+
+Relative time lock: you choose a number of future blocks that need to be created as your unlocking parameter.
+
+If broadcast to the network before the specified time, the transaction will be considered invalid.
+
+The transaction is valid and marked on the blockchain from the start, even though the money is locked.
+
+If the outputs are used as inputs of a new transaction (i.e. if someone tried to spend them) before the unlock time, this new transaction will be invalid.
+
+Example
+
+Alice is going to a retreat and creates a transaction sending 2 btc to Bob so he can pay a bill for her while she is away. But she only wants it to be used in case she doesn’t come back in 10 days.
+
+Alice creates a transaction of 2 btc to Bob with a nLockTime set to 864000 seconds (10 days) from now.
+
+Alice creates a transaction of 2 btc to Bob with a CLTV set to 864000 seconds (10 days) from now.
+
+Alice creates a transaction of 2 btc to Bob with a CSV set to 1440  blocks after the transaction is mined (approximately 10 days).
+
+Alice gives the transaction to Bob.
+
+Alice broadcasts the transaction to the Bitcoin network.
+
+If Alice hasn’t returned in the mean time, Bob can broadcast the transaction after 10 days.
+
+If Alice hasn’t returned in the mean time, Bob can spend the 2 btc after 10 days.
+
+If Alice hasn’t returned in the mean time, Bob can spend the 2 btc after the blocks have passed.
+
+If Alice returns, she can create a new transaction that invalidates the one sending money to Bob.
+
+It might not sound like much of difference, but the flexibility in these two models allow some cool and useful types of transactions, such as the ones needed for the lightning network.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Main source: https://en.bitcoin.it/wiki/Timelock

@@ -1,0 +1,113 @@
+Understanding the Lightning Network - Part 2:
+
+Shaping the network
+
+bitcoindesigned.com
+
+Adding a new party
+
+Alice and Bob have already succeeded in creating a bidirectional payment channel. Now, Alice wants to pay 1 bitcoin to her friend Carol.
+
+Instead of creating a channel between Alice and Carol, Carol will be added to the payroll using the already stablished channel.
+
+Here’s the general idea of how it will work:
+
+Step-by-step
+
+Carol creates a secret and sends its hash to Alice.
+
+Carol’s secret hash
+
+sends to Alice
+
+Carol gives her secret to Bob in exchange for a bitcoin.
+
+1 BTC
+
+Alice asks Bob to show Carol’s secret and promisses a bitcoin in exchange.
+
+Alice knows Bob must have gotten the secret from Carol, so she can be sure Carol got her bitcoin.
+
+1 BTC
+
+Alice gives Bob one bitcoin.
+
+1 BTC
+
+Fixing trust issues
+
+But what about Bob?
+
+In this scenario, he can be tricked by Carol, if she receives his bitcoin and doesn’t give him the secret, or by Alice, if he shows Carol’s secret and she doesn’t give him a bitcoin.
+
+1 BTC
+
+1 BTC
+
+To solve that, we are going to rethink these last steps adding a time lock clause called Hash Time-Locked Contracts (HTLC) as protection for Bob.
+
+Step-by-step
+
+Alice sends 1 btc to a multisig address that can be unlocked by:
+
+Bob, if he presents Carol’s secret.
+
+Alice, but only after some time, let’s say 2 weeks.
+
+Alice’s transaction with Bob
+
+multisig
+
+1 BTC
+
+to Bob’s key + Carol’s secret
+
+to Alice’s key + 14 days
+
+This means Bob has 2 weeks to perform his deal with Carol and broadcast a transaction that claims this bitcoin. And, if he decides not to go on with his part, Alice can still get her bitcoin back.
+
+Bob sends 1 btc to a multisig address that can be unlocked by:
+
+Carol, if she presents her secret.
+
+Bob, but only after some time, let’s say 10 days.
+
+Bob’s transaction with Carol
+
+multisig
+
+1 BTC
+
+to Carol’s key + Carol’s secret
+
+to Bob’s key + 10 days
+
+It’s important for the time lock on this contract to end before the lock on Alice’s contract. Otherwise, Bob is in risk of paying Carol and not getting paid by Alice because she could reclaim her bitcoin.
+
+Carol will present her secret to Bob’s contract, before the 10 days time lock ends, and receive the bitcoin.
+
+1 BTC
+
+Bob will present Carol’s secret to Alice’s contract, before the end of 14 days, and receive the bitcoin.
+
+1 BTC
+
+Alice will have blockchain proof that Carol received her bitcoin (the secret she presented in Bob’s contract).
+
+The guarantees
+
+The point of these HTLC contracts is to guarantee some important outcomes:
+
+If Carol presents her secret, stamping it publicly on the blockchain, she is guaranteed to get her bitcoin from Bob.
+
+If Carol claims her bitcoin from Bob, Bob is guaranteed to have her secret.
+
+If Bob presents Carol’s secret, he’s guaranteed to get a bitcoin from Alice.
+
+If Alice sees Carol’s secret on the blockchain, she’s guaranteed that Carol got the payment she was due.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Main resources: https://bitcoinmagazine.com/articles/understanding-the-lightning-network-part-creating-the-network-1465326903/

@@ -1,0 +1,53 @@
+The Lightning network basics series
+
+What is a multisig (aka multisignature) wallet?
+
+bitcoindesigned.com
+
+regular wallet
+
+One key is required to authorize money transfer, i.e. sign a transaction.
+
+Multisig wallet
+
+More than one key may be required to sign each transaction.
+
+m-of-n
+
+The m-of-n scheme means that the wallet is associated with m keys and each time a transaction needs to be broadcast, n of those m keys need to sign it.
+
+m keys
+
+m = 4
+
+n signatures
+
+n = 3
+
+What’s the point?
+
+The main use case for multisig wallets is to increase security of funds.
+
+Examples
+
+Decentralizing risks independently.
+
+John associates his wallet with two keys, each stored in a different machine. If one machine is hacked, he won’t loose his bitcoins instantly.
+
+Security with redundancy.
+
+Lisa has a 2-of-3 wallet address and keeps the 3 keys in separate places to avoid theft. If one of the keys is lost, she can still access her bitcoins.
+
+Bank
+
+Decentralizing risks with help.
+
+Sophie’s business has a multisig address and shares the responsibility of signing transactions with a security specialized company that holds one of the needed keys for spending. So if Sophie is hacked, her coins are still protected.
+
+Managing trust.
+
+Company LOL has a 3-of-5 Bitcoin wallet with its resources and each key is hold by one of its executives. In order to move money, 3 of them have to sign the transaction, making sure at least the majority agrees with the spending.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
