@@ -1,0 +1,308 @@
+#. extracted from ./public-key-cryptography-in-bitcoin-transactions/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-08 13:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:2
+msgid "Public Key Cryptography in Bitcoin transactions"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:6
+msgid ""
+"Public key cryptography is also known as Asymmetrical Encryption because it "
+"uses 2 different keys – a pair of a public and a private key – instead of "
+"one to encrypt data."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:8
+msgid "Symmetrical encryption"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:10
+msgid "Only 1 encryption key (both communicating parties have to know it)"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:12
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:12"
+msgid "When you receive a message:"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:14
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:14"
+msgid "Sender’s message"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:16
+msgid "Encrypts with key"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:18
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:18"
+msgid "Cipher text"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:20
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:20"
+msgid "Sends to"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:22
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:22"
+msgid "You"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:24
+msgid "Decrypts with key"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:26
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:26"
+msgid "Message"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:28
+msgid "Asymmetrical encryption"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:30
+msgid "Public key (show to people you want to communicate with)"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:32
+msgid "Private key (keep it a secret, only you know it)"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:34
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:34"
+msgid "When you receive a message:"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:36
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:36"
+msgid "Sender’s message"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:38
+msgid "Encrypts with  your public key"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:40
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:40"
+msgid "Cipher text"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:42
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:42"
+msgid "Sends to"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:44
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:44"
+msgid "You"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:46
+msgid "Decrypts with your private key"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:48
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:48"
+msgid "Message"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:50
+msgid ""
+"The general goal of public key cryptography is to prove you have a secret "
+"without having to show it to anyone. And the secret is your private key."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:52
+msgid ""
+"Not having to share your private key is one of the advantages of this type "
+"of encryption."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:54
+msgid "Digital signature"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:56
+msgid ""
+"When you use your private key to sign a message you create a digital "
+"signature."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:58
+msgid "That can prove the message was written by the owner of the private key."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:60
+msgid "It’s a type of authentication."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:62
+msgid "This digital signature was created with the pair of this public key."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:64
+msgid "Bitcoin Address"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:66
+msgid ""
+"The address we use in Bitcoin to receive money is actually a derivation from "
+"your public key."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:68
+msgid ""
+"When you send money to an address, you are saying “the bitcoins can be used "
+"by the owner of the keys correspondent to this address”."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:70
+msgid "Bitcoin ownership:"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:72
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:72"
+msgid "Private key"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:74
+msgid "Public key"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:76
+msgid "Derived into"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:78
+msgid "Bitcoin address"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:80
+msgid "Bitcoin Transactions"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:82
+msgid ""
+"The most common type of Bitcoin transaction is called Pay to Public Key Hash "
+"(P2PKH), which basically means “Pay to an address”."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:84
+msgid ""
+"A transaction is essentially a message that uses Public Key Cryptography to "
+"make sure the right person can unlock it."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:86
+msgid "Payment to Bob:"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:88
+msgid "Pays to"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:90
+msgid "Bob’s address"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:92
+msgid "Controlled by"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:94
+msgid "Bob’s keys"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:96
+msgid ""
+"So here’s an example with the simplified dynamic of how Public Key "
+"Cryptography acts in a Bitcoin P2PKH transaction:"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:98
+msgid "Bob sends you bitcoins:"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:100
+msgid ""
+"Bob “locks” the bitcoins with the condition that the correct signature is "
+"presented."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:102
+msgid "He transmits the transaction to the network."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:104
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:104"
+msgid "The transaction is validated by network nodes and mined."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:106
+msgid "You spend the bitcoins:"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:108
+msgid ""
+"You unlock the bitcoins by answering to the previous condition (signing the "
+"transaction) and then you lock the funds with a new condition (that the "
+"signature of the recipient is presented)."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:110
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:110"
+msgid "Locked bitcoins"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:112
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:112"
+msgid "Private key"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:114
+msgid "Signature + New condition"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:116
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:116"
+msgid "Locked bitcoins"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:118
+msgid "You transmit the transaction to the network."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:120
+msgctxt "./public-key-cryptography-in-bitcoin-transactions/source-text.txt:120"
+msgid "The transaction is validated by network nodes and mined."
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:122
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:124
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:125
+msgid "External source: https://en.wikipedia.org/wiki/Public-key_cryptography"
+msgstr ""

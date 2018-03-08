@@ -1,0 +1,235 @@
+#. extracted from ./is-bitcoin-really-decentralized/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-08 13:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:2
+msgid "Is Bitcoin really decentralized?"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:6
+msgid ""
+"When we talk about decentralization and centralization, it’s not like black "
+"and white. Instead, there’s a whole range of grays in the middle."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:8
+msgid "Being more decentralized or less is a thing."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:10
+msgid "Fully centralized"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:12
+msgid "Nuance of centralization"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:14
+msgid "Fully decentralized"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:16
+msgid ""
+"Also, decentralization doesn’t mean good while centralization means bad. "
+"Both can be useful depending on the context, we just have to know when."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:18
+msgid "But enough with the introduction:"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:20
+msgid "How decentralized is Bitcoin?"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:22
+msgid "Nodes"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:24
+msgid ""
+"Node decentralization is essential for a healthy Bitcoin. But not just any "
+"node, an economically active full node."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:26
+msgid ""
+"The nodes that really make a difference in the decision of protocol changes "
+"are the ones that accept transactions and validate them using their own full "
+"nodes, usually merchants. That’s what we call the economic majority."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:28
+msgid ""
+"If there were fewer merchants, there would be fewer people to enforce "
+"Bitcoin’s consensus rules, leaving it more prone to manipulation."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:30
+msgid "Mining"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:32
+msgid ""
+"Mining is pretty centralized nowadays. It can happen in a variety of ways, "
+"such as the centralization of:"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:34
+msgid "Hardware suppliers"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:36
+msgid "Miners (pooling)"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:38
+msgid "Location of mining operations"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:40
+msgid ""
+"With a centralized mining, the inclusion of transactions in the blockchain "
+"is less secure."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:42
+msgid ""
+"Operations that hold too much mining power can effectively censor and, at "
+"some point, reorder transactions."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:44
+msgid "New POW"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:46
+msgid ""
+"One of the considered wepons against centralized mining is a thoroughly "
+"planned change in the Proof-of-Work algorithm, which would render all "
+"current mining hardware useless."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:48
+msgid "Development"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:50
+msgid ""
+"Most nodes currently use one single Bitcoin implementation, that’s quite "
+"centralized."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:52
+msgid "Positive side:"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:54
+msgid ""
+"Avoids problems with the consensus rules (different implementations might be "
+"incompatible)."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:56
+msgid "Negative side:"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:58
+msgid ""
+"The main team of developers has the possibility of over influencing the "
+"system."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:60
+msgid ""
+"The centralization of development has worked well until now, but it’s "
+"pointed as a possible issue in the future."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:62
+msgid ""
+"The protection against this lies in the fact that the code is open and "
+"people can choose if they will run it or not."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:64
+msgid ""
+"Also, the software license allows anyone to start working on their own "
+"implementation of Bitcoin."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:66
+msgid "Custodial Exchanges and Wallets"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:68
+msgid ""
+"Even though they are not a fundamental part of Bitcoin’s existence, "
+"exchanges have a relevant role since they are the main interface with the "
+"traditional economic system."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:70
+msgid ""
+"As for custodial wallets, they are chosen, many times, by users who don’t "
+"want or don’t know how to protect their private keys. So they outsource the "
+"responsibility to a company."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:72
+msgid ""
+"In both cases, the more centralized they are, the easier it is to steal "
+"funds from a large number of people and cause a market disruption as they "
+"become huge honeypots for attackers."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:74
+msgid ""
+"Decentralized and non-custodial exchanges, and non-custodial wallets are a "
+"better approach to avoid a huge concentration of funds in one place."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:76
+msgid "So what is the conclusion here?"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:78
+msgid ""
+"Bitcoin is still well enough to keep going for now. But it should be an "
+"ongoing concern to take care of its degree of decentralization and the "
+"attack vectors originated by it."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:80
+msgid ""
+"Otherwise, we’ll be just waiting for a time bomb to go off when some of "
+"these elements get out of control."
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:82
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:84
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./is-bitcoin-really-decentralized/source-text.txt:85
+msgid ""
+"Sources: https://github.com/libbitcoin/libbitcoin/wiki/Centralization-Risk"
+msgstr ""

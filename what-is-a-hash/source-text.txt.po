@@ -1,0 +1,441 @@
+#. extracted from ./what-is-a-hash/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-08 13:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./what-is-a-hash/source-text.txt:2
+msgid "What is a hash?"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:6
+msgid "The hash function"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:8
+msgid ""
+"A hash function is a math algorithm that turns an arbitrarily-large amount "
+"of data into a fixed-length representation."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:10
+msgid "HASH FUNCTION"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:12
+msgid "Hashes are usually written in a hexadecimal notation."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:14
+msgid "Decimal:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:16
+msgid "to hexadecimal"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:18
+msgid "The input data  to a hash function is often called the message."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:20
+msgid "message"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:22
+msgid "digest"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:24
+msgid "And the output is often called digest or simply hash."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:26
+msgid "What about a cryptographic hash?"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:28
+msgid ""
+"A cryptographic hash function is a special class of hash function with "
+"useful properties for cryptography."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:30
+msgid ""
+"Besides the usual hash features, here are some extra properties of an ideal "
+"cryptographic hash function:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:32
+msgid "Efficient"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:34
+msgid "It is quick to compute the hash for any given message."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:36
+msgid "Trap-door"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:38
+msgid "It is infeasible to calculate a message from its hash."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:40
+msgid "No collision"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:42
+msgid "It is infeasible to find two different messages with the same hash."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:44
+msgid "“Unbreakable”"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:46
+msgid "It is resistant to all known crytoanalytics attacks."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:48
+msgid "Some of the applications"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:50
+msgid "Verifying the integrity of files or messages"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:52
+msgid ""
+"If you calculate the hash of a message in the moment of its creation and "
+"anytime after, you’ll be able to verify the content integrity. If one byte "
+"has been altered, the two hashes will be completely different."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:54
+msgid "Original message:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:56
+msgctxt "./what-is-a-hash/source-text.txt:56"
+msgid "hash"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:58
+msgid "Original digest:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:60
+msgctxt "./what-is-a-hash/source-text.txt:60"
+msgid "Message digest"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:62
+msgid "Messages that claims to be the original:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:64
+msgid "Message 1"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:66
+msgctxt "./what-is-a-hash/source-text.txt:66"
+msgid "hash"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:68
+msgctxt "./what-is-a-hash/source-text.txt:68"
+msgid "Message digest"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:70
+msgctxt "./what-is-a-hash/source-text.txt:70"
+msgid "compare with original"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:72
+msgid "Message 2"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:74
+msgctxt "./what-is-a-hash/source-text.txt:74"
+msgid "hash"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:76
+msgctxt "./what-is-a-hash/source-text.txt:76"
+msgid "Message digest"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:78
+msgctxt "./what-is-a-hash/source-text.txt:78"
+msgid "compare with original"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:80
+msgid "Message 1 is false. Message 2 is true."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:82
+msgid "Password verification"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:84
+msgid ""
+"Storing plain passwords in databases is extremely insecure. If you store the "
+"hashes of passwords, you can still authenticate the correct inputs, but if "
+"the database is compromised, the passwords will not be directly available "
+"for an attacker."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:86
+msgid "User registered password:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:88
+msgctxt "./what-is-a-hash/source-text.txt:88"
+msgid "hash"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:90
+msgctxt "./what-is-a-hash/source-text.txt:90"
+msgid "password digest"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:92
+msgid "Stored in"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:94
+msgid "Database"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:96
+msgid "User login attempts:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:98
+msgid "Correct password"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:100
+msgctxt "./what-is-a-hash/source-text.txt:100"
+msgid "hash"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:102
+msgctxt "./what-is-a-hash/source-text.txt:102"
+msgid "password digest"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:104
+msgctxt "./what-is-a-hash/source-text.txt:104"
+msgid "Search for matches"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:106
+msgid "Wrong password"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:108
+msgctxt "./what-is-a-hash/source-text.txt:108"
+msgid "hash"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:110
+msgctxt "./what-is-a-hash/source-text.txt:110"
+msgid "password digest"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:112
+msgctxt "./what-is-a-hash/source-text.txt:112"
+msgid "Search for matches"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:114
+msgid "User authenticated"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:116
+msgid "User not authenticated"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:118
+msgid ""
+"In real life, other methods should be applied to improve  database security. "
+"This is just an illustration."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:120
+msgid "Proof-of-Work (PoW)"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:122
+msgid ""
+"The generation of a cryptographic hash can be predictably costly, while the "
+"verification of the result is easier. With PoW, we want to verify if a "
+"participant spent an estimated amount of computational resource to perform "
+"an operation."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:124
+msgid "System difficulty"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:126
+msgid "defines"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:128
+msgid "Target value"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:130
+msgid "Hash generated by participant"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:132
+msgid "compares"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:134
+msgid "Is the generated hash smaller than the target?"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:136
+msgid "NO"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:138
+msgid "Participant didn’t spend the expected amount of resources."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:140
+msgid "YES"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:142
+msgid "Participant spent the expected amount of resources."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:144
+msgid "Bitcoin hash functions"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:146
+msgid ""
+"Bitcoin uses two different cryptographic hash  functions in its inner "
+"workings:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:148
+msgid "SHA-256"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:150
+msgid ""
+"Results in a 256-bit number. It means it’s a really big number and it looks "
+"like this (just an example from a file in my computer):"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:152
+msgid ""
+"Used in mining as the Proof-of-Work algorithm and in the creation of bitcoin "
+"addresses."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:154
+msgid "RIPEMD-160"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:156
+msgid ""
+"Results in a 160-bit number. It’s still large, but smaller than the SHA-256. "
+"Here’s an example of how it looks:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:158
+msgid "Used in the creation of bitcoin addresses."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:160
+msgid "Some special paranoia..."
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:162
+msgid ""
+"In Bitcoin, everytime you use one of these functions you double it with an "
+"extra round of SHA-256; it’s a security reinforcement. This means that when "
+"you hear:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:164
+msgid "“Uses SHA-256 on X.”"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:166
+msgctxt "./what-is-a-hash/source-text.txt:166"
+msgid "It actually means:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:168
+msgid ""
+"Uses SHA-256 on X and uses SHA-256 again on the first result. Or, simply:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:170
+msgid "SHA-256 ( SHA-256 (X) )"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:172
+msgid "“Uses RIPEMD-160 on X.”"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:174
+msgctxt "./what-is-a-hash/source-text.txt:174"
+msgid "It actually means:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:176
+msgid ""
+"First uses SHA-256 on X and then uses RIPEMD-160 on the first result. Or, "
+"simply:"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:178
+msgid "RIPEMD-160 ( SHA-256 (X) )"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:180
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:182
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:184
+msgid "Main sources: https://en.bitcoin.it/wiki/Hash"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:186
+msgid "https://en.wikipedia.org/wiki/Cryptographic_hash"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:187
+msgid "https://en.bitcoin.it/wiki/SHA-256"
+msgstr ""

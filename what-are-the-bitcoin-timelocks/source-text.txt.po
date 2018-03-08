@@ -1,0 +1,185 @@
+#. extracted from ./what-are-the-bitcoin-timelocks/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-08 13:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:2
+msgid "The Lightning network basics series"
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:4
+msgid "What are the Bitcoin Timelocks?"
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:6
+msgid "bitcoindesigned.com"
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:8
+msgid ""
+"A time lock is a type of smart contract primitive that restricts the "
+"spending of bitcoins until a specified time in the future."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:10
+msgid "Types of timelocks"
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:12
+msgid "NLockTime"
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:14
+msgid "CheckLockTimeVerify (CLTV)"
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:16
+msgid "CheckSequenceVerify (CSV)"
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:18
+msgid "It’s a transaction field."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:20
+msgid "It’s an opcode (code used in Bitcoin’s script language)."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:22
+msgid ""
+"Specifies the earliest time or the lowest block height a transaction may be "
+"added to a valid block."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:24
+msgid ""
+"Locks transaction’s outputs so they can’t be spent before a specified "
+"time/date."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:26
+msgid ""
+"Locks transaction’s outputs so they can’t be spent before a specified number "
+"of blocks has been mined."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:28
+msgid ""
+"Absolute time lock: you choose an specific time (UNIX date or block height) "
+"as your unlocking parameter."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:30
+msgid ""
+"Relative time lock: you choose a number of future blocks that need to be "
+"created as your unlocking parameter."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:32
+msgid ""
+"If broadcast to the network before the specified time, the transaction will "
+"be considered invalid."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:34
+msgid ""
+"The transaction is valid and marked on the blockchain from the start, even "
+"though the money is locked."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:36
+msgid ""
+"If the outputs are used as inputs of a new transaction (i.e. if someone "
+"tried to spend them) before the unlock time, this new transaction will be "
+"invalid."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:38
+msgid "Example"
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:40
+msgid ""
+"Alice is going to a retreat and creates a transaction sending 2 btc to Bob "
+"so he can pay a bill for her while she is away. But she only wants it to be "
+"used in case she doesn’t come back in 10 days."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:42
+msgid ""
+"Alice creates a transaction of 2 btc to Bob with a nLockTime set to 864000 "
+"seconds (10 days) from now."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:44
+msgid ""
+"Alice creates a transaction of 2 btc to Bob with a CLTV set to 864000 "
+"seconds (10 days) from now."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:46
+msgid ""
+"Alice creates a transaction of 2 btc to Bob with a CSV set to 1440  blocks "
+"after the transaction is mined (approximately 10 days)."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:48
+msgid "Alice gives the transaction to Bob."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:50
+msgid "Alice broadcasts the transaction to the Bitcoin network."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:52
+msgid ""
+"If Alice hasn’t returned in the mean time, Bob can broadcast the transaction "
+"after 10 days."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:54
+msgid ""
+"If Alice hasn’t returned in the mean time, Bob can spend the 2 btc after 10 "
+"days."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:56
+msgid ""
+"If Alice hasn’t returned in the mean time, Bob can spend the 2 btc after the "
+"blocks have passed."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:58
+msgid ""
+"If Alice returns, she can create a new transaction that invalidates the one "
+"sending money to Bob."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:60
+msgid ""
+"It might not sound like much of difference, but the flexibility in these two "
+"models allow some cool and useful types of transactions, such as the ones "
+"needed for the lightning network."
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:62
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:64
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./what-are-the-bitcoin-timelocks/source-text.txt:65
+msgid "Main source: https://en.bitcoin.it/wiki/Timelock"
+msgstr ""

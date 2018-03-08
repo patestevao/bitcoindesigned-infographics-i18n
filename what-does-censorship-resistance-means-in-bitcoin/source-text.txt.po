@@ -1,0 +1,127 @@
+#. extracted from ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-08 13:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:2
+msgid "What does Censorship resistance mean in Bitcoin?"
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:6
+msgid ""
+"You’ve probably heard a bitcoiner talk about Bitcoin’s censorship "
+"resistance, but what does it really mean?"
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:8
+msgid ""
+"Well, it means that Bitcoin transactions can’t be censored. That was easy, "
+"right?"
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:10
+msgid "Free Bitcoin"
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:12
+msgid ""
+"But isn’t censorship usually about suppressing free speech or information? "
+"What does money have to do with that?"
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:14
+msgid ""
+"The way you spend your money is an expression of yourself (your values, "
+"habits, etc). Money is actually a form of speech."
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:16
+msgid "Here’s a traditional system simulation:"
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:18
+msgid "Let’s say you want to support an NGO that has a particular ideology."
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:20
+msgid ""
+"The government from your country decides it doesn’t approve that ideology."
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:23
+msgid ""
+"An official statement tells financial institutions that they shouldn’t "
+"allow\n"
+"transactions to the NGO."
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:25
+msgid ""
+"The institutions oblige and you are blocked from spending money in a cause "
+"you believe in."
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:27
+msgid "You’re actually being"
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:29
+msgid "censored"
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:31
+msgid ""
+"This can happen in other circumstances that don’t involve much ideology, "
+"such as wanting to buy prohibited drugs."
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:33
+msgid ""
+"In Bitcoin, as long as the network is decentralized, nodes will relay your "
+"transaction and miners will compete to add your transaction to the "
+"blockchain."
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:35
+msgid ""
+"It might not be a very glamorous definition, but Bitcoin’s censorship "
+"resistance is ultimately about being able to"
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:37
+msgid "spend your money on whatever you want."
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:39
+msgid "And that isn’t just something that was added by an incident to Bitcoin."
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:41
+msgid "It’s one of the reasons it was created in the first place."
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:43
+msgid "Free money"
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:45
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./what-does-censorship-resistance-means-in-bitcoin/source-text.txt:46
+msgid "Editor: Marco Agner"
+msgstr ""
