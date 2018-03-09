@@ -1,0 +1,63 @@
+What is Bitcoin? - The Network
+
+bitcoindesigned.com
+
+your techy friend’s explanation
+
+It’s a decentralized peer-to-peer network for electronic transactions without relying on a central point of trust.
+
+Ok, whaat? Let’s break it down.
+
+It’s a decentralized peer-to-peer network for electronic transactions without relying on a central point of trust.
+
+decentralized
+
+No node has more power than others, only different roles. So there isn’t a single Bitcoin server or company controlling it.
+
+peer-to-peer
+
+All Bitcoin nodes receive and share information at the same time, so there’s no need to have a big server with all its data.
+
+network for electronic transactions
+
+It allows you to send different types of transactions (contracts) using the bitcoin token as a medium of value exchange.
+
+without relying on a central point of trust
+
+Bitcoin achieves consensus using the Proof of Work and the blockchain, so no single entity needs or has the authority to say if a transaction is valid - it proves itself.
+
+Bitcoin CEO
+
+catch your breath because there’s more
+
+Digital Cryptocurrency
+
+Transactions are made in the network by exchanging tokens. These tokens are a currency backed by mathematical and cryptographic functions that assure its value and legitimacy.
+
+Public Ledger
+
+The Blockchain is the public ledger where new transactions are included and confirmed. It keeps all records of bitcoin ownership and it’s completely transparent - you can see and have your own copy.
+
+Bitcoin is...
+
+Platform
+
+You can build all sorts of contracts on top of Bitcoin’s code; it’s programmable money.
+
+Protocol
+
+It’s a code for message exchange, so there are a bunch or rules and standards that make the whole thing work and guarantee some of its core features.
+
+Don’t panic... this is what you should know by now
+
+Bitcoin is a technology that replaces the middleman or central authority, making it possible for money and other aspects of people’s life to be free from this figure of control.
+
+Bank
+
+the poetic touch
+
+“What the Internet has done for information, Bitcoin will do for money.”
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner

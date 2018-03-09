@@ -1,0 +1,27 @@
+THE BITCOIN MINING SAGA - PART I
+
+bitcoindesigned.com
+
+What is Bitcoin Mining?
+
+It’s a decentralized computational process that serves 2 purposes:
+
+Confirms transactions with security when enough computational effort is devoted to a block.
+
+Creates (issues) new bitcoins in each block.
+
+It goes like this:
+
+Bundle transactions in a block.
+
+Verify if transactions are valid.
+
+Select the header of the most recent block and insert it into the new block as a hash (creates a link between blocks).
+
+Solve the Proof of Work problem!
+
+When the solution is found, the new block is added to the local blockchain and propagated to the network.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner

@@ -1,0 +1,76 @@
+#. extracted from ./what-is-bitcoin-mining/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-08 15:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./what-is-bitcoin-mining/source-text.txt:2
+msgid "THE BITCOIN MINING SAGA - PART I"
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:6
+msgid "What is Bitcoin Mining?"
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:8
+msgid "It’s a decentralized computational process that serves 2 purposes:"
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:10
+msgid ""
+"Confirms transactions with security when enough computational effort is "
+"devoted to a block."
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:12
+msgid "Creates (issues) new bitcoins in each block."
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:14
+msgid "It goes like this:"
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:16
+msgid "Bundle transactions in a block."
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:18
+msgid "Verify if transactions are valid."
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:20
+msgid ""
+"Select the header of the most recent block and insert it into the new block "
+"as a hash (creates a link between blocks)."
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:22
+msgid "Solve the Proof of Work problem!"
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:24
+msgid ""
+"When the solution is found, the new block is added to the local blockchain "
+"and propagated to the network."
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:26
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./what-is-bitcoin-mining/source-text.txt:27
+msgid "Editor: Marco Agner"
+msgstr ""

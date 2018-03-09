@@ -1,0 +1,83 @@
+The Blockchain without The Bitcoin
+
+bitcoindesigned.com
+
+A little more on the idea that “the real technology is the Blockchain, we should implement it without this silly Bitcoin”.
+
+First things first - in very simple words
+
+What is Bitcoin (with capital B)?
+
+It’s a protocol for a decentralized peer-to-peer network that creates consensus without needing a central authority to provide trust.
+
+What is bitcoin (with lowercase b)?
+
+The currency  (token) issued in the mining process.
+
+What is the blockchain?
+
+It’s the public ledger where the network records (transactions) are written.
+
+How does it work?
+
+Nodes verify and propagate transactions while miners gain permission to write new blocks in it.
+
+How do miners do it?
+
+Solving mathematical problems using a lot of processing power (read hardware and electricity costs).
+
+Why do they do it?
+
+Because their investment of time and resources is rewarded with bitcoins (currently 12.5 BTC per block mined).
+
+Isn’t it like a database?
+
+It has the idea of a database, but one that’s decentralized and still guarantees consensus and that the entries are true.
+
+Why can we truste it?
+
+Because math neither lies nor has political or economic interests.
+
+Why don’t they do bad stuff to make more money?
+
+Because Bitcoin uses Games Theory and incentives to make it more profitable to be honest.
+
+Now that we settled that, we can start imagining…
+
+Ok, you want the blockchain but not bitcoins (or any other token with value).
+
+And you need miners to write your new blocks.
+
+That leaves 2 scenarios:
+
+If you are imagining decentralized mining (like in Bitcoin).
+
+You are automatically supposing the miners are going to spend time and money just for fun or for the goodness in their hearts.
+
+Sorry, that’s not very likely.
+
+If you know people won’t mine without an incentive (that’s a good start).
+
+You will mine for your own (in your company, institution or other entity that chooses to use the blockchain).
+
+Congratulations! You’ve just created a slow database.
+
+Conclusions
+
+The blockchain is pretty inefficient (slow and resource-consuming) if used just for registering information without a token with value.
+
+The amount of resources “wasted” in mining only makes sense because it allows a decentralized and authority-free security.
+
+In other words... (though not considering many technical aspects)
+
+When you say:
+
+Bitcoin is nothing, the real technology is the Blockchain.
+
+It sounds as logical as:
+
+This Internet is nothing, the really cool thing it’s HTML!
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner

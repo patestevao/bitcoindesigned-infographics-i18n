@@ -1,0 +1,226 @@
+#. extracted from ./what-is-bitcoin-the-currency/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-08 15:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:2
+msgid "WHAT IS BITCOIN? - The Currency"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:6
+msgid "breaking in pieces"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:8
+msgid "Digital Currency"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:10
+msgid ""
+"It’s all about ones and zeros, meaning it has no physical form such as a "
+"coin."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:12
+msgid "Cryptocurrency"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:14
+msgid ""
+"Based on mathematics and cryptography. Which means it can’t be counterfeit - "
+"math doesn’t lie."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:16
+msgid "limited amount"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:18
+msgid "There is a limit of roughly 21 million bitcoins to be ever issued."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:20
+msgid ""
+"It doesn’t allow anyone to print more bitcoins recklessly, which preserves "
+"the currency value - it’s scarce."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:22
+msgid "ownership records"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:24
+msgid ""
+"Bitcoin ownership is actually a record on the Blockchain - this big "
+"decentralized ledger - saying those bitcoins were transferred to you."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:26
+msgid "mining"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:28
+msgid ""
+"It’s a type of math problem that needs a lot of processing power. It’s used "
+"for writing transactions and those who do it are rewarded with transaction "
+"fees and new bitcoins, which is how the currency is issued."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:30
+msgid "divisibility"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:32
+msgid ""
+"The smallest unit of Bitcoin is a Satoshi; it represents one hundred "
+"millionth of a bitcoin. But, if needed, this part can become even smaller."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:34
+msgid "the features"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:36
+msgid "or... Why everyone is so crazy about it"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:38
+msgid "Critical (break these and Bitcoin will never be the same)"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:40
+msgid "Decentralized"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:42
+msgid ""
+"No central bank can freeze your accounts ou implement poorly conceived "
+"policies that devalue your currency."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:44
+msgid "No Red-Tape"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:46
+msgid "Anyone can use bitcoin, no questions, no documents and no custody fees."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:48
+msgid "Pretty Anonymous"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:50
+msgid ""
+"Your name isn’t linked to your transactions, making it a lot more private "
+"and safe than regular bank operations and credit card payments."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:52
+msgid "Non-repudiable"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:54
+msgid ""
+"Once a bitcoin transaction is confirmed, it can’t be reverted unless there "
+"is a voluntary agreement between the two parties - such as a store policy."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:56
+msgid "Transparent"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:58
+msgid ""
+"Everyone can check every address and its transactions - although you don’t "
+"know the owners of all addresses, only those identities that were entrusted "
+"to you."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:60
+msgid "changeable (market development might change these a little)"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:62
+msgid "Fast"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:64
+msgid "Transactions can reach anyone in any part of the world within minutes."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:66
+msgctxt "./what-is-bitcoin-the-currency/source-text.txt:66"
+msgid "Possible Change"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:68
+msgid ""
+"If the volume of transactions grows  a lot  - say, bitcoin becoming "
+"mainstream - transactions will take longer to be cleared on the blockchain."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:70
+msgctxt "./what-is-bitcoin-the-currency/source-text.txt:70"
+msgid "What Might Happen"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:72
+msgid ""
+"Besides measures to scale Bitcoin’s core, small and quick transactions will "
+"probably be cleared by third parties or other layers over the blockchain."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:74
+msgid "Cheap"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:76
+msgid ""
+"Transaction fees are low - currently around 1 USD if you don’t want to wait "
+"too much for a confirmation."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:78
+msgctxt "./what-is-bitcoin-the-currency/source-text.txt:78"
+msgid "Possible Change"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:80
+msgid ""
+"When bitcoin issuing diminishes, the miner’s reward will come mostly from "
+"transaction fees, which will be higher."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:82
+msgctxt "./what-is-bitcoin-the-currency/source-text.txt:82"
+msgid "What Might Happen"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:84
+msgid ""
+"Predictive calculations indicate that fees will still be very afordable, "
+"even when covering all miners expenses alone."
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:86
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:87
+msgid "Editor: Marco Agner"
+msgstr ""

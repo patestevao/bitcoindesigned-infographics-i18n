@@ -1,0 +1,71 @@
+Bitcoin and the BYZANTINE GENERALS PROBLEM
+
+bitcoindesigned.com
+
+What is the Byzantine Generals Problem (BGP)?
+
+It’s a mental exercise proposed to illustrates the difficulty of reaching consensus in distributed systems.
+
+It begins like this:
+
+An army surrounding an enemy city with various separeted camps has to communicate to agree on an attack strategy. There are unknown traitors among this army who can corrupt the message exchange and avoid consensus.
+
+messages
+
+Enemy City
+
+The Generals and the Bitcoin
+
+The Situation
+
+Agree on a Strategy
+
+The objective
+
+Agree on Valid Transactions
+
+Separated Camps
+
+Spacial Distribution
+
+Distributed Network Nodes
+
+Loyal Troop and Loyal Generals
+
+The Good Ones
+
+Truthful Nodes
+
+Traitors
+
+The Bad Ones
+
+Evil Nodes
+
+Corrupt a Message
+
+The Attack
+
+Add an Invalid Transaction to the Blockchain
+
+How to Know which Message is True
+
+The Problem
+
+How to know which Transaction is Valid
+
+Don’t Have
+
+A Solution
+
+Blockchain updated with Proof of Work
+
+Don’t Have
+
+Consensus
+
+Blockchain with More Combined Difficulty
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
