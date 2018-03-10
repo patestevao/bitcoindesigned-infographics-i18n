@@ -1,0 +1,85 @@
+#. extracted from ./what-is-the-mining-difficulty/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-10 15:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./what-is-the-mining-difficulty/source-text.txt:2
+msgid "The bitcoin mining saga  - Part III"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:6
+msgid "What is the Mining Difficulty?"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:8
+msgid ""
+"It’s a mesure of how difficult is to find a hash below the target value (a "
+"256-bit number) during the Proof of Work."
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:10
+msgid "Mining Difficulty"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:12
+msgid "Target Value"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:14
+msgid "How does it work?"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:16
+msgid "More miners join the network"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:18
+msgid "Block creation rate increases"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:20
+msgid "Average mining time decreases"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:22
+msgid "Mining difficulty increases"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:24
+msgid "Block creation rate goes down"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:26
+msgid "Average mining time goes back to normal"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:28
+msgid ""
+"The target value is recalculated every 2,016 blocks (aproximately two weeks)"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:30
+msgid "The ideal average mining time is stablished as 10 minutes per block."
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:32
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./what-is-the-mining-difficulty/source-text.txt:33
+msgid "Editor: Marco Agner"
+msgstr ""
