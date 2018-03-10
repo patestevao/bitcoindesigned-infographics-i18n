@@ -1,0 +1,33 @@
+The bitcoin mining saga  - Part III
+
+bitcoindesigned.com
+
+What is the Mining Difficulty?
+
+It’s a mesure of how difficult is to find a hash below the target value (a 256-bit number) during the Proof of Work.
+
+Mining Difficulty
+
+Target Value
+
+How does it work?
+
+More miners join the network
+
+Block creation rate increases
+
+Average mining time decreases
+
+Mining difficulty increases
+
+Block creation rate goes down
+
+Average mining time goes back to normal
+
+The target value is recalculated every 2,016 blocks (aproximately two weeks)
+
+The ideal average mining time is stablished as 10 minutes per block.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
