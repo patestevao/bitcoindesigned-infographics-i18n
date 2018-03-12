@@ -1,0 +1,1 @@
+find . -name "*.txt" -exec txt2po --pot {} {}.pot \;
