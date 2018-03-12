@@ -1,0 +1,53 @@
+THE BITCOIN MINING SAGA - PART II
+
+bitcoindesigned.com
+
+What is Proof of Work (PoW)?
+
+It’s a method to ensure that the information (the new block) was difficult (costly, time-consuming) to be made.
+
+It costs processing power.
+
+Which can be translated to: hardware, energy and time.
+
+It’s easy, on the other hand, for others to check if the requirements were met.
+
+In Practice
+
+(made simple)
+
+BEGIN HERE
+
+Miner proposes new block
+
+Header of the most recent block
+
+NONCE (an incremental number)
+
+Combines and hashes
+
+HASH number
+
+Mining Difficulty
+
+Determines
+
+Target Value
+
+Compares
+
+Is HASH < Target Value?
+
+NO
+
+Increments and try again
+
+YES
+
+You solved the PoW!
+
+Mining Reward
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner

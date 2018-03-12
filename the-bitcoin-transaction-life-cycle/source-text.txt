@@ -1,0 +1,47 @@
+The Bitcoin Transaction Life Cycle
+
+Rob’s quest to send 0.3 BTC to his friend Laura
+
+bitcoindesigned.com
+
+START
+
+Rob opens his bitcoin wallet...
+
+scans/copies Laura’s address...
+
+fills the amount and the fee...
+
+and sends!
+
+User
+
+Machine
+
+The wallet signs the transaction using Rob’s private key.
+
+The transaction is propagated and validated by the network nodes.
+
+10 seconds until now!
+
+Miners include the transaction in tthe next block to be mined.
+
+Mining time!
+
+Mining is the computational process of calculating a certain HASH.
+
+The miner who solves the Proof of Work propagates the new block to the network.
+
+New bitcoins are created!
+
+The nodes verify the result and propagate the block.
+
+Laura sees the first confirmation.
+
+New confirmations appear with each new block that is created.
+
+THE END!
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner

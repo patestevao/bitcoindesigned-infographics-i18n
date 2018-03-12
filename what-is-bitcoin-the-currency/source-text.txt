@@ -1,0 +1,87 @@
+WHAT IS BITCOIN? - The Currency
+
+bitcoindesigned.com
+
+breaking in pieces
+
+Digital Currency
+
+It’s all about ones and zeros, meaning it has no physical form such as a coin.
+
+Cryptocurrency
+
+Based on mathematics and cryptography. Which means it can’t be counterfeit - math doesn’t lie.
+
+limited amount
+
+There is a limit of roughly 21 million bitcoins to be ever issued.
+
+It doesn’t allow anyone to print more bitcoins recklessly, which preserves the currency value - it’s scarce.
+
+ownership records
+
+Bitcoin ownership is actually a record on the Blockchain - this big decentralized ledger - saying those bitcoins were transferred to you.
+
+mining
+
+It’s a type of math problem that needs a lot of processing power. It’s used for writing transactions and those who do it are rewarded with transaction fees and new bitcoins, which is how the currency is issued.
+
+divisibility
+
+The smallest unit of Bitcoin is a Satoshi; it represents one hundred millionth of a bitcoin. But, if needed, this part can become even smaller.
+
+the features
+
+or... Why everyone is so crazy about it
+
+Critical (break these and Bitcoin will never be the same)
+
+Decentralized
+
+No central bank can freeze your accounts ou implement poorly conceived policies that devalue your currency.
+
+No Red-Tape
+
+Anyone can use bitcoin, no questions, no documents and no custody fees.
+
+Pretty Anonymous
+
+Your name isn’t linked to your transactions, making it a lot more private and safe than regular bank operations and credit card payments.
+
+Non-repudiable
+
+Once a bitcoin transaction is confirmed, it can’t be reverted unless there is a voluntary agreement between the two parties - such as a store policy.
+
+Transparent
+
+Everyone can check every address and its transactions - although you don’t know the owners of all addresses, only those identities that were entrusted to you.
+
+changeable (market development might change these a little)
+
+Fast
+
+Transactions can reach anyone in any part of the world within minutes.
+
+Possible Change
+
+If the volume of transactions grows  a lot  - say, bitcoin becoming mainstream - transactions will take longer to be cleared on the blockchain.
+
+What Might Happen
+
+Besides measures to scale Bitcoin’s core, small and quick transactions will probably be cleared by third parties or other layers over the blockchain.
+
+Cheap
+
+Transaction fees are low - currently around 1 USD if you don’t want to wait too much for a confirmation.
+
+Possible Change
+
+When bitcoin issuing diminishes, the miner’s reward will come mostly from transaction fees, which will be higher.
+
+What Might Happen
+
+Predictive calculations indicate that fees will still be very afordable, even when covering all miners expenses alone.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner

@@ -1,0 +1,112 @@
+#. extracted from ./the-bitcoin-transaction-life-cycle/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:2
+msgid "The Bitcoin Transaction Life Cycle"
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:4
+msgid "Rob’s quest to send 0.3 BTC to his friend Laura"
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:6
+msgid "bitcoindesigned.com"
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:8
+msgid "START"
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:10
+msgid "Rob opens his bitcoin wallet..."
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:12
+msgid "scans/copies Laura’s address..."
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:14
+msgid "fills the amount and the fee..."
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:16
+msgid "and sends!"
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:18
+msgid "User"
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:20
+msgid "Machine"
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:22
+msgid "The wallet signs the transaction using Rob’s private key."
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:24
+msgid "The transaction is propagated and validated by the network nodes."
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:26
+msgid "10 seconds until now!"
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:28
+msgid "Miners include the transaction in tthe next block to be mined."
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:30
+msgid "Mining time!"
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:32
+msgid "Mining is the computational process of calculating a certain HASH."
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:34
+msgid ""
+"The miner who solves the Proof of Work propagates the new block to the "
+"network."
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:36
+msgid "New bitcoins are created!"
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:38
+msgid "The nodes verify the result and propagate the block."
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:40
+msgid "Laura sees the first confirmation."
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:42
+msgid "New confirmations appear with each new block that is created."
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:44
+msgid "THE END!"
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:46
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./the-bitcoin-transaction-life-cycle/source-text.txt:47
+msgid "Editor: Marco Agner"
+msgstr ""

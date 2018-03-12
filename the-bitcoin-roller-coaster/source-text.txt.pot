@@ -1,0 +1,163 @@
+#. extracted from ./the-bitcoin-roller-coaster/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:2
+msgid "The bitcoin roller coaster (oh my, that escalated!)"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:4
+msgid "BTC price in USD"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:6
+msgid "Year"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:8
+msgid "That’s a nice little ride."
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:10
+msgid "Wikileaks accepts Bitcoin donations, Jun. 14th 2011, US$19.25"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:12
+msgid "First halving, Nov. 28th 2012, US$12.25"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:14
+msgid "Cyprus bail-in, Mar. 25th 2013, US$74.02"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:16
+msgid "This is getting fun."
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:18
+msgid "Ross Ulbricht arrested and Silk Road closed, Oct. 2nd 2013, US$133.03"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:20
+msgid "US senate hearing on Bitcoin, Nov. 18th 2013, US$685.75"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:22
+msgid "Price reaches US$1200 at Mt. Gox, Nov. 29th 2013, US$1,242"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:24
+msgid "I'm gonna die!"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:26
+msgid "So this is normal..."
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:28
+msgid "Mt. Gox files for bankruptcy, Feb. 28th 2014, US$550.46"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:30
+msgid "False Report on Bitcoin ban in China, Mar. 21th 2014, US$583.54"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:32
+msgid "Ross Ulbricht convicted, Feb. 4th 2015, US$225.89"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:34
+msgid "Who would've guessed, I'm alive!"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:36
+msgid "The Bitcoin civil war starts to show itself."
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:38
+msgid "Bitcoin Sign Accepted into Unicode, Nov. 3rd, 2015, US$ 383.16"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:40
+msgid "OpenBazaar Launched, Apr. 4th, 2016, US$ 420.61"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:42
+msgid "Second Halving Day, Jul. 9th, 2016, US$652.14"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:44
+msgid "Bitfinex Hacked, Aug. 2nd, 2016, US$594.86 "
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:46
+msgid "Segwit (BIP141) signaling starts, Nov. 18th, 2016, US$749.68"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:48
+msgid "When I though this was getting boring..."
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:50
+msgid ""
+"Price breaks $1000 for the first time in 3 years, Jan. 3rd, 2017, US$1,020.47"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:52
+msgid ""
+"BIP148 (UASF + SegWit) proposal is created, Mar. 12th, 2017, US$1,229.50"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:54
+msgid ""
+"Bitcoin all time hight (first time since 2013), May 2nd, 2017, US$ 1,443.68"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:56
+msgid "Oh my, this is high!"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:58
+msgid "Segwit 2x agreement is annouced, May 23rd, 2017, US$ $2,291.48"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:60
+msgid "How the hell did this happen?"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:62
+msgid "New all time high! Jun. 11th, 2017, US$ 3,018.54"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:64
+msgid "AUGUST 1ST Bitcoin Cash hard fork"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:66
+msgid "Really? Is that the best they can do?"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:68
+msgid "Bye everybody! I’ll be waiting here on the moon."
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:70
+msgid ""
+"BTC Prices from https://bitcoinhelp.net/know/more/price-chart-history and "
+"http://www.coindesk.com/price/"
+msgstr ""
+
+#: ./the-bitcoin-roller-coaster/source-text.txt:71
+msgid "By Patrícia Estevão for bitcoindesigned.com"
+msgstr ""

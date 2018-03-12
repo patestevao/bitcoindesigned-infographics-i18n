@@ -1,0 +1,51 @@
+What does it really mean TO HAVE BITCOINS?
+
+bitcoindesigned.com
+
+What is a private key exactly?
+
+The private key is a number (secret, hopefully) you use to sign your transactions and prove that you own some bitcoins.
+
+Your home key
+
+Your private key
+
+Bitcoin Ownership Process
+
+START HERE
+
+Someone sends you bitcoins.
+
+The transaction is mined.
+
+The blockchain registers that you have the right to spend those bitcoins.
+
+No bitcoin is saved in your computer.
+
+You see a pretty mug and want to buy it.
+
+You have your private key saved in a file.
+
+you use the private key to sign the transaction.
+
+The transaction is mined.
+
+The blockchain registers that you can’t spend those bitcoins anymore.
+
+THE END
+
+Conclusions
+
+HAVING BITCOINS
+
+HAVING PRIVATE KEY
+
+(So keep it safe, pal)
+
+That allows you to back up your wallet in the most creative ways and virtually infinite times.
+
+Maybe not the best idea...
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner

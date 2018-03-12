@@ -1,0 +1,59 @@
+What You Need To Know About Bitcoin 'PAPER WALLET' COLD STORAGE
+
+bitcoindesigned.com
+
+Paper Wallet in a few words:
+
+A way to store your bitcoins as a physical object.
+
+It’s a cold storage when the private key is generated and kept offline.
+
+How to create it PROPERLY:
+
+Creating a paper wallet consists roughly of generating a public/private key pair and printing it. But since we want it to be safe, here are the best practices:
+
+Use a clean operating system, like a Linux you boot from a new USB flash drive.
+
+Use an application that supports private key encryption.
+
+Take your computer offline before generating the keys.
+
+Use a printer with no network connections.
+
+Why you might want it?
+
+Since it’s completely offline, it protects you against network attacks.
+
+Ideal for long-term storage, with your absolute control over the bitcoins.
+
+It’s a nice way to give bitcoins as a gift.
+
+It requires physical safety. Now, some may say this is a drawback, but consider this:
+
+Time of experience we have in guarding physical stuff.
+
+Time of experience we have in guarding digital stuff.
+
+It allows you to have extra security with a multi-signature wallet. It goes like this:
+
+Split your walletinto “n” pieces. You’ll need “m” of the “n” pieces to access your funds.
+
+Hide them in safe places.
+
+Your house
+
+Your mama’s
+
+The bank safe
+
+Company building
+
+Gollum’s cave
+
+If malicious parties find any of the pieces - or if Bilbo decides the ring is worth less than your bitcoins...
+
+You can still pay for your vacatoin in Fiji, because your bitcoins are still yours and you have time to redo the safety process in a new wallet.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner

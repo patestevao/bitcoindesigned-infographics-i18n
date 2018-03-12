@@ -1,0 +1,125 @@
+#. extracted from ./what-does-it-really-mean-to-have-bitcoins/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:2
+msgid "What does it really mean TO HAVE BITCOINS?"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:6
+msgid "What is a private key exactly?"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:8
+msgid ""
+"The private key is a number (secret, hopefully) you use to sign your "
+"transactions and prove that you own some bitcoins."
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:10
+msgid "Your home key"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:12
+msgid "Your private key"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:14
+msgid "Bitcoin Ownership Process"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:16
+msgid "START HERE"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:18
+msgid "Someone sends you bitcoins."
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:20
+msgctxt "./what-does-it-really-mean-to-have-bitcoins/source-text.txt:20"
+msgid "The transaction is mined."
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:22
+msgid ""
+"The blockchain registers that you have the right to spend those bitcoins."
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:24
+msgid "No bitcoin is saved in your computer."
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:26
+msgid "You see a pretty mug and want to buy it."
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:28
+msgid "You have your private key saved in a file."
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:30
+msgid "you use the private key to sign the transaction."
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:32
+msgctxt "./what-does-it-really-mean-to-have-bitcoins/source-text.txt:32"
+msgid "The transaction is mined."
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:34
+msgid "The blockchain registers that you can’t spend those bitcoins anymore."
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:36
+msgid "THE END"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:38
+msgid "Conclusions"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:40
+msgid "HAVING BITCOINS"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:42
+msgid "HAVING PRIVATE KEY"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:44
+msgid "(So keep it safe, pal)"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:46
+msgid ""
+"That allows you to back up your wallet in the most creative ways and "
+"virtually infinite times."
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:48
+msgid "Maybe not the best idea..."
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:50
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./what-does-it-really-mean-to-have-bitcoins/source-text.txt:51
+msgid "Editor: Marco Agner"
+msgstr ""

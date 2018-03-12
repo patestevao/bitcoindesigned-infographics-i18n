@@ -1,0 +1,119 @@
+bitcoindesigned.com
+
+Is Bitcoin Anonymous?
+
+What’s your level of privacy when it comes to spending bitcoins?
+
+Consider the following:
+
+Blockchain
+
+The Blockchain is completely transparent and it keeps records of all transactions ever made.
+
+Pretty Public
+
+Bitcoin Address
+
+It’s a pseudonym created by your wallet and it doesn’t have any of your personal data linked to it. It’s the main identifier for the inputs and outputs of transactions.
+
+Pretty Private
+
+Street A
+
+Street B
+
+So can I be linked to my transactions?
+
+YES
+
+I’m not a criminal, so what’s wrong with that?
+
+For the same reason you don’t show your bank extract to anyone. If someone knows how much money you have or what are your spending habits, you can become vulnerable to attacks.
+
+How Am I Linked?
+
+Bitcoin doesn’t require any type of personal information from you, but most stores and services do (gorvernment requirement). If you pay this company with bitcoins, they will link your data to your address in their app.
+
+Reusing addresses:
+
+If you use the same address to make various transactions, you create a record of your private financial life in a way that’s not private at all. And even worse if any of these transactions is linked with your real name in some way.
+
+Public Spaces:
+
+If you need to put your address in a very public space (to receive donations in a website, for example), you are associating it to your name or to the public image you use.
+
+IP Logging:
+
+Your IP address can be logged by someone listening to the network when you send a transaction. But since full nodes also relay  transactions to the network, it can be difficult to find the exact IP address for a transaction.
+
+Protect Yourself
+
+Avoid services with KYC/AML policies. And since that’s very difficult, just don’t reuse addresses in these services.
+
+Don’t reuse addresses at all (you can choose a Bitcoin client that does this automatically for you).
+
+Be sure that’s an address that you don’t use for anything else and know that, when you transfer the funds to a new address, it will also be easily linked to you.
+
+Even if it’s difficult, you might want to try tools that hide your IP address (proxy, VPN).
+
+Bitcoin Mixing
+
+(or laundering, if you’re not too shy)
+
+How does it work?
+
+That means weakening the link between an identity and a bitcoin address.
+
+For now, they are centralized services, so you have to trust them not to log you and not to run away with your money.
+
+START
+
+You want to improve privacy.
+
+That means weakening the link between an identity and a bitcoin address.
+
+You look for a mixing service.
+
+For now, they are centralized services, so you have to trust them not to log you and not to run away with your money.
+
+User
+
+Mixer
+
+The unspent outputs (available bitcoins) of many people are brought together.
+
+These bitcoins are transacted in a way that mixes them up (details may vary).
+
+You receive your amount back, but they are not your old bitcoins anymore.
+
+FINISH
+
+Nice to know:
+
+It doesn't terminate your link your the bitcoins, but it becomes pretty unfeasible to track you.
+
+You will end with a weak link to someone else’s bitcoin and, consequently, to the activity the other person was doing. (Not something to worry a lot, but important to know).
+
+It’s not an easy process for large amounts of bitcoins.
+
+You might have to pay a fee to use this type of service.
+
+BTC x Cash
+
+Because of the blockchain’s transparency, cash is still more anonymous than Bitcoin.
+
+That’s why is not very accurate to say criminals use Bitcoin for its anonymity.
+
+Bottom Line
+
+“Bitcoin is PRETTY Anonymous”
+
+People won’t see your balance with the ease that your bank manager or any governmental agent can if they make the call.
+
+But if someone is REALLY looking for you, know that is not impossible to be found.
+
+Main Source: https://bitcoin.org/en/protect-your-privacy
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner

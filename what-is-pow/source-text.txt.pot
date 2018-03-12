@@ -1,0 +1,126 @@
+#. extracted from ./what-is-pow/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./what-is-pow/source-text.txt:2
+msgid "THE BITCOIN MINING SAGA - PART II"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:6
+msgid "What is Proof of Work (PoW)?"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:8
+msgid ""
+"It’s a method to ensure that the information (the new block) was difficult ("
+"costly, time-consuming) to be made."
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:10
+msgid "It costs processing power."
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:12
+msgid "Which can be translated to: hardware, energy and time."
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:14
+msgid ""
+"It’s easy, on the other hand, for others to check if the requirements were "
+"met."
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:16
+msgid "In Practice"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:18
+msgid "(made simple)"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:20
+msgid "BEGIN HERE"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:22
+msgid "Miner proposes new block"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:24
+msgid "Header of the most recent block"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:26
+msgid "NONCE (an incremental number)"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:28
+msgid "Combines and hashes"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:30
+msgid "HASH number"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:32
+msgid "Mining Difficulty"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:34
+msgid "Determines"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:36
+msgid "Target Value"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:38
+msgid "Compares"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:40
+msgid "Is HASH < Target Value?"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:42
+msgid "NO"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:44
+msgid "Increments and try again"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:46
+msgid "YES"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:48
+msgid "You solved the PoW!"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:50
+msgid "Mining Reward"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:52
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./what-is-pow/source-text.txt:53
+msgid "Editor: Marco Agner"
+msgstr ""

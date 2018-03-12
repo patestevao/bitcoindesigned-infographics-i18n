@@ -1,0 +1,150 @@
+#. extracted from ./bitcoin-paper-wallet-cold-storage/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:2
+msgid "What You Need To Know About Bitcoin 'PAPER WALLET' COLD STORAGE"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:6
+msgid "Paper Wallet in a few words:"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:8
+msgid "A way to store your bitcoins as a physical object."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:10
+msgid "It’s a cold storage when the private key is generated and kept offline."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:12
+msgid "How to create it PROPERLY:"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:14
+msgid ""
+"Creating a paper wallet consists roughly of generating a public/private key "
+"pair and printing it. But since we want it to be safe, here are the best "
+"practices:"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:16
+msgid ""
+"Use a clean operating system, like a Linux you boot from a new USB flash "
+"drive."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:18
+msgid "Use an application that supports private key encryption."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:20
+msgid "Take your computer offline before generating the keys."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:22
+msgid "Use a printer with no network connections."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:24
+msgid "Why you might want it?"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:26
+msgid "Since it’s completely offline, it protects you against network attacks."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:28
+msgid ""
+"Ideal for long-term storage, with your absolute control over the bitcoins."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:30
+msgid "It’s a nice way to give bitcoins as a gift."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:32
+msgid ""
+"It requires physical safety. Now, some may say this is a drawback, but "
+"consider this:"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:34
+msgid "Time of experience we have in guarding physical stuff."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:36
+msgid "Time of experience we have in guarding digital stuff."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:38
+msgid ""
+"It allows you to have extra security with a multi-signature wallet. It goes "
+"like this:"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:40
+msgid ""
+"Split your walletinto “n” pieces. You’ll need “m” of the “n” pieces to "
+"access your funds."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:42
+msgid "Hide them in safe places."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:44
+msgid "Your house"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:46
+msgid "Your mama’s"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:48
+msgid "The bank safe"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:50
+msgid "Company building"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:52
+msgid "Gollum’s cave"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:54
+msgid ""
+"If malicious parties find any of the pieces - or if Bilbo decides the ring "
+"is worth less than your bitcoins..."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:56
+msgid ""
+"You can still pay for your vacatoin in Fiji, because your bitcoins are still "
+"yours and you have time to redo the safety process in a new wallet."
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:58
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./bitcoin-paper-wallet-cold-storage/source-text.txt:59
+msgid "Editor: Marco Agner"
+msgstr ""
