@@ -1,85 +1,92 @@
-#. extracted from source-text.txt
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-12 11:38+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-03-12 11:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: source-text.txt:2
 msgid "THE BITCOIN MINING SAGA - PART III"
-msgstr ""
+msgstr "MINERAÇÃO DE BITCOIN: A SAGA - PARTE III"
 
 #: source-text.txt:4
 msgid "bitcoindesigned.com"
-msgstr ""
+msgstr "bitcoindesigned.com"
 
 #: source-text.txt:6
 msgid "What is the Mining Difficulty?"
-msgstr ""
+msgstr "O que é a Dificuldade de Mineração?"
 
 #: source-text.txt:8
 msgid ""
 "It’s a mesure of how difficult is to find a hash below the target value (a "
 "256-bit number) during the Proof of Work."
 msgstr ""
+"É uma medida do quão difícil é achar um hash abaixo do Valor Alvo (um número "
+"de 256 bits) durante o Proof of Work."
 
 #: source-text.txt:10
 msgid "Mining Difficulty"
-msgstr ""
+msgstr "Dificuldade de Mineração"
 
 #: source-text.txt:12
 msgid "Target Value"
-msgstr ""
+msgstr "Valor Alvo"
 
 #: source-text.txt:14
 msgid "How does it work?"
-msgstr ""
+msgstr "Como funciona?"
 
 #: source-text.txt:16
 msgid "More miners join the network"
-msgstr ""
+msgstr "Mais mineradores se juntam à rede"
 
 #: source-text.txt:18
 msgid "Block creation rate increases"
-msgstr ""
+msgstr "Taxa de criação de blocos aumenta"
 
 #: source-text.txt:20
 msgid "Average mining time decreases"
-msgstr ""
+msgstr "Tempo médio de mineração diminui"
 
 #: source-text.txt:22
 msgid "Mining difficulty increases"
-msgstr ""
+msgstr "Dificuldade de mineração aumenta"
 
 #: source-text.txt:24
 msgid "Block creation rate goes down"
-msgstr ""
+msgstr "Taxa de criação de blocos diminui"
 
 #: source-text.txt:26
 msgid "Average mining time goes back to normal"
-msgstr ""
+msgstr "Tempo médio de mineração volta ao normal"
 
 #: source-text.txt:28
 msgid ""
 "The target value is recalculated every 2,016 blocks (aproximately two weeks)"
 msgstr ""
+"O Valor Alvo é recalculado a cada 2.016 blocos (aproximadamente 2 semanas)"
 
 #: source-text.txt:30
 msgid "The ideal average mining time is stablished as 10 minutes per block."
 msgstr ""
+"O tempo médio de mineração ideal é estabelecido como 10 minutos por bloco."
 
 #: source-text.txt:32
 msgid "Author: Patrícia Estevão"
-msgstr ""
+msgstr "Autora: Patrícia Estevão"
 
 #: source-text.txt:33
 msgid "Editor: Marco Agner"
-msgstr ""
+msgstr "Editor: Marco Agner"
+
+#~ msgid "The bitcoin mining saga  - Part III"
+#~ msgstr "MINERAÇÃO DE BITCOIN: A SAGA - PARTE III"

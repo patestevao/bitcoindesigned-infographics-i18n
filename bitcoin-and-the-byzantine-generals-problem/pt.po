@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"PO-Revision-Date: 2018-03-12 11:44+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt\n"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:2
+msgid "Bitcoin and the BYZANTINE GENERALS PROBLEM"
+msgstr "Bitcoin e o PROBLEMA DOS GENERAIS BIZANTINOS"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:6
+msgid "What is the Byzantine Generals Problem (BGP)?"
+msgstr "O que é o Problema dos Generais Bizantinos (PGB)?"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:8
+msgid ""
+"It’s a mental exercise proposed to illustrates the difficulty of reaching "
+"consensus in distributed systems."
+msgstr ""
+"É um experimento mental proposto para ilustrar a dificuldade de se atingir "
+"consenso em sistemas distribuídos."
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:10
+msgid "It begins like this:"
+msgstr "Ele começa assim:"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:12
+msgid ""
+"An army surrounding an enemy city with various separeted camps has to "
+"communicate to agree on an attack strategy. There are unknown traitors among "
+"this army who can corrupt the message exchange and avoid consensus."
+msgstr ""
+"Um exército cerca uma cidade inimiga com acampamentos separados, que devem "
+"se comunicar para concordar em uma estratégia de ataque. Há traidores "
+"desconhecidos no exército que podem corromper a troca de mensagens e evitar "
+"o consenso."
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:14
+msgid "messages"
+msgstr "mensagens"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:16
+msgid "Enemy City"
+msgstr "Cidade Inimiga"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:18
+msgid "The Generals and the Bitcoin"
+msgstr "Os Generais e o Bitcoin"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:20
+msgid "The Situation"
+msgstr "A Situação"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:22
+msgid "Agree on a Strategy"
+msgstr "Concordar na Estratégia"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:24
+msgid "The objective"
+msgstr "O objetivo"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:26
+msgid "Agree on Valid Transactions"
+msgstr "Concordar nas Transações Válidas"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:28
+msgid "Separated Camps"
+msgstr "Acampamentos Separados"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:30
+msgid "Spacial Distribution"
+msgstr "Distribuição Espacial"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:32
+msgid "Distributed Network Nodes"
+msgstr "Nós Distrubuídos na Rede"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:34
+msgid "Loyal Troop and Loyal Generals"
+msgstr "Tropas Leais e Generais Leais"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:36
+msgid "The Good Ones"
+msgstr "Os Bons"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:38
+msgid "Truthful Nodes"
+msgstr "Nós Confiáveis"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:40
+msgid "Traitors"
+msgstr "Traidores"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:42
+msgid "The Bad Ones"
+msgstr "Os Maus"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:44
+msgid "Evil Nodes"
+msgstr "Nós com Más Intenções"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:46
+msgid "Corrupt a Message"
+msgstr "Corromper Mensagens"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:48
+msgid "The Attack"
+msgstr "O Ataque"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:50
+msgid "Add an Invalid Transaction to the Blockchain"
+msgstr "Adicionar uma Transação Inválida à Blockchain"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:52
+msgid "How to Know which Message is True"
+msgstr "Saber qual Mensagem é Verdadeira"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:54
+msgid "The Problem"
+msgstr "O Problema"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:56
+msgid "How to know which Transaction is Valid"
+msgstr "Saber qual Transação é Válida"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:58
+msgctxt "./bitcoin-and-the-byzantine-generals-problem/source-text.txt:58"
+msgid "Don’t Have"
+msgstr "Não Tem"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:60
+msgid "A Solution"
+msgstr "Uma Solução"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:62
+msgid "Blockchain updated with Proof of Work"
+msgstr "Blockchain atualizada com Proof of Work"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:64
+msgctxt "./bitcoin-and-the-byzantine-generals-problem/source-text.txt:64"
+msgid "Don’t Have"
+msgstr "Não Tem"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:66
+msgid "Consensus"
+msgstr "Consenso"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:68
+msgid "Blockchain with More Combined Difficulty"
+msgstr "Blockchain com Mais Dificuldade Acumulada"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:70
+msgid "Author: Patrícia Estevão"
+msgstr "Autora: Patrícia Estevão"
+
+#: bitcoin-and-the-byzantine-generals-problem/source-text.txt:71
+msgid "Editor: Marco Agner"
+msgstr "Editor: Marco Agner"

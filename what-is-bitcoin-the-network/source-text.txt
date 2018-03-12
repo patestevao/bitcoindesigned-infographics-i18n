@@ -2,7 +2,7 @@ What is Bitcoin? - The Network
 
 bitcoindesigned.com
 
-your techy friend’s explanation
+Your techy friend’s explanation
 
 It’s a decentralized peer-to-peer network for electronic transactions without relying on a central point of trust.
 
@@ -28,7 +28,7 @@ Bitcoin achieves consensus using the Proof of Work and the blockchain, so no sin
 
 Bitcoin CEO
 
-catch your breath because there’s more
+Catch your breath because there’s more
 
 Digital Cryptocurrency
 

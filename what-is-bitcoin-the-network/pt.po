@@ -1,29 +1,29 @@
-#. extracted from source-text.txt
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-12 11:11+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-03-12 11:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: source-text.txt:2
 msgid "What is Bitcoin? - The Network"
-msgstr ""
+msgstr "O que é bitcoin? - A rede"
 
 #: source-text.txt:4
 msgid "bitcoindesigned.com"
-msgstr ""
+msgstr "bitcoindesigned.com"
 
 #: source-text.txt:6
 msgid "Your techy friend’s explanation"
-msgstr ""
+msgstr "Quando seu amigo programador explica"
 
 #: source-text.txt:8
 msgctxt "source-text.txt:8"
@@ -31,10 +31,12 @@ msgid ""
 "It’s a decentralized peer-to-peer network for electronic transactions "
 "without relying on a central point of trust."
 msgstr ""
+"É uma rede descentralizada ponto-a-ponto (p2p) para transações eletrônicas "
+"sem o uso de um ponto central de confiança."
 
 #: source-text.txt:10
 msgid "Ok, whaat? Let’s break it down."
-msgstr ""
+msgstr "Ok, oi? Vamos por partes."
 
 #: source-text.txt:12
 msgctxt "source-text.txt:12"
@@ -42,40 +44,49 @@ msgid ""
 "It’s a decentralized peer-to-peer network for electronic transactions "
 "without relying on a central point of trust."
 msgstr ""
+"É uma rede descentralizada ponto-a-ponto (p2p) para transações eletrônicas "
+"sem o uso de um ponto central de confiança."
 
 #: source-text.txt:14
 msgid "decentralized"
-msgstr ""
+msgstr "descentralizada"
 
 #: source-text.txt:16
 msgid ""
 "No node has more power than others, only different roles. So there isn’t a "
 "single Bitcoin server or company controlling it."
 msgstr ""
+"Nenhum nó tem mais poder do que os outros, apenas papéis diferentes. Logo, "
+"não há um único servidor ou empresa controlando o Bitcoin."
 
 #: source-text.txt:18
 msgid "peer-to-peer"
-msgstr ""
+msgstr "ponto-a-ponto (p2p)"
 
 #: source-text.txt:20
 msgid ""
 "All Bitcoin nodes receive and share information at the same time, so there’s "
 "no need to have a big server with all its data."
 msgstr ""
+"Todos os nós de Bitcoin recebem e compartilham informação ao mesmo tempo. "
+"Por isso, não é preciso um grande servidor central para guardar todos os "
+"dados."
 
 #: source-text.txt:22
 msgid "network for electronic transactions"
-msgstr ""
+msgstr "para transações eletrônicas"
 
 #: source-text.txt:24
 msgid ""
 "It allows you to send different types of transactions (contracts) using the "
 "bitcoin token as a medium of value exchange."
 msgstr ""
+"Ele permite enviar diferentes tipos de transações (contratos) usando a moeda "
+"bitcoin como meio de troca de valor."
 
 #: source-text.txt:26
 msgid "without relying on a central point of trust"
-msgstr ""
+msgstr "sem precisar de um ponto central de confiança"
 
 #: source-text.txt:28
 msgid ""
@@ -83,18 +94,21 @@ msgid ""
 "single entity needs or has the authority to say if a transaction is valid - "
 "it proves itself."
 msgstr ""
+"O Bitcoin alcança consenso usando a Prova de Trabalho e a blockchain. Logo, "
+"nenhuma entidade precisa ou tem autoridade para dizer se uma transação é "
+"válida - ela mesma se prova."
 
 #: source-text.txt:30
 msgid "Bitcoin CEO"
-msgstr ""
+msgstr "CEO do Bitcoin"
 
 #: source-text.txt:32
 msgid "Catch your breath because there’s more"
-msgstr ""
+msgstr "Respira fundo porque ainda tem mais"
 
 #: source-text.txt:34
 msgid "Digital Cryptocurrency"
-msgstr ""
+msgstr "Criptomoeda Digital"
 
 #: source-text.txt:36
 msgid ""
@@ -102,10 +116,13 @@ msgid ""
 "a currency backed by mathematical and cryptographic functions that assure "
 "its value and legitimacy."
 msgstr ""
+"Transações são feitas na rede trocando moedas. Essas moedas são um dinheiro "
+"baseado em funções matemáticas e criptográficas que garantem seu valor e "
+"legitimidade."
 
 #: source-text.txt:38
 msgid "Public Ledger"
-msgstr ""
+msgstr "Livro-razão Público"
 
 #: source-text.txt:40
 msgid ""
@@ -113,24 +130,29 @@ msgid ""
 "confirmed. It keeps all records of bitcoin ownership and it’s completely "
 "transparent - you can see and have your own copy."
 msgstr ""
+"A Blockchain é o livro-razão onde novas transações são confirmadas e "
+"incluídas. Ela guarda os registros de propriedade de bitcoins e é "
+"completamente transparente - você pode acessar e ter sua própria cópia."
 
 #: source-text.txt:42
 msgid "Bitcoin is..."
-msgstr ""
+msgstr "Bitcoin é…"
 
 #: source-text.txt:44
 msgid "Platform"
-msgstr ""
+msgstr "Plataforma"
 
 #: source-text.txt:46
 msgid ""
 "You can build all sorts of contracts on top of Bitcoin’s code; it’s "
 "programmable money."
 msgstr ""
+"Você pode construir diferentes contratos por cima do código do Bitcoin; é "
+"dinheiro programável."
 
 #: source-text.txt:48
 msgid "Protocol"
-msgstr ""
+msgstr "Protocolo"
 
 #: source-text.txt:50
 msgid ""
@@ -138,10 +160,12 @@ msgid ""
 "standards that make the whole thing work and guarantee some of its core "
 "features."
 msgstr ""
+"É um código para troca de mensagens, logo, existem regras e padrões que "
+"fazem a coisa funcionar e garantem algumas das suas características vitais."
 
 #: source-text.txt:52
 msgid "Don’t panic... this is what you should know by now"
-msgstr ""
+msgstr "Sem pânico… Isso é o que você deve entender desde já"
 
 #: source-text.txt:54
 msgid ""
@@ -149,24 +173,35 @@ msgid ""
 "making it possible for money and other aspects of people’s life to be free "
 "from this figure of control."
 msgstr ""
+"O Bitcoin é uma tecnologia que substitui o intermediário ou a autoridade "
+"central, tornando possível que o dinheiro e outros aspectos da vida das "
+"pessoas fiquem livres desta figura de controle."
 
 #: source-text.txt:56
 msgid "Bank"
-msgstr ""
+msgstr "Banco"
 
 #: source-text.txt:58
 msgid "the poetic touch"
-msgstr ""
+msgstr "o toque poético"
 
 #: source-text.txt:60
 msgid ""
 "“What the Internet has done for information, Bitcoin will do for money.”"
-msgstr ""
+msgstr "“O que a Internet fez pela informação, o Bitcoin fará pelo dinheiro.”"
 
 #: source-text.txt:62
 msgid "Author: Patrícia Estevão"
-msgstr ""
+msgstr "Autora: Patrícia Estevão"
 
 #: source-text.txt:63
 msgid "Editor: Marco Agner"
-msgstr ""
+msgstr "Editor: Marco Agner"
+
+#~ msgctxt "./what-is-bitcoin-the-network/source-text.txt:12"
+#~ msgid ""
+#~ "It’s a decentralized peer-to-peer network for electronic transactions "
+#~ "without relying on a central point of trust."
+#~ msgstr ""
+#~ "É uma rede descentralizada ponto-a-ponto (p2p) para transações "
+#~ "eletrônicas sem o uso de um ponto central de confiança."

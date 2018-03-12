@@ -26,7 +26,7 @@ You see a pretty mug and want to buy it.
 
 You have your private key saved in a file.
 
-you use the private key to sign the transaction.
+You use the private key to sign the transaction.
 
 The transaction is mined.
 

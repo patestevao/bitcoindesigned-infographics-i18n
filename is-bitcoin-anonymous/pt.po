@@ -1,51 +1,53 @@
-#. extracted from source-text.txt
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-12 10:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-03-12 10:33+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: source-text.txt:2
 msgid "bitcoindesigned.com"
-msgstr ""
+msgstr "bitcoindesigned.com"
 
 #: source-text.txt:4
 msgid "Is Bitcoin Anonymous?"
-msgstr ""
+msgstr "O Bitcoin é Anônimo?"
 
 #: source-text.txt:6
 msgid "What’s your level of privacy when it comes to spending bitcoins?"
-msgstr ""
+msgstr "Qual é o seu nível de privacidade quando se trata de gastar bitcoins?"
 
 #: source-text.txt:8
 msgid "Consider the following:"
-msgstr ""
+msgstr "Considere o seguinte:"
 
 #: source-text.txt:10
 msgid "Blockchain"
-msgstr ""
+msgstr "Blockchain"
 
 #: source-text.txt:12
 msgid ""
 "The Blockchain is completely transparent and it keeps records of all "
 "transactions ever made."
 msgstr ""
+"A Blockchain é totalmente transparente e mantém o registro de todas as "
+"transações já realizadas."
 
 #: source-text.txt:14
 msgid "Pretty Public"
-msgstr ""
+msgstr "Bem Público"
 
 #: source-text.txt:16
 msgid "Bitcoin Address"
-msgstr ""
+msgstr "Endereço Bitcoin"
 
 #: source-text.txt:18
 msgid ""
@@ -53,30 +55,33 @@ msgid ""
 "personal data linked to it. It’s the main identifier for the inputs and "
 "outputs of transactions."
 msgstr ""
+" É um pseudônimo criado por sua carteira sem que haja nenhuma informação "
+"pessoal sua relacionada a ele. É o pricipal identificador para os inputs e "
+"outputs das transações."
 
 #: source-text.txt:20
 msgid "Pretty Private"
-msgstr ""
+msgstr "Bem Privado"
 
 #: source-text.txt:22
 msgid "Street A"
-msgstr ""
+msgstr "Rua A"
 
 #: source-text.txt:24
 msgid "Street B"
-msgstr ""
+msgstr "Rua B"
 
 #: source-text.txt:26
 msgid "So can I be linked to my transactions?"
-msgstr ""
+msgstr "Então, eu posso ser ligado às minhas transações?"
 
 #: source-text.txt:28
 msgid "YES"
-msgstr ""
+msgstr "SIM"
 
 #: source-text.txt:30
 msgid "I’m not a criminal, so what’s wrong with that?"
-msgstr ""
+msgstr "Mas eu não sou um criminoso, por que devo me importar?"
 
 #: source-text.txt:32
 msgid ""
@@ -84,14 +89,17 @@ msgid ""
 "knows how much money you have or what are your spending habits, you can "
 "become vulnerable to attacks."
 msgstr ""
+"Pela mesma razão que você não sai mostrando seu extrato bancário para "
+"qualquer um. Se alguém sabe quanto dinheiro você tem ou quais são seus "
+"hábitos de consumo, você se torna vulnerável a golpes e ataques."
 
 #: source-text.txt:34
 msgid "How Am I Linked?"
-msgstr ""
+msgstr "Como sou ligado?"
 
 #: source-text.txt:36
 msgid "Buying goods and services:"
-msgstr ""
+msgstr "Compra de bens e serviços:"
 
 #: source-text.txt:38
 msgid ""
@@ -99,10 +107,13 @@ msgid ""
 "stores and services do (gorvernment requirement). If you pay this company "
 "with bitcoins, they will link your data to your address in their app."
 msgstr ""
+"Embora o Bitcoin não peça nenhuma informação pessoal sua, a maioria das "
+"lojas e serviços pede (exigências do governo). Se você paga uma empresa "
+"assim com btc, ela terá seus dados ligados ao seu endereço no sistema deles."
 
 #: source-text.txt:40
 msgid "Reusing addresses:"
-msgstr ""
+msgstr "Reutilização de Endereços:"
 
 #: source-text.txt:42
 msgid ""
@@ -111,10 +122,13 @@ msgid ""
 "And even worse if any of these transactions is linked with your real name in "
 "some way."
 msgstr ""
+"Se você usa o mesmo endereço para fazer várias transações, você cria um "
+"registro das suas finanças privadas de uma forma nada privada. Pior ainda se "
+"alguma dessas transações estiver ligada ao seu nome."
 
 #: source-text.txt:44
 msgid "Public Spaces:"
-msgstr ""
+msgstr "Espaços Públicos:"
 
 #: source-text.txt:46
 msgid ""
@@ -122,10 +136,13 @@ msgid ""
 "in a website, for example), you are associating it to your name or to the "
 "public image you use."
 msgstr ""
+" Se você põe seu endereço em um local muito público (para receber doações em "
+"um site, por exemplo), você o está associando ao seu nome ou à imagem "
+"pública que você usa."
 
 #: source-text.txt:48
 msgid "IP Logging:"
-msgstr ""
+msgstr "Endereço de IP:"
 
 #: source-text.txt:50
 msgid ""
@@ -133,22 +150,29 @@ msgid ""
 "send a transaction. But since full nodes also relay  transactions to the "
 "network, it can be difficult to find the exact IP address for a transaction."
 msgstr ""
+"Seu IP pode ser logado por alguém “ouvindo” a rede quando você envia uma "
+"transação. Mas como nós completos também propagam transações para a rede, "
+"achar o IP exato de uma transação pode ser uma tarefa difícil."
 
 #: source-text.txt:52
 msgid "Protect Yourself"
-msgstr ""
+msgstr "Protegendo-se"
 
 #: source-text.txt:54
 msgid ""
 "Avoid services with KYC/AML policies. And since that’s very difficult, just "
 "don’t reuse addresses in these services."
 msgstr ""
+"Evite serviços com políticas de KYC/AML. Como isso é bem difícil, apenas não "
+"reutilize endereços nestas empresas."
 
 #: source-text.txt:56
 msgid ""
 "Don’t reuse addresses at all (you can choose a Bitcoin client that does this "
 "automatically for you)."
 msgstr ""
+"Nunca reutilize endereços (você pode escolher um cliente de Bitcoin que faz "
+"isso automaticamente para você)."
 
 #: source-text.txt:58
 msgid ""
@@ -156,84 +180,96 @@ msgid ""
 "that, when you transfer the funds to a new address, it will also be easily "
 "linked to you."
 msgstr ""
+"Exponha um endereço que você não usa para mais nada e saiba que, ao "
+"transferir os fundos para um novo endereço, ele também será facilmente "
+"ligado a você."
 
 #: source-text.txt:60
 msgid ""
 "Even if it’s difficult, you might want to try tools that hide your IP "
 "address (proxy, VPN)."
 msgstr ""
+"Mesmo sendo um ataque difícil, você deveria considerar ferramentas que "
+"protegem seu IP (proxy, VPN)."
 
 #: source-text.txt:62
 msgid "Bitcoin Mixing"
-msgstr ""
+msgstr "“Mixing” de Bitcoin"
 
 #: source-text.txt:64
 msgid "(or laundering, if you’re not too shy)"
-msgstr ""
+msgstr "(ou lavagem, se você for menos tímido)"
 
 #: source-text.txt:66
 msgid "How does it work?"
-msgstr ""
+msgstr "Como funciona?"
 
 #: source-text.txt:68
 msgid "START"
-msgstr ""
+msgstr "INÍCIO"
 
 #: source-text.txt:70
 msgid "You want to improve privacy."
-msgstr ""
+msgstr "Você quer melhorar sua privacidade."
 
 #: source-text.txt:72
 msgid ""
 "That means weakening the link between an identity and a bitcoin address."
 msgstr ""
+"Isso significa enfraquecer a ligação entre identidade e endereço bitcoin."
 
 #: source-text.txt:74
 msgid "You look for a mixing service."
-msgstr ""
+msgstr "Você procura um serviço de “mixing”."
 
 #: source-text.txt:76
 msgid ""
 "For now, they are centralized services, so you have to trust them not to log "
 "you and not to run away with your money."
 msgstr ""
+"Por enquanto, são serviços centralizados. Você precisa confiar que eles não "
+"vão guardar registro da sua operação ou fugir com seu dinheiro."
 
 #: source-text.txt:78
 msgid "User"
-msgstr ""
+msgstr "Usuário"
 
 #: source-text.txt:80
 msgid "Mixer"
-msgstr ""
+msgstr "Mixer"
 
 #: source-text.txt:82
 msgid ""
 "The unspent outputs (available bitcoins) of many people are brought together."
 msgstr ""
+"Os outputs não gastos (btcs disponíveis) de várias pessoas são agrupados."
 
 #: source-text.txt:84
 msgid ""
 "These bitcoins are transacted in a way that mixes them up (details may vary)."
 msgstr ""
+"Esses btcs são transacionados de forma que se misturam (os detalhes variam). "
 
 #: source-text.txt:86
 msgid ""
 "You receive your amount back, but they are not your old bitcoins anymore."
-msgstr ""
+msgstr "Você recebe sua quantia de volta, mas não são mais os mesmos bitcoins."
 
 #: source-text.txt:88
 msgid "FINISH"
-msgstr ""
+msgstr "FINAL"
 
 #: source-text.txt:90
 msgid "Nice to know:"
-msgstr ""
+msgstr "Bom Saber:"
 
 #: source-text.txt:92
 msgid ""
 "It doesn't terminate your link your the bitcoins, but it becomes pretty "
 "unfeasible to track you."
 msgstr ""
+"Isso não elimina sua ligação com os bitcoins, mas torna bem inviável de "
+"relacionar."
 
 #: source-text.txt:94
 msgid ""
@@ -241,59 +277,70 @@ msgid ""
 "to the activity the other person was doing. (Not something to worry a lot, "
 "but important to know)."
 msgstr ""
+"Você terminará com uma fraca ligação com os btcs de outras pessoas e, "
+"consequentemente, com a atividade destas pessoas. (Não precisa se preocupar "
+"muito, mas é importante saber)."
 
 #: source-text.txt:96
 msgid "It’s not an easy process for large amounts of bitcoins."
-msgstr ""
+msgstr "Não é um processo fácil para grandes somas de bitcoins."
 
 #: source-text.txt:98
 msgid "You might have to pay a fee to use this type of service."
-msgstr ""
+msgstr "Você pode ter que pagar taxas para usar esse tipo de serviço."
 
 #: source-text.txt:100
 msgid "BTC x Cash"
-msgstr ""
+msgstr "BTC x Dinheiro em Espécie"
 
 #: source-text.txt:102
 msgid ""
 "Because of the blockchain’s transparency, cash is still more anonymous than "
 "Bitcoin."
 msgstr ""
+"Por conta da transparência da Blockchain, dinheiro vivo ainda é mais anônimo "
+"do que Bitcoin."
 
 #: source-text.txt:104
 msgid ""
 "That’s why is not very accurate to say criminals use Bitcoin for its "
 "anonymity."
 msgstr ""
+"Por isso não faz muito sentido dizer que criminosos usam Bitcoin apenas por "
+"conta da sua alta privacidade."
 
 #: source-text.txt:106
 msgid "Bottom Line"
-msgstr ""
+msgstr "Resumindo"
 
 #: source-text.txt:108
 msgid "“Bitcoin is PRETTY Anonymous”"
-msgstr ""
+msgstr "“O Bitcoin é BEM Anônimo”"
 
 #: source-text.txt:110
 msgid ""
 "People won’t see your balance with the ease that your bank manager or any "
 "governmental agent can if they make the call."
 msgstr ""
+"Ninguém verá seus fundos com a facilidade que seu gerente do banco ou "
+"qualquer agente do governo pode se fizer uma ligação."
 
 #: source-text.txt:112
 msgid ""
 "But if someone is REALLY looking for you, know that is not impossible to be "
 "found."
 msgstr ""
+" Mas se alguém estiver MESMO procurando você, saiba que não é impossível ser "
+"achado."
 
 #: source-text.txt:114
 msgid "Main Source: https://bitcoin.org/en/protect-your-privacy"
-msgstr ""
+msgstr "Principal Fonte: https://bitcoin.org/en/protect-your-privacy"
 
 #: source-text.txt:116
 msgid "Author: Patrícia Estevão"
-msgstr ""
+msgstr "Autora: Patrícia Estevão"
 
 #: source-text.txt:117
 msgid "Editor: Marco Agner"
-msgstr ""
+msgstr "Editor: Marco Agner"

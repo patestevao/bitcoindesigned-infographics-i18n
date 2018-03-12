@@ -1,125 +1,133 @@
-#. extracted from source-text.txt
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-12 10:44+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-03-12 10:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: source-text.txt:2
 msgid "What does it really mean TO HAVE BITCOINS?"
-msgstr ""
+msgstr "O que realmente significa POSSUIR BITCOINS?"
 
 #: source-text.txt:4
 msgid "bitcoindesigned.com"
-msgstr ""
+msgstr "bitcoindesigned.com"
 
 #: source-text.txt:6
 msgid "What is a private key exactly?"
-msgstr ""
+msgstr "O que é uma chave privada exatamente?"
 
 #: source-text.txt:8
 msgid ""
 "The private key is a number (secret, hopefully) you use to sign your "
 "transactions and prove that you own some bitcoins."
 msgstr ""
+"A chave privada é um número (de preferência secreto) que você usa para "
+"assinar suas transações e provar que você é dono de alguns bitcoins."
 
 #: source-text.txt:10
 msgid "Your home key"
-msgstr ""
+msgstr "Sua Chave de Casa"
 
 #: source-text.txt:12
 msgid "Your private key"
-msgstr ""
+msgstr "Sua Chave Privada"
 
 #: source-text.txt:14
 msgid "Bitcoin Ownership Process"
-msgstr ""
+msgstr "O Processo de Possuir Bitcoins"
 
 #: source-text.txt:16
 msgid "START HERE"
-msgstr ""
+msgstr "COMECE AQUI"
 
 #: source-text.txt:18
 msgid "Someone sends you bitcoins."
-msgstr ""
+msgstr "Alguém te envia bitcoins."
 
 #: source-text.txt:20
 msgctxt "source-text.txt:20"
 msgid "The transaction is mined."
-msgstr ""
+msgstr "A transação é minerada."
 
 #: source-text.txt:22
 msgid ""
 "The blockchain registers that you have the right to spend those bitcoins."
-msgstr ""
+msgstr "A Blockchain registra que você tem o direito de gastar aqueles btcs."
 
 #: source-text.txt:24
 msgid "No bitcoin is saved in your computer."
-msgstr ""
+msgstr "Nenhum btc é salvo em seu computador."
 
 #: source-text.txt:26
 msgid "You see a pretty mug and want to buy it."
-msgstr ""
+msgstr "Você vê uma caneca bonita e quer comprá-la."
 
 #: source-text.txt:28
 msgid "You have your private key saved in a file."
-msgstr ""
+msgstr "Você tem sua chave privada salva em um arquivo."
 
 #: source-text.txt:30
 msgid "You use the private key to sign the transaction."
-msgstr ""
+msgstr "Você usa a chave privada para assinar a transação."
 
 #: source-text.txt:32
 msgctxt "source-text.txt:32"
 msgid "The transaction is mined."
-msgstr ""
+msgstr "A transação é minerada."
 
 #: source-text.txt:34
 msgid "The blockchain registers that you can’t spend those bitcoins anymore."
-msgstr ""
+msgstr "A Blockchain registra que você não pode mais gastar os btcs."
 
 #: source-text.txt:36
 msgid "THE END"
-msgstr ""
+msgstr "FIM"
 
 #: source-text.txt:38
 msgid "Conclusions"
-msgstr ""
+msgstr "Conclusões"
 
 #: source-text.txt:40
 msgid "HAVING BITCOINS"
-msgstr ""
+msgstr "TER BITCOINS"
 
 #: source-text.txt:42
 msgid "HAVING PRIVATE KEY"
-msgstr ""
+msgstr "TER CHAVE PRIVADA"
 
 #: source-text.txt:44
 msgid "(So keep it safe, pal)"
-msgstr ""
+msgstr "(Então trate de mantê-la segura)"
 
 #: source-text.txt:46
 msgid ""
 "That allows you to back up your wallet in the most creative ways and "
 "virtually infinite times."
 msgstr ""
+"Isso permite que você faça backup da sua carteira das formas mais criativas "
+"possíveis e virtualmente infinitas vezes."
 
 #: source-text.txt:48
 msgid "Maybe not the best idea..."
-msgstr ""
+msgstr "Talvez não seja a melhor ideia de todas…"
 
 #: source-text.txt:50
 msgid "Author: Patrícia Estevão"
-msgstr ""
+msgstr "Autora: Patrícia Estevão"
 
 #: source-text.txt:51
 msgid "Editor: Marco Agner"
-msgstr ""
+msgstr "Editor: Marco Agner"
+
+#~ msgctxt "./what-does-it-really-mean-to-have-bitcoins/source-text.txt:32"
+#~ msgid "The transaction is mined."
+#~ msgstr "A transação é minerada."

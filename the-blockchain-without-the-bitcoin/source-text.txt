@@ -1,4 +1,4 @@
-The Blockchain without The Bitcoin
+The Blockchain 'without' The Bitcoin
 
 bitcoindesigned.com
 
@@ -12,7 +12,7 @@ It’s a protocol for a decentralized peer-to-peer network that creates consensu
 
 What is bitcoin (with lowercase b)?
 
-The currency  (token) issued in the mining process.
+The currency (token) issued in the mining process.
 
 What is the blockchain?
 

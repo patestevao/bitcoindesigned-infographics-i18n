@@ -1,207 +1,235 @@
-#. extracted from source-text.txt
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-12 11:23+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-03-12 11:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: source-text.txt:2
 msgid "The Blockchain 'without' The Bitcoin"
-msgstr ""
+msgstr "A Blockchain ‘sem’ O Bitcoin"
 
 #: source-text.txt:4
 msgid "bitcoindesigned.com"
-msgstr ""
+msgstr "bitcoindesigned.com"
 
 #: source-text.txt:6
 msgid ""
 "A little more on the idea that “the real technology is the Blockchain, we "
 "should implement it without this silly Bitcoin”."
 msgstr ""
+"Um pouco mais sobre a ideia de que “a verdadeira tecnologia é a Blockchain, "
+"melhor usá-la sem essa bobagem de Bitcoin”."
 
 #: source-text.txt:8
 msgid "First things first - in very simple words"
-msgstr ""
+msgstr "Alguns Princípios Básicos - Em Poucas Palavras"
 
 #: source-text.txt:10
 msgid "What is Bitcoin (with capital B)?"
-msgstr ""
+msgstr "O que é Bitcoin (com B maiúsculo)?"
 
 #: source-text.txt:12
 msgid ""
 "It’s a protocol for a decentralized peer-to-peer network that creates "
 "consensus without needing a central authority to provide trust."
 msgstr ""
+"É o protocolo para uma rede p2p descentralizada, que cria consenso sem "
+"precisar de uma autoridade central para prover confiança."
 
 #: source-text.txt:14
 msgid "What is bitcoin (with lowercase b)?"
-msgstr ""
+msgstr "O que é o bitcoin (com b minúsculo)?"
 
 #: source-text.txt:16
 msgid "The currency (token) issued in the mining process."
-msgstr ""
+msgstr "A moeda emitida no processo de mineração."
 
 #: source-text.txt:18
 msgid "What is the blockchain?"
-msgstr ""
+msgstr "O que é a blockchain?"
 
 #: source-text.txt:20
 msgid ""
 "It’s the public ledger where the network records (transactions) are written."
-msgstr ""
+msgstr "É o livro-razão onde ficam registradas todas as transações da rede."
 
 #: source-text.txt:22
 msgid "How does it work?"
-msgstr ""
+msgstr "Como ela funciona?"
 
 #: source-text.txt:24
 msgid ""
 "Nodes verify and propagate transactions while miners gain permission to "
 "write new blocks in it."
 msgstr ""
+"Os nós verificam e propagam as transações enquanto mineradores ganham "
+"permissão para escrever novos blocos."
 
 #: source-text.txt:26
 msgid "How do miners do it?"
-msgstr ""
+msgstr "Como os mineradores fazem isso?"
 
 #: source-text.txt:28
 msgid ""
 "Solving mathematical problems using a lot of processing power (read hardware "
 "and electricity costs)."
 msgstr ""
+"Resolvendo problemas matemáticos que exigem grande poder de processamento "
+"(leia custos de hardware e de eletricidade)."
 
 #: source-text.txt:30
 msgid "Why do they do it?"
-msgstr ""
+msgstr "Por que eles fazem isso?"
 
 #: source-text.txt:32
 msgid ""
-"Because their investment of time and resources is rewarded with bitcoins ("
-"currently 12.5 BTC per block mined)."
+"Because their investment of time and resources is rewarded with bitcoins "
+"(currently 12.5 BTC per block mined)."
 msgstr ""
+"Porque o investimento de tempo e recursos deles é recompensado com bitcoins "
+"(atualmente, 12.5 BTC por bloco minerado)."
 
 #: source-text.txt:34
 msgid "Isn’t it like a database?"
-msgstr ""
+msgstr "Não é tipo um banco de dados?"
 
 #: source-text.txt:36
 msgid ""
 "It has the idea of a database, but one that’s decentralized and still "
 "guarantees consensus and that the entries are true."
 msgstr ""
+"Tem a ideia de um banco de dados, mas é descentralizado e ainda assim "
+"garante o consenso e a validade dos registros."
 
 #: source-text.txt:38
 msgid "Why can we truste it?"
-msgstr ""
+msgstr "Por que podemos confiar nisso?"
 
 #: source-text.txt:40
 msgid "Because math neither lies nor has political or economic interests."
 msgstr ""
+"Porque a matemática não mente, nem tem interesses econômicos e políticos."
 
 #: source-text.txt:42
 msgid "Why don’t they do bad stuff to make more money?"
-msgstr ""
+msgstr "Por que eles não trapaceam para ganhar mais dinheiro?"
 
 #: source-text.txt:44
 msgid ""
 "Because Bitcoin uses Games Theory and incentives to make it more profitable "
 "to be honest."
 msgstr ""
+"Porque o Bitcoin usa incentivos e Teoria de Jogos para fazer com que seja "
+"mais vantajoso ser honesto com o sistema."
 
 #: source-text.txt:46
 msgid "Now that we settled that, we can start imagining…"
-msgstr ""
+msgstr "Tendo entendido um pouco mais, já podemos imaginar…"
 
 #: source-text.txt:48
 msgid ""
 "Ok, you want the blockchain but not bitcoins (or any other token with value)."
 msgstr ""
+"Ok, você quer a Blockchain mas não o Bitcoin (ou qualquer outra moeda com um "
+"valor)."
 
 #: source-text.txt:50
 msgid "And you need miners to write your new blocks."
-msgstr ""
+msgstr "E você precisa de mineradores para escrever as transações."
 
 #: source-text.txt:52
 msgid "That leaves 2 scenarios:"
-msgstr ""
+msgstr "Isso nos deixa com 2 cenários:"
 
 #: source-text.txt:54
 msgid "If you are imagining decentralized mining (like in Bitcoin)."
 msgstr ""
+"Se você está imaginando uma mineração descentralizada (como no Bitcoin)."
 
 #: source-text.txt:56
 msgid ""
 "You are automatically supposing the miners are going to spend time and money "
 "just for fun or for the goodness in their hearts."
 msgstr ""
+"Você então está supondo que os mineradores vão gastar tempo e recursos "
+"apenas por diversão ou pela bondade em seus corações."
 
 #: source-text.txt:58
 msgid "Sorry, that’s not very likely."
-msgstr ""
+msgstr "Desculpe, isso não é muito provável."
 
 #: source-text.txt:60
 msgid ""
 "If you know people won’t mine without an incentive (that’s a good start)."
 msgstr ""
+"Se você sabe que não haverá mineradores sem um incentivo (já é um bom "
+"começo)."
 
 #: source-text.txt:62
 msgid ""
 "You will mine for your own (in your company, institution or other entity "
 "that chooses to use the blockchain)."
 msgstr ""
+"Você vai minerar por si próprio (em sua empresa, organização ou outra "
+"entidade que tenha escolhido usar a Blockchain)."
 
 #: source-text.txt:64
 msgid "Congratulations! You’ve just created a slow database."
-msgstr ""
+msgstr "Parabéns! Você criou um banco de dados lento."
 
 #: source-text.txt:66
 msgid "Conclusions"
-msgstr ""
+msgstr "Conclusões"
 
 #: source-text.txt:68
 msgid ""
 "The blockchain is pretty inefficient (slow and resource-consuming) if used "
 "just for registering information without a token with value."
 msgstr ""
+"A Blockchain é bem ineficiente (lenta e consome muitos recursos) para que "
+"seja usada apenas para guardar informações, sem haver uma moeda."
 
 #: source-text.txt:70
 msgid ""
 "The amount of resources “wasted” in mining only makes sense because it "
 "allows a decentralized and authority-free security."
 msgstr ""
+"A quantidade de recursos “desperdiçados” na mineração só faz sentido porque "
+"permite uma segurança descentralizada e sem autoridade."
 
 #: source-text.txt:72
 msgid "In other words... (though not considering many technical aspects)"
-msgstr ""
+msgstr "Em outras palavras… (e desconsiderando muitos aspectos técnicos)"
 
 #: source-text.txt:74
 msgid "When you say:"
-msgstr ""
+msgstr "Quando você diz:"
 
 #: source-text.txt:76
 msgid "Bitcoin is nothing, the real technology is the Blockchain."
-msgstr ""
+msgstr "Bitcoin não é nada, a verdadeira tecnologia é a Blockchain."
 
 #: source-text.txt:78
 msgid "It sounds as logical as:"
-msgstr ""
+msgstr "É tão lógico quanto dizer:"
 
 #: source-text.txt:80
 msgid "This Internet is nothing, the really cool thing it’s HTML!"
-msgstr ""
+msgstr "Essa coisa de Internet não é nada, a verdadeira tecnologia é o HTML!"
 
 #: source-text.txt:82
 msgid "Author: Patrícia Estevão"
-msgstr ""
+msgstr "Autora: Patrícia Estevão"
 
 #: source-text.txt:83
 msgid "Editor: Marco Agner"
-msgstr ""
+msgstr "Editor: Marco Agner"

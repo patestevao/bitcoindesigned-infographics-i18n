@@ -1,77 +1,86 @@
-#. extracted from source-text.txt
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-12 10:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-03-12 10:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: source-text.txt:2
 msgid "WHAT IS BITCOIN? - The Currency"
-msgstr ""
+msgstr "O QUE É BITCOIN? - A moeda"
 
 #: source-text.txt:4
 msgid "bitcoindesigned.com"
-msgstr ""
+msgstr "bitcoindesigned.com"
 
 #: source-text.txt:6
 msgid "breaking in pieces"
-msgstr ""
+msgstr "pensando por partes"
 
 #: source-text.txt:8
 msgid "Digital Currency"
-msgstr ""
+msgstr "Moeda Digital"
 
 #: source-text.txt:10
 msgid ""
 "It’s all about ones and zeros, meaning it has no physical form such as a "
 "coin."
 msgstr ""
+"É tudo sobres zeros e uns, isto é, não existe uma forma física do bitcoin, "
+"como uma nota de dinheiro."
 
 #: source-text.txt:12
 msgid "Cryptocurrency"
-msgstr ""
+msgstr "Criptomoeda"
 
 #: source-text.txt:14
 msgid ""
 "Based on mathematics and cryptography. Which means it can’t be counterfeit - "
 "math doesn’t lie."
 msgstr ""
+"Baseada em matemática e criptografia. Isso significa que ela não pode ser "
+"falsificada - a matemática não mente."
 
 #: source-text.txt:16
 msgid "limited amount"
-msgstr ""
+msgstr "emissão limitada"
 
 #: source-text.txt:18
 msgid "There is a limit of roughly 21 million bitcoins to be ever issued."
-msgstr ""
+msgstr "Apenas cerca de 21 milhões de bitcoins podem ser emitidos."
 
 #: source-text.txt:20
 msgid ""
 "It doesn’t allow anyone to print more bitcoins recklessly, which preserves "
 "the currency value - it’s scarce."
 msgstr ""
+"Isso evita que alguém comece a imprimir mais bitcoins e, assim, preserva o "
+"valor da moeda - ela é escassa."
 
 #: source-text.txt:22
 msgid "ownership records"
-msgstr ""
+msgstr "registros de posse"
 
 #: source-text.txt:24
 msgid ""
 "Bitcoin ownership is actually a record on the Blockchain - this big "
 "decentralized ledger - saying those bitcoins were transferred to you."
 msgstr ""
+"A posse de bitcoins é, na verdade, um registro na Blockchain - um livro-"
+"razão descentralizado - dizendo que aqueles bitcoins foram transferidos a "
+"você."
 
 #: source-text.txt:26
 msgid "mining"
-msgstr ""
+msgstr "mineração"
 
 #: source-text.txt:28
 msgid ""
@@ -79,70 +88,85 @@ msgid ""
 "for writing transactions and those who do it are rewarded with transaction "
 "fees and new bitcoins, which is how the currency is issued."
 msgstr ""
+"É um tipo de problema matemático que precisa de muito poder de "
+"processamento. É usado para escrever transações e aqueles que o resolvem são "
+"remunerados com taxas de transação e novos bitcoins, que são emitidos neste "
+"processo."
 
 #: source-text.txt:30
 msgid "divisibility"
-msgstr ""
+msgstr "divisibilidade"
 
 #: source-text.txt:32
 msgid ""
 "The smallest unit of Bitcoin is a Satoshi; it represents one hundred "
 "millionth of a bitcoin. But, if needed, this part can become even smaller."
 msgstr ""
+"A menor unidade do bitcoin é um satoshi; ele representa a fração um sobre "
+"cem milhões de um bitcoin. Mas, se necessário, essa unidade pode se tornar "
+"ainda menor."
 
 #: source-text.txt:34
 msgid "the features"
-msgstr ""
+msgstr "as características"
 
 #: source-text.txt:36
 msgid "or... Why everyone is so crazy about it"
-msgstr ""
+msgstr "ou… Porque todo mundo é louco por isso"
 
 #: source-text.txt:38
 msgid "Critical (break these and Bitcoin will never be the same)"
-msgstr ""
+msgstr "Críticas (se elas quebrarem, o bitcoin nunca mais será o mesmo)"
 
 #: source-text.txt:40
 msgid "Decentralized"
-msgstr ""
+msgstr "Descentralizado"
 
 #: source-text.txt:42
 msgid ""
 "No central bank can freeze your accounts ou implement poorly conceived "
 "policies that devalue your currency."
 msgstr ""
+"Nenhum banco central pode implementar políticas irresponsáveis que "
+"desvalorizam seu dinheiro ou congelar suas contas."
 
 #: source-text.txt:44
 msgid "No Red-Tape"
-msgstr ""
+msgstr "Sem burocracia"
 
 #: source-text.txt:46
 msgid "Anyone can use bitcoin, no questions, no documents and no custody fees."
 msgstr ""
+"Qualquer um pode usar bitcoin, sem perguntas, sem documentos e sem taxas de "
+"custódia."
 
 #: source-text.txt:48
 msgid "Pretty Anonymous"
-msgstr ""
+msgstr "Bastante Anônimo"
 
 #: source-text.txt:50
 msgid ""
 "Your name isn’t linked to your transactions, making it a lot more private "
 "and safe than regular bank operations and credit card payments."
 msgstr ""
+"Seu nome não é ligado às suas transações, fazendo com que seja mais privado "
+"e seguro do que operações bancárias convencionais e cartões de crédito."
 
 #: source-text.txt:52
 msgid "Non-repudiable"
-msgstr ""
+msgstr "Não-retornável"
 
 #: source-text.txt:54
 msgid ""
 "Once a bitcoin transaction is confirmed, it can’t be reverted unless there "
 "is a voluntary agreement between the two parties - such as a store policy."
 msgstr ""
+"Uma vez que a transação é confirmada, ela não pode ser revertida, a não ser "
+"que haja um acordo voluntário entre as partes - como a política de uma loja."
 
 #: source-text.txt:56
 msgid "Transparent"
-msgstr ""
+msgstr "Transparente"
 
 #: source-text.txt:58
 msgid ""
@@ -150,75 +174,97 @@ msgid ""
 "know the owners of all addresses, only those identities that were entrusted "
 "to you."
 msgstr ""
+"Todos podem checar qualquer endereço e suas transações - no entanto, você "
+"não sabe a identidade dos donos de todos endereços, apenas daqueles que "
+"foram confiados a você."
 
 #: source-text.txt:60
 msgid "changeable (market development might change these a little)"
-msgstr ""
+msgstr "mutáveis (a evolução do mercado pode mudar um pouco estas)"
 
 #: source-text.txt:62
 msgid "Fast"
-msgstr ""
+msgstr "Rápido"
 
 #: source-text.txt:64
 msgid "Transactions can reach anyone in any part of the world within minutes."
 msgstr ""
+"Transações podem alcançar qualquer parte do mundo em questão de minutos."
 
 #: source-text.txt:66
 msgctxt "source-text.txt:66"
 msgid "Possible Change"
-msgstr ""
+msgstr "Possível Mudança"
 
 #: source-text.txt:68
 msgid ""
 "If the volume of transactions grows a lot - say, bitcoin becoming mainstream "
 "- transactions will take longer to be cleared on the blockchain."
 msgstr ""
+"Se o volume de transações aumentar muito - se o bitcoin se tornar mainstream "
+"- transações levarão mais tempo para serem confirmadas."
 
 #: source-text.txt:70
 msgctxt "source-text.txt:70"
 msgid "What Might Happen"
-msgstr ""
+msgstr "O Que Pode Acontecer"
 
 #: source-text.txt:72
 msgid ""
 "Besides measures to scale Bitcoin’s core, small and quick transactions will "
 "probably be cleared by third parties or other layers over the blockchain."
 msgstr ""
+"Além de medidas para escalar o Bitcoin, pequenas transações provavelmente "
+"serão confirmadas por empresas ou outras camadas da blockchain."
 
 #: source-text.txt:74
 msgid "Cheap"
-msgstr ""
+msgstr "Barato"
 
 #: source-text.txt:76
 msgid "Transaction fees are low - under 1 USD at the time of writing."
 msgstr ""
+"Taxas de transações são baratas - menos de 1 dólar americano no momento da "
+"escrita."
 
 #: source-text.txt:78
 msgctxt "source-text.txt:78"
 msgid "Possible Change"
-msgstr ""
+msgstr "Possível Mudança"
 
 #: source-text.txt:80
 msgid ""
 "When bitcoin issuing diminishes, the miner’s reward will come mostly from "
 "transaction fees, which will be higher."
 msgstr ""
+"Quando a emissão de bitcoins diminuir, a recompensa dos mineradores virá "
+"majoritariamente das taxas de transações, que serão mais caras."
 
 #: source-text.txt:82
 msgctxt "source-text.txt:82"
 msgid "What Might Happen"
-msgstr ""
+msgstr "O Que Pode Acontecer"
 
 #: source-text.txt:84
 msgid ""
 "Predictive calculations indicate that fees will still be very afordable, "
 "even when covering all miners expenses alone."
 msgstr ""
+"Cálculos preditivos indicam que as taxas continuarão razoavelmente baratas, "
+"mesmo tendo que cobrir todas as despesas dos mineradores."
 
 #: source-text.txt:86
 msgid "Author: Patrícia Estevão"
-msgstr ""
+msgstr "Autora: Patrícia Estevão"
 
 #: source-text.txt:87
 msgid "Editor: Marco Agner"
-msgstr ""
+msgstr "Editor: Marco Agner"
+
+#~ msgctxt "./what-is-bitcoin-the-currency/source-text.txt:78"
+#~ msgid "Possible Change"
+#~ msgstr "Possível Mudança"
+
+#~ msgctxt "./what-is-bitcoin-the-currency/source-text.txt:82"
+#~ msgid "What Might Happen"
+#~ msgstr "O Que Pode Acontecer"

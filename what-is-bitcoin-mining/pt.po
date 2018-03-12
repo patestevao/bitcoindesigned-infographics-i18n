@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"PO-Revision-Date: 2018-03-12 11:28+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt\n"
+
+#: what-is-bitcoin-mining/source-text.txt:2
+msgid "THE BITCOIN MINING SAGA - PART I"
+msgstr "MINERAÇÃO DE BITCOIN: A SAGA - PARTE I"
+
+#: what-is-bitcoin-mining/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: what-is-bitcoin-mining/source-text.txt:6
+msgid "What is Bitcoin Mining?"
+msgstr "O que é a mineração de Bitcoin?"
+
+#: what-is-bitcoin-mining/source-text.txt:8
+msgid "It’s a decentralized computational process that serves 2 purposes:"
+msgstr "É um processo computacional descentralizado que serve a 2 propósitos:"
+
+#: what-is-bitcoin-mining/source-text.txt:10
+msgid ""
+"Confirms transactions with security when enough computational effort is "
+"devoted to a block."
+msgstr ""
+"Confirma transações de maneira segura quando o bloco teve um tanto de poder "
+"computacional dedicado a ele."
+
+#: what-is-bitcoin-mining/source-text.txt:12
+msgid "Creates (issues) new bitcoins in each block."
+msgstr "Cria (emite) novos bitcoins em cada bloco."
+
+#: what-is-bitcoin-mining/source-text.txt:14
+msgid "It goes like this:"
+msgstr "Funciona assim:"
+
+#: what-is-bitcoin-mining/source-text.txt:16
+msgid "Bundle transactions in a block."
+msgstr "Junta transações em um bloco."
+
+#: what-is-bitcoin-mining/source-text.txt:18
+msgid "Verify if transactions are valid."
+msgstr "Verifica se as transações são válidas."
+
+#: what-is-bitcoin-mining/source-text.txt:20
+msgid ""
+"Select the header of the most recent block and insert it into the new block "
+"as a hash (creates a link between blocks)."
+msgstr ""
+"Seleciona o cabeçalho do último bloco e o insere no novo bloco como um hash "
+"(cria um link entre os blocos)."
+
+#: what-is-bitcoin-mining/source-text.txt:22
+msgid "Solve the Proof of Work problem!"
+msgstr "Resolve o desafio de Proof of Work!"
+
+#: what-is-bitcoin-mining/source-text.txt:24
+msgid ""
+"When the solution is found, the new block is added to the local blockchain "
+"and propagated to the network."
+msgstr ""
+"Uma vez solucionado, o novo bloco é adicionado à cópia local da Blockchain "
+"e propagado para a rede."
+
+#: what-is-bitcoin-mining/source-text.txt:26
+msgid "Author: Patrícia Estevão"
+msgstr "Autora: Patrícia Estevão"
+
+#: what-is-bitcoin-mining/source-text.txt:27
+msgid "Editor: Marco Agner"
+msgstr "Editor: Marco Agner"

@@ -64,7 +64,7 @@ Transactions can reach anyone in any part of the world within minutes.
 
 Possible Change
 
-If the volume of transactions grows  a lot  - say, bitcoin becoming mainstream - transactions will take longer to be cleared on the blockchain.
+If the volume of transactions grows a lot - say, bitcoin becoming mainstream - transactions will take longer to be cleared on the blockchain.
 
 What Might Happen
 
@@ -72,7 +72,7 @@ Besides measures to scale Bitcoin’s core, small and quick transactions will pr
 
 Cheap
 
-Transaction fees are low - currently around 1 USD if you don’t want to wait too much for a confirmation.
+Transaction fees are low - under 1 USD at the time of writing.
 
 Possible Change
 

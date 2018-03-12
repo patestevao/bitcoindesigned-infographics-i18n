@@ -1,41 +1,43 @@
-#. extracted from source-text.txt
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-12 11:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-03-12 11:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: source-text.txt:2
 msgid "What You Need To Know About Bitcoin 'PAPER WALLET' COLD STORAGE"
-msgstr ""
+msgstr "O que você precisa saber sobre BITCOIN ‘PAPER WALLET’ em COLD STORAGE"
 
 #: source-text.txt:4
 msgid "bitcoindesigned.com"
-msgstr ""
+msgstr "bitcoindesigned.com"
 
 #: source-text.txt:6
 msgid "Paper Wallet in a few words:"
-msgstr ""
+msgstr "“Paper Wallet” em algumas palavras:"
 
 #: source-text.txt:8
 msgid "A way to store your bitcoins as a physical object."
 msgstr ""
+"Uma forma de guardar seus bitcoins em um objeto físico (mais "
+"especificamente, em papel)."
 
 #: source-text.txt:10
 msgid "It’s a cold storage when the private key is generated and kept offline."
-msgstr ""
+msgstr "É um “cold storage” quando a chave privada é gerada e mantida offline."
 
 #: source-text.txt:12
 msgid "How to create it PROPERLY:"
-msgstr ""
+msgstr "Como criá-la CORRETAMENTE:"
 
 #: source-text.txt:14
 msgid ""
@@ -43,108 +45,123 @@ msgid ""
 "pair and printing it. But since we want it to be safe, here are the best "
 "practices:"
 msgstr ""
+"Criar uma paper wallet consiste basicamente em gerar e imprimir um par de "
+"chaves pública/privada. Mas como queremos segurança, aqui vão as boas "
+"práticas:"
 
 #: source-text.txt:16
 msgid ""
 "Use a clean operating system, like a Linux you boot from a new USB flash "
 "drive."
 msgstr ""
+"Use um sistema operacional limpo, como um Linux direto de um USB flash drive."
 
 #: source-text.txt:18
 msgid "Use an application that supports private key encryption."
-msgstr ""
+msgstr "Use uma aplicação que possa criptografar a chave privada."
 
 #: source-text.txt:20
 msgid "Take your computer offline before generating the keys."
-msgstr ""
+msgstr "Deixe seu computador offline antes de gerar as chaves."
 
 #: source-text.txt:22
 msgid "Use a printer with no network connections."
-msgstr ""
+msgstr "Use uma impressora sem conexões wifi."
 
 #: source-text.txt:24
 msgid "Why you might want it?"
-msgstr ""
+msgstr "Por que você poderia querer uma?"
 
 #: source-text.txt:26
 msgid "Since it’s completely offline, it protects you against network attacks."
-msgstr ""
+msgstr "Como é feita completamente offline, ela te protege de ataques na rede."
 
 #: source-text.txt:28
 msgid ""
 "Ideal for long-term storage, with your absolute control over the bitcoins."
 msgstr ""
+"Ideal para guardar a longo prazo, mantendo total controle sobre os btcs."
 
 #: source-text.txt:30
 msgid "It’s a nice way to give bitcoins as a gift."
-msgstr ""
+msgstr "É um bom jeito de dar bitcoins de presente."
 
 #: source-text.txt:32
 msgid ""
 "It requires 'physical safety'. Now, some may say this is a drawback, but "
 "consider this:"
 msgstr ""
+"Requer ‘segurança física’. Alguns vêem isso como uma desvantagem, mas "
+"considere:"
 
 #: source-text.txt:34
 msgid "Time of experience we have in guarding physical stuff."
-msgstr ""
+msgstr "Tempo de experiência que temos com a segurança de objetos físicos."
 
 #: source-text.txt:36
 msgid "Time of experience we have in guarding digital stuff."
-msgstr ""
+msgstr "Tempo de experiência que temos com a segurança digital."
 
 #: source-text.txt:38
 msgid ""
 "It allows you to have extra security with a multi-signature wallet. It goes "
 "like this:"
 msgstr ""
+"Permite ter uma segurança extra através de carteiras multi-assinatura. É "
+"assim:"
 
 #: source-text.txt:40
 msgid ""
 "Split your walletinto “n” pieces. You’ll need “m” of the “n” pieces to "
 "access your funds."
 msgstr ""
+"Divide sua carteira em “n” partes, de forma que “m” das “n” partes serão "
+"precisas para gastar os fundos."
 
 #: source-text.txt:42
 msgid "Hide them in safe places."
-msgstr ""
+msgstr "Esconda as partes em locais seguros."
 
 #: source-text.txt:44
 msgid "Your house"
-msgstr ""
+msgstr "Sua casa"
 
 #: source-text.txt:46
 msgid "Your mama’s"
-msgstr ""
+msgstr "Casa da mãe"
 
 #: source-text.txt:48
 msgid "The bank safe"
-msgstr ""
+msgstr "Cofre do banco"
 
 #: source-text.txt:50
 msgid "Company building"
-msgstr ""
+msgstr "Prédio da empresa"
 
 #: source-text.txt:52
 msgid "Gollum’s cave"
-msgstr ""
+msgstr "Caverna do Gollum"
 
 #: source-text.txt:54
 msgid ""
 "If malicious parties find any of the pieces - or if Bilbo decides the ring "
 "is worth less than your bitcoins..."
 msgstr ""
+"Se criminosos acharem alguma das partes - ou se o Bilbo decidir que o anel "
+"vale menos que seus btcs…"
 
 #: source-text.txt:56
 msgid ""
 "You can still pay for your vacatoin in Fiji, because your bitcoins are still "
 "yours and you have time to redo the safety process in a new wallet."
 msgstr ""
+"Você ainda pode pagar suas férias em Fiji, porque seus btcs ainda são seus e "
+"você tem tempo de refazer o processo de segurança em uma nova carteira."
 
 #: source-text.txt:58
 msgid "Author: Patrícia Estevão"
-msgstr ""
+msgstr "Autora: Patrícia Estevão"
 
 #: source-text.txt:59
 msgid "Editor: Marco Agner"
-msgstr ""
+msgstr "Editor: Marco Agner"
