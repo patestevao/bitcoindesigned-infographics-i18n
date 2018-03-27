@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"PO-Revision-Date: 2018-03-27 17:08+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: what-is-a-multisig-wallet/source-text.txt:2
+msgid "The Lightning network basics series"
+msgstr "Основы Lightning Network"
+
+#: what-is-a-multisig-wallet/source-text.txt:4
+msgid "What is a multisig (aka multisignature) wallet?"
+msgstr "Что такое кошелёк с мультиподписью (multisig)?"
+
+#: what-is-a-multisig-wallet/source-text.txt:6
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: what-is-a-multisig-wallet/source-text.txt:8
+msgid "regular wallet"
+msgstr "обычный кошелёк"
+
+#: what-is-a-multisig-wallet/source-text.txt:10
+msgid ""
+"One key is required to authorize money transfer, i.e. sign a transaction."
+msgstr ""
+"Чтобы сделать перевод, т.е. подписать транзакцию, требуется один ключ."
+
+#: what-is-a-multisig-wallet/source-text.txt:12
+msgid "Multisig wallet"
+msgstr "Кошелёк с мультиподписью"
+
+#: what-is-a-multisig-wallet/source-text.txt:14
+msgid "More than one key may be required to sign each transaction."
+msgstr "Чтобы подписать транзакцию требуется более одного ключа."
+
+#: what-is-a-multisig-wallet/source-text.txt:16
+msgid "m-of-n"
+msgstr "m-из-n"
+
+#: what-is-a-multisig-wallet/source-text.txt:18
+msgid ""
+"The m-of-n scheme means that the wallet is associated with m keys and each "
+"time a transaction needs to be broadcast, n of those m keys need to sign it."
+msgstr ""
+"Что означает \"m-из-n\"? Имеем кошелёк с m ключами. Из этого количества m "
+"каждый раз для подписания транзакций нам требуется n ключей."
+
+#: what-is-a-multisig-wallet/source-text.txt:20
+msgid "m keys"
+msgstr "m ключей"
+
+#: what-is-a-multisig-wallet/source-text.txt:22
+msgid "m = 4"
+msgstr "m = 4"
+
+#: what-is-a-multisig-wallet/source-text.txt:24
+msgid "n signatures"
+msgstr "n подписей"
+
+#: what-is-a-multisig-wallet/source-text.txt:26
+msgid "n = 3"
+msgstr "n = 3"
+
+#: what-is-a-multisig-wallet/source-text.txt:28
+msgid "What’s the point?"
+msgstr "Зачем это нужно?"
+
+#: what-is-a-multisig-wallet/source-text.txt:30
+msgid ""
+"The main use case for multisig wallets is to increase security of funds."
+msgstr ""
+"В основном, кошельки с мультиподписью используются для повышения "
+"безопасности хранения средств."
+
+#: what-is-a-multisig-wallet/source-text.txt:32
+msgid "Examples"
+msgstr "Примеры"
+
+#: what-is-a-multisig-wallet/source-text.txt:34
+msgid "Decentralizing risks independently."
+msgstr "Самостоятельная децентрализация риска."
+
+#: what-is-a-multisig-wallet/source-text.txt:36
+msgid ""
+"John associates his wallet with two keys, each stored in a different "
+"machine. If one machine is hacked, he won’t loose his bitcoins instantly."
+msgstr ""
+"Джон связал свой кошелек с двумя ключами, хранящихся на разных машинах. "
+"Если одна из машин будет взломана, он не потеряет свои биткоины."
+
+#: what-is-a-multisig-wallet/source-text.txt:38
+msgid "Security with redundancy."
+msgstr "Безопасность с резервированием."
+
+#: what-is-a-multisig-wallet/source-text.txt:40
+msgid ""
+"Lisa has a 2-of-3 wallet address and keeps the 3 keys in separate places to "
+"avoid theft. If one of the keys is lost, she can still access her bitcoins."
+msgstr ""
+"У Лизы есть кошелёк 2-из-3 и чтобы избежать кражи она хранит все 3 ключа в "
+"разных местах. Если один из ключей потеряется, Лиза все равно будет иметь "
+"доступ к своим биткоинам."
+
+#: what-is-a-multisig-wallet/source-text.txt:42
+msgid "Bank"
+msgstr "Банк"
+
+#: what-is-a-multisig-wallet/source-text.txt:44
+msgid "Decentralizing risks with help."
+msgstr "Децентрализация рисков с помощью."
+
+#: what-is-a-multisig-wallet/source-text.txt:46
+msgid ""
+"Sophie’s business has a multisig address and shares the responsibility of "
+"signing transactions with a security specialized company that holds one of "
+"the needed keys for spending. So if Sophie is hacked, her coins are still "
+"protected."
+msgstr ""
+"Бизнес Софии разделяет ответственность по подписанию транзакций со "
+"специализированной компанией по безопасности, которая хранит один из "
+"необходимых ключей для подтверждения расходов. Если Софи взломают, её "
+"биткоины будут защищены."
+
+#: what-is-a-multisig-wallet/source-text.txt:48
+msgid "Managing trust."
+msgstr "Управление доверием."
+
+#: what-is-a-multisig-wallet/source-text.txt:50
+msgid ""
+"Company LOL has a 3-of-5 Bitcoin wallet with its resources and each key is "
+"hold by one of its executives. In order to move money, 3 of them have to "
+"sign the transaction, making sure at least the majority agrees with the "
+"spending."
+msgstr ""
+"У компании LOL есть Биткоин-кошелек 3-из-5, и каждый ключ принадлежит "
+"одному из его руководителей. Для перевода средств требуется чтобы по "
+"крайней мере большинство было согласно, это обеспечивается необходимостью 3 "
+"ключей для подписания транзакции."
+
+#: what-is-a-multisig-wallet/source-text.txt:52
+msgid "Author: Patrícia Estevão"
+msgstr "Автор: Patrícia Estevão"
+
+#: what-is-a-multisig-wallet/source-text.txt:53
+msgid "Editor: Marco Agner"
+msgstr "Редактор: Marco Agner"
