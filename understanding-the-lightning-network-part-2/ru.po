@@ -1,0 +1,329 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"PO-Revision-Date: 2018-03-30 09:36+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:2
+msgid "Understanding the Lightning Network - Part 2:"
+msgstr "Принцип работы Lightning Network - Часть 2:"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:4
+msgid "Shaping the network"
+msgstr "Формируем сеть"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:6
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:8
+msgid "Adding a new party"
+msgstr "Добавляем нового участника"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:10
+msgid ""
+"Alice and Bob have already succeeded in creating a bidirectional payment "
+"channel. Now, Alice wants to pay 1 bitcoin to her friend Carol."
+msgstr ""
+"Алиса и Боб успешно создали между собой двунаправленный платёжный канал. Но "
+"теперь Алиса хочет заплатить 1 биткоин своей подруге Кэрол."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:12
+msgid ""
+"Instead of creating a channel between Alice and Carol, Carol will be added "
+"to the payroll using the already stablished channel."
+msgstr ""
+"Вместо создания нового прямого канала между Кэрол и Алисой, Кэрол получит "
+"деньги по уже имеющемуся каналу между ней и Бобом."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:14
+msgid "Here’s the general idea of how it will work:"
+msgstr "Вот общая идея, как это работает:"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:16
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:16"
+msgid "Step-by-step"
+msgstr "Рассмотрим пошагово"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:18
+msgid "Carol creates a secret and sends its hash to Alice."
+msgstr "Кэрол создает \"секрет\" и посылает его хеш Алисе."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:20
+msgid "Carol’s secret hash"
+msgstr "Хэш \"секрета\" Кэрол"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:22
+msgid "sends to Alice"
+msgstr "передает Алисе"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:24
+msgid "Carol gives her secret to Bob in exchange for a bitcoin."
+msgstr "Кэрол дает свой \"секрет\" Бобу в обмен на биткоин."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:26
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:26"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:28
+msgid ""
+"Alice asks Bob to show Carol’s secret and promisses a bitcoin in exchange."
+msgstr "Алиса просит Боба показать \"секрет\" Кэрол в обмен на биткоин."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:30
+msgid ""
+"Alice knows Bob must have gotten the secret from Carol, so she can be sure "
+"Carol got her bitcoin."
+msgstr ""
+"Алиса знает, что Боб мог получить \"секрет\" только от Кэрол, и значит Кэрол "
+"уже получила свой биткоин."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:32
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:32"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:34
+msgid "Alice gives Bob one bitcoin."
+msgstr "Алиса отдает Бобу один биткоин."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:36
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:36"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:38
+msgid "Fixing trust issues"
+msgstr "Устраняем проблему доверия"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:40
+msgid "But what about Bob?"
+msgstr "Но что на счет Боба?"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:42
+msgid ""
+"In this scenario, he can be tricked by Carol, if she receives his bitcoin "
+"and doesn’t give him the secret, or by Alice, if he shows Carol’s secret and "
+"she doesn’t give him a bitcoin."
+msgstr ""
+"Ведь тогда он может быть обманут Кэрол, если она получив свой биткоин не "
+"отдаст ему \"секрет\". Или Алисой, если он покажет \"секрет\" Кэрол, а она "
+"не отдаст ему биткоин."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:44
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:44"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:46
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:46"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:48
+msgid ""
+"To solve that, we are going to rethink these last steps adding a time lock "
+"clause called Hash Time-Locked Contracts (HTLC) as protection for Bob."
+msgstr ""
+"Чтобы решить эту проблему, мы в эту схему в качестве защиты для Боба добавим "
+"Контракт с хешированной временной блокировкой, называемую Hash Time-Locked "
+"Contracts (HTLC)."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:50
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:50"
+msgid "Step-by-step"
+msgstr "Рассмотрим пошагово"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:52
+msgid "Alice sends 1 btc to a multisig address that can be unlocked by:"
+msgstr ""
+"Алиса отправляет 1 BTC на адрес с мультиподписью который может быть "
+"разблокирован:"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:54
+msgid "Bob, if he presents Carol’s secret."
+msgstr "Бобом, если он предоставит \"секрет\" Кэрол."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:56
+msgid "Alice, but only after some time, let’s say 2 weeks."
+msgstr "Алисой, но только через определенное время, например, 2 недели."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:58
+msgid "Alice’s transaction with Bob"
+msgstr "Транзакция Алисы, переданная Бобу"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:60
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:60"
+msgid "multisig"
+msgstr "мультиподпись"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:62
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:62"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:64
+msgid "to Bob’s key + Carol’s secret"
+msgstr "ключ Боба + \"секрет\" Кэрол"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:66
+msgid "to Alice’s key + 14 days"
+msgstr "ключ Алисы + ожидание 14 дней"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:68
+msgid ""
+"This means Bob has 2 weeks to perform his deal with Carol and broadcast a "
+"transaction that claims this bitcoin. And, if he decides not to go on with "
+"his part, Alice can still get her bitcoin back."
+msgstr ""
+"Значит у Боба есть 2 недели, чтобы совершить сделку с Кэрол и опубликовать "
+"транзакцию, претендующую на этот биткоин. А, если он вруг передумает, Алиса "
+"все ещё может вернуть свой биткоин."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:70
+msgid "Bob sends 1 btc to a multisig address that can be unlocked by:"
+msgstr ""
+"Алиса отправляет 1 BTC на адрес с мультиподписью который может быть "
+"разблокирован:"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:72
+msgid "Carol, if she presents her secret."
+msgstr "Кэрол, если она предоставит свой \"секрет\"."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:74
+msgid "Bob, but only after some time, let’s say 10 days."
+msgstr "Бобом, но только через определенное время, например, 10 дней."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:76
+msgid "Bob’s transaction with Carol"
+msgstr "Транзакция Боба переданная Кэрол"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:78
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:78"
+msgid "multisig"
+msgstr "мультиподпись"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:80
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:80"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:82
+msgid "to Carol’s key + Carol’s secret"
+msgstr "ключ Кэрол + \"секрет\" Кэрол"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:84
+msgid "to Bob’s key + 10 days"
+msgstr "ключ Боба + ожидание 10 дней"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:86
+msgid ""
+"It’s important for the time lock on this contract to end before the lock on "
+"Alice’s contract. Otherwise, Bob is in risk of paying Carol and not getting "
+"paid by Alice because she could reclaim her bitcoin."
+msgstr ""
+"Важно, чтобы время блокировки этого контракта было меньше времени блокировки "
+"контракта Алисы. В противном случае Боб рискует заплатить Кэрол и не "
+"получить плату от Алисы, потому что она сможет вернуть свой биткоин."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:88
+msgid ""
+"Carol will present her secret to Bob’s contract, before the 10 days time "
+"lock ends, and receive the bitcoin."
+msgstr ""
+"Кэрол предоставляет свой секрет по контракту Боба до того, как закончилась "
+"10-дневная блокировка, и получает биткоин."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:90
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:90"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:92
+msgid ""
+"Bob will present Carol’s secret to Alice’s contract, before the end of 14 "
+"days, and receive the bitcoin."
+msgstr ""
+"Боб предоставляет свой секрет по контракту Алисе до того, как закончилась 14-"
+"дневная блокировка, и получает биткоин."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:94
+msgctxt "./understanding-the-lightning-network-part-2/source-text.txt:94"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:96
+msgid ""
+"Alice will have blockchain proof that Carol received her bitcoin (the secret "
+"she presented in Bob’s contract)."
+msgstr ""
+"У Алисы имеется блокчейн-доказательство, что Кэрол получила свой биткоин "
+"(\"секрет\", который она представила в контракте Боба)."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:98
+msgid "The guarantees"
+msgstr "Гарантии"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:100
+msgid ""
+"The point of these HTLC contracts is to guarantee some important outcomes:"
+msgstr ""
+"Суть этих HTLC-контрактов в том, чтобы гарантированно обеспечивался "
+"следующий результат:"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:102
+msgid ""
+"If Carol presents her secret, stamping it publicly on the blockchain, she is "
+"guaranteed to get her bitcoin from Bob."
+msgstr ""
+"Если Кэрол раскроет свой \"секрет\" опубликовав его на публичном блокчейне, "
+"она гарантированно получит свой биткоин от Боба."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:104
+msgid ""
+"If Carol claims her bitcoin from Bob, Bob is guaranteed to have her secret."
+msgstr ""
+"Если Кэрол заявляет свои права на биткоин от Боба, он гарантированно знает "
+"\"секрет\" Кэрол."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:106
+msgid ""
+"If Bob presents Carol’s secret, he’s guaranteed to get a bitcoin from Alice."
+msgstr ""
+"Если Боб раскроет \"секрет\" Кэрол, он гарантированно получит биткоин от "
+"Алисы."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:108
+msgid ""
+"If Alice sees Carol’s secret on the blockchain, she’s guaranteed that Carol "
+"got the payment she was due."
+msgstr ""
+"Если Алиса видит \"секрет\" Кэрол в блокчейне, у нее есть гарантии того что "
+"Кэрол получила её платёж."
+
+#: understanding-the-lightning-network-part-2/source-text.txt:110
+msgid "Author: Patrícia Estevão"
+msgstr "Автор: Patrícia Estevão"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:112
+msgid "Editor: Marco Agner"
+msgstr "Редактор: Marco Agner"
+
+#: understanding-the-lightning-network-part-2/source-text.txt:113
+msgid ""
+"Main resources: https://bitcoinmagazine.com/articles/understanding-the-"
+"lightning-network-part-creating-the-network-1465326903/"
+msgstr ""
+"Основной источник: https://bitcoinmagazine.com/articles/understanding-the-"
+"lightning-network-part-creating-the-network-1465326903/"
