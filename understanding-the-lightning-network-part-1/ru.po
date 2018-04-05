@@ -1,0 +1,609 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"PO-Revision-Date: 2018-03-29 11:37+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:2
+msgid "Understanding the Lightning Network - Part 1:"
+msgstr "Принцип работы Lightning Network - Часть 1:"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:4
+msgid "Payment Channels"
+msgstr "Платежные каналы"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:6
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:8
+msgid ""
+"Payment channels are one of the main elements playing a role in the "
+"Lightning network, so let’s take a look at how they works."
+msgstr ""
+"Платежные каналы являются одним из ключевых элементов в Lightning Network, "
+"поэтому давайте посмотрим, как они работают."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:10
+msgid "What is a payment channel?"
+msgstr "Что такое платежный канал?"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:12
+msgid ""
+"It’s a manner to make a series of transactions “off-chain”, i.e. without "
+"actually relaying them to the blockchain, but still benefitting from the “on-"
+"chain” security."
+msgstr ""
+"Это способ сделать серию транзакций “off-chain”, т.е. транзакции не "
+"записываются в блокчейн, но при этом они продолжают получать преимущества "
+"безопасности, обеспечиваемой блокчейном."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:14
+msgid ""
+"That allows a huge number of really fast and almost free transactions to be "
+"made through the channel, because you don’t need to settle each of them on "
+"the blockchain."
+msgstr ""
+"И раз нам не нужно каждую транзакцию записывать в блокчейн это позволяет "
+"провести огромное количество действительно быстрых и почти бесплатных "
+"транзакций в каналах."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:16
+msgid ""
+"For the Lightning Network, we need bidirectional payment channels, which "
+"means that both parties that start a channel have to be able to send "
+"bitcoins."
+msgstr ""
+"Для Lightning Network нам нужны двунаправленные платежные каналы, когда обе "
+"стороны открывшие канал имеют возможность его использовать для отправки "
+"своих биткоинов."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:18
+msgid ""
+"And, of course, this channel has to work trustlessly, so the parties don’t "
+"need to trust each other to agree with beginning transacting."
+msgstr ""
+"И, конечно же, такой канал при его использовании должен работать без "
+"необходимости сторонам доверять друг другу."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:20
+msgid "Opening a channel"
+msgstr "Открытие канала"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:22
+msgid ""
+"Alice needs to send 1 btc to Bob. Since they know they are going to do a lot "
+"of transactions in the near future, they decide to use a lightning network "
+"channel to make things faster and cheaper. They will start a channel with a "
+"4 bitcoins deposit by creating an opening transaction."
+msgstr ""
+"Алисе нужно отправить 1 BTC Бобу. В ближайшем будущем они собираются "
+"совершить много транзакций, и чтобы в дальнейшем это было быстрее и дешевле, "
+"они решили использовать канал Lightning Network. Они открывают канал с "
+"депозитом в 4 биткоина создавая открывающую транзакцию."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:24
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:24"
+msgid "Step-by-step"
+msgstr "Рассмотрим пошагово"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:26
+msgid ""
+"Each of them sends 4 bitcoins to a multisig address that needs both their "
+"keys to sign a valid spending transaction."
+msgstr ""
+"Каждый из них отправляет 4 биткоина на адрес с мультиподписью требующий оба "
+"их ключа для подписания транзакций, тратящих эти биткоины."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:28
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:28"
+msgid "Opening transaction"
+msgstr "Открывающая транзакция"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:30
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:30"
+msgid "multisig"
+msgstr "мультиподпись"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:32
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:32"
+msgid "4 BTC"
+msgstr "4 BTC"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:34
+msgid "from Bob"
+msgstr "от Боба"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:36
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:36"
+msgid "4 BTC"
+msgstr "4 BTC"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:38
+msgid "from Alice"
+msgstr "от Алисы"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:40
+msgid ""
+"They create a secret (string of numbers) and a hash of the secret, and "
+"exchange the hash with the other."
+msgstr ""
+"Они создают \"секрет\" (строку чисел) и хеш \"секрета\", и обмениваются "
+"хешем друг с другим."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:42
+msgid "Bob’s secret hash"
+msgstr "Хэш \"секрета\" Боба"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:44
+msgid "Alice’s secret hash"
+msgstr "Хэш \"секрета\" Алисы"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:46
+msgid ""
+"Remember, the first transaction we want to make is the 1 bitcoin that Alice "
+"has to give Bob."
+msgstr ""
+"Как мы помним самой первой транзакцией мы хотим отправить 1 биткоин от Алисы "
+"Бобу."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:48
+msgid ""
+"Alice creates a commitment transaction from the opening transaction sending "
+"3 bitcoins to herself and 5 to a new multisig address."
+msgstr ""
+"Алиса создает транзакцию-состояния из открывающей транзакции, отправляя 3 "
+"BTC себе и 5 BTC на новый адрес с мультиподписью."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:50
+msgid "Alice’s first commitment transaction"
+msgstr "Первая транзакция-состояния Алисы"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:52
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:52"
+msgid "1st condition"
+msgstr "1-й выход"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:54
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:54"
+msgid "Alice"
+msgstr "Алиса"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:56
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:56"
+msgid "3 BTC"
+msgstr "3 BTC"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:58
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:58"
+msgid "2nd condition"
+msgstr "2-й выход"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:60
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:60"
+msgid "multisig"
+msgstr "мультиподпись"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:62
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:62"
+msgid "5 BTC"
+msgstr "5 BTC"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:64
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:64"
+msgid "This new multisig address can be unlocked by:"
+msgstr "Этот новый адрес с мультиподписью может быть разблокирован:"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:66
+msgid ""
+"Bob, only after 1000 extra blocks are mined (this condition has a time lock "
+"called CheckSequenceVerify)."
+msgstr ""
+"Бобом только после того как будут дополнительно смайнены 1000 блоков (это "
+"условие обеспечивается таймлоком CheckSequenceVerify или CSV)."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:68
+msgid ""
+"Alice, if she presents the secret for which Bob gave her the hash previously "
+"(having only the hash will not work so, for now, she can’t unlock the "
+"transaction)."
+msgstr ""
+"Алисой, если она предоставит \"секрет\" Боба хеш которого он дал ей ранее "
+"(иметь только хеш не достаточно, поэтому она сейчас не может разблокировать "
+"транзакцию)."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:70
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:70"
+msgid "multisig"
+msgstr "мультиподпись"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:72
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:72"
+msgid "5 BTC"
+msgstr "5 BTC"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:74
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:74"
+msgid "to Bob’s key + 1000 block wait"
+msgstr "ключ Боба + ожидание 1000 блоков"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:76
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:76"
+msgid "OR"
+msgstr ""
+
+#: understanding-the-lightning-network-part-1/source-text.txt:78
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:78"
+msgid "to Alice’s key + Bob’s secret"
+msgstr "ключ Алисы + \"секрет\" Боба"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:80
+msgid ""
+"Alice signs the commitment transaction and gives the half-valid transaction "
+"(needs Bob signature to be valid) to Bob."
+msgstr ""
+"Алиса подписывает транзакцию-состояния и передает \"наполовину\" "
+"действительную (так как необходима еще подпись Боба) транзакцию Бобу."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:82
+msgid ""
+"Bob also creates a half-valid transaction with his signature sending 5 btcs "
+"to himself and 3 to a new multisig address and gives it to Alice."
+msgstr ""
+"Боб тоже создает и подписывает похожую полу-действительную транзакцию, "
+"отправляющую 5 BTC себе и 3 BTC на новый адрес с мультиподписью и отдает её "
+"Алисе."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:84
+msgid "Bob’s first commitment transaction"
+msgstr "Первая транзакция-состояния Боба"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:86
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:86"
+msgid "1st condition"
+msgstr "1-й выход"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:88
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:88"
+msgid "Bob"
+msgstr "Боб"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:90
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:90"
+msgid "5 BTC"
+msgstr "5 BTC"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:92
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:92"
+msgid "2nd condition"
+msgstr "2-й выход"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:94
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:94"
+msgid "multisig"
+msgstr "мультиподпись"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:96
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:96"
+msgid "3 BTC"
+msgstr "3 BTC"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:98
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:98"
+msgid "This new multisig address can be unlocked by:"
+msgstr "Этот новый адрес с мультиподписью может быть разблокирован:"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:100
+msgid "Alice, after waiting 1000 new blocks being mined."
+msgstr "Алисой только после того как будут дополнительно смайнены 1000 блоков."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:102
+msgid "Bob, if presenting Alice’s secret."
+msgstr "Бобом, если он предоставит \"секрет\" Алисы."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:104
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:104"
+msgid "multisig"
+msgstr "мультиподпись"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:106
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:106"
+msgid "3 BTC"
+msgstr "3 BTC"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:108
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:108"
+msgid "to Alice’s key + 1000 block wait"
+msgstr "ключ Алисы + ожидание 1000 блоков"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:110
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:110"
+msgid "to Bob’s key + Alice’s secret"
+msgstr "ключ Боба + \"секрет\" Алисы"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:112
+msgid ""
+"After the exchange of the half-valid transactions, the opening transaction "
+"is broadcast and recorded on the blockchain. The channel is officially open."
+msgstr ""
+"После того как они обменялись транзакциями-состояния, в сеть публикуется "
+"открывающая транзакция и после записи её в блокчейн - канал открыт."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:114
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:114"
+msgid "Opening transaction"
+msgstr "Открывающая транзакция"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:116
+msgid "Updating a channel"
+msgstr "Обновление канала"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:118
+msgid ""
+"Now, Bob has to give 2 bitcoins to Alice, so they need to update the channel "
+"state with new commitment transactions that will reflect the new balance."
+msgstr ""
+"Теперь Бобу нужно отдать 2 биткоина Алисе, для этого им нужно обновить "
+"состояние канала новыми транзакциями-состояния, отражающими актуальный "
+"баланс канала."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:120
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:120"
+msgid "Step-by-step"
+msgstr "Рассмотрим пошагово"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:122
+msgid ""
+"New secrets are created and their hashes exchanged. They will be used for "
+"this next commitment transaction."
+msgstr ""
+"Они создают новые \"секреты\" и обмениваются их хешами, которые будут "
+"использованы для новых транзакций-состояния."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:124
+msgid "Bob’s secret"
+msgstr "\"секрет\" Боба"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:126
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:126"
+msgid "hash"
+msgstr "хеш"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:128
+msgid "Alice’s secret"
+msgstr "\"секрет\" Алисы"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:130
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:130"
+msgid "hash"
+msgstr "хеш"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:132
+msgid ""
+"Alice creates a commitment transaction sending 5 btc to herself and 3 btc to "
+"a new multisig address that has the same unlocking conditions as before, "
+"signs and gives it to Bob."
+msgstr ""
+"Алиса создает транзакцию-состояния, отправляя 5 BTC себе и 3 BTC на новый "
+"адрес с мультиподписью, имеющий те же условия разблокировки что и ранее, "
+"подписывает её и отдает Бобу."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:134
+msgid "Alice’s second commitment transaction"
+msgstr "Вторая транзакция-состояния Алисы"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:136
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:136"
+msgid "1st condition"
+msgstr "1-й выход"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:138
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:138"
+msgid "Alice"
+msgstr "Алиса"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:140
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:140"
+msgid "5 BTC"
+msgstr "5 BTC"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:142
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:142"
+msgid "2nd condition"
+msgstr "2-й выход"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:144
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:144"
+msgid "multisig"
+msgstr "мультиподпись"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:146
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:146"
+msgid "3 BTC"
+msgstr "3 BTC"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:148
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:148"
+msgid "to Bob’s key + 1000 block wait"
+msgstr "ключ Боба + ожидание 1000 блоков"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:150
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:150"
+msgid "OR"
+msgstr "ИЛИ"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:152
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:152"
+msgid "to Alice’s key + Bob’s secret"
+msgstr "ключ Алисы + \"секрет\" Боба"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:154
+msgid ""
+"Bob creates a commitment transaction sending 3 btc to himself and 5 btc to "
+"the new multisig address with the same unlocking conditions as before, signs "
+"and gives it to Alice."
+msgstr ""
+"Боб создает транзакцию-состояния, отправляя 3 BTC себе и 5 BTC на новый "
+"адрес с мультиподписью, имеющий те же условия разблокировки что и ранее, "
+"подписывает её и отдает Алисе."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:156
+msgid "Bob’s second commitment transaction"
+msgstr "Вторая транзакция-состояния Боба"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:158
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:158"
+msgid "1st condition"
+msgstr "1-й выход"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:160
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:160"
+msgid "Bob"
+msgstr "Боб"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:162
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:162"
+msgid "3 BTC"
+msgstr "3 BTC"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:164
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:164"
+msgid "2nd condition"
+msgstr "2-й выход"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:166
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:166"
+msgid "multisig"
+msgstr "мультиподпись"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:168
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:168"
+msgid "5 BTC"
+msgstr "5 BTC"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:170
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:170"
+msgid "to Alice’s key + 1000 block wait"
+msgstr "ключ Алисы + ожидание 1000 блоков"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:172
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:172"
+msgid "OR"
+msgstr "ИЛИ"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:174
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:174"
+msgid "to Bob’s key + Alice’s secret"
+msgstr "ключ Боба + \"секрет\" Алисы"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:176
+msgid "Alice and Bob exchange their old secrets, used in the first commitment."
+msgstr ""
+"Алиса и Боб обмениваются своими старыми \"секретами\", использованными в "
+"первой транзакции-состояния."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:178
+msgid "This process is repeated every time the balance needs to be updated."
+msgstr ""
+"Этот процесс повторяется каждый раз, когда необходимо обновить состояние "
+"баланса канала."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:180
+msgid "Incentives for a trustless system"
+msgstr "Как же достигаются бездоверительные отношения"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:182
+msgid ""
+"So now Bob has 2 commitment transactions, the first one giving him more "
+"money than the second. So why doesn’t he broadcast the first one now and "
+"scam Alice? Let’s see what would happen."
+msgstr ""
+"Теперь у Боба есть 2 транзакции-состояния, причем первая дает ему больше "
+"денег, чем вторая. Так почему бы не обмануть Алису и опубликовать первую? "
+"Давайте посмотрим что произойдет."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:184
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:184"
+msgid "Step-by-step"
+msgstr "Рассмотрим пошагово"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:186
+msgid ""
+"Bob signs and broadcasts the half-valid transaction that Alice first sent "
+"him."
+msgstr ""
+"Боб подписывает и публикует первую транзакцию-состояния полученную от Алисы."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:188
+msgid ""
+"Alice will get 3 btc (her balance at the time of the commitment) immediately."
+msgstr ""
+"Алиса получает 3 BTC (её баланс на момент первого состояния канала) "
+"немедленно."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:190
+msgid ""
+"The other 5 btc will go to the address that Bob can only unlock after 1000 "
+"blocks."
+msgstr ""
+"Оставшиеся 5 BTC отправляются на адрес который Боб сможет разблокировать "
+"только через 1000 блоков."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:192
+msgid "Bob’s key + 1000 block wait"
+msgstr "Ключ Боба + ожидание 1000 блоков"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:194
+msgid ""
+"But now Alice has Bob’s secret from that commitment, so she can access the "
+"multisig address before Bob (she doesn’t have to wait 1000 blocks) and get "
+"all the bitcoins to herself."
+msgstr ""
+"Но сейчас у Алисы есть \"секрет\" Боба от первого состояния, поэтому она "
+"может получить доступ к адресу с мультиподписью раньше Боба (ей не нужно "
+"ждать 1000 блоков) и забрать все биткоины себе."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:196
+msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:196"
+msgid "to Alice’s key + Bob’s secret"
+msgstr "ключ Алисы + \"секрет\" Боба"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:198
+msgid "Bob’s attempt to defraud Alice has just backfired!"
+msgstr "Попытка Боба обмануть Алису провалилась!"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:200
+msgid ""
+"The same will happen if Alice is the one trying to broadcast an old "
+"commitment. This way, both parties are strongly incentivized to respect the "
+"most recent state of the channel."
+msgstr ""
+"То же самое произойдет если Алиса попытается опубликовать старое состояние. "
+"Таким образом у обеих сторон есть сильная заинтересованность следовать "
+"правилам и при необходимости публиковать только актуальное состояние канала."
+
+#: understanding-the-lightning-network-part-1/source-text.txt:202
+msgid "Author: Patrícia Estevão"
+msgstr "Автор: Patrícia Estevão"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:204
+msgid "Editor: Marco Agner"
+msgstr "Редактор: Marco Agner"
+
+#: understanding-the-lightning-network-part-1/source-text.txt:205
+msgid ""
+"Main resources: https://bitcoinmagazine.com/articles/understanding-the-"
+"lightning-network-part-building-a-bidirectional-payment-channel-1464710791/"
+msgstr ""
+"Основной источник: https://bitcoinmagazine.com/articles/understanding-the-"
+"lightning-network-part-building-a-bidirectional-payment-channel-1464710791/"
