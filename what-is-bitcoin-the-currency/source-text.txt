@@ -14,7 +14,7 @@ Based on mathematics and cryptography. Which means it can’t be counterfeit - m
 
 limited amount
 
-There is a limit of roughly 21 million bitcoins to be ever issued.
+There is a limit of roughly 21 million bitcoins to be ever put in circulation.
 
 It doesn’t allow anyone to print more bitcoins recklessly, which preserves the currency value - it’s scarce.
 
@@ -38,7 +38,7 @@ Critical (break these and Bitcoin will never be the same)
 
 Decentralized
 
-No central bank can freeze your accounts ou implement poorly conceived policies that devalue your currency.
+No central bank can freeze your accounts or implement poorly conceived policies that devalue your currency.
 
 No Red-Tape
 
