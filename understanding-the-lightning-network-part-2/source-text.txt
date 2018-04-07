@@ -8,7 +8,7 @@ Adding a new party
 
 Alice and Bob have already succeeded in creating a bidirectional payment channel. Now, Alice wants to pay 1 bitcoin to her friend Carol.
 
-Instead of creating a channel between Alice and Carol, Carol will be added to the payroll using the already stablished channel.
+Instead of creating a channel between Alice and Carol, Carol will be added to the payroll using the already established channel.
 
 Here’s the general idea of how it will work:
 
