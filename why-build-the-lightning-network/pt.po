@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"PO-Revision-Date: 2018-04-10 16:28+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt\n"
+
+#: why-build-the-lightning-network/source-text.txt:2
+msgid "Why build the Lightning Network?"
+msgstr "Por que construir a Lightning Network?"
+
+#: why-build-the-lightning-network/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: why-build-the-lightning-network/source-text.txt:6
+msgid "What is the big idea?"
+msgstr "Qual é a ideia geral?"
+
+#: why-build-the-lightning-network/source-text.txt:8
+msgid "The lightning network is a scaling approach to Bitcoin."
+msgstr "A Lightning Network é uma abordagem para escalar o Bitcoin."
+
+#: why-build-the-lightning-network/source-text.txt:10
+msgid ""
+"It’s really about moving a lot of Bitcoin transactions out of the blockchain "
+"and into private channels between users, but still counting on the "
+"blockchain’s security."
+msgstr ""
+"O ponto principal é que se movam muitas transações para fora da blockchain e "
+"para dentro de canais privados entre usuários, sem deixar de contar com a "
+"segurança da blockchain."
+
+#: why-build-the-lightning-network/source-text.txt:12
+msgid "Off-chain transactions"
+msgstr "Transações fora da blockchain"
+
+#: why-build-the-lightning-network/source-text.txt:14
+msgid "blockchain"
+msgstr "blockchain"
+
+#: why-build-the-lightning-network/source-text.txt:16
+msgid ""
+"It’s like a contract and arbitration system (with a poetic license, of "
+"course):"
+msgstr ""
+"É como se fosse um sistema de arbitragem e contratos (com uma licença "
+"poética):"
+
+#: why-build-the-lightning-network/source-text.txt:18
+msgid ""
+"Imagine you want to make a deal with someone and, for that, you create a "
+"contract and register it with a notary."
+msgstr ""
+"Imagine que você quer fazer um acordo com alguém e, para isso, você cria um "
+"contrato e registra em cartório."
+
+#: why-build-the-lightning-network/source-text.txt:20
+msgid "That’s you opening a lightning network channel with someone."
+msgstr "Isto é você abrindo um canal da Lightning Network com alguém."
+
+#: why-build-the-lightning-network/source-text.txt:22
+msgid ""
+"You expect to do this deal without any hassles, with both parties fulfilling "
+"their duties. But, anyway, you have a contract to protect yourself."
+msgstr ""
+"Você espera completar o acordo sem nenhum problema, com ambos cumprindo suas "
+"obrigações. Mas, de qualquer forma, você cria o contrato para se proteger."
+
+#: why-build-the-lightning-network/source-text.txt:24
+msgid ""
+"You create commitment transactions that are not really broadcast, unless "
+"necessary to resolve a dispute."
+msgstr ""
+"Você cria transações de compromisso que não serão transmitidas, a não ser "
+"que seja necessário resolver uma disputa."
+
+#: why-build-the-lightning-network/source-text.txt:26
+msgid ""
+"If one of you breaks the agreement, you can take this contract to a court "
+"that will recognize it as valid and give gain to the honest party."
+msgstr ""
+"Se um de vocês quebrar o acordo, o contrato poderá ser levado a uma corte, "
+"que o reconhecerá como válido e dará a causa à parte honesta."
+
+#: why-build-the-lightning-network/source-text.txt:28
+msgid ""
+"If someone tries to rob you (broadcasting an old channel state), you can "
+"take the contract to the blockchain and get all the bitcoins in the channel. "
+"Only, in this case, there’s no subjectivity in interpreting the contract."
+msgstr ""
+"Se alguém tentar lhe roubar (transmitindo um estado antigo do canal), você "
+"pode levar o contrato à blockchain e pegar todos os bitcoins do canal. A "
+"diferença é que, neste caso, não há subjetividade na interpretação do "
+"contrato."
+
+#: why-build-the-lightning-network/source-text.txt:30
+msgid ""
+"In practice, most people don’t ever need to go to a court because nobody "
+"broke their contract, so the arbitration system doesn’t get bloated."
+msgstr ""
+"Na prática, a maioria das pessoas não precisará ir a uma corte porque "
+"ninguém terá quebrado o contrato, então o sistema de arbitragem não fica "
+"sobrecarregado."
+
+#: why-build-the-lightning-network/source-text.txt:32
+msgid ""
+"Countless transactions can occur in private and off-chain while a channel is "
+"open and both parties are being honest, therefore, unburdening the "
+"blockchain."
+msgstr ""
+"Inúmeras transações podem ocorrer fora da blockchain enquanto o canal está "
+"aberto e ambas as partes estão sendo honestas e, portanto, consegue-se "
+"desafogar a blockchain."
+
+#: why-build-the-lightning-network/source-text.txt:34
+msgid ""
+"If using the lightning network, only 3 types of transactions need to be "
+"broadcast to the blockchain:"
+msgstr ""
+"Se estivermos usando a Lightning Network, apenas 3 tipos de transação "
+"precisam ser transmitidas à blockchain:"
+
+#: why-build-the-lightning-network/source-text.txt:36
+msgid "The transaction that opens a channel."
+msgstr "A transação que abre um canal."
+
+#: why-build-the-lightning-network/source-text.txt:38
+msgid "The transaction that closes a channel."
+msgstr "A transação que fecha um canal."
+
+#: why-build-the-lightning-network/source-text.txt:40
+msgid "Disputes that need to be settled."
+msgstr "Disputas que precisem ser resolvidas."
+
+#: why-build-the-lightning-network/source-text.txt:42
+msgid "The big features"
+msgstr "As características mais importantes"
+
+#: why-build-the-lightning-network/source-text.txt:44
+msgid "Fast and cheap"
+msgstr "Rápida e barata"
+
+#: why-build-the-lightning-network/source-text.txt:46
+msgid ""
+"Now you can actually get instant and almost free payments since you can "
+"mainly transact without the limitations of writing on the blockchain. Which "
+"means micro-payments are now totally viable!"
+msgstr ""
+"É possível ter transações instantâneas e quase de graça, já que muitos "
+"pagamentos serão feitos sem a preocupação com os limites de escrita na "
+"blockchain. Micro-pagamentos são, agora, perfeitamente viáveis!"
+
+#: why-build-the-lightning-network/source-text.txt:48
+msgid "Practical"
+msgstr "Prática"
+
+#: why-build-the-lightning-network/source-text.txt:50
+msgid ""
+"You only have to open a few channels to be able to transact with the whole "
+"network because channels are interconnected."
+msgstr ""
+"Apenas alguns canais precisarão ser abertos para que você possa transacionar "
+"com toda a rede, pois os canais são interconectados."
+
+#: why-build-the-lightning-network/source-text.txt:52
+msgid "No expiration date"
+msgstr "Sem prazo de validade"
+
+#: why-build-the-lightning-network/source-text.txt:54
+msgid ""
+"Channels can stay open indefinitely, maximizing the unburdening effect on "
+"the blockchain and dissolving the fees for the opening and closing "
+"transactions of a channel."
+msgstr ""
+"Canais podem permanecer abertos indefinidamente, maximizando o desaforamento "
+"da blockchain e dissolvendo as taxas das transações de abertura e fechamento "
+"de um canal."
+
+#: why-build-the-lightning-network/source-text.txt:56
+msgid "OPEN 24/7"
+msgstr "ABERTO 24/7"
+
+#: why-build-the-lightning-network/source-text.txt:58
+msgid "Improved privacy"
+msgstr "Melhora na privacidade"
+
+#: why-build-the-lightning-network/source-text.txt:60
+msgid ""
+"It can use encryption and intermediary nodes that relay transactions without "
+"knowing its origin and destiny (onion-style routing)."
+msgstr ""
+"Você pode usar criptografia e nós intermediários que transmitem transações "
+"sem saber a origem ou o destino (roteamento cebola)."
+
+#: why-build-the-lightning-network/source-text.txt:62
+msgid "Author: Patrícia Estevão"
+msgstr "Autora: Patrícia Estevão"
+
+#: why-build-the-lightning-network/source-text.txt:64
+msgid "Editor: Marco Agner"
+msgstr "Editor: Marco Agner"
+
+#: why-build-the-lightning-network/source-text.txt:66
+msgid "Sources: https://en.bitcoin.it/wiki/Lightning_Network"
+msgstr "Fontes: https://en.bitcoin.it/wiki/Lightning_Network"
+
+#: why-build-the-lightning-network/source-text.txt:67
+msgid ""
+"The court analogy was described in reddit a while ago, I just couldn’t find "
+"a link to it. If someone finds it, please send it to me. :)"
+msgstr ""
+"A analogia da corte foi descrita no reddit há um tempo atrás, mas não "
+"consegui achar um link para ela. Se alguém encontrar, por favor me envie. :)"
