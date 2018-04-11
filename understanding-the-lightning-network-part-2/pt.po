@@ -1,0 +1,329 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-07 13:44+0100\n"
+"PO-Revision-Date: 2018-04-10 19:09+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt\n"
+
+#: source-text.txt:2
+msgid "Understanding the Lightning Network - Part 2:"
+msgstr "Entendendo a Lightning Network - Parte 2:"
+
+#: source-text.txt:4
+msgid "Shaping the network"
+msgstr "Formando a Rede"
+
+#: source-text.txt:6
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: source-text.txt:8
+msgid "Adding a new party"
+msgstr "Adicionando um novo usuário"
+
+#: source-text.txt:10
+msgid ""
+"Alice and Bob have already succeeded in creating a bidirectional payment "
+"channel. Now, Alice wants to pay 1 bitcoin to her friend Carol."
+msgstr ""
+"Alice e Bob já conseguiram criar um canal de pagamento bidirecional. Agora, "
+"Alice quer pagar 1 bitcoin para Carol, sua amiga."
+
+#: source-text.txt:12
+msgid ""
+"Instead of creating a channel between Alice and Carol, Carol will be added "
+"to the payroll using the already established channel."
+msgstr ""
+"Ao invés de criar um canal entre Alice e Carol, Carol será adicionada aos "
+"pagamentos usando o canal já estabelecido."
+
+#: source-text.txt:14
+msgid "Here’s the general idea of how it will work:"
+msgstr "De uma forma superficial, funciona assim:"
+
+#: source-text.txt:16
+msgctxt "source-text.txt:16"
+msgid "Step-by-step"
+msgstr "Passo-a-passo"
+
+#: source-text.txt:18
+msgid "Carol creates a secret and sends its hash to Alice."
+msgstr "Carol cria um segredo e envia o hash dele para Alice."
+
+#: source-text.txt:20
+msgid "Carol’s secret hash"
+msgstr "Hash do segredo da Carol"
+
+#: source-text.txt:22
+msgid "sends to Alice"
+msgstr "envia para Alice"
+
+#: source-text.txt:24
+msgid "Carol gives her secret to Bob in exchange for a bitcoin."
+msgstr "Carol dá seu segredo a Bob em troca de 1 bitcoin."
+
+#: source-text.txt:26
+msgctxt "source-text.txt:26"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: source-text.txt:28
+msgid ""
+"Alice asks Bob to show Carol’s secret and promisses a bitcoin in exchange."
+msgstr ""
+"Alice pede a Bob para mostrar o segredo da Carol e promete um bitcoin em "
+"troca."
+
+#: source-text.txt:30
+msgid ""
+"Alice knows Bob must have gotten the secret from Carol, so she can be sure "
+"Carol got her bitcoin."
+msgstr ""
+"Alice sabe que Bob só pode ter conseguido o segredo com a Carol, então ela "
+"pode estar segura de que Carol recebeu o seu bitcoin."
+
+#: source-text.txt:32
+msgctxt "source-text.txt:32"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: source-text.txt:34
+msgid "Alice gives Bob one bitcoin."
+msgstr "Alice dá a Bob um bitcoin."
+
+#: source-text.txt:36
+msgctxt "source-text.txt:36"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: source-text.txt:38
+msgid "Fixing trust issues"
+msgstr "Cuidando dos problemas de confiança"
+
+#: source-text.txt:40
+msgid "But what about Bob?"
+msgstr "Mas, e o Bob?"
+
+#: source-text.txt:42
+msgid ""
+"In this scenario, he can be tricked by Carol, if she receives his bitcoin "
+"and doesn’t give him the secret, or by Alice, if he shows Carol’s secret and "
+"she doesn’t give him a bitcoin."
+msgstr ""
+"Neste cenário, ele pode ser fraudado pela Carol, se ela receber o bitcoin e "
+"não der o segredo em troca, ou pela Alice, se ele mostrar o segredo da Carol "
+"e ela não der o bitcoin em troca."
+
+#: source-text.txt:44
+msgctxt "source-text.txt:44"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: source-text.txt:46
+msgctxt "source-text.txt:46"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: source-text.txt:48
+msgid ""
+"To solve that, we are going to rethink these last steps adding a time lock "
+"clause called Hash Time-Locked Contracts (HTLC) as protection for Bob."
+msgstr ""
+"Para resolver isso, nós vamos re-pensar estes últimos passos adicionando uma "
+"tranca temporal chamada Hash Time-Locked Contracts (HTLC) como proteção para "
+"o Bob."
+
+#: source-text.txt:50
+msgctxt "source-text.txt:50"
+msgid "Step-by-step"
+msgstr "Passo-a-passo"
+
+#: source-text.txt:52
+msgid "Alice sends 1 btc to a multisig address that can be unlocked by:"
+msgstr ""
+"Alice envia 1 bitcoin para um endereço multi-assinatura que pode ser "
+"destrancado por:"
+
+#: source-text.txt:54
+msgid "Bob, if he presents Carol’s secret."
+msgstr "Bob, se ele apresentar o segredo da Carol."
+
+#: source-text.txt:56
+msgid "Alice, but only after some time, let’s say 2 weeks."
+msgstr "Alice, mas só depois de algum tempo, vamos considerar 2 semanas."
+
+#: source-text.txt:58
+msgid "Alice’s transaction with Bob"
+msgstr "Transação da Alice com o Bob"
+
+#: source-text.txt:60
+msgctxt "source-text.txt:60"
+msgid "multisig"
+msgstr "multisig"
+
+#: source-text.txt:62
+msgctxt "source-text.txt:62"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: source-text.txt:64
+msgid "to Bob’s key + Carol’s secret"
+msgstr "p/ a chave to Bob + segredo da Carol"
+
+#: source-text.txt:66
+msgid "to Alice’s key + 14 days"
+msgstr "p/ a chave da Alice + 14 dias"
+
+#: source-text.txt:68
+msgid ""
+"This means Bob has 2 weeks to perform his deal with Carol and broadcast a "
+"transaction that claims this bitcoin. And, if he decides not to go on with "
+"his part, Alice can still get her bitcoin back."
+msgstr ""
+"Isto significa que o Bob tem 2 semanas para realizar a operação com a Carol "
+"e transmitir a transação que clama este bitcoin da Alice. E, se ele der para "
+"trás, a Alice ainda pode ter o seu bitcoin de volta."
+
+#: source-text.txt:70
+msgid "Bob sends 1 btc to a multisig address that can be unlocked by:"
+msgstr ""
+"Bob envia 1 bitcoin para um endereço multi-assinatura que pode ser "
+"destrancado por:"
+
+#: source-text.txt:72
+msgid "Carol, if she presents her secret."
+msgstr "Carol, se ela apresentar seu segredo."
+
+#: source-text.txt:74
+msgid "Bob, but only after some time, let’s say 10 days."
+msgstr "Bob, mas só depois de um tempo, vamos considerar 10 dias."
+
+#: source-text.txt:76
+msgid "Bob’s transaction with Carol"
+msgstr "Transação do Bob com a Carol"
+
+#: source-text.txt:78
+msgctxt "source-text.txt:78"
+msgid "multisig"
+msgstr "multisig"
+
+#: source-text.txt:80
+msgctxt "source-text.txt:80"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: source-text.txt:82
+msgid "to Carol’s key + Carol’s secret"
+msgstr "p/ a chave da Carol + segredo da Carol"
+
+#: source-text.txt:84
+msgid "to Bob’s key + 10 days"
+msgstr "p/ a chave do Bob + 10 dias"
+
+#: source-text.txt:86
+msgid ""
+"It’s important for the time lock on this contract to end before the lock on "
+"Alice’s contract. Otherwise, Bob is in risk of paying Carol and not getting "
+"paid by Alice because she could reclaim her bitcoin."
+msgstr ""
+"É essencial que a tranca temporal neste contrato termine antes da tranca no "
+"contrato da Alice. Caso contrário, Bob estará em risco de pagar a Carol e "
+"não ser pago pela Alice porque ela teria tempo de reclamar seu bitcoin."
+
+#: source-text.txt:88
+msgid ""
+"Carol will present her secret to Bob’s contract, before the 10 days time "
+"lock ends, and receive the bitcoin."
+msgstr ""
+"Carol apresenta o seu segredo para o contrato de Bob, antes da tranca de 10 "
+"dias acabar, e recebe o bitcoin."
+
+#: source-text.txt:90
+msgctxt "source-text.txt:90"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: source-text.txt:92
+msgid ""
+"Bob will present Carol’s secret to Alice’s contract, before the end of 14 "
+"days, and receive the bitcoin."
+msgstr ""
+"Bob apresenta o segredo da Carol para o contrato da Alice, antes da tranca "
+"de 14 dias acabar, e recebe o bitcoin."
+
+#: source-text.txt:94
+msgctxt "source-text.txt:94"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: source-text.txt:96
+msgid ""
+"Alice will have blockchain proof that Carol received her bitcoin (the secret "
+"she presented in Bob’s contract)."
+msgstr ""
+"Alice tem prova da blockchain de que Carol recebeu o bitcoin dela (o segredo "
+"que ela apresentou ao contrato de Bob)."
+
+#: source-text.txt:98
+msgid "The guarantees"
+msgstr "As garantias"
+
+#: source-text.txt:100
+msgid ""
+"The point of these HTLC contracts is to guarantee some important outcomes:"
+msgstr ""
+"O propósito destes contratos HTLC é garantir alguns eventos importantes:"
+
+#: source-text.txt:102
+msgid ""
+"If Carol presents her secret, stamping it publicly on the blockchain, she is "
+"guaranteed to get her bitcoin from Bob."
+msgstr ""
+"Se a Carol apresentar o seu segredo, publicando-o na blockchain, ela tem a "
+"garantia de receber o bitcoin do Bob."
+
+#: source-text.txt:104
+msgid ""
+"If Carol claims her bitcoin from Bob, Bob is guaranteed to have her secret."
+msgstr ""
+"Se a Carol clamar o bitcoin do Bob, Bob tem a garantia de receber o segredo "
+"dela."
+
+#: source-text.txt:106
+msgid ""
+"If Bob presents Carol’s secret, he’s guaranteed to get a bitcoin from Alice."
+msgstr ""
+"Se o Bob apresentar o segredo da Carol, ele tem a garantia de receber o "
+"bitcoin da Alice."
+
+#: source-text.txt:108
+msgid ""
+"If Alice sees Carol’s secret on the blockchain, she’s guaranteed that Carol "
+"got the payment she was due."
+msgstr ""
+"Se Alice ver o segredo da Carol na blockchain, ela tem a garantia de que a "
+"Carol recebeu o pagamento que ela devia."
+
+#: source-text.txt:110
+msgid "Author: Patrícia Estevão"
+msgstr "Autora: Patrícia Estevão"
+
+#: source-text.txt:112
+msgid "Editor: Marco Agner"
+msgstr "Editor: Marco Agner"
+
+#: source-text.txt:113
+msgid ""
+"Main resources: https://bitcoinmagazine.com/articles/understanding-the-"
+"lightning-network-part-creating-the-network-1465326903/"
+msgstr ""
+"Principais fontes: https://bitcoinmagazine.com/articles/understanding-the-"
+"lightning-network-part-creating-the-network-1465326903/"
