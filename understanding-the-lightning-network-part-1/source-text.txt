@@ -106,6 +106,8 @@ multisig
 
 to Alice’s key + 1000 block wait
 
+OR
+
 to Bob’s key + Alice’s secret
 
 After the exchange of the half-valid transactions, the opening transaction is broadcast and recorded on the blockchain. The channel is officially open.

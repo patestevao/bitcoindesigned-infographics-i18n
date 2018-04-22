@@ -2,30 +2,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-12 10:12+0100\n"
-"PO-Revision-Date: 2018-04-10 17:31+0100\n"
+"POT-Creation-Date: 2018-04-22 19:15+0100\n"
+"PO-Revision-Date: 2018-04-22 19:17+0100\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: pt\n"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:2
+#: source-text.txt:2
 msgid "Understanding the Lightning Network - Part 1:"
 msgstr "Entendendo a Lightning Network - Parte 1:"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:4
+#: source-text.txt:4
 msgid "Payment Channels"
 msgstr "Canais de Pagamento"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:6
+#: source-text.txt:6
 msgid "bitcoindesigned.com"
 msgstr "bitcoindesigned.com"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:8
+#: source-text.txt:8
 msgid ""
 "Payment channels are one of the main elements playing a role in the "
 "Lightning network, so let’s take a look at how they works."
@@ -33,11 +33,11 @@ msgstr ""
 "Canais de pagamento são um dos principais elementos que compõe a Lightning "
 "Network, então vamos dar uma olhada em como eles funcionam."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:10
+#: source-text.txt:10
 msgid "What is a payment channel?"
 msgstr "O que é um canal de pagamento?"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:12
+#: source-text.txt:12
 msgid ""
 "It’s a manner to make a series of transactions “off-chain”, i.e. without "
 "actually relaying them to the blockchain, but still benefitting from the “on-"
@@ -47,7 +47,7 @@ msgstr ""
 "transmiti-las para a blockchain, mas ainda assim se beneficiando da "
 "segurança da blockchain."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:14
+#: source-text.txt:14
 msgid ""
 "That allows a huge number of really fast and almost free transactions to be "
 "made through the channel, because you don’t need to settle each of them on "
@@ -57,7 +57,7 @@ msgstr ""
 "graça sejam feitas pelo canal porque você não precisa escrever cada uma na "
 "blockchain."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:16
+#: source-text.txt:16
 msgid ""
 "For the Lightning Network, we need bidirectional payment channels, which "
 "means that both parties that start a channel have to be able to send "
@@ -67,7 +67,7 @@ msgstr ""
 "bidirecionais, o que significa que ambas as partes que participam do canal "
 "devem poder enviar bitcoins."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:18
+#: source-text.txt:18
 msgid ""
 "And, of course, this channel has to work trustlessly, so the parties don’t "
 "need to trust each other to agree with beginning transacting."
@@ -75,28 +75,28 @@ msgstr ""
 "E, é claro, este canal não pode depender de confiança, para que as partes "
 "não precisem se confiar antes de concordar com o início das transações."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:20
+#: source-text.txt:20
 msgid "Opening a channel"
 msgstr "Abrindo um canal"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:22
+#: source-text.txt:22
 msgid ""
 "Alice needs to send 1 btc to Bob. Since they know they are going to do a lot "
 "of transactions in the near future, they decide to use a lightning network "
 "channel to make things faster and cheaper. They will start a channel with a "
 "4 bitcoins deposit by creating an opening transaction."
 msgstr ""
-"Alice precisa enviar 1 btw a Bob. Como sabem que vão transacionar várias "
+"Alice precisa enviar 1 btc a Bob. Como sabem que vão transacionar várias "
 "vezes no futuro próximo, eles decidem usar um canal da Lightning Network "
 "para tornar as coisas mais rápidas e baratas. Eles farão uma transação de "
 "abertura e começarão um canal com um depósito de 4 bitcoins."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:24
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:24"
+#: source-text.txt:24
+msgctxt "source-text.txt:24"
 msgid "Step-by-step"
 msgstr "Passo-a-passo"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:26
+#: source-text.txt:26
 msgid ""
 "Each of them sends 4 bitcoins to a multisig address that needs both their "
 "keys to sign a valid spending transaction."
@@ -104,35 +104,35 @@ msgstr ""
 "Cada um envia 4 bitcoins a um endereço multi-assinatura (multisig) que "
 "precisa de ambas as chaves para assinar uma transação de gasto válida."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:28
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:28"
+#: source-text.txt:28
+msgctxt "source-text.txt:28"
 msgid "Opening transaction"
 msgstr "Transação de Abertura"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:30
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:30"
+#: source-text.txt:30
+msgctxt "source-text.txt:30"
 msgid "multisig"
 msgstr "multisig"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:32
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:32"
+#: source-text.txt:32
+msgctxt "source-text.txt:32"
 msgid "4 BTC"
 msgstr "4 BTC"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:34
+#: source-text.txt:34
 msgid "from Bob"
 msgstr "de Bob"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:36
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:36"
+#: source-text.txt:36
+msgctxt "source-text.txt:36"
 msgid "4 BTC"
 msgstr "4 BTC"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:38
+#: source-text.txt:38
 msgid "from Alice"
 msgstr "de Alice"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:40
+#: source-text.txt:40
 msgid ""
 "They create a secret (string of numbers) and a hash of the secret, and "
 "exchange the hash with the other."
@@ -140,15 +140,15 @@ msgstr ""
 "Eles criam um segredo (uma sequência de números), tiram o hash do segredo e "
 "trocam o hash um com o outro."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:42
+#: source-text.txt:42
 msgid "Bob’s secret hash"
 msgstr "Hash do segredo do Bob"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:44
+#: source-text.txt:44
 msgid "Alice’s secret hash"
 msgstr "Hash do segredo da Alice"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:46
+#: source-text.txt:46
 msgid ""
 "Remember, the first transaction we want to make is the 1 bitcoin that Alice "
 "has to give Bob."
@@ -156,7 +156,7 @@ msgstr ""
 "Lembrando que a primeira transação que queremos fazer é enviar 1 bitcoin da "
 "Alice para o Bob."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:48
+#: source-text.txt:48
 msgid ""
 "Alice creates a commitment transaction from the opening transaction sending "
 "3 bitcoins to herself and 5 to a new multisig address."
@@ -165,46 +165,46 @@ msgstr ""
 "enviando 3 bitcoins para ela mesma e 5 para um novo endereço multi-"
 "assinatura."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:50
+#: source-text.txt:50
 msgid "Alice’s first commitment transaction"
 msgstr "Primeira transação de compromisso da Alice"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:52
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:52"
+#: source-text.txt:52
+msgctxt "source-text.txt:52"
 msgid "1st condition"
 msgstr "1ª condição"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:54
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:54"
+#: source-text.txt:54
+msgctxt "source-text.txt:54"
 msgid "Alice"
 msgstr "Alice"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:56
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:56"
+#: source-text.txt:56
+msgctxt "source-text.txt:56"
 msgid "3 BTC"
 msgstr "3 BTC"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:58
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:58"
+#: source-text.txt:58
+msgctxt "source-text.txt:58"
 msgid "2nd condition"
 msgstr "2ª condição"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:60
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:60"
+#: source-text.txt:60
+msgctxt "source-text.txt:60"
 msgid "multisig"
-msgstr "multisignificativo"
+msgstr "multisig"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:62
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:62"
+#: source-text.txt:62
+msgctxt "source-text.txt:62"
 msgid "5 BTC"
 msgstr "5 BTC"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:64
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:64"
+#: source-text.txt:64
+msgctxt "source-text.txt:64"
 msgid "This new multisig address can be unlocked by:"
 msgstr "Este novo endereço multi-assinatura pode ser destrancado por:"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:66
+#: source-text.txt:66
 msgid ""
 "Bob, only after 1000 extra blocks are mined (this condition has a time lock "
 "called CheckSequenceVerify)."
@@ -212,7 +212,7 @@ msgstr ""
 "Bob, após 1000 novos blocos serem minerados (esta condição tem uma tranca "
 "temporal chamada CheckSequenceVerify)."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:68
+#: source-text.txt:68
 msgid ""
 "Alice, if she presents the secret for which Bob gave her the hash previously "
 "(having only the hash will not work so, for now, she can’t unlock the "
@@ -222,116 +222,120 @@ msgstr ""
 "anteriormente (ter apenas o hash não funciona então, por enquanto, ela não "
 "consegue destrancar a transação)."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:70
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:70"
+#: source-text.txt:70
+msgctxt "source-text.txt:70"
 msgid "multisig"
-msgstr "multisignificativo"
+msgstr "multisig"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:72
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:72"
+#: source-text.txt:72
+msgctxt "source-text.txt:72"
 msgid "5 BTC"
 msgstr "5 BTC"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:74
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:74"
+#: source-text.txt:74
+msgctxt "source-text.txt:74"
 msgid "to Bob’s key + 1000 block wait"
 msgstr "p/ a chave de Bob + 1000 blocos de espera"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:76
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:76"
+#: source-text.txt:76
+msgctxt "source-text.txt:76"
 msgid "OR"
 msgstr "OU"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:78
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:78"
+#: source-text.txt:78
+msgctxt "source-text.txt:78"
 msgid "to Alice’s key + Bob’s secret"
 msgstr "p/ a chave de Alice + Segredo de Bob"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:80
+#: source-text.txt:80
 msgid ""
 "Alice signs the commitment transaction and gives the half-valid transaction "
 "(needs Bob signature to be valid) to Bob."
 msgstr ""
-"Alice assina a transação de compromisso e entrega a transação semi-válida "
-"(precisa da assinatura do Bob para ficar válida) ao Bob."
+"Alice assina a transação de compromisso e dá a transação semi-válida "
+"(precisa da assinatura do Bob para ser válida) ao Bob."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:82
+#: source-text.txt:82
 msgid ""
 "Bob also creates a half-valid transaction with his signature sending 5 btcs "
 "to himself and 3 to a new multisig address and gives it to Alice."
 msgstr ""
 "Bob também cria uma transação semi-válida com a assinatura dele enviando 5 "
-"btcs a si próprio e 3 para um novo endereço multi-assinatura, e a entrega a "
-"Alice."
+"btcs a si próprio e 3 para um novo endereço multi-assinatura, e a dá à Alice."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:84
+#: source-text.txt:84
 msgid "Bob’s first commitment transaction"
 msgstr "Primeira transação de compromisso do Bob"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:86
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:86"
+#: source-text.txt:86
+msgctxt "source-text.txt:86"
 msgid "1st condition"
 msgstr "1ª condição"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:88
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:88"
+#: source-text.txt:88
+msgctxt "source-text.txt:88"
 msgid "Bob"
 msgstr "Bob"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:90
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:90"
+#: source-text.txt:90
+msgctxt "source-text.txt:90"
 msgid "5 BTC"
 msgstr "5 BTC"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:92
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:92"
+#: source-text.txt:92
+msgctxt "source-text.txt:92"
 msgid "2nd condition"
 msgstr "2ª condição"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:94
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:94"
-msgid "multisig"
-msgstr "multisignificativo"
-
-#: understanding-the-lightning-network-part-1/source-text.txt:96
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:96"
-msgid "3 BTC"
-msgstr "3 BTC"
-
-#: understanding-the-lightning-network-part-1/source-text.txt:98
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:98"
-msgid "This new multisig address can be unlocked by:"
-msgstr "Este novo endereço multi-assinatura pode ser destrancado por:"
-
-#: understanding-the-lightning-network-part-1/source-text.txt:100
-msgid "Alice, after waiting 1000 new blocks being mined."
-msgstr "Alice, após 1000 novos blocos serem minerados."
-
-#: understanding-the-lightning-network-part-1/source-text.txt:102
-msgid "Bob, if presenting Alice’s secret."
-msgstr "Bob, se apresentar o segredo de Alice."
-
-#: understanding-the-lightning-network-part-1/source-text.txt:104
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:104"
+#: source-text.txt:94
+msgctxt "source-text.txt:94"
 msgid "multisig"
 msgstr "multisig"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:106
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:106"
+#: source-text.txt:96
+msgctxt "source-text.txt:96"
 msgid "3 BTC"
 msgstr "3 BTC"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:108
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:108"
+#: source-text.txt:98
+msgctxt "source-text.txt:98"
+msgid "This new multisig address can be unlocked by:"
+msgstr "Este novo endereço multi-assinatura pode ser destrancado por:"
+
+#: source-text.txt:100
+msgid "Alice, after waiting 1000 new blocks being mined."
+msgstr "Alice, após 1000 novos blocos serem minerados."
+
+#: source-text.txt:102
+msgid "Bob, if presenting Alice’s secret."
+msgstr "Bob, se apresentar o segredo de Alice."
+
+#: source-text.txt:104
+msgctxt "source-text.txt:104"
+msgid "multisig"
+msgstr "multisig"
+
+#: source-text.txt:106
+msgctxt "source-text.txt:106"
+msgid "3 BTC"
+msgstr "3 BTC"
+
+#: source-text.txt:108
+msgctxt "source-text.txt:108"
 msgid "to Alice’s key + 1000 block wait"
 msgstr "p/ a chave de Alice + 1000 blocos de espera"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:110
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:110"
+#: source-text.txt:110
+msgctxt "source-text.txt:110"
+msgid "OR"
+msgstr "OU"
+
+#: source-text.txt:112
+msgctxt "source-text.txt:112"
 msgid "to Bob’s key + Alice’s secret"
 msgstr "p/ a chave de Bob + segredo de Alice"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:112
+#: source-text.txt:114
 msgid ""
 "After the exchange of the half-valid transactions, the opening transaction "
 "is broadcast and recorded on the blockchain. The channel is officially open."
@@ -339,16 +343,16 @@ msgstr ""
 "Após a troca das transações semi-válidas, a transação de abertura é "
 "transmitida e gravada na blockchain. O canal está oficialmente aberto."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:114
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:114"
+#: source-text.txt:116
+msgctxt "source-text.txt:116"
 msgid "Opening transaction"
-msgstr "Transação de abertura"
+msgstr "Transação de Abertura"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:116
+#: source-text.txt:118
 msgid "Updating a channel"
 msgstr "Atualizando um canal"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:118
+#: source-text.txt:120
 msgid ""
 "Now, Bob has to give 2 bitcoins to Alice, so they need to update the channel "
 "state with new commitment transactions that will reflect the new balance."
@@ -357,12 +361,12 @@ msgstr ""
 "estado do canal com novas transações de compromisso que refletirão o novo "
 "saldo."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:120
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:120"
+#: source-text.txt:122
+msgctxt "source-text.txt:122"
 msgid "Step-by-step"
 msgstr "Passo-a-passo"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:122
+#: source-text.txt:124
 msgid ""
 "New secrets are created and their hashes exchanged. They will be used for "
 "this next commitment transaction."
@@ -370,25 +374,25 @@ msgstr ""
 "Novos segredos são criados e os seus hashes trocados. Eles serão usados para "
 "esta próxima transação de compromisso."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:124
+#: source-text.txt:126
 msgid "Bob’s secret"
 msgstr "Segredo de Bob"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:126
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:126"
+#: source-text.txt:128
+msgctxt "source-text.txt:128"
 msgid "hash"
 msgstr "hash"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:128
+#: source-text.txt:130
 msgid "Alice’s secret"
 msgstr "Segredo de Alice"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:130
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:130"
+#: source-text.txt:132
+msgctxt "source-text.txt:132"
 msgid "hash"
 msgstr "hash"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:132
+#: source-text.txt:134
 msgid ""
 "Alice creates a commitment transaction sending 5 btc to herself and 3 btc to "
 "a new multisig address that has the same unlocking conditions as before, "
@@ -398,130 +402,130 @@ msgstr ""
 "para um novo endereço multi-assinatura que terá as mesmas condições de "
 "destrancamento de antes, a assina e entrega ao Bob."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:134
+#: source-text.txt:136
 msgid "Alice’s second commitment transaction"
 msgstr "Segunda transação de compromisso de Alice"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:136
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:136"
+#: source-text.txt:138
+msgctxt "source-text.txt:138"
 msgid "1st condition"
 msgstr "1ª condição"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:138
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:138"
+#: source-text.txt:140
+msgctxt "source-text.txt:140"
 msgid "Alice"
 msgstr "Alice"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:140
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:140"
+#: source-text.txt:142
+msgctxt "source-text.txt:142"
 msgid "5 BTC"
 msgstr "5 BTC"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:142
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:142"
+#: source-text.txt:144
+msgctxt "source-text.txt:144"
 msgid "2nd condition"
 msgstr "2ª condição"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:144
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:144"
+#: source-text.txt:146
+msgctxt "source-text.txt:146"
 msgid "multisig"
 msgstr "multisig"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:146
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:146"
+#: source-text.txt:148
+msgctxt "source-text.txt:148"
 msgid "3 BTC"
 msgstr "3 BTC"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:148
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:148"
+#: source-text.txt:150
+msgctxt "source-text.txt:150"
 msgid "to Bob’s key + 1000 block wait"
 msgstr "p/ a chave de Bob + 1000 blocos de espera"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:150
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:150"
+#: source-text.txt:152
+msgctxt "source-text.txt:152"
 msgid "OR"
 msgstr "OU"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:152
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:152"
+#: source-text.txt:154
+msgctxt "source-text.txt:154"
 msgid "to Alice’s key + Bob’s secret"
 msgstr "p/ a chave de Alice + Segredo de Bob"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:154
+#: source-text.txt:156
 msgid ""
 "Bob creates a commitment transaction sending 3 btc to himself and 5 btc to "
 "the new multisig address with the same unlocking conditions as before, signs "
 "and gives it to Alice."
 msgstr ""
-"Bob cria uma segunda transação de compromisso enviando 3 btw a si próprio e "
+"Bob cria uma segunda transação de compromisso enviando 3 btc a si próprio e "
 "5 para um novo endereço multi-assinatura com as mesmas condições de "
 "destrancamento de antes, a assina e entrega a Alice."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:156
+#: source-text.txt:158
 msgid "Bob’s second commitment transaction"
 msgstr "Segunda transação de compromisso de Bob"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:158
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:158"
+#: source-text.txt:160
+msgctxt "source-text.txt:160"
 msgid "1st condition"
 msgstr "1ª condição"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:160
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:160"
+#: source-text.txt:162
+msgctxt "source-text.txt:162"
 msgid "Bob"
 msgstr "Bob"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:162
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:162"
+#: source-text.txt:164
+msgctxt "source-text.txt:164"
 msgid "3 BTC"
 msgstr "3 BTC"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:164
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:164"
+#: source-text.txt:166
+msgctxt "source-text.txt:166"
 msgid "2nd condition"
 msgstr "2ª condição"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:166
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:166"
+#: source-text.txt:168
+msgctxt "source-text.txt:168"
 msgid "multisig"
 msgstr "multisig"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:168
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:168"
+#: source-text.txt:170
+msgctxt "source-text.txt:170"
 msgid "5 BTC"
 msgstr "5 BTC"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:170
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:170"
+#: source-text.txt:172
+msgctxt "source-text.txt:172"
 msgid "to Alice’s key + 1000 block wait"
 msgstr "p/ a chave de Alice + 1000 blocos de espera"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:172
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:172"
+#: source-text.txt:174
+msgctxt "source-text.txt:174"
 msgid "OR"
 msgstr "OU"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:174
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:174"
+#: source-text.txt:176
+msgctxt "source-text.txt:176"
 msgid "to Bob’s key + Alice’s secret"
 msgstr "p/ a chave de Bob + segredo de Alice"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:176
+#: source-text.txt:178
 msgid "Alice and Bob exchange their old secrets, used in the first commitment."
 msgstr ""
 "Alice e Bob trocam os seus antigos segredos, usados nas primeiras transações "
 "de compromisso."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:178
+#: source-text.txt:180
 msgid "This process is repeated every time the balance needs to be updated."
 msgstr ""
 "Este processo é repetido sempre que o saldo do canal precisa ser atualizado."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:180
+#: source-text.txt:182
 msgid "Incentives for a trustless system"
 msgstr "Incentivos para um sistema sem confiança"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:182
+#: source-text.txt:184
 msgid ""
 "So now Bob has 2 commitment transactions, the first one giving him more "
 "money than the second. So why doesn’t he broadcast the first one now and "
@@ -531,26 +535,26 @@ msgstr ""
 "dinheiro do que a 2ª. Então por que ele não transmite a 1ª agora e frauda a "
 "Alice? Vamos ver o que aconteceria."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:184
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:184"
+#: source-text.txt:186
+msgctxt "source-text.txt:186"
 msgid "Step-by-step"
 msgstr "Passo-a-passo"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:186
+#: source-text.txt:188
 msgid ""
 "Bob signs and broadcasts the half-valid transaction that Alice first sent "
 "him."
 msgstr ""
 "Bob assina e transmite a primeira transação semi-válida que Alice o enviara."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:188
+#: source-text.txt:190
 msgid ""
 "Alice will get 3 btc (her balance at the time of the commitment) immediately."
 msgstr ""
 "Alice receberá 3 btc (o saldo dela quando foi feito este compromisso) "
 "imediatamente."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:190
+#: source-text.txt:192
 msgid ""
 "The other 5 btc will go to the address that Bob can only unlock after 1000 "
 "blocks."
@@ -558,30 +562,30 @@ msgstr ""
 "Os outros 5 btc irão para o endereço que Bob só pode destrancar após 1000 "
 "blocos."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:192
+#: source-text.txt:194
 msgid "Bob’s key + 1000 block wait"
-msgstr "P/ a chave de Bob + 1000 blocos de espera"
+msgstr "Chave de Bob + 1000 blocos de espera"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:194
+#: source-text.txt:196
 msgid ""
 "But now Alice has Bob’s secret from that commitment, so she can access the "
 "multisig address before Bob (she doesn’t have to wait 1000 blocks) and get "
 "all the bitcoins to herself."
 msgstr ""
 "Mas, agora, Alice possui o segredo de Bob referente a este compromisso, "
-"então ela pode acessar o endereço multisig antes de Bob (ela não precisa "
-"aguardar os 1000 blocos) e pegar todos os bitcoins para si."
+"então ela pode acessar o endereço multi-assinatura antes de Bob (ela não "
+"precisa aguardar os 1000 blocos) e pegar todos os bitcoins para si."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:196
-msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:196"
+#: source-text.txt:198
+msgctxt "source-text.txt:198"
 msgid "to Alice’s key + Bob’s secret"
 msgstr "p/ a chave de Alice + Segredo de Bob"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:198
+#: source-text.txt:200
 msgid "Bob’s attempt to defraud Alice has just backfired!"
 msgstr "A tentativa do Bob de fraudar Alice saiu pela culatra!"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:200
+#: source-text.txt:202
 msgid ""
 "The same will happen if Alice is the one trying to broadcast an old "
 "commitment. This way, both parties are strongly incentivized to respect the "
@@ -591,18 +595,158 @@ msgstr ""
 "compromisso antiga. Desta forma, ambas as partes têm fortes incentivos para "
 "respeitar o estado atual do canal."
 
-#: understanding-the-lightning-network-part-1/source-text.txt:202
+#: source-text.txt:204
 msgid "Author: Patrícia Estevão"
 msgstr "Autora: Patrícia Estevão"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:204
+#: source-text.txt:206
 msgid "Editor: Marco Agner"
 msgstr "Editor: Marco Agner"
 
-#: understanding-the-lightning-network-part-1/source-text.txt:205
+#: source-text.txt:207
 msgid ""
 "Main resources: https://bitcoinmagazine.com/articles/understanding-the-"
 "lightning-network-part-building-a-bidirectional-payment-channel-1464710791/"
 msgstr ""
 "Principais fontes: https://bitcoinmagazine.com/articles/understanding-the-"
 "lightning-network-part-building-a-bidirectional-payment-channel-1464710791/"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:36"
+#~ msgid "4 BTC"
+#~ msgstr "4 BTC"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:60"
+#~ msgid "multisig"
+#~ msgstr "multisig"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:70"
+#~ msgid "multisig"
+#~ msgstr "multisig"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:72"
+#~ msgid "5 BTC"
+#~ msgstr "5 BTC"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:86"
+#~ msgid "1st condition"
+#~ msgstr "1ª condição"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:90"
+#~ msgid "5 BTC"
+#~ msgstr "5 BTC"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:92"
+#~ msgid "2nd condition"
+#~ msgstr "2ª condição"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:94"
+#~ msgid "multisig"
+#~ msgstr "multisig"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:96"
+#~ msgid "3 BTC"
+#~ msgstr "3 BTC"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:98"
+#~ msgid "This new multisig address can be unlocked by:"
+#~ msgstr "Este novo endereço multi-assinatura pode ser destrancado por:"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:104"
+#~ msgid "multisig"
+#~ msgstr "multisig"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:106"
+#~ msgid "3 BTC"
+#~ msgstr "3 BTC"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:114"
+#~ msgid "Opening transaction"
+#~ msgstr "Transação de abertura"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:120"
+#~ msgid "Step-by-step"
+#~ msgstr "Passo-a-passo"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:130"
+#~ msgid "hash"
+#~ msgstr "hash"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:136"
+#~ msgid "1st condition"
+#~ msgstr "1ª condição"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:138"
+#~ msgid "Alice"
+#~ msgstr "Alice"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:140"
+#~ msgid "5 BTC"
+#~ msgstr "5 BTC"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:142"
+#~ msgid "2nd condition"
+#~ msgstr "2ª condição"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:144"
+#~ msgid "multisig"
+#~ msgstr "multisig"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:146"
+#~ msgid "3 BTC"
+#~ msgstr "3 BTC"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:148"
+#~ msgid "to Bob’s key + 1000 block wait"
+#~ msgstr "p/ a chave de Bob + 1000 blocos de espera"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:150"
+#~ msgid "OR"
+#~ msgstr "OU"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:152"
+#~ msgid "to Alice’s key + Bob’s secret"
+#~ msgstr "p/ a chave de Alice + Segredo de Bob"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:158"
+#~ msgid "1st condition"
+#~ msgstr "1ª condição"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:160"
+#~ msgid "Bob"
+#~ msgstr "Bob"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:162"
+#~ msgid "3 BTC"
+#~ msgstr "3 BTC"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:164"
+#~ msgid "2nd condition"
+#~ msgstr "2ª condição"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:166"
+#~ msgid "multisig"
+#~ msgstr "multisig"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:168"
+#~ msgid "5 BTC"
+#~ msgstr "5 BTC"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:170"
+#~ msgid "to Alice’s key + 1000 block wait"
+#~ msgstr "p/ a chave de Alice + 1000 blocos de espera"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:172"
+#~ msgid "OR"
+#~ msgstr "OU"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:174"
+#~ msgid "to Bob’s key + Alice’s secret"
+#~ msgstr "p/ a chave de Bob + segredo de Alice"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:184"
+#~ msgid "Step-by-step"
+#~ msgstr "Passo-a-passo"
+
+#~ msgctxt "./understanding-the-lightning-network-part-1/source-text.txt:196"
+#~ msgid "to Alice’s key + Bob’s secret"
+#~ msgstr "p/ a chave de Alice + Segredo de Bob"
