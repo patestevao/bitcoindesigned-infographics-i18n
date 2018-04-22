@@ -28,6 +28,8 @@ If someone tries to rob you (broadcasting an old channel state), you can take th
 
 In practice, most people don’t ever need to go to a court because nobody broke their contract, so the arbitration system doesn’t get bloated.
 
+OPEN
+
 Countless transactions can occur in private and off-chain while a channel is open and both parties are being honest, therefore, unburdening the blockchain.
 
 If using the lightning network, only 3 types of transactions need to be broadcast to the blockchain:
