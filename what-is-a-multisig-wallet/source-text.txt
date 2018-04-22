@@ -14,15 +14,15 @@ More than one key may be required to sign each transaction.
 
 m-of-n
 
-The m-of-n scheme means that the wallet is associated with m keys and each time a transaction needs to be broadcast, n of those m keys need to sign it.
+The m-of-n scheme means that the wallet is associated with n keys and each time a transaction needs to be broadcast, m of those n keys need to sign it.
 
-m keys
+n keys
 
-m = 4
+n = 4
 
-n signatures
+m signatures
 
-n = 3
+m = 3
 
 What’s the point?
 
