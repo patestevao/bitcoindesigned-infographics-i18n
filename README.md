@@ -54,6 +54,7 @@ This is where, if you desire, you should entry your name or the preferred handle
 If you prefer to keep your contribution private, just add the equivalent of "Crowdsourced translation" in your language.
 
 So there are the two possible outputs for this entry.
+
 Translator chose to put his name/handle:
 ```
 Translator: Alice Bob
