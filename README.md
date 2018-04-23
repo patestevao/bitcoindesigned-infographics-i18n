@@ -44,5 +44,25 @@ If you don't use Git and still want to contribute, you're also very welcome. Her
 3. Open the .pot template file using a proper application (such as [Poedit](https://poedit.net/download)) and create a new translation file (.po) for the language you'll be translating to (for example, the file pt.po will be created for a Portuguese translation) or just open an existing .po file in case your contribution is improving an existing translation.
 4. When finished with the file, send it to the e-mail btctranslations@patestevao.com. You can send it directly or via a link to a cloud drive service.
 
+## Adding yourself as a translator
+At the end of each infographic source file, there is an entry for a translator name, as follows:
+```
+Translator: [Your name/handle or "Crowdsourced translation"]
+```
+
+This is where, if you desire, you should entry your name or the preferred handle to appear in the infographic and identify you as a contributor.
+If you prefer to keep your contribution private, just add the equivalent of "Crowdsourced translation" in your language.
+
+So there are the two possible outputs for this entry.
+Translator chose to put his name/handle:
+```
+Translator: Alice Bob
+```
+
+Translator prefers not to put his name/handle:
+```
+Translator: Crowdsourced translation
+```
+
 ## License
 You can find the license of this repository and all its files in the file "LICENSE.md" or [here](https://creativecommons.org/licenses/by-sa/4.0/). You agree that any contributions and translations made to this projects will be licensed under the same terms.
