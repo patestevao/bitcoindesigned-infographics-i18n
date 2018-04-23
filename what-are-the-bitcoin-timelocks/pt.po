@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-23 11:06+0100\n"
-"PO-Revision-Date: 2018-04-23 11:50+0100\n"
+"PO-Revision-Date: 2018-04-23 12:11+0100\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,8 +30,8 @@ msgid ""
 "A time lock is a type of smart contract primitive that restricts the "
 "spending of bitcoins until a specified time in the future."
 msgstr ""
-"Uma tranca temporal é um tipo de contrato inteligente que restringe o gasto "
-"de bitcoins até um determinado momento no futuro."
+"Uma tranca temporal é um tipo de primitiva de contrato inteligente que "
+"restringe o gasto de bitcoins até um determinado momento no futuro."
 
 #: what-are-the-bitcoin-timelocks/source-text.txt:10
 msgid "Types of timelocks"
@@ -134,8 +134,8 @@ msgid ""
 "used in case she doesn’t come back in 10 days."
 msgstr ""
 "Alice vai a um retiro e cria uma transação enviando 2 btc ao Bob para que "
-"ele possa pagar uma conta para ela enquanto ela está fora. Mas ela só quer "
-"que isto seja usado no caso de ela não voltar em 10 dias."
+"ele possa pagar uma conta para ela enquanto está fora. Mas ela só quer que "
+"isto seja usado no caso de ela não voltar em 10 dias."
 
 #: what-are-the-bitcoin-timelocks/source-text.txt:42
 msgid ""
@@ -163,7 +163,7 @@ msgstr ""
 
 #: what-are-the-bitcoin-timelocks/source-text.txt:48
 msgid "Alice gives the transaction to Bob."
-msgstr "Alice dá a transação para Bob."
+msgstr "Alice entrega a transação ao Bob."
 
 #: what-are-the-bitcoin-timelocks/source-text.txt:50
 msgid "Alice broadcasts the transaction to the Bitcoin network."
