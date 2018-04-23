@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-12 10:12+0100\n"
-"PO-Revision-Date: 2018-04-10 19:46+0100\n"
+"PO-Revision-Date: 2018-04-23 10:51+0100\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 "Na última vez, nós usamos HTLC (Hash Time-Locked Contracts) para que a Alice "
 "pudesse pagar 1 btc à Carol usando o canal que já estava aberto entre Alice "
-"e Bob. Isto, efetivamente, transformou nosso canal bidirecional em uma rede."
+"e Bob. Isto, efetivamente, transformou o canal bidirecional em uma rede."
 
 #: understanding-the-lightning-network-part-3/source-text.txt:10
 msgid ""
@@ -255,7 +255,7 @@ msgstr "Alice transmite o canal:"
 
 #: understanding-the-lightning-network-part-3/source-text.txt:90
 msgid "Bob gets 3 bitcoins immediately."
-msgstr "Bob recebe 3 bitcoins imediatamente."
+msgstr "Bob recebe 3 btc imediatamente."
 
 #: understanding-the-lightning-network-part-3/source-text.txt:92
 msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:92"
@@ -264,7 +264,7 @@ msgstr "3 BTC"
 
 #: understanding-the-lightning-network-part-3/source-text.txt:94
 msgid "Alice gets 4 bitcoins in 1000 blocks."
-msgstr "Alice recebe 4 bitcoins depois de 1000 blocos."
+msgstr "Alice recebe 4 bitcoins após 1000 blocos."
 
 #: understanding-the-lightning-network-part-3/source-text.txt:96
 msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:96"
@@ -278,7 +278,7 @@ msgid ""
 "bitcoin. If he doesn’t, Alice can take it back to herself."
 msgstr ""
 "Bob tem 2 semanas para apresentar o segredo da Carol e recuperar o bitcoin "
-"restante. Se ele não o fizer, Alice pode pega-lo de volta para si."
+"restante. Se ele não o fizer, Alice pode pega-lo de volta."
 
 #: understanding-the-lightning-network-part-3/source-text.txt:100
 msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:100"
@@ -291,7 +291,7 @@ msgstr "Bob transmite o canal:"
 
 #: understanding-the-lightning-network-part-3/source-text.txt:104
 msgid "Alice gets 4 bitcoins immediately."
-msgstr "Alice recebe 4 bitcoins imediatamente."
+msgstr "Alice recebe 4 btc imediatamente."
 
 #: understanding-the-lightning-network-part-3/source-text.txt:106
 msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:106"
@@ -300,7 +300,7 @@ msgstr "4 BTC"
 
 #: understanding-the-lightning-network-part-3/source-text.txt:108
 msgid "Bob gets 3 bitcoins in 1000 blocks."
-msgstr "Bob recebe 3 bitcoins depois de 1000 blocos."
+msgstr "Bob recebe 3 btc após 1000 blocos."
 
 #: understanding-the-lightning-network-part-3/source-text.txt:110
 msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:110"
@@ -314,7 +314,7 @@ msgid ""
 "bitcoin. If he doesn’t, Alice can take it back to herself."
 msgstr ""
 "Bob tem 2 semanas para apresentar o segredo da Carol e recuperar o bitcoin "
-"restante. Se ele não o fizer, Alice pode pega-lo de volta para si."
+"restante. Se ele não o fizer, Alice pode pega-lo de volta."
 
 #: understanding-the-lightning-network-part-3/source-text.txt:114
 msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:114"
@@ -435,8 +435,8 @@ msgid ""
 "e., the most recent channel state."
 msgstr ""
 "Para finalmente fechar o canal, Alice e Bob vão criar e transmitir uma "
-"transação diretamente da transação de abertura que reflita o saldo final, i."
-"e. o estado mais recente do canal."
+"transação diretamente da transação de abertura que reflita o saldo final, "
+"isto é, o estado mais recente do canal."
 
 #: understanding-the-lightning-network-part-3/source-text.txt:158
 msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:158"
