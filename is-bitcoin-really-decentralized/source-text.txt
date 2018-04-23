@@ -82,4 +82,6 @@ Author: Patrícia Estevão
 
 Editor: Marco Agner
 
+Translator: [Your name/handle or "Crowdsourced translation"]
+
 Sources: https://github.com/libbitcoin/libbitcoin/wiki/Centralization-Risk

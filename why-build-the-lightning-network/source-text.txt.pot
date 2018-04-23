@@ -1,10 +1,10 @@
-#. extracted from source-text.txt
+#. extracted from ./why-build-the-lightning-network/source-text.txt
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-22 15:17+0100\n"
+"POT-Creation-Date: 2018-04-23 11:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,176 +13,180 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 2.3.0\n"
 
-#: source-text.txt:2
+#: ./why-build-the-lightning-network/source-text.txt:2
 msgid "Why build the Lightning Network?"
 msgstr ""
 
-#: source-text.txt:4
+#: ./why-build-the-lightning-network/source-text.txt:4
 msgid "bitcoindesigned.com"
 msgstr ""
 
-#: source-text.txt:6
+#: ./why-build-the-lightning-network/source-text.txt:6
 msgid "What is the big idea?"
 msgstr ""
 
-#: source-text.txt:8
+#: ./why-build-the-lightning-network/source-text.txt:8
 msgid "The lightning network is a scaling approach to Bitcoin."
 msgstr ""
 
-#: source-text.txt:10
+#: ./why-build-the-lightning-network/source-text.txt:10
 msgid ""
 "It’s really about moving a lot of Bitcoin transactions out of the blockchain "
 "and into private channels between users, but still counting on the "
 "blockchain’s security."
 msgstr ""
 
-#: source-text.txt:12
+#: ./why-build-the-lightning-network/source-text.txt:12
 msgid "Off-chain transactions"
 msgstr ""
 
-#: source-text.txt:14
+#: ./why-build-the-lightning-network/source-text.txt:14
 msgid "blockchain"
 msgstr ""
 
-#: source-text.txt:16
+#: ./why-build-the-lightning-network/source-text.txt:16
 msgid ""
 "It’s like a contract and arbitration system (with a poetic license, of "
 "course):"
 msgstr ""
 
-#: source-text.txt:18
+#: ./why-build-the-lightning-network/source-text.txt:18
 msgid ""
 "Imagine you want to make a deal with someone and, for that, you create a "
 "contract and register it with a notary."
 msgstr ""
 
-#: source-text.txt:20
+#: ./why-build-the-lightning-network/source-text.txt:20
 msgid "That’s you opening a lightning network channel with someone."
 msgstr ""
 
-#: source-text.txt:22
+#: ./why-build-the-lightning-network/source-text.txt:22
 msgid ""
 "You expect to do this deal without any hassles, with both parties fulfilling "
 "their duties. But, anyway, you have a contract to protect yourself."
 msgstr ""
 
-#: source-text.txt:24
+#: ./why-build-the-lightning-network/source-text.txt:24
 msgid ""
 "You create commitment transactions that are not really broadcast, unless "
 "necessary to resolve a dispute."
 msgstr ""
 
-#: source-text.txt:26
+#: ./why-build-the-lightning-network/source-text.txt:26
 msgid ""
 "If one of you breaks the agreement, you can take this contract to a court "
 "that will recognize it as valid and give gain to the honest party."
 msgstr ""
 
-#: source-text.txt:28
+#: ./why-build-the-lightning-network/source-text.txt:28
 msgid ""
 "If someone tries to rob you (broadcasting an old channel state), you can "
 "take the contract to the blockchain and get all the bitcoins in the channel. "
 "Only, in this case, there’s no subjectivity in interpreting the contract."
 msgstr ""
 
-#: source-text.txt:30
+#: ./why-build-the-lightning-network/source-text.txt:30
 msgid ""
 "In practice, most people don’t ever need to go to a court because nobody "
 "broke their contract, so the arbitration system doesn’t get bloated."
 msgstr ""
 
-#: source-text.txt:32
+#: ./why-build-the-lightning-network/source-text.txt:32
 msgid "OPEN"
 msgstr ""
 
-#: source-text.txt:34
+#: ./why-build-the-lightning-network/source-text.txt:34
 msgid ""
 "Countless transactions can occur in private and off-chain while a channel is "
 "open and both parties are being honest, therefore, unburdening the "
 "blockchain."
 msgstr ""
 
-#: source-text.txt:36
+#: ./why-build-the-lightning-network/source-text.txt:36
 msgid ""
 "If using the lightning network, only 3 types of transactions need to be "
 "broadcast to the blockchain:"
 msgstr ""
 
-#: source-text.txt:38
+#: ./why-build-the-lightning-network/source-text.txt:38
 msgid "The transaction that opens a channel."
 msgstr ""
 
-#: source-text.txt:40
+#: ./why-build-the-lightning-network/source-text.txt:40
 msgid "The transaction that closes a channel."
 msgstr ""
 
-#: source-text.txt:42
+#: ./why-build-the-lightning-network/source-text.txt:42
 msgid "Disputes that need to be settled."
 msgstr ""
 
-#: source-text.txt:44
+#: ./why-build-the-lightning-network/source-text.txt:44
 msgid "The big features"
 msgstr ""
 
-#: source-text.txt:46
+#: ./why-build-the-lightning-network/source-text.txt:46
 msgid "Fast and cheap"
 msgstr ""
 
-#: source-text.txt:48
+#: ./why-build-the-lightning-network/source-text.txt:48
 msgid ""
 "Now you can actually get instant and almost free payments since you can "
 "mainly transact without the limitations of writing on the blockchain. Which "
 "means micro-payments are now totally viable!"
 msgstr ""
 
-#: source-text.txt:50
+#: ./why-build-the-lightning-network/source-text.txt:50
 msgid "Practical"
 msgstr ""
 
-#: source-text.txt:52
+#: ./why-build-the-lightning-network/source-text.txt:52
 msgid ""
 "You only have to open a few channels to be able to transact with the whole "
 "network because channels are interconnected."
 msgstr ""
 
-#: source-text.txt:54
+#: ./why-build-the-lightning-network/source-text.txt:54
 msgid "No expiration date"
 msgstr ""
 
-#: source-text.txt:56
+#: ./why-build-the-lightning-network/source-text.txt:56
 msgid ""
 "Channels can stay open indefinitely, maximizing the unburdening effect on "
 "the blockchain and dissolving the fees for the opening and closing "
 "transactions of a channel."
 msgstr ""
 
-#: source-text.txt:58
+#: ./why-build-the-lightning-network/source-text.txt:58
 msgid "OPEN 24/7"
 msgstr ""
 
-#: source-text.txt:60
+#: ./why-build-the-lightning-network/source-text.txt:60
 msgid "Improved privacy"
 msgstr ""
 
-#: source-text.txt:62
+#: ./why-build-the-lightning-network/source-text.txt:62
 msgid ""
 "It can use encryption and intermediary nodes that relay transactions without "
 "knowing its origin and destiny (onion-style routing)."
 msgstr ""
 
-#: source-text.txt:64
+#: ./why-build-the-lightning-network/source-text.txt:64
 msgid "Author: Patrícia Estevão"
 msgstr ""
 
-#: source-text.txt:66
+#: ./why-build-the-lightning-network/source-text.txt:66
 msgid "Editor: Marco Agner"
 msgstr ""
 
-#: source-text.txt:68
+#: ./why-build-the-lightning-network/source-text.txt:68
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./why-build-the-lightning-network/source-text.txt:70
 msgid "Sources: https://en.bitcoin.it/wiki/Lightning_Network"
 msgstr ""
 
-#: source-text.txt:69
+#: ./why-build-the-lightning-network/source-text.txt:71
 msgid ""
 "The court analogy was described in reddit a while ago, I just couldn’t find "
 "a link to it. If someone finds it, please send it to me. :)"

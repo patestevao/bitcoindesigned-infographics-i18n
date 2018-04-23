@@ -184,4 +184,6 @@ Author: Patrícia Estevão
 
 Editor: Marco Agner
 
+Translator: [Your name/handle or "Crowdsourced translation"]
+
 Main resources: https://bitcoinmagazine.com/articles/understanding-the-lightning-network-part-completing-the-puzzle-and-closing-the-channel-1466178980/

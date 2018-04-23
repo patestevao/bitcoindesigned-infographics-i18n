@@ -180,6 +180,8 @@ Author: Patrícia Estevão
 
 Editor: Marco Agner
 
+Translator: [Your name/handle or "Crowdsourced translation"]
+
 Main sources: https://en.bitcoin.it/wiki/Hash
 
 https://en.wikipedia.org/wiki/Cryptographic_hash

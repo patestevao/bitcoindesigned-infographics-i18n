@@ -50,4 +50,6 @@ Author: Patrícia Estevão
 
 Editor: Marco Agner
 
+Translator: [Your name/handle or "Crowdsourced translation"]
+
 Sources: Mastering Bitcoin by Andreas Antonopoulos. Available at https://github.com/bitcoinbook/bitcoinbook

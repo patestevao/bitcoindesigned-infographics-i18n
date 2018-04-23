@@ -64,6 +64,8 @@ Author: Patrícia Estevão
 
 Editor: Marco Agner
 
+Translator: [Your name/handle or "Crowdsourced translation"]
+
 Sources: https://en.bitcoin.it/wiki/Lightning_Network
 
 The court analogy was described in reddit a while ago, I just couldn’t find a link to it. If someone finds it, please send it to me. :)

@@ -31,3 +31,5 @@ The ideal average mining time is stablished as 10 minutes per block.
 Author: Patrícia Estevão
 
 Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]

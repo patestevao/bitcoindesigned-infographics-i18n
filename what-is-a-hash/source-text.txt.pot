@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"POT-Creation-Date: 2018-04-23 11:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
 
 #: ./what-is-a-hash/source-text.txt:2
 msgid "What is a hash?"
@@ -429,13 +429,17 @@ msgid "Editor: Marco Agner"
 msgstr ""
 
 #: ./what-is-a-hash/source-text.txt:184
-msgid "Main sources: https://en.bitcoin.it/wiki/Hash"
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
 msgstr ""
 
 #: ./what-is-a-hash/source-text.txt:186
+msgid "Main sources: https://en.bitcoin.it/wiki/Hash"
+msgstr ""
+
+#: ./what-is-a-hash/source-text.txt:188
 msgid "https://en.wikipedia.org/wiki/Cryptographic_hash"
 msgstr ""
 
-#: ./what-is-a-hash/source-text.txt:187
+#: ./what-is-a-hash/source-text.txt:189
 msgid "https://en.bitcoin.it/wiki/SHA-256"
 msgstr ""

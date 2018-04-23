@@ -51,3 +51,5 @@ Company LOL has a 3-of-5 Bitcoin wallet with its resources and each key is hold 
 Author: Patrícia Estevão
 
 Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]

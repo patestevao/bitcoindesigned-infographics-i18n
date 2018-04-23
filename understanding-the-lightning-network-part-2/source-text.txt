@@ -114,4 +114,6 @@ Author: Patrícia Estevão
 
 Editor: Marco Agner
 
+Translator: [Your name/handle or "Crowdsourced translation"]
+
 Main resources: https://bitcoinmagazine.com/articles/understanding-the-lightning-network-part-creating-the-network-1465326903/

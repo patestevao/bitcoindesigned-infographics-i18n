@@ -49,3 +49,5 @@ Maybe not the best idea...
 Author: Patrícia Estevão
 
 Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]

@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"POT-Creation-Date: 2018-04-23 11:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
 
 #: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:2
 msgid "Public Key Cryptography in Bitcoin transactions"
@@ -303,6 +303,10 @@ msgstr ""
 msgid "Editor: Marco Agner"
 msgstr ""
 
-#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:125
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:126
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./public-key-cryptography-in-bitcoin-transactions/source-text.txt:127
 msgid "External source: https://en.wikipedia.org/wiki/Public-key_cryptography"
 msgstr ""

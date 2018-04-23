@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"POT-Creation-Date: 2018-04-23 11:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
 
 #: ./understanding-the-lightning-network-part-3/source-text.txt:2
 msgid "Understanding the Lightning Network - Part 3:"
@@ -467,9 +467,12 @@ msgstr ""
 msgid "Editor: Marco Agner"
 msgstr ""
 
-#: ./understanding-the-lightning-network-part-3/source-text.txt:187
+#: ./understanding-the-lightning-network-part-3/source-text.txt:188
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./understanding-the-lightning-network-part-3/source-text.txt:189
 msgid ""
-"Main resources: https://bitcoinmagazine.com/articles/understanding-the-"
-"lightning-network-part-completing-the-puzzle-and-closing-the-"
-"channel-1466178980/"
+"Main resources: https://bitcoinmagazine.com/articles/understanding-the-lightn"
+"ing-network-part-completing-the-puzzle-and-closing-the-channel-1466178980/"
 msgstr ""

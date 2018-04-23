@@ -78,6 +78,8 @@ Author: Patrícia Estevão
 
 Editor: Marco Agner
 
+Translator: [Your name/handle or "Crowdsourced translation"]
+
 Thanks to these great sources:
 
 https://medium.com/@lukedashjr/how-you-can-help-ensure-bip148-is-a-success-2fb63bf5114f

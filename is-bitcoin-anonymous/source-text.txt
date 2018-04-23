@@ -117,3 +117,5 @@ Main Source: https://bitcoin.org/en/protect-your-privacy
 Author: Patrícia Estevão
 
 Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]

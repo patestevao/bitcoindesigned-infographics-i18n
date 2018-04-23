@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-12 10:12+0100\n"
+"POT-Creation-Date: 2018-04-23 11:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
 
 #: ./what-is-bitcoin-the-network/source-text.txt:2
 msgid "What is Bitcoin? - The Network"
@@ -167,6 +167,10 @@ msgstr ""
 msgid "Author: Patrícia Estevão"
 msgstr ""
 
-#: ./what-is-bitcoin-the-network/source-text.txt:63
+#: ./what-is-bitcoin-the-network/source-text.txt:64
 msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./what-is-bitcoin-the-network/source-text.txt:65
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
 msgstr ""

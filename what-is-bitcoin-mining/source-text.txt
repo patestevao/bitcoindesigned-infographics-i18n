@@ -25,3 +25,5 @@ When the solution is found, the new block is added to the local blockchain and p
 Author: Patrícia Estevão
 
 Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]

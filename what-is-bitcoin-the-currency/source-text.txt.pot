@@ -1,10 +1,10 @@
-#. extracted from source-text.txt
+#. extracted from ./what-is-bitcoin-the-currency/source-text.txt
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-07 13:52+0100\n"
+"POT-Creation-Date: 2018-04-23 11:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,216 +13,220 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 2.3.0\n"
 
-#: source-text.txt:2
+#: ./what-is-bitcoin-the-currency/source-text.txt:2
 msgid "WHAT IS BITCOIN? - The Currency"
 msgstr ""
 
-#: source-text.txt:4
+#: ./what-is-bitcoin-the-currency/source-text.txt:4
 msgid "bitcoindesigned.com"
 msgstr ""
 
-#: source-text.txt:6
+#: ./what-is-bitcoin-the-currency/source-text.txt:6
 msgid "breaking in pieces"
 msgstr ""
 
-#: source-text.txt:8
+#: ./what-is-bitcoin-the-currency/source-text.txt:8
 msgid "Digital Currency"
 msgstr ""
 
-#: source-text.txt:10
+#: ./what-is-bitcoin-the-currency/source-text.txt:10
 msgid ""
 "It’s all about ones and zeros, meaning it has no physical form such as a "
 "coin."
 msgstr ""
 
-#: source-text.txt:12
+#: ./what-is-bitcoin-the-currency/source-text.txt:12
 msgid "Cryptocurrency"
 msgstr ""
 
-#: source-text.txt:14
+#: ./what-is-bitcoin-the-currency/source-text.txt:14
 msgid ""
 "Based on mathematics and cryptography. Which means it can’t be counterfeit - "
 "math doesn’t lie."
 msgstr ""
 
-#: source-text.txt:16
+#: ./what-is-bitcoin-the-currency/source-text.txt:16
 msgid "limited amount"
 msgstr ""
 
-#: source-text.txt:18
+#: ./what-is-bitcoin-the-currency/source-text.txt:18
 msgid ""
 "There is a limit of roughly 21 million bitcoins to be ever put in "
 "circulation."
 msgstr ""
 
-#: source-text.txt:20
+#: ./what-is-bitcoin-the-currency/source-text.txt:20
 msgid ""
 "It doesn’t allow anyone to print more bitcoins recklessly, which preserves "
 "the currency value - it’s scarce."
 msgstr ""
 
-#: source-text.txt:22
+#: ./what-is-bitcoin-the-currency/source-text.txt:22
 msgid "ownership records"
 msgstr ""
 
-#: source-text.txt:24
+#: ./what-is-bitcoin-the-currency/source-text.txt:24
 msgid ""
 "Bitcoin ownership is actually a record on the Blockchain - this big "
 "decentralized ledger - saying those bitcoins were transferred to you."
 msgstr ""
 
-#: source-text.txt:26
+#: ./what-is-bitcoin-the-currency/source-text.txt:26
 msgid "mining"
 msgstr ""
 
-#: source-text.txt:28
+#: ./what-is-bitcoin-the-currency/source-text.txt:28
 msgid ""
 "It’s a type of math problem that needs a lot of processing power. It’s used "
 "for writing transactions and those who do it are rewarded with transaction "
 "fees and new bitcoins, which is how the currency is issued."
 msgstr ""
 
-#: source-text.txt:30
+#: ./what-is-bitcoin-the-currency/source-text.txt:30
 msgid "divisibility"
 msgstr ""
 
-#: source-text.txt:32
+#: ./what-is-bitcoin-the-currency/source-text.txt:32
 msgid ""
 "The smallest unit of Bitcoin is a Satoshi; it represents one hundred "
 "millionth of a bitcoin. But, if needed, this part can become even smaller."
 msgstr ""
 
-#: source-text.txt:34
+#: ./what-is-bitcoin-the-currency/source-text.txt:34
 msgid "the features"
 msgstr ""
 
-#: source-text.txt:36
+#: ./what-is-bitcoin-the-currency/source-text.txt:36
 msgid "or... Why everyone is so crazy about it"
 msgstr ""
 
-#: source-text.txt:38
+#: ./what-is-bitcoin-the-currency/source-text.txt:38
 msgid "Critical (break these and Bitcoin will never be the same)"
 msgstr ""
 
-#: source-text.txt:40
+#: ./what-is-bitcoin-the-currency/source-text.txt:40
 msgid "Decentralized"
 msgstr ""
 
-#: source-text.txt:42
+#: ./what-is-bitcoin-the-currency/source-text.txt:42
 msgid ""
 "No central bank can freeze your accounts or implement poorly conceived "
 "policies that devalue your currency."
 msgstr ""
 
-#: source-text.txt:44
+#: ./what-is-bitcoin-the-currency/source-text.txt:44
 msgid "No Red-Tape"
 msgstr ""
 
-#: source-text.txt:46
+#: ./what-is-bitcoin-the-currency/source-text.txt:46
 msgid "Anyone can use bitcoin, no questions, no documents and no custody fees."
 msgstr ""
 
-#: source-text.txt:48
+#: ./what-is-bitcoin-the-currency/source-text.txt:48
 msgid "Pretty Anonymous"
 msgstr ""
 
-#: source-text.txt:50
+#: ./what-is-bitcoin-the-currency/source-text.txt:50
 msgid ""
 "Your name isn’t linked to your transactions, making it a lot more private "
 "and safe than regular bank operations and credit card payments."
 msgstr ""
 
-#: source-text.txt:52
+#: ./what-is-bitcoin-the-currency/source-text.txt:52
 msgid "Non-repudiable"
 msgstr ""
 
-#: source-text.txt:54
+#: ./what-is-bitcoin-the-currency/source-text.txt:54
 msgid ""
 "Once a bitcoin transaction is confirmed, it can’t be reverted unless there "
 "is a voluntary agreement between the two parties - such as a store policy."
 msgstr ""
 
-#: source-text.txt:56
+#: ./what-is-bitcoin-the-currency/source-text.txt:56
 msgid "Transparent"
 msgstr ""
 
-#: source-text.txt:58
+#: ./what-is-bitcoin-the-currency/source-text.txt:58
 msgid ""
 "Everyone can check every address and its transactions - although you don’t "
 "know the owners of all addresses, only those identities that were entrusted "
 "to you."
 msgstr ""
 
-#: source-text.txt:60
+#: ./what-is-bitcoin-the-currency/source-text.txt:60
 msgid "changeable (market development might change these a little)"
 msgstr ""
 
-#: source-text.txt:62
+#: ./what-is-bitcoin-the-currency/source-text.txt:62
 msgid "Fast"
 msgstr ""
 
-#: source-text.txt:64
+#: ./what-is-bitcoin-the-currency/source-text.txt:64
 msgid "Transactions can reach anyone in any part of the world within minutes."
 msgstr ""
 
-#: source-text.txt:66
-msgctxt "source-text.txt:66"
+#: ./what-is-bitcoin-the-currency/source-text.txt:66
+msgctxt "./what-is-bitcoin-the-currency/source-text.txt:66"
 msgid "Possible Change"
 msgstr ""
 
-#: source-text.txt:68
+#: ./what-is-bitcoin-the-currency/source-text.txt:68
 msgid ""
 "If the volume of transactions grows  a lot  - say, bitcoin becoming "
 "mainstream - transactions will take longer to be cleared on the blockchain."
 msgstr ""
 
-#: source-text.txt:70
-msgctxt "source-text.txt:70"
+#: ./what-is-bitcoin-the-currency/source-text.txt:70
+msgctxt "./what-is-bitcoin-the-currency/source-text.txt:70"
 msgid "What Might Happen"
 msgstr ""
 
-#: source-text.txt:72
+#: ./what-is-bitcoin-the-currency/source-text.txt:72
 msgid ""
 "Besides measures to scale Bitcoin’s core, small and quick transactions will "
 "probably be cleared by third parties or other layers over the blockchain."
 msgstr ""
 
-#: source-text.txt:74
+#: ./what-is-bitcoin-the-currency/source-text.txt:74
 msgid "Cheap"
 msgstr ""
 
-#: source-text.txt:76
+#: ./what-is-bitcoin-the-currency/source-text.txt:76
 msgid ""
 "Transaction fees are low - currently around 1 USD if you don’t want to wait "
 "too much for a confirmation."
 msgstr ""
 
-#: source-text.txt:78
-msgctxt "source-text.txt:78"
+#: ./what-is-bitcoin-the-currency/source-text.txt:78
+msgctxt "./what-is-bitcoin-the-currency/source-text.txt:78"
 msgid "Possible Change"
 msgstr ""
 
-#: source-text.txt:80
+#: ./what-is-bitcoin-the-currency/source-text.txt:80
 msgid ""
 "When bitcoin issuing diminishes, the miner’s reward will come mostly from "
 "transaction fees, which will be higher."
 msgstr ""
 
-#: source-text.txt:82
-msgctxt "source-text.txt:82"
+#: ./what-is-bitcoin-the-currency/source-text.txt:82
+msgctxt "./what-is-bitcoin-the-currency/source-text.txt:82"
 msgid "What Might Happen"
 msgstr ""
 
-#: source-text.txt:84
+#: ./what-is-bitcoin-the-currency/source-text.txt:84
 msgid ""
 "Predictive calculations indicate that fees will still be very afordable, "
 "even when covering all miners expenses alone."
 msgstr ""
 
-#: source-text.txt:86
+#: ./what-is-bitcoin-the-currency/source-text.txt:86
 msgid "Author: Patrícia Estevão"
 msgstr ""
 
-#: source-text.txt:87
+#: ./what-is-bitcoin-the-currency/source-text.txt:88
 msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./what-is-bitcoin-the-currency/source-text.txt:89
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
 msgstr ""
