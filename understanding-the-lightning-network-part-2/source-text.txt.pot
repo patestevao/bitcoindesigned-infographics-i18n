@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-07 13:44+0100\n"
+"POT-Creation-Date: 2018-04-23 09:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -163,72 +163,71 @@ msgid "to Bob’s key + Carol’s secret"
 msgstr ""
 
 #: source-text.txt:66
-msgid "to Alice’s key + 14 days"
+msgctxt "source-text.txt:66"
+msgid "OR"
 msgstr ""
 
 #: source-text.txt:68
+msgid "to Alice’s key + 14 days"
+msgstr ""
+
+#: source-text.txt:70
 msgid ""
 "This means Bob has 2 weeks to perform his deal with Carol and broadcast a "
 "transaction that claims this bitcoin. And, if he decides not to go on with "
 "his part, Alice can still get her bitcoin back."
 msgstr ""
 
-#: source-text.txt:70
+#: source-text.txt:72
 msgid "Bob sends 1 btc to a multisig address that can be unlocked by:"
 msgstr ""
 
-#: source-text.txt:72
+#: source-text.txt:74
 msgid "Carol, if she presents her secret."
 msgstr ""
 
-#: source-text.txt:74
+#: source-text.txt:76
 msgid "Bob, but only after some time, let’s say 10 days."
 msgstr ""
 
-#: source-text.txt:76
-msgid "Bob’s transaction with Carol"
-msgstr ""
-
 #: source-text.txt:78
-msgctxt "source-text.txt:78"
-msgid "multisig"
+msgid "Bob’s transaction with Carol"
 msgstr ""
 
 #: source-text.txt:80
 msgctxt "source-text.txt:80"
-msgid "1 BTC"
+msgid "multisig"
 msgstr ""
 
 #: source-text.txt:82
-msgid "to Carol’s key + Carol’s secret"
+msgctxt "source-text.txt:82"
+msgid "1 BTC"
 msgstr ""
 
 #: source-text.txt:84
-msgid "to Bob’s key + 10 days"
+msgid "to Carol’s key + Carol’s secret"
 msgstr ""
 
 #: source-text.txt:86
+msgctxt "source-text.txt:86"
+msgid "OR"
+msgstr ""
+
+#: source-text.txt:88
+msgid "to Bob’s key + 10 days"
+msgstr ""
+
+#: source-text.txt:90
 msgid ""
 "It’s important for the time lock on this contract to end before the lock on "
 "Alice’s contract. Otherwise, Bob is in risk of paying Carol and not getting "
 "paid by Alice because she could reclaim her bitcoin."
 msgstr ""
 
-#: source-text.txt:88
+#: source-text.txt:92
 msgid ""
 "Carol will present her secret to Bob’s contract, before the 10 days time "
 "lock ends, and receive the bitcoin."
-msgstr ""
-
-#: source-text.txt:90
-msgctxt "source-text.txt:90"
-msgid "1 BTC"
-msgstr ""
-
-#: source-text.txt:92
-msgid ""
-"Bob will present Carol’s secret to Alice’s contract, before the end of 14 "
-"days, and receive the bitcoin."
 msgstr ""
 
 #: source-text.txt:94
@@ -238,50 +237,61 @@ msgstr ""
 
 #: source-text.txt:96
 msgid ""
-"Alice will have blockchain proof that Carol received her bitcoin (the secret "
-"she presented in Bob’s contract)."
+"Bob will present Carol’s secret to Alice’s contract, before the end of 14 "
+"days, and receive the bitcoin."
 msgstr ""
 
 #: source-text.txt:98
-msgid "The guarantees"
+msgctxt "source-text.txt:98"
+msgid "1 BTC"
 msgstr ""
 
 #: source-text.txt:100
 msgid ""
-"The point of these HTLC contracts is to guarantee some important outcomes:"
+"Alice will have blockchain proof that Carol received her bitcoin (the secret "
+"she presented in Bob’s contract)."
 msgstr ""
 
 #: source-text.txt:102
+msgid "The guarantees"
+msgstr ""
+
+#: source-text.txt:104
+msgid ""
+"The point of these HTLC contracts is to guarantee some important outcomes:"
+msgstr ""
+
+#: source-text.txt:106
 msgid ""
 "If Carol presents her secret, stamping it publicly on the blockchain, she is "
 "guaranteed to get her bitcoin from Bob."
 msgstr ""
 
-#: source-text.txt:104
+#: source-text.txt:108
 msgid ""
 "If Carol claims her bitcoin from Bob, Bob is guaranteed to have her secret."
 msgstr ""
 
-#: source-text.txt:106
+#: source-text.txt:110
 msgid ""
 "If Bob presents Carol’s secret, he’s guaranteed to get a bitcoin from Alice."
 msgstr ""
 
-#: source-text.txt:108
+#: source-text.txt:112
 msgid ""
 "If Alice sees Carol’s secret on the blockchain, she’s guaranteed that Carol "
 "got the payment she was due."
 msgstr ""
 
-#: source-text.txt:110
+#: source-text.txt:114
 msgid "Author: Patrícia Estevão"
 msgstr ""
 
-#: source-text.txt:112
+#: source-text.txt:116
 msgid "Editor: Marco Agner"
 msgstr ""
 
-#: source-text.txt:113
+#: source-text.txt:117
 msgid ""
 "Main resources: https://bitcoinmagazine.com/articles/"
 "understanding-the-lightning-network-part-creating-the-network-1465326903/"

@@ -62,6 +62,8 @@ multisig
 
 to Bob’s key + Carol’s secret
 
+OR
+
 to Alice’s key + 14 days
 
 This means Bob has 2 weeks to perform his deal with Carol and broadcast a transaction that claims this bitcoin. And, if he decides not to go on with his part, Alice can still get her bitcoin back.
@@ -79,6 +81,8 @@ multisig
 1 BTC
 
 to Carol’s key + Carol’s secret
+
+OR
 
 to Bob’s key + 10 days
 
