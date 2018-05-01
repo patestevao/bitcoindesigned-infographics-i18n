@@ -1,0 +1,291 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-23 11:06+0100\n"
+"PO-Revision-Date: 2018-05-01 21:03+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt\n"
+
+#: is-bitcoin-really-decentralized/source-text.txt:2
+msgid "Is Bitcoin really decentralized?"
+msgstr "O Bitcoin é realmente descentralizado?"
+
+#: is-bitcoin-really-decentralized/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: is-bitcoin-really-decentralized/source-text.txt:6
+msgid ""
+"When we talk about decentralization and centralization, it’s not like black "
+"and white. Instead, there’s a whole range of grays in the middle."
+msgstr ""
+"Quando falamos de descentralização e centralização, não é tudo preto e "
+"branco. Pelo contrário, há toda uma gama de cinzas no meio."
+
+#: is-bitcoin-really-decentralized/source-text.txt:8
+msgid "Being more decentralized or less is a thing."
+msgstr "Pode-se dizer que algo é mais descentralizado ou menos."
+
+#: is-bitcoin-really-decentralized/source-text.txt:10
+msgid "Fully centralized"
+msgstr "Totalmente centralizado"
+
+#: is-bitcoin-really-decentralized/source-text.txt:12
+msgid "Nuance of centralization"
+msgstr "Nuance de centralização"
+
+#: is-bitcoin-really-decentralized/source-text.txt:14
+msgid "Fully decentralized"
+msgstr "Totalmente descentralizado"
+
+#: is-bitcoin-really-decentralized/source-text.txt:16
+msgid ""
+"Also, decentralization doesn’t mean good while centralization means bad. "
+"Both can be useful depending on the context, we just have to know when."
+msgstr ""
+"Além disso, descentralização não quer dizer bom enquanto centralização quer "
+"dizer mau. Ambos modelos são úteis dependendo do contexto, nós apenas "
+"precisamos saber quando empregá-los."
+
+#: is-bitcoin-really-decentralized/source-text.txt:18
+msgid "But enough with the introduction:"
+msgstr "Ok, já está bom de introdução:"
+
+#: is-bitcoin-really-decentralized/source-text.txt:20
+msgid "How decentralized is Bitcoin?"
+msgstr "O quão descentralizado é o Bitcoin?"
+
+#: is-bitcoin-really-decentralized/source-text.txt:22
+msgid "Nodes"
+msgstr "Nós"
+
+#: is-bitcoin-really-decentralized/source-text.txt:24
+msgid ""
+"Node decentralization is essential for a healthy Bitcoin. But not just any "
+"node, an economically active full node."
+msgstr ""
+"A descentralização dos nós é essencial para um Bitcoin saudável. Mas não "
+"apenas qualquer nó, um nó economicamente ativo."
+
+#: is-bitcoin-really-decentralized/source-text.txt:26
+msgid ""
+"The nodes that really make a difference in the decision of protocol changes "
+"are the ones that accept transactions and validate them using their own full "
+"nodes, usually merchants. That’s what we call the economic majority."
+msgstr ""
+"Os nós que realmente fazem a diferença na decisão de mudanças no protocolo "
+"são aqueles que aceitam transações e as validam usando seus próprios nós "
+"completos, normalmente comerciantes. Isto é o que chamamos de maioria "
+"econômica."
+
+#: is-bitcoin-really-decentralized/source-text.txt:28
+msgid ""
+"If there were fewer merchants, there would be fewer people to enforce "
+"Bitcoin’s consensus rules, leaving it more prone to manipulation."
+msgstr ""
+"Se houvesse menos comerciantes, haveria menos pessoas para forçar as regras "
+"de consenso do Bitcoin, deixando o sistema mais passível de manipulação."
+
+#: is-bitcoin-really-decentralized/source-text.txt:30
+msgid "Mining"
+msgstr "Mineração"
+
+#: is-bitcoin-really-decentralized/source-text.txt:32
+msgid ""
+"Mining is pretty centralized nowadays. It can happen in a variety of ways, "
+"such as the centralization of:"
+msgstr ""
+"A mineração é bem centralizada, atualmente. Isto pode acontecer de mais de "
+"uma forma, como a centralização de:"
+
+#: is-bitcoin-really-decentralized/source-text.txt:34
+msgid "Hardware suppliers"
+msgstr "Oferta de hardware"
+
+#: is-bitcoin-really-decentralized/source-text.txt:36
+msgid "Miners (pooling)"
+msgstr "Mineradores (pooling)"
+
+#: is-bitcoin-really-decentralized/source-text.txt:38
+msgid "Location of mining operations"
+msgstr "Localização da operação de mineração"
+
+#: is-bitcoin-really-decentralized/source-text.txt:40
+msgid ""
+"With a centralized mining, the inclusion of transactions in the blockchain "
+"is less secure."
+msgstr ""
+"Com uma mineração centralizada, a inclusão de transações na blockchain é "
+"menos segura."
+
+#: is-bitcoin-really-decentralized/source-text.txt:42
+msgid ""
+"Operations that hold too much mining power can effectively censor and, at "
+"some point, reorder transactions."
+msgstr ""
+"Operações que possuem demasiado poder de mineração podem efetivamente "
+"censurar e, em algum ponto, reordenar transações."
+
+#: is-bitcoin-really-decentralized/source-text.txt:44
+msgid "New POW"
+msgstr "Novo POW"
+
+#: is-bitcoin-really-decentralized/source-text.txt:46
+msgid ""
+"One of the considered wepons against centralized mining is a thoroughly "
+"planned change in the Proof-of-Work algorithm, which would render all "
+"current mining hardware useless."
+msgstr ""
+"Uma das armas consideradas contra a centralização da mineração é a mudança "
+"muito bem planejada do algoritmo de Proof-of-Work, o que tornaria inúteis os "
+"atuais hardwares de mineração."
+
+#: is-bitcoin-really-decentralized/source-text.txt:48
+msgid "Development"
+msgstr "Desenvolvimento"
+
+#: is-bitcoin-really-decentralized/source-text.txt:50
+msgid ""
+"Most nodes currently use one single Bitcoin implementation, that’s quite "
+"centralized."
+msgstr ""
+"A maior parte dos nós usa, hoje em dia, uma mesma implementação do Bitcoin. "
+"Isto é bem centralizado."
+
+#: is-bitcoin-really-decentralized/source-text.txt:52
+msgid "Positive side:"
+msgstr "Lado positivo:"
+
+#: is-bitcoin-really-decentralized/source-text.txt:54
+msgid ""
+"Avoids problems with the consensus rules (different implementations might be "
+"incompatible)."
+msgstr ""
+"Evita problemas com as regras de consenso (implementações diferentes podem "
+"ser incompatíveis)."
+
+#: is-bitcoin-really-decentralized/source-text.txt:56
+msgid "Negative side:"
+msgstr "Lado negativo:"
+
+#: is-bitcoin-really-decentralized/source-text.txt:58
+msgid ""
+"The main team of developers has the possibility of over influencing the "
+"system."
+msgstr ""
+"O principal time de desenvolvimento tem a possibilidade de influenciar "
+"demais o sistema."
+
+#: is-bitcoin-really-decentralized/source-text.txt:60
+msgid ""
+"The centralization of development has worked well until now, but it’s "
+"pointed as a possible issue in the future."
+msgstr ""
+"A centralização do desenvolvimento funcionou bem até agora, mas é apontada "
+"como um possível problema no futuro."
+
+#: is-bitcoin-really-decentralized/source-text.txt:62
+msgid ""
+"The protection against this lies in the fact that the code is open and "
+"people can choose if they will run it or not."
+msgstr ""
+"A proteção contra isso está no fato de que o código é aberto e as pessoas "
+"podem escolher se o usam ou não."
+
+#: is-bitcoin-really-decentralized/source-text.txt:64
+msgid ""
+"Also, the software license allows anyone to start working on their own "
+"implementation of Bitcoin."
+msgstr ""
+"Também, a licença do software permite que qualquer um comece a trabalhar na "
+"sua própria implementação do Bitcoin."
+
+#: is-bitcoin-really-decentralized/source-text.txt:66
+msgid "Custodial Exchanges and Wallets"
+msgstr "Casas de câmbio e carteiras custodiais"
+
+#: is-bitcoin-really-decentralized/source-text.txt:68
+msgid ""
+"Even though they are not a fundamental part of Bitcoin’s existence, "
+"exchanges have a relevant role since they are the main interface with the "
+"traditional economic system."
+msgstr ""
+"Embora não sejam uma parte fundamental do Bitcoin, casas de câmbio possuem "
+"um papel relevante por serem a principal interface com o sistema econômico "
+"tradicional."
+
+#: is-bitcoin-really-decentralized/source-text.txt:70
+msgid ""
+"As for custodial wallets, they are chosen, many times, by users who don’t "
+"want or don’t know how to protect their private keys. So they outsource the "
+"responsibility to a company."
+msgstr ""
+"Já as carteiras custodiais são escolhidas, muitas vezes, por usuários que "
+"não querem ou não sabem como proteger suas chaves privadas. Logo, eles "
+"terceirizam a responsabilidade a uma empresa."
+
+#: is-bitcoin-really-decentralized/source-text.txt:72
+msgid ""
+"In both cases, the more centralized they are, the easier it is to steal "
+"funds from a large number of people and cause a market disruption as they "
+"become huge honeypots for attackers."
+msgstr ""
+"Em ambos os casos, quanto mais centralizados forem, mais fácil é roubar "
+"fundos de um grande número de pessoas e causar uma perturbação no mercado, "
+"já que eles se tornam grandes atrativos para atacantes."
+
+#: is-bitcoin-really-decentralized/source-text.txt:74
+msgid ""
+"Decentralized and non-custodial exchanges, and non-custodial wallets are a "
+"better approach to avoid a huge concentration of funds in one place."
+msgstr ""
+"Casas de câmbio descentralizadas e não custodiais, e carteiras não "
+"custodiais são uma abordagem melhor para evitar o problema de uma enorme "
+"concentração de fundos em um único lugar."
+
+#: is-bitcoin-really-decentralized/source-text.txt:76
+msgid "So what is the conclusion here?"
+msgstr "Qual é a conclusão aqui?"
+
+#: is-bitcoin-really-decentralized/source-text.txt:78
+msgid ""
+"Bitcoin is still well enough to keep going for now. But it should be an "
+"ongoing concern to take care of its degree of decentralization and the "
+"attack vectors originated by it."
+msgstr ""
+"O Bitcoin ainda está bem o suficiente para funcionar, por agora. No entanto, "
+"deveria haver uma preocupação contínua com o seu grau de descentralização e "
+"os vetores de ataque decorrentes disto."
+
+#: is-bitcoin-really-decentralized/source-text.txt:80
+msgid ""
+"Otherwise, we’ll be just waiting for a time bomb to go off when some of "
+"these elements get out of control."
+msgstr ""
+"Caso contrário, estaremos apenas esperando uma bomba-relógio estourar quando "
+"um destes elementos sair do controle."
+
+#: is-bitcoin-really-decentralized/source-text.txt:82
+msgid "Author: Patrícia Estevão"
+msgstr "Autora: Patrícia Estevão"
+
+#: is-bitcoin-really-decentralized/source-text.txt:84
+msgid "Editor: Marco Agner"
+msgstr "Editor: Marco Agner"
+
+#: is-bitcoin-really-decentralized/source-text.txt:86
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: is-bitcoin-really-decentralized/source-text.txt:87
+msgid ""
+"Sources: https://github.com/libbitcoin/libbitcoin/wiki/Centralization-Risk"
+msgstr ""
+"Fontes: https://github.com/libbitcoin/libbitcoin/wiki/Centralization-Risk"
