@@ -20,7 +20,7 @@ Verify and relay transactions.
 
 Miners
 
-Secure transactions by writing and ordering them on the blockchain in exchange for fees and newly minted bitcoins.
+Secure transactions by writing and ordering them on the blockchain in exchange for fees and 'newly minted bitcoins'.
 
 Until the ~21 million limit is reached.
 

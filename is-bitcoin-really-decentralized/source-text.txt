@@ -62,6 +62,8 @@ The protection against this lies in the fact that the code is open and people ca
 
 Also, the software license allows anyone to start working on their own implementation of Bitcoin.
 
+MY_BITCOIN
+
 Custodial Exchanges and Wallets
 
 Even though they are not a fundamental part of Bitcoin’s existence, exchanges have a relevant role since they are the main interface with the traditional economic system.
