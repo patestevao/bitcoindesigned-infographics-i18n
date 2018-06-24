@@ -20,7 +20,6 @@ Inside each infographic folder you'll find:
 * The source-text.txt file, which is the original content file.
 * The source-text.txt.pot file, which is the template you will use to create your translation.
 * The translations that have been made to that infographic as .po files with the name corresponding to the language code (pt.po for Portuguese, fr.po for French, etc).
-* The compiled translation files (.mo).
 
 ## Translation guidelines
 When creating a translation for an infographic, there are some important things to keep in mind:
