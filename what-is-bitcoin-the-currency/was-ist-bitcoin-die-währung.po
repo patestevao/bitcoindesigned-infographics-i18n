@@ -1,0 +1,274 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-23 11:06+0100\n"
+"PO-Revision-Date: 2018-06-25 17:06+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_CH\n"
+
+#: what-is-bitcoin-the-currency/source-text.txt:2
+msgid "WHAT IS BITCOIN? - The Currency"
+msgstr "WAS IST BITCOIN - Die Währung"
+
+#: what-is-bitcoin-the-currency/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: what-is-bitcoin-the-currency/source-text.txt:6
+msgid "breaking in pieces"
+msgstr "In Puzzlestücke zerlegt"
+
+#: what-is-bitcoin-the-currency/source-text.txt:8
+msgid "Digital Currency"
+msgstr "Digitale Währung"
+
+#: what-is-bitcoin-the-currency/source-text.txt:10
+msgid ""
+"It’s all about ones and zeros, meaning it has no physical form such as a "
+"coin."
+msgstr ""
+"Es funktioniert alles über Nullen und Einsen, sprich es gibt sie nicht in "
+"physischer Form zum Beispiel als Münzen."
+
+#: what-is-bitcoin-the-currency/source-text.txt:12
+msgid "Cryptocurrency"
+msgstr "Kryptowährung"
+
+#: what-is-bitcoin-the-currency/source-text.txt:14
+msgid ""
+"Based on mathematics and cryptography. Which means it can’t be counterfeit - "
+"math doesn’t lie."
+msgstr ""
+"Basierend auf Mathematik und Kryptographie. Das bedeutet, dass sie nicht "
+"gefälscht werden können - Mathematik lügt nicht."
+
+#: what-is-bitcoin-the-currency/source-text.txt:16
+msgid "limited amount"
+msgstr "Limitierte Anzahl"
+
+#: what-is-bitcoin-the-currency/source-text.txt:18
+msgid ""
+"There is a limit of roughly 21 million bitcoins to be ever put in "
+"circulation."
+msgstr ""
+"Es existiert ein Limit von knapp 21 Millionen Bitcoins welche jemals im "
+"Umlauf sein werden."
+
+#: what-is-bitcoin-the-currency/source-text.txt:20
+msgid ""
+"It doesn’t allow anyone to print more bitcoins recklessly, which preserves "
+"the currency value - it’s scarce."
+msgstr ""
+"Es ist niemandem erlaubt Bitcoins aus dem Nichts zu erschaffen, was den Wert "
+"der Währung sichert - sie bleiben knapp."
+
+#: what-is-bitcoin-the-currency/source-text.txt:22
+msgid "ownership records"
+msgstr "Eigentumsverzeichnis"
+
+#: what-is-bitcoin-the-currency/source-text.txt:24
+msgid ""
+"Bitcoin ownership is actually a record on the Blockchain - this big "
+"decentralized ledger - saying those bitcoins were transferred to you."
+msgstr ""
+"Bitcoins zu besitzen ist ein Eintrag auf der Blockchain - ein grosses "
+"dezentrales Register - welche besagt, dass die Bitcoins zu dir transferiert "
+"wurden."
+
+#: what-is-bitcoin-the-currency/source-text.txt:26
+msgid "mining"
+msgstr "Mining"
+
+#: what-is-bitcoin-the-currency/source-text.txt:28
+msgid ""
+"It’s a type of math problem that needs a lot of processing power. It’s used "
+"for writing transactions and those who do it are rewarded with transaction "
+"fees and new bitcoins, which is how the currency is issued."
+msgstr ""
+"Beim Mining werden Mathematische Probleme gelöst welche viel Rechenkapazität "
+"brauchen. Diese Rechenkapazität wird verwendet um Transaktionen abzuwickeln. "
+"Diejenigen welche Transaktionen verifizieren werden mit Transaktionsgebühren "
+"und neuen Bitcoins belohnt, so wird die Währung emittiert."
+
+#: what-is-bitcoin-the-currency/source-text.txt:30
+msgid "divisibility"
+msgstr "Teilbarkeit"
+
+#: what-is-bitcoin-the-currency/source-text.txt:32
+msgid ""
+"The smallest unit of Bitcoin is a Satoshi; it represents one hundred "
+"millionth of a bitcoin. But, if needed, this part can become even smaller."
+msgstr ""
+"Die kleinste Einheit von Bitcoin ist ein Satoshi; Dieser repräsentiert ein "
+"Hundert Millionstel eines Bitcoins. Falls notwendig, kann dieser Bruchteil "
+"auch kleiner werden."
+
+#: what-is-bitcoin-the-currency/source-text.txt:34
+msgid "the features"
+msgstr "Die Funktionen"
+
+#: what-is-bitcoin-the-currency/source-text.txt:36
+msgid "or... Why everyone is so crazy about it"
+msgstr "oder... Wieso jeder so euphorisch ist"
+
+#: what-is-bitcoin-the-currency/source-text.txt:38
+msgid "Critical (break these and Bitcoin will never be the same)"
+msgstr "Entscheidend (Ohne diese wird Bitcoin niemals dasselbe sein)"
+
+#: what-is-bitcoin-the-currency/source-text.txt:40
+msgid "Decentralized"
+msgstr "Dezentral"
+
+#: what-is-bitcoin-the-currency/source-text.txt:42
+msgid ""
+"No central bank can freeze your accounts or implement poorly conceived "
+"policies that devalue your currency."
+msgstr ""
+"Keine Zentralbank kann dein Konto einfrieren, oder schlecht durchdachte "
+"Geldpolitik implementieren, welche den Wert deiner Währung verringert."
+
+#: what-is-bitcoin-the-currency/source-text.txt:44
+msgid "No Red-Tape"
+msgstr "Keine Bürokratie"
+
+#: what-is-bitcoin-the-currency/source-text.txt:46
+msgid "Anyone can use bitcoin, no questions, no documents and no custody fees."
+msgstr ""
+"Jeder kann Bitcoin verwenden, keine Fragen, Dokumente oder Depotgebühren."
+
+#: what-is-bitcoin-the-currency/source-text.txt:48
+msgid "Pretty Anonymous"
+msgstr "Anonymität"
+
+#: what-is-bitcoin-the-currency/source-text.txt:50
+msgid ""
+"Your name isn’t linked to your transactions, making it a lot more private "
+"and safe than regular bank operations and credit card payments."
+msgstr ""
+"Dein Name ist nicht mit deinen Transaktionen verlinkt, was bitcoin privater "
+"und sicherer macht als reguläre Banküberweisungen und Kreditkartenzahlungen."
+
+#: what-is-bitcoin-the-currency/source-text.txt:52
+msgid "Non-repudiable"
+msgstr "Nicht umkehrbar"
+
+#: what-is-bitcoin-the-currency/source-text.txt:54
+msgid ""
+"Once a bitcoin transaction is confirmed, it can’t be reverted unless there "
+"is a voluntary agreement between the two parties - such as a store policy."
+msgstr ""
+"Ist eine Bitcointransaktion bestätigt, kann diese nicht wieder rückgängig "
+"gemacht werden ausser es gibt eine freiwillige Übereinkunft zwischen den "
+"zwei Parteien."
+
+#: what-is-bitcoin-the-currency/source-text.txt:56
+msgid "Transparent"
+msgstr "Transparent"
+
+#: what-is-bitcoin-the-currency/source-text.txt:58
+msgid ""
+"Everyone can check every address and its transactions - although you don’t "
+"know the owners of all addresses, only those identities that were entrusted "
+"to you."
+msgstr ""
+"Jeder kann jede Adresse und ihre Transaktionen überprüfen - auch wenn du "
+"nicht den Besitzer aller Adressen kennst, ausser die Identitäten welche dir "
+"anvertraut wurden."
+
+#: what-is-bitcoin-the-currency/source-text.txt:60
+msgid "changeable (market development might change these a little)"
+msgstr "Veränderbar (Marktentwicklung könnten diese ein wenig ändern)"
+
+#: what-is-bitcoin-the-currency/source-text.txt:62
+msgid "Fast"
+msgstr "Schnell"
+
+#: what-is-bitcoin-the-currency/source-text.txt:64
+msgid "Transactions can reach anyone in any part of the world within minutes."
+msgstr ""
+"Transaktionen können jeden überall in der Welt innerhalb Minuten erreichen."
+
+#: what-is-bitcoin-the-currency/source-text.txt:66
+msgctxt "./what-is-bitcoin-the-currency/source-text.txt:66"
+msgid "Possible Change"
+msgstr "Mögliche Veränderung"
+
+#: what-is-bitcoin-the-currency/source-text.txt:68
+msgid ""
+"If the volume of transactions grows  a lot  - say, bitcoin becoming "
+"mainstream - transactions will take longer to be cleared on the blockchain."
+msgstr ""
+"Falls das Transaktionsvolumen stark ansteigt - etwa wenn Bitcoin Mainstream "
+"wird - werden Transaktionen länger brauchen bis sie auf der Blockchain "
+"verifiziert werden."
+
+#: what-is-bitcoin-the-currency/source-text.txt:70
+msgctxt "./what-is-bitcoin-the-currency/source-text.txt:70"
+msgid "What Might Happen"
+msgstr "Was passieren könnte"
+
+#: what-is-bitcoin-the-currency/source-text.txt:72
+msgid ""
+"Besides measures to scale Bitcoin’s core, small and quick transactions will "
+"probably be cleared by third parties or other layers over the blockchain."
+msgstr ""
+"Abgesehen von Massnahmen um Bitcoin's Blockchain zu skalieren, zeichnet sich "
+"ab, dass kleinere und schnellere Transaktionen von Drittpartien oder auf "
+"anderen höheren Layern über der Blockchain abgewickelt werden."
+
+#: what-is-bitcoin-the-currency/source-text.txt:74
+msgid "Cheap"
+msgstr "Günstig"
+
+#: what-is-bitcoin-the-currency/source-text.txt:76
+msgid ""
+"Transaction fees are low - currently around 1 USD if you don’t want to wait "
+"too much for a confirmation."
+msgstr ""
+"Transaktionsgebühren sind tief - momentan bei 1 USD wenn du nicht all zu "
+"lange auf die Bestätigung warten möchtest."
+
+#: what-is-bitcoin-the-currency/source-text.txt:78
+msgctxt "./what-is-bitcoin-the-currency/source-text.txt:78"
+msgid "Possible Change"
+msgstr "Mögliche Veränderung"
+
+#: what-is-bitcoin-the-currency/source-text.txt:80
+msgid ""
+"When bitcoin issuing diminishes, the miner’s reward will come mostly from "
+"transaction fees, which will be higher."
+msgstr ""
+"Wenn die Emittierung von Bitcoin zurückgeht, werden Miners überwiegend über "
+"Transaktionsgebühren entlohnt werden, welche höher sein werden."
+
+#: what-is-bitcoin-the-currency/source-text.txt:82
+msgctxt "./what-is-bitcoin-the-currency/source-text.txt:82"
+msgid "What Might Happen"
+msgstr "Was passieren könnte"
+
+#: what-is-bitcoin-the-currency/source-text.txt:84
+msgid ""
+"Predictive calculations indicate that fees will still be very afordable, "
+"even when covering all miners expenses alone."
+msgstr ""
+"Berechnungen gehen davon aus, dass die Gebühren immer noch bezahlbar sein "
+"werden, auch wenn diese die Entlohnung der Miner alleine abdecken."
+
+#: what-is-bitcoin-the-currency/source-text.txt:86
+msgid "Author: Patrícia Estevão"
+msgstr "Autor: Patrícia Estevão"
+
+#: what-is-bitcoin-the-currency/source-text.txt:88
+msgid "Editor: Marco Agner"
+msgstr "Editor: Marco Agner"
+
+#: what-is-bitcoin-the-currency/source-text.txt:89
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr "Übersetzung: 21 Lectures AG"
