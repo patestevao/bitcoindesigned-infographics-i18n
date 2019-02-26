@@ -1,0 +1,297 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-25 10:31+0100\n"
+"PO-Revision-Date: 2019-02-22 10:58+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: source-text.txt:2
+msgid "Is Bitcoin really decentralized?"
+msgstr "Le Bitcoin est-il vraiment décentralisé ?"
+
+#: source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: source-text.txt:6
+msgid ""
+"When we talk about decentralization and centralization, it’s not like black "
+"and white. Instead, there’s a whole range of grays in the middle."
+msgstr ""
+"Quand on parle de décentralisation et de centralisation, ce n'est pas du "
+"noir ou blanc. En fait, il y a beaucoup de gris différents au milieu."
+
+#: source-text.txt:8
+msgid "Being more decentralized or less is a thing."
+msgstr "Etre plus ou moins décentralisé, ça existe."
+
+#: source-text.txt:10
+msgid "Fully centralized"
+msgstr "Entièrement centralisé"
+
+#: source-text.txt:12
+msgid "Nuance of centralization"
+msgstr "Nuance de centralisation"
+
+#: source-text.txt:14
+msgid "Fully decentralized"
+msgstr "Entièrement décentralisé"
+
+#: source-text.txt:16
+msgid ""
+"Also, decentralization doesn’t mean good while centralization means bad. "
+"Both can be useful depending on the context, we just have to know when."
+msgstr ""
+"De plus, la décentralisation ne veut pas dire \"bien\" et la centralisation "
+"ne veut pas dire \"mal\". Les deux peuvent être utiles en fonction du "
+"contexte, on doit juste le connaître."
+
+#: source-text.txt:18
+msgid "But enough with the introduction:"
+msgstr "Mais, passons aux choses sérieuses:"
+
+#: source-text.txt:20
+msgid "How decentralized is Bitcoin?"
+msgstr "A quel point le Bitcoin est-il décentralisé ?"
+
+#: source-text.txt:22
+msgid "Nodes"
+msgstr "Nœuds"
+
+#: source-text.txt:24
+msgid ""
+"Node decentralization is essential for a healthy Bitcoin. But not just any "
+"node, an economically active full node."
+msgstr ""
+"La décentralisation des nœuds est essentielle pour un Bitcoin en bonne "
+"santé. Mais pas n'importe quel nœud, il doit être un \"full node\" "
+"économiquement actif."
+
+#: source-text.txt:26
+msgid ""
+"The nodes that really make a difference in the decision of protocol changes "
+"are the ones that accept transactions and validate them using their own full "
+"nodes, usually merchants. That’s what we call the economic majority."
+msgstr ""
+"Les nœuds qui font une vraie différence dans la décision du protocole sont "
+"ceux qui acceptent les transactions et les valide en utilisant leurs propres "
+"full nodes, des commerçants en général. C'est ce qu'on appelle la majorité "
+"économique."
+
+#: source-text.txt:28
+msgid ""
+"If there were fewer merchants, there would be fewer people to enforce "
+"Bitcoin’s consensus rules, leaving it more prone to manipulation."
+msgstr ""
+"Si il y avait moins de commerçants, il y aurait moins de gens pour enforcer "
+"les règles consensuelles du Bitcoin, ce qui le laisserait sujet à "
+"manipulation."
+
+#: source-text.txt:30
+msgid "Mining"
+msgstr "Le minage"
+
+#: source-text.txt:32
+msgid ""
+"Mining is pretty centralized nowadays. It can happen in a variety of ways, "
+"such as the centralization of:"
+msgstr ""
+"Le minage est assez centralisé de nos jours. Elle se produit de façons "
+"variées, comme la centralisation des:"
+
+#: source-text.txt:34
+msgid "Hardware suppliers"
+msgstr "Fabricants de matériel informatique"
+
+#: source-text.txt:36
+msgid "Miners (pooling)"
+msgstr "Mineurs (avec le pooling)"
+
+#: source-text.txt:38
+msgid "Location of mining operations"
+msgstr "La location de systèmes de minage"
+
+#: source-text.txt:40
+msgid ""
+"With a centralized mining, the inclusion of transactions in the blockchain "
+"is less secure."
+msgstr ""
+"Avec un minage centralisé, l'inclusion de transactions dans la blockchain "
+"est moins sécurisée."
+
+#: source-text.txt:42
+msgid ""
+"Operations that hold too much mining power can effectively censor and, at "
+"some point, reorder transactions."
+msgstr ""
+"Des groupes qui ont trop de puissance de minage peuvent effectivement "
+"censurer et, à un certain point, réorganiser les transactions."
+
+#: source-text.txt:44
+msgid "New POW"
+msgstr "Nouvelle POW"
+
+#: source-text.txt:46
+msgid ""
+"One of the considered wepons against centralized mining is a thoroughly "
+"planned change in the Proof-of-Work algorithm, which would render all "
+"current mining hardware useless."
+msgstr ""
+"Une des armes considérées contre le minage centralisé est un changement de "
+"l'algorithme Proof-of-Work approfondi, qui rendrait tout le matériel de "
+"minage actuel inutilisable."
+
+#: source-text.txt:48
+msgid "Development"
+msgstr "Développement"
+
+#: source-text.txt:50
+msgid ""
+"Most nodes currently use one single Bitcoin implementation, that’s quite "
+"centralized."
+msgstr ""
+"La plupart des nœuds utilisent une unique implémentation du Bitcoin, c'est "
+"plutôt centralisé. "
+
+#: source-text.txt:52
+msgid "Positive side:"
+msgstr "Côté positif :"
+
+#: source-text.txt:54
+msgid ""
+"Avoids problems with the consensus rules (different implementations might be "
+"incompatible)."
+msgstr ""
+"Evite des problèmes avec les règles de consensus (des implémentations "
+"différentes peuvent être incompatibles)."
+
+#: source-text.txt:56
+msgid "Negative side:"
+msgstr "Côté négatif :"
+
+#: source-text.txt:58
+msgid ""
+"The main team of developers has the possibility of over influencing the "
+"system."
+msgstr ""
+"L'équipe principale de développeurs a la possibilité de trop influencer le "
+"système."
+
+#: source-text.txt:60
+msgid ""
+"The centralization of development has worked well until now, but it’s "
+"pointed as a possible issue in the future."
+msgstr ""
+"La centralisation du développement a bien fonctionné jusqu'à aujourd'hui, "
+"mais c'est pointé du doigt comme un problème potentiel dans le futur."
+
+#: source-text.txt:62
+msgid ""
+"The protection against this lies in the fact that the code is open and "
+"people can choose if they will run it or not."
+msgstr ""
+"La protection contre cela réside dans le fait que le code est ouvert à tous, "
+"et que les gens peuvent choisir de l'utiliser ou pas."
+
+#: source-text.txt:64
+msgid ""
+"Also, the software license allows anyone to start working on their own "
+"implementation of Bitcoin."
+msgstr ""
+"De plus, la licence du programme permet à quiconque de commencer à "
+"travailler sur sa propre implémentation du Bitcoin."
+
+#: source-text.txt:66
+msgid "MY_BITCOIN"
+msgstr "MON_BITCOIN"
+
+#: source-text.txt:68
+msgid "Custodial Exchanges and Wallets"
+msgstr "Les \"Echanges de Garde\" et les Portefeuilles"
+
+#: source-text.txt:70
+msgid ""
+"Even though they are not a fundamental part of Bitcoin’s existence, "
+"exchanges have a relevant role since they are the main interface with the "
+"traditional economic system."
+msgstr ""
+"Même si ils ne font pas fondamentalement partie de l'existence du Bitcoin, "
+"les plateformes d'échange ont un rôle pertinent puisqu'ils sont l'interface "
+"principale avec le système économique traditionnel. "
+
+#: source-text.txt:72
+msgid ""
+"As for custodial wallets, they are chosen, many times, by users who don’t "
+"want or don’t know how to protect their private keys. So they outsource the "
+"responsibility to a company."
+msgstr ""
+"Pour les portefeuilles de garde, ils sont choisis, la plupart du temps, par "
+"des utilisateurs qui ne veulent pas ou ne savent pas comment protéger leurs "
+"clés privées. Alors ils délèguent cette responsabilité à une entreprise."
+
+#: source-text.txt:74
+msgid ""
+"In both cases, the more centralized they are, the easier it is to steal "
+"funds from a large number of people and cause a market disruption as they "
+"become huge honeypots for attackers."
+msgstr ""
+"Dans les deux cas, plus ils sont centralisés, plus il est facile de voler "
+"des fonds d'un grand nombre de personnes et causer une disruption du marché "
+"en devenant d'énormes pots de miel (honeypots) pour des hackers."
+
+#: source-text.txt:76
+msgid ""
+"Decentralized and non-custodial exchanges, and non-custodial wallets are a "
+"better approach to avoid a huge concentration of funds in one place."
+msgstr ""
+"Les plateformes d'échanges décentralisés et de non-garde, ainsi que les "
+"portefeuille de non-garde sont une meilleure approche afin d'éviter une "
+"forte concentration de fonds en un seul endroit."
+
+#: source-text.txt:78
+msgid "So what is the conclusion here?"
+msgstr "Quelle est la conclusion ?"
+
+#: source-text.txt:80
+msgid ""
+"Bitcoin is still well enough to keep going for now. But it should be an "
+"ongoing concern to take care of its degree of decentralization and the "
+"attack vectors originated by it."
+msgstr ""
+"Le Bitcoin est toujours dans une assez bonne situation pour continuer comme "
+"ça. Mais faire attention à son degré de décentralisation et les vecteurs "
+"d'attaques qui en découlent devrait être une préoccupation constante."
+
+#: source-text.txt:82
+msgid ""
+"Otherwise, we’ll be just waiting for a time bomb to go off when some of "
+"these elements get out of control."
+msgstr ""
+"Sinon, nous attendons juste qu'une bombe à retardement explose quand "
+"certains de ces éléments seront hors de contrôle."
+
+#: source-text.txt:84
+msgid "Author: Patrícia Estevão"
+msgstr "Auteure: Patrícia Estevão"
+
+#: source-text.txt:86
+msgid "Editor: Marco Agner"
+msgstr "Editeur: Marco Agner"
+
+#: source-text.txt:88
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr "Traducteur: Louis Dormegnie"
+
+#: source-text.txt:89
+msgid ""
+"Sources: https://github.com/libbitcoin/libbitcoin/wiki/Centralization-Risk"
+msgstr ""
+"Sources: https://github.com/libbitcoin/libbitcoin/wiki/Centralization-Risk"

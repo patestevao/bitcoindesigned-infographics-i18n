@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-25 11:07+0100\n"
+"PO-Revision-Date: 2019-02-20 15:45+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: source-text.txt:2
+msgid "What does Decentralization mean in bitcoin?"
+msgstr "Que veut dire la décentralisation pour le bitcoin ?"
+
+#: source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: source-text.txt:6
+msgid ""
+"Bitcoin is called decentralized because it has no central point of control."
+msgstr ""
+"On dit que le Bitcoin est décentralisé car il n'a pas de point central de "
+"contrôle."
+
+#: source-text.txt:8
+msgid ""
+"Its resources (hardware and software) are distributed around the world and "
+"connected remotely in a network."
+msgstr ""
+"Ses ressources (matérielles et logicielles) sont distribuées autour du globe "
+"et connectées à un réseau."
+
+#: source-text.txt:10
+msgid ""
+"And the “authority” to decide over Bitcoin is divided between its network "
+"participants."
+msgstr ""
+"Et \"l'autorité\" de décider sur le Bitcoin est divisée entre les "
+"participants de son réseau."
+
+#: source-text.txt:12
+msgid "Who are the participants?"
+msgstr "Qui sont les participants ?"
+
+#: source-text.txt:14
+msgid "The shared responsibility includes the following agents:"
+msgstr "Cette responsabilité partagée inclue les agents suivants:"
+
+#: source-text.txt:16
+msgid "Nodes"
+msgstr "Les noeuds"
+
+#: source-text.txt:18
+msgid "Transaction is valid"
+msgstr "La transaction est valide"
+
+#: source-text.txt:20
+msgid "Verify and relay transactions."
+msgstr "Vérifier et relayer les transactions."
+
+#: source-text.txt:22
+msgid "Miners"
+msgstr "Les mineurs"
+
+#: source-text.txt:24
+msgid ""
+"Secure transactions by writing and ordering them on the blockchain in "
+"exchange for fees and 'newly minted bitcoins'."
+msgstr ""
+"Sécuriser les transactions en les écrivant sur la blockchain en échange de "
+"frais et de \"bitcoins nouvellement minés\"."
+
+#: source-text.txt:26
+msgid "Until the ~21 million limit is reached."
+msgstr "Jusqu'à ce que la limite de ~21 millions soit atteinte."
+
+#: source-text.txt:28
+msgid ""
+"Both roles can be played by anyone willing to commit the resources to it, "
+"there’s no permission to be asked."
+msgstr ""
+"Les deux rôles peuvent être joués par quiconque voulant y mettre les "
+"ressources nécessaires, il n'y a pas besoin d'une permission."
+
+#: source-text.txt:30
+msgid "Look, I’m mining."
+msgstr "Regarde, je mine."
+
+#: source-text.txt:32
+msgid "What are the implications?"
+msgstr "Quelles sont les implications ?"
+
+#: source-text.txt:34
+msgid ""
+"Miners and nodes are responsible for a decentralized economic policy, "
+"replacing the need for a central bank to take care of currency issuance and "
+"clearing functions."
+msgstr ""
+"Les mineurs et les nœuds sont responsables d'une politique économique "
+"décentralisée, remplaçant le besoin d'une banque centrale de s'occuper "
+"d'émission monétaire."
+
+#: source-text.txt:36
+msgid "CENTRAL BANK"
+msgstr "BANQUE CENTRALE"
+
+#: source-text.txt:38
+msgid "Permanent vacation"
+msgstr "Congés permanents"
+
+#: source-text.txt:40
+msgid ""
+"Bitcoin’s decentralization is a protection against a single point of failure."
+msgstr ""
+"La décentralisation du Bitcoin est une protection contre son unique point "
+"d'échec."
+
+#: source-text.txt:42
+msgid ""
+"That means it’s robust in face of external intervention because there’s no "
+"single entity to be attacked or corrupted."
+msgstr ""
+"Cela veut dire que c'est robuste en face d'une intervention extérieure car "
+"il n'y a pas d'unique entité à attaquer ou à corrompre."
+
+#: source-text.txt:44
+msgid "Where do we attack?"
+msgstr "Où attaquons-nous ?"
+
+#: source-text.txt:46
+msgid ""
+"But this decentralization is not a guaranteed feature and there are risks to "
+"it as well."
+msgstr ""
+"Mais cette décentralisation n'est pas un élément garanti et il existe aussi "
+"des risques."
+
+#: source-text.txt:48
+msgid ""
+"We’ll explore some of these issues in the continuation of this infographic."
+msgstr ""
+"Nous explorerons ces problèmes plus en détail dans la continuation de cette "
+"infographie."
+
+#: source-text.txt:50
+msgid "Author: Patrícia Estevão"
+msgstr "Auteure: Patrícia Estevão"
+
+#: source-text.txt:52
+msgid "Editor: Marco Agner"
+msgstr "Editeur: Marco Agner"
+
+#: source-text.txt:54
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr "Traducteur: Louis Dormegnie"
+
+#: source-text.txt:55
+msgid ""
+"Sources: Mastering Bitcoin by Andreas Antonopoulos. Available at https://"
+"github.com/bitcoinbook/bitcoinbook"
+msgstr ""
+"Sources: Mastering Bitcoin by Andreas Antonopoulos. Disponible à https://"
+"github.com/bitcoinbook/bitcoinbook"
