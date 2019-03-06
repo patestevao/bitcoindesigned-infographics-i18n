@@ -1,0 +1,127 @@
+Bitcoin Privacy series
+
+Privacy and UTXO [part 1]:
+
+How UTXO works?
+
+What is UTXO?
+
+UTXO means Unspent Transaction Output.
+
+We’ll stick to UTXO because it’s shorter, but the full name can help you understand the concept, so keep it in mind.
+
+UTXO is the output from previous transactions that you can use as an input on your next transactions.
+
+Received transaction
+
+UTXO from that transaction
+
+New transaction
+
+UTXO in Bitcoin transactions
+
+Even though wallets give the impression that bitcoins are sent from and to wallets, the truth is that bitcoins actually move from transaction (Tx) to transaction (Tx).
+
+MYTH
+
+Alice’s wallet
+
+Sends bitcoin
+
+Bob’s wallet
+
+REALITY
+
+Tx to Alice’s address
+
+Uses UTXO from Tx
+
+Tx to Bob’s address
+
+So whatever you use as input to one transaction, eventually came out as an output of a previous transaction.
+
+Previous Tx
+
+creates
+
+UTXO available
+
+Is used as
+
+Tx input
+
+to
+
+New Tx
+
+Unless we are talking about coinbase transactions, which are special transactions that miners create with each new block and only have outputs.
+
+These transactions are used to issue new bitcoins - for now - and are entitled to collect fees from transactions.
+
+Block mining
+
+creates
+
+Coinbase outputs
+
+Is used as
+
+Tx input
+
+to
+
+New Tx
+
+How does it work?
+
+You can think of it as a digital money bill, in the sense that it has a value of its own and can’t be divided.
+
+Also, the sum of your UTXOs represents your total balance.
+
+BALANCE: 4.2 BTC
+
+If you need to pay more than that value, you need to gather more than one UTXO and use them together.
+
+If you need to pay less than the UTXO value, or if you surpass the amount by using more than one UTXO, you’ll have to create a new UTXO as a change. The original UTXOs have to be spent completely.
+
+Amount to pay
+
+UTXOs you’ll use
+
+New UTXO as change
+
+These UTXOs are what really is behind the “money transfer” in Bitcoin transactions.
+
+Taking it to Alice and Bob
+
+Suppose Bob’s wallet says he has 4 bitcoins that are divided into 4 UTXOs of 1 bitcoin each. Let’s see what a payment would look like.
+
+Note: This is a simplification that doesn’t account for transaction fees.
+
+Bob wants to pay 2.5 bitcoins to Alice.
+
+His wallet will have to use 3 of the available UTXOs and turn them into inputs of the transaction.
+
+UTXOs can only be spent once. So, once the 3 UXTOs are used, they become SPENT transaction outputs and can no longer be used as inputs to a new transaction.
+
+2 complete new UTXOs are generated:
+
+New UTXO for Alice
+
+One that can be used by Alice in the value of 2.5 BTC — the payment itself.
+
+New UTXO as Bob’s change
+
+One that can be used by Bob in the value of 0.5 BTC — the change.
+
+Finally, Bob’s wallet will end with 2 UTXOs: 1 remaining with 1 BTC and the new one with 0.5 BTC.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]
+
+Main sources:
+https://bitcoin.org/en/developer-guide#block-chain-overview
+https://www.youtube.com/watch?v=HScK4pkDNds

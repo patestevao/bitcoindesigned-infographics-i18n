@@ -1,145 +1,145 @@
-#. extracted from source-text.txt
+#. extracted from ./what-does-decentralization-mean-in-bitcoin/source-text.txt
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-25 11:07+0100\n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 
-#: source-text.txt:2
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:2
 msgid "What does Decentralization mean in bitcoin?"
 msgstr ""
 
-#: source-text.txt:4
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:4
 msgid "bitcoindesigned.com"
 msgstr ""
 
-#: source-text.txt:6
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:6
 msgid ""
 "Bitcoin is called decentralized because it has no central point of control."
 msgstr ""
 
-#: source-text.txt:8
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:8
 msgid ""
 "Its resources (hardware and software) are distributed around the world and "
 "connected remotely in a network."
 msgstr ""
 
-#: source-text.txt:10
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:10
 msgid ""
 "And the “authority” to decide over Bitcoin is divided between its network "
 "participants."
 msgstr ""
 
-#: source-text.txt:12
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:12
 msgid "Who are the participants?"
 msgstr ""
 
-#: source-text.txt:14
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:14
 msgid "The shared responsibility includes the following agents:"
 msgstr ""
 
-#: source-text.txt:16
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:16
 msgid "Nodes"
 msgstr ""
 
-#: source-text.txt:18
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:18
 msgid "Transaction is valid"
 msgstr ""
 
-#: source-text.txt:20
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:20
 msgid "Verify and relay transactions."
 msgstr ""
 
-#: source-text.txt:22
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:22
 msgid "Miners"
 msgstr ""
 
-#: source-text.txt:24
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:24
 msgid ""
 "Secure transactions by writing and ordering them on the blockchain in "
 "exchange for fees and 'newly minted bitcoins'."
 msgstr ""
 
-#: source-text.txt:26
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:26
 msgid "Until the ~21 million limit is reached."
 msgstr ""
 
-#: source-text.txt:28
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:28
 msgid ""
 "Both roles can be played by anyone willing to commit the resources to it, "
 "there’s no permission to be asked."
 msgstr ""
 
-#: source-text.txt:30
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:30
 msgid "Look, I’m mining."
 msgstr ""
 
-#: source-text.txt:32
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:32
 msgid "What are the implications?"
 msgstr ""
 
-#: source-text.txt:34
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:34
 msgid ""
 "Miners and nodes are responsible for a decentralized economic policy, "
 "replacing the need for a central bank to take care of currency issuance and "
 "clearing functions."
 msgstr ""
 
-#: source-text.txt:36
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:36
 msgid "CENTRAL BANK"
 msgstr ""
 
-#: source-text.txt:38
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:38
 msgid "Permanent vacation"
 msgstr ""
 
-#: source-text.txt:40
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:40
 msgid ""
 "Bitcoin’s decentralization is a protection against a single point of failure."
 msgstr ""
 
-#: source-text.txt:42
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:42
 msgid ""
 "That means it’s robust in face of external intervention because there’s no "
 "single entity to be attacked or corrupted."
 msgstr ""
 
-#: source-text.txt:44
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:44
 msgid "Where do we attack?"
 msgstr ""
 
-#: source-text.txt:46
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:46
 msgid ""
 "But this decentralization is not a guaranteed feature and there are risks to "
 "it as well."
 msgstr ""
 
-#: source-text.txt:48
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:48
 msgid ""
 "We’ll explore some of these issues in the continuation of this infographic."
 msgstr ""
 
-#: source-text.txt:50
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:50
 msgid "Author: Patrícia Estevão"
 msgstr ""
 
-#: source-text.txt:52
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:52
 msgid "Editor: Marco Agner"
 msgstr ""
 
-#: source-text.txt:54
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:54
 msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
 msgstr ""
 
-#: source-text.txt:55
+#: ./what-does-decentralization-mean-in-bitcoin/source-text.txt:55
 msgid ""
 "Sources: Mastering Bitcoin by Andreas Antonopoulos. Available at "
 "https://github.com/bitcoinbook/bitcoinbook"

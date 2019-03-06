@@ -1,0 +1,102 @@
+Bitcoin Privacy series
+
+Privacy and Light Wallets
+
+What are Light Wallets?
+
+Light (or lightweight) wallets are Bitcoin wallets that don’t download the full blockchain nor verify all the transactions.
+
+Your mobile wallet is usually lightweight.
+
+That’s because it can be very data, energy and time consuming to keep an updated blockchain using a smartphone hardware.
+
+So the lightweight approach would seem as a very practical solution for an easy-to-use wallet.
+
+But there is a problem.
+
+If the wallet doesn’t have the blockchain with it, it can’t know by itself how much money you have in your addresses.
+
+It’s with the blockchain that we can find the records of transactions and calculate how many bitcoins each address has the right to spend.
+
+The wallet, then, will have to ask full nodes — the ones with the full blockchain — to send it the relevant transactions where your addresses appear.
+
+Light wallet
+
+Tell me about my addresses.
+
+Sure, let me check.
+
+Full-node
+
+The problem is that an eavesdropper can monitor the traffic of the light wallet or directly connect to it as a node in the network.
+
+It can be more or less difficult for the eavesdropper to get useful info,
+depending on the type of communication the light wallet uses.
+
+Hi, I’m a node. Connect with me.
+
+Eavesdropper node
+
+But, eventually, the eavespropper will be able to identify the addresses of that wallet and how much money they can spend.
+
+What is to be done?
+
+Go Full-node
+
+The older and already functional method to avoid this privacy breach is to run your own full-node.
+
+My light wallet
+
+My full-node
+
+There are wallets that provide the interface to connect your own full-node to their light wallet app, such as Samourai Wallet.
+
+Compact Client Side Filtering for Light Wallets
+
+This big name technology was proposed by the Lightning Labs team of researchers  as an approach to this problem.
+
+The general idea is that the full-node will provide a small index table of the blockchain that light wallets can download and use as a reference.
+
+Full-node
+
+Index table
+
+Light wallet
+
+The light wallet is, then, able to figure out by itself which blocks it needs to download in order to learn about the addresses it controls.
+
+Light wallet with index table
+
+I want block 742.
+
+Aren’t you gonna tell me your addresses?
+
+No, just the block.
+
+Eavesdropper node
+
+The two current projects known to be experimenting with this solution are:
+
+Neutrino
+
+It’s the Lightning Labs implementation of their own proposal and it’s mainly focused on mobile Lightning Network wallets.
+
+Wasabi Wallet
+
+Wasabi is a privacy-focused Bitcoin wallet that is doing its own implementation of the proposal above.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Reviewer: @nopara73
+
+Translator: [Your name/handle or "Crowdsourced translation"]
+
+Main sources:
+https://medium.com/@nopara73/anonymous-bitcoin-1fae5d1e33b7
+https://www.youtube.com/watch?v=HScK4pkDNds
+https://breaking-bitcoin.com/slides/SPVSecurity.pdf
+Wasabi wallet: https://medium.com/@nopara73/wasabi-privacy-focused-bitcoin-wallet-for-desktop-3962d567045a
+Neutrino: https://github.com/lightninglabs/neutrino
+Samourai wallet: https://samouraiwallet.com/features/trustednode

@@ -1,0 +1,83 @@
+Bitcoin Privacy series
+
+Privacy and Transaction Propagation
+
+What is transaction propagation?
+
+It’s about how your transaction propagates in the Bitcoin network after you send it to your peers.
+
+Let’s visualize it by looking at the path your transaction is expected to take:
+
+You send a transaction from your node.
+
+Your node sends it to all of its peers.
+
+The peers send it to all of their peers.
+
+This is why it’s called a peer-to-peer network.
+
+But note that it’s not a perfect path every time. Nodes can sometimes drop or not relay your transactions.
+
+And so on. Eventually, a good part of the network knows about your transaction.
+
+Your transaction now waits in the nodes’ mempools - a place for valid but unconfirmed transactions - until someone mines it.
+
+Cool. Is there a problem with that?
+
+This propagation happens a bit too transparently. So a very well connected node may be able to watch the propagation and infer information about the originating IP address of your transaction.
+
+This revealing info can potentially give the eavesdropper access to:
+
+Your real world identity
+
+Citizen ID
+
+Your physical location
+
+Your Bitcoin balance
+
+Because of IP related information and related metadata.
+
+Because of blockchain transparency.
+
+And, does the eavesdropper have to be a super fancy government agency that will probably not be looking for you?
+
+NO.
+
+Since it’s relatively cheap to set it up, it could be just anyone on the Internet.
+
+Therefore, it increases the pool of people who might want to break your privacy this way to get your bitcoins.
+
+Enter Dandelion
+
+Dandelion is a proposed mechanism of a privacy-preserving transaction propagation.
+
+The basic idea is to keep the transaction circulating in private for a while so, when it goes public, no one knows where it originally came from.
+
+Private phase
+
+Public phase
+
+If we reorganize the propagation above, it’s visible that the path of the transaction reminds us of a dandelion flower and, therefore, the choice of name.
+
+The private and public phases are referred to as “stem phase” and “fluff phase”, respectivelly.
+
+Stem phase
+
+Fluff phase
+
+The concept was first developed by a group of mathematicians and now it’s being implemented as BIP 156.
+
+Check it out here: https://github.com/bitcoin/bips/blob/master/bip-0156.mediawiki
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]
+
+Main sources:
+https://medium.com/@nopara73/coin-control-is-must-learn-if-you-care-about-your-privacy-in-bitcoin-33b9a5f224a2
+https://medium.com/@thecryptoconomy/dandelions-and-a-bright-future-for-bitcoin-privacy-712dbc4b1ec5
+https://www.youtube.com/watch?v=XORDEX-RrAI&t=7h34m24s
+https://github.com/gfanti/bips/blob/master/bip-dandelion.mediawiki

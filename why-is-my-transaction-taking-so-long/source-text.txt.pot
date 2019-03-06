@@ -1,0 +1,343 @@
+#. extracted from ./why-is-my-transaction-taking-so-long/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:2
+msgid "Why is my transaction taking so long?"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:4
+msgid ""
+"The time it takes for a transaction to be confirmed will strongly vary "
+"depending on many factors, some of them purely mathematical, while others "
+"will be influenced by the current market situation."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:6
+msgid "Part 1: Average Time per Block"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:8
+msgid ""
+"Forget about fees and waiting lines for a second, and suppose you know your "
+"transaction will be included in the next block."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:10
+msgid "When will that be?"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:12
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:12"
+msgid "Next block"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:14
+msgid ""
+"We know that the expected time between Bitcoin blocks is 10 minutes. So why "
+"did your transaction’s block actually took 20 minutes?"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:16
+msgid ""
+"The creation of new blocks is described mathematically as a Poisson Process."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:18
+msgid "Block creation"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:20
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:20"
+msgid "Time"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:22
+msgid ""
+"It’s a good model for the number of times an event occurs in an interval of "
+"time or space — like the rate of created blocks."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:24
+msgid "Last blocks"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:26
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:26"
+msgid "Next block"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:28
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:28"
+msgid "10 min"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:30
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:30"
+msgid "Time"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:32
+msgid ""
+"And, it’s memoryless — it means the time the last event occurred doesn’t "
+"affect the prediction for the next event."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:34
+msgid "Let’s make it concrete:"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:36
+msgid "Average rate of block creation: 1 block every 10 minutes."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:38
+msgid "Block creation rate"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:40
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:40"
+msgid "10 min"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:42
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:42"
+msgid "Time"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:44
+msgid "The last block was 8 minutes ago, when should you expect the next?"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:46
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:46"
+msgid "Last block"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:48
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:48"
+msgid "Now"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:50
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:50"
+msgid "8 min"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:52
+msgid "10 minutes from now."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:54
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:54"
+msgid "Last block"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:56
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:56"
+msgid "Now"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:58
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:58"
+msgid "Next block"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:60
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:60"
+msgid "8 min"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:62
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:62"
+msgid "10 min"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:64
+msgctxt "./why-is-my-transaction-taking-so-long/source-text.txt:64"
+msgid "Time"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:66
+msgid ""
+"Because the process is memoryless, so you always expect the next block to be "
+"in 10 minutes! Even if that means that the interval between the 2 blocks "
+"will be 18 minutes."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:68
+msgid "Part 2: Network activity and fees"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:70
+msgid ""
+"Now that we understood how the expected time for the next block can vary, "
+"let’s get out of our theoretical bubble and ask the next important question:"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:72
+msgid "Is your transaction going to be on the next block?"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:74
+msgid ""
+"It might not be. It might not even be in the next 30 blocks. So what will "
+"determine that?"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:76
+msgid ""
+"First thing to point out is that the space in each block is scarce, only so "
+"many transactions can fit in a single block."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:78
+msgid ""
+"If the network is too busy with tons of transactions to be mined, a lot of "
+"them will have to wait until they can get a space in a block."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:80
+msgid "Wait here"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:82
+msgid ""
+"The “waiting room” for transactions is called mempool in Bitcoin, which "
+"stands for the pool of transactions stored in memory while they are not "
+"written on the blockchain."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:84
+msgid "Welcome to the MEMPOOL"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:86
+msgid "Blockchain"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:88
+msgid ""
+"Now you might wonder, how is this order of “next transactions in line” "
+"decided?"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:90
+msgid "This leads us to a new factor: fees."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:92
+msgid ""
+"Although there is no protocol rule that establishes that, miners usually "
+"prioritize transactions with higher fees when choosing from the mempool."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:94
+msgid "So consider the situation:"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:96
+msgid ""
+"The network is very busy and the average transaction fee at the moment is "
+"0.75 USD."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:98
+msgid "I send a transaction with a fee of 0.05 USD at 10 AM."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:100
+msgid "12 hours of difference"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:102
+msgid "You send a transaction with a fee of 1 USD at 10 PM."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:104
+msgid ""
+"Chances are that your transaction will be included in a block before my "
+"transaction because there’s a fierce competition for space in a block, at "
+"the moment, and I didn’t offer enough incentive for miners to choose my "
+"transaction instead of the tons of others in the waiting line."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:106
+msgid ""
+"Now I’ll have to wait (maybe days) for the transaction to confirm or to be "
+"kicked out of the mempool (requiring me to send it again)."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:108
+msgid ""
+"Alternatively, there is now an option in Bitcoin called Replace By Fee (RBF)"
+", which allows me to change the fee for that transaction after sending it."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:110
+msgid ""
+"These are not the only factors that influence the time a transaction takes "
+"to be confirmed, but are the ones you’ll probably have more control as a "
+"user."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:112
+msgid "Takeaways"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:114
+msgid ""
+"Even though the mathematical variations are inherent to the Bitcoin "
+"protocol, because it counts on statistics, the market-related issues are not."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:116
+msgid ""
+"An always crowded mempool can be and is being mitigated with scaling "
+"advances of the system, such as SegWit and the Lightning Network."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:118
+msgid ""
+"Even though we’ll probably have to wait a while to see them widely adopted, "
+"especially by merchants."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:120
+msgid "Witness"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:122
+msgid ""
+"So what you can expect for the not so far future is that, at least for your "
+"daily coffee, there will be no need to wait too long for a confirmation."
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:124
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:126
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:128
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./why-is-my-transaction-taking-so-long/source-text.txt:130
+msgid ""
+"Main sources: https://en.wikipedia.org/wiki/Poisson_distribution\n"
+"http://r6.ca/blog/20180225T160548Z.html"
+msgstr ""

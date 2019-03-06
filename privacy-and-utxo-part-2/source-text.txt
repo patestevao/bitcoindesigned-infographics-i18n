@@ -1,0 +1,192 @@
+Bitcoin Privacy series
+
+Privacy and UTXO [part 2]:
+
+The problem of UTXO
+
+UTXOs are publicly known
+
+We already learned that UTXOs are, effectively, the bitcoins you have available for spending.
+
+But those UTXOs are not privately stored in your wallet. They are, in fact, quite known by other nodes.
+
+Every full-node in the Bitcoin network has a copy of the called UTXO set, which is a list with all UTXOs, i.e. every amount of Bitcoin that is currently available for spending.
+
+UTXO set
+
+Once they are used to make payments, those UTXOs will appear as inputs of the transactions where they were spent.
+
+And these transactions are permanently and publicly stored in the blockchain.
+
+UTXO set
+
+Used in a new transaction
+
+Blockchain records
+
+So tracing UTXOs and their path through different transactions is actually quite feasible.
+
+Previous Tx
+
+creates UTXO used in
+
+New Tx
+
+creates UTXO used in
+
+New Tx
+
+Your privacy relies upon the fact that people don’t necessarily know which UTXOs are yours since Bitcoin addresses are pseudonymous.
+
+But there’s always a way…
+
+The privacy protection offered by Bitcoin’s pseudonymity is very fragile.
+
+There are, for example, heuristics that people can use to infer revealing information about your personal finances:
+
+Heuristic 1: “All inputs of a transaction belong to the same wallet.”
+
+Most of the times, joining multiple inputs is a way to make a payment that is larger than any of the inputs alone.
+
+Amount to pay
+
+UTXOs you’ll use
+
+So you have a good chance to be right by saying that all those inputs used in the same transaction belonged to the same wallet (and probably the same person).
+
+UTXOs in Bob’s wallet
+
+Which implies that the transactions that previously generated those UTXOs were all made to pay the same person/wallet.
+
+Tx to Bob
+
+New UTXO
+
+From the eavesdropper point of view:
+
+Bob makes a 2.5 BTC payment.
+
+Assuming the inputs used were from the same wallet
+
+We can look at the txs that generated those UTXO
+
+And conclude they were both payments to Bob.
+
+So if one of the addresses that paid him is a known website for freelance programmers, we now know that Bob worked as a freelancer for them.
+
+Heuristic 2: “Changes are owned by addresses that were never seen in the blockchain.”
+
+Imagine a transaction with 2 UTXOs created to different addresses.
+
+Address A
+
+Address B
+
+Since modern wallets generate completely new addresses for the change, an eavesdropper can conclude:
+
+If only one of them has never appeared in the blockchain, that’s probably the address generated for the change.
+
+Change to Address B
+
+From the eavesdropper point of view:
+
+Bob’s Tx generates 2 UTXOs
+
+Goes to Address A
+
+Goes to Address B
+
+Is on the blockchain
+
+Isn’t on the blockchain
+
+This is Bob’s change.
+
+Now we know which address to keep following in order to learn more about Bob’s finances.
+
+Heuristic 3: “Transactions from consumer’s wallets have two or fewer outputs.”
+
+Bob sends a transaction to a service and there are two outputs, one is his change, the other is the payment to the service. But which one is which?
+
+If we follow the next transactions of these 2 UTXOs, we might see that one of them will be in a transaction with various outputs. That’s probably the money that went to the service.
+
+While the UTXO that went into a transaction with two or fewer outputs is identifiable as the change.
+
+From the eavesdropper point of view:
+
+Bob’s tx
+
+Is the UTXO change or payment?
+
+Next tx
+
+Next tx
+
+2 UTXOs
+
+Multiple UTXOs
+
+It was the change
+
+It was the payment
+
+Again, now we know which address is in Bob’s control, so we can follow it to learn more about Bob’s finances.
+
+Heuristic 4: “Wallets don’t spend unnecessary outputs”
+
+Alice made a transaction with multiple inputs in order to pay her rent.
+
+Alice’s UTXOs turned into inputs for rent tx
+
+If there’s a unique output of the transaction with a value smaller than any of the inputs, then that’s the change.
+
+Otherwise, the wallet would have spent an unneccessary UTXO.
+
+Rent tx
+
+Payment
+
+Change
+
+Outputs
+
+From the eavesdropper point of view:
+
+Inputs to rent tx
+
+Rent tx
+
+Outputs
+
+Is this the only UTXO smaller than all inputs?
+
+YES
+
+It’s the change.
+
+NO
+
+It isn’t the change.
+
+Now we know which address to keep following in order to learn more about Alice’s finances.
+
+The UTXO bottom-line
+
+All this information gathered based on your UTXOs can be used to trace you and the rest of your money.
+
+So, even though it relies on heuristics and is not guaranteed to work,  it’s a very serious attack vector against your privacy if no countermeasure is taken.
+
+This is why there are efforts from many projects focused on improving privacy in Bitcoin that address the information leak from UTXO.
+
+If you wish to learn more about them, here are some honorable mentions of projects and technologies to check out.
+
+Wasabi Wallet; TumbleBit; Samourai wallet’s Stonewall and Ricochet; Coinjoin; JoinMarket; Confidential Transactions
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]
+
+Main sources:
+https://www.youtube.com/watch?v=HScK4pkDNds

@@ -1,0 +1,476 @@
+#. extracted from ./privacy-and-utxo-part-2/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
+
+#: ./privacy-and-utxo-part-2/source-text.txt:2
+msgid "Bitcoin Privacy series"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:4
+msgid "Privacy and UTXO [part 2]:"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:6
+msgid "The problem of UTXO"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:8
+msgid "UTXOs are publicly known"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:10
+msgid ""
+"We already learned that UTXOs are, effectively, the bitcoins you have "
+"available for spending."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:12
+msgid ""
+"But those UTXOs are not privately stored in your wallet. They are, in fact, "
+"quite known by other nodes."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:14
+msgid ""
+"Every full-node in the Bitcoin network has a copy of the called UTXO set, "
+"which is a list with all UTXOs, i.e. every amount of Bitcoin that is "
+"currently available for spending."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:16
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:16"
+msgid "UTXO set"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:18
+msgid ""
+"Once they are used to make payments, those UTXOs will appear as inputs of "
+"the transactions where they were spent."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:20
+msgid ""
+"And these transactions are permanently and publicly stored in the blockchain."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:22
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:22"
+msgid "UTXO set"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:24
+msgid "Used in a new transaction"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:26
+msgid "Blockchain records"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:28
+msgid ""
+"So tracing UTXOs and their path through different transactions is actually "
+"quite feasible."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:30
+msgid "Previous Tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:32
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:32"
+msgid "creates UTXO used in"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:34
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:34"
+msgid "New Tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:36
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:36"
+msgid "creates UTXO used in"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:38
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:38"
+msgid "New Tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:40
+msgid ""
+"Your privacy relies upon the fact that people don’t necessarily know which "
+"UTXOs are yours since Bitcoin addresses are pseudonymous."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:42
+msgid "But there’s always a way…"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:44
+msgid ""
+"The privacy protection offered by Bitcoin’s pseudonymity is very fragile."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:46
+msgid ""
+"There are, for example, heuristics that people can use to infer revealing "
+"information about your personal finances:"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:48
+msgid "Heuristic 1: “All inputs of a transaction belong to the same wallet.”"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:50
+msgid ""
+"Most of the times, joining multiple inputs is a way to make a payment that "
+"is larger than any of the inputs alone."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:52
+msgid "Amount to pay"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:54
+msgid "UTXOs you’ll use"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:56
+msgid ""
+"So you have a good chance to be right by saying that all those inputs used "
+"in the same transaction belonged to the same wallet (and probably the same "
+"person)."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:58
+msgid "UTXOs in Bob’s wallet"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:60
+msgid ""
+"Which implies that the transactions that previously generated those UTXOs "
+"were all made to pay the same person/wallet."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:62
+msgid "Tx to Bob"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:64
+msgid "New UTXO"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:66
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:66"
+msgid "From the eavesdropper point of view:"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:68
+msgid "Bob makes a 2.5 BTC payment."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:70
+msgid "Assuming the inputs used were from the same wallet"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:72
+msgid "We can look at the txs that generated those UTXO"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:74
+msgid "And conclude they were both payments to Bob."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:76
+msgid ""
+"So if one of the addresses that paid him is a known website for freelance "
+"programmers, we now know that Bob worked as a freelancer for them."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:78
+msgid ""
+"Heuristic 2: “Changes are owned by addresses that were never seen in the "
+"blockchain.”"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:80
+msgid "Imagine a transaction with 2 UTXOs created to different addresses."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:82
+msgid "Address A"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:84
+msgid "Address B"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:86
+msgid ""
+"Since modern wallets generate completely new addresses for the change, an "
+"eavesdropper can conclude:"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:88
+msgid ""
+"If only one of them has never appeared in the blockchain, that’s probably "
+"the address generated for the change."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:90
+msgid "Change to Address B"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:92
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:92"
+msgid "From the eavesdropper point of view:"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:94
+msgid "Bob’s Tx generates 2 UTXOs"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:96
+msgid "Goes to Address A"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:98
+msgid "Goes to Address B"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:100
+msgid "Is on the blockchain"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:102
+msgid "Isn’t on the blockchain"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:104
+msgid "This is Bob’s change."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:106
+msgid ""
+"Now we know which address to keep following in order to learn more about Bob’"
+"s finances."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:108
+msgid ""
+"Heuristic 3: “Transactions from consumer’s wallets have two or fewer "
+"outputs.”"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:110
+msgid ""
+"Bob sends a transaction to a service and there are two outputs, one is his "
+"change, the other is the payment to the service. But which one is which?"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:112
+msgid ""
+"If we follow the next transactions of these 2 UTXOs, we might see that one "
+"of them will be in a transaction with various outputs. That’s probably the "
+"money that went to the service."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:114
+msgid ""
+"While the UTXO that went into a transaction with two or fewer outputs is "
+"identifiable as the change."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:116
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:116"
+msgid "From the eavesdropper point of view:"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:118
+msgid "Bob’s tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:120
+msgid "Is the UTXO change or payment?"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:122
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:122"
+msgid "Next tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:124
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:124"
+msgid "Next tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:126
+msgid "2 UTXOs"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:128
+msgid "Multiple UTXOs"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:130
+msgid "It was the change"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:132
+msgid "It was the payment"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:134
+msgid ""
+"Again, now we know which address is in Bob’s control, so we can follow it to "
+"learn more about Bob’s finances."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:136
+msgid "Heuristic 4: “Wallets don’t spend unnecessary outputs”"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:138
+msgid "Alice made a transaction with multiple inputs in order to pay her rent."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:140
+msgid "Alice’s UTXOs turned into inputs for rent tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:142
+msgid ""
+"If there’s a unique output of the transaction with a value smaller than any "
+"of the inputs, then that’s the change."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:144
+msgid "Otherwise, the wallet would have spent an unneccessary UTXO."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:146
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:146"
+msgid "Rent tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:148
+msgid "Payment"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:150
+msgid "Change"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:152
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:152"
+msgid "Outputs"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:154
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:154"
+msgid "From the eavesdropper point of view:"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:156
+msgid "Inputs to rent tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:158
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:158"
+msgid "Rent tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:160
+msgctxt "./privacy-and-utxo-part-2/source-text.txt:160"
+msgid "Outputs"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:162
+msgid "Is this the only UTXO smaller than all inputs?"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:164
+msgid "YES"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:166
+msgid "It’s the change."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:168
+msgid "NO"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:170
+msgid "It isn’t the change."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:172
+msgid ""
+"Now we know which address to keep following in order to learn more about "
+"Alice’s finances."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:174
+msgid "The UTXO bottom-line"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:176
+msgid ""
+"All this information gathered based on your UTXOs can be used to trace you "
+"and the rest of your money."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:178
+msgid ""
+"So, even though it relies on heuristics and is not guaranteed to work,  it’s "
+"a very serious attack vector against your privacy if no countermeasure is "
+"taken."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:180
+msgid ""
+"This is why there are efforts from many projects focused on improving "
+"privacy in Bitcoin that address the information leak from UTXO."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:182
+msgid ""
+"If you wish to learn more about them, here are some honorable mentions of "
+"projects and technologies to check out."
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:184
+msgid ""
+"Wasabi Wallet; TumbleBit; Samourai wallet’s Stonewall and Ricochet; Coinjoin;"
+" JoinMarket; Confidential Transactions"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:186
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:188
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:190
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./privacy-and-utxo-part-2/source-text.txt:192
+msgid ""
+"Main sources:\n"
+"https://www.youtube.com/watch?v=HScK4pkDNds"
+msgstr ""

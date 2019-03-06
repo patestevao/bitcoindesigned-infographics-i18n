@@ -1,0 +1,312 @@
+#. extracted from ./privacy-and-utxo-part-1/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
+
+#: ./privacy-and-utxo-part-1/source-text.txt:2
+msgid "Bitcoin Privacy series"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:4
+msgid "Privacy and UTXO [part 1]:"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:6
+msgid "How UTXO works?"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:8
+msgid "What is UTXO?"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:10
+msgid "UTXO means Unspent Transaction Output."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:12
+msgid ""
+"We’ll stick to UTXO because it’s shorter, but the full name can help you "
+"understand the concept, so keep it in mind."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:14
+msgid ""
+"UTXO is the output from previous transactions that you can use as an input "
+"on your next transactions."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:16
+msgid "Received transaction"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:18
+msgid "UTXO from that transaction"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:20
+msgid "New transaction"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:22
+msgid "UTXO in Bitcoin transactions"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:24
+msgid ""
+"Even though wallets give the impression that bitcoins are sent from and to "
+"wallets, the truth is that bitcoins actually move from transaction (Tx) to "
+"transaction (Tx)."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:26
+msgid "MYTH"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:28
+msgid "Alice’s wallet"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:30
+msgid "Sends bitcoin"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:32
+msgid "Bob’s wallet"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:34
+msgid "REALITY"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:36
+msgid "Tx to Alice’s address"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:38
+msgid "Uses UTXO from Tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:40
+msgid "Tx to Bob’s address"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:42
+msgid ""
+"So whatever you use as input to one transaction, eventually came out as an "
+"output of a previous transaction."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:44
+msgid "Previous Tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:46
+msgctxt "./privacy-and-utxo-part-1/source-text.txt:46"
+msgid "creates"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:48
+msgid "UTXO available"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:50
+msgctxt "./privacy-and-utxo-part-1/source-text.txt:50"
+msgid "Is used as"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:52
+msgctxt "./privacy-and-utxo-part-1/source-text.txt:52"
+msgid "Tx input"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:54
+msgctxt "./privacy-and-utxo-part-1/source-text.txt:54"
+msgid "to"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:56
+msgctxt "./privacy-and-utxo-part-1/source-text.txt:56"
+msgid "New Tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:58
+msgid ""
+"Unless we are talking about coinbase transactions, which are special "
+"transactions that miners create with each new block and only have outputs."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:60
+msgid ""
+"These transactions are used to issue new bitcoins - for now - and are "
+"entitled to collect fees from transactions."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:62
+msgid "Block mining"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:64
+msgctxt "./privacy-and-utxo-part-1/source-text.txt:64"
+msgid "creates"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:66
+msgid "Coinbase outputs"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:68
+msgctxt "./privacy-and-utxo-part-1/source-text.txt:68"
+msgid "Is used as"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:70
+msgctxt "./privacy-and-utxo-part-1/source-text.txt:70"
+msgid "Tx input"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:72
+msgctxt "./privacy-and-utxo-part-1/source-text.txt:72"
+msgid "to"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:74
+msgctxt "./privacy-and-utxo-part-1/source-text.txt:74"
+msgid "New Tx"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:76
+msgid "How does it work?"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:78
+msgid ""
+"You can think of it as a digital money bill, in the sense that it has a "
+"value of its own and can’t be divided."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:80
+msgid "Also, the sum of your UTXOs represents your total balance."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:82
+msgid "BALANCE: 4.2 BTC"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:84
+msgid ""
+"If you need to pay more than that value, you need to gather more than one "
+"UTXO and use them together."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:86
+msgid ""
+"If you need to pay less than the UTXO value, or if you surpass the amount by "
+"using more than one UTXO, you’ll have to create a new UTXO as a change. The "
+"original UTXOs have to be spent completely."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:88
+msgid "Amount to pay"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:90
+msgid "UTXOs you’ll use"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:92
+msgid "New UTXO as change"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:94
+msgid ""
+"These UTXOs are what really is behind the “money transfer” in Bitcoin "
+"transactions."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:96
+msgid "Taking it to Alice and Bob"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:98
+msgid ""
+"Suppose Bob’s wallet says he has 4 bitcoins that are divided into 4 UTXOs of "
+"1 bitcoin each. Let’s see what a payment would look like."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:100
+msgid ""
+"Note: This is a simplification that doesn’t account for transaction fees."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:102
+msgid "Bob wants to pay 2.5 bitcoins to Alice."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:104
+msgid ""
+"His wallet will have to use 3 of the available UTXOs and turn them into "
+"inputs of the transaction."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:106
+msgid ""
+"UTXOs can only be spent once. So, once the 3 UXTOs are used, they become "
+"SPENT transaction outputs and can no longer be used as inputs to a new "
+"transaction."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:108
+msgid "2 complete new UTXOs are generated:"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:110
+msgid "New UTXO for Alice"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:112
+msgid ""
+"One that can be used by Alice in the value of 2.5 BTC — the payment itself."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:114
+msgid "New UTXO as Bob’s change"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:116
+msgid "One that can be used by Bob in the value of 0.5 BTC — the change."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:118
+msgid ""
+"Finally, Bob’s wallet will end with 2 UTXOs: 1 remaining with 1 BTC and the "
+"new one with 0.5 BTC."
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:120
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:122
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:124
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./privacy-and-utxo-part-1/source-text.txt:127
+msgid ""
+"Main sources:\n"
+"https://bitcoin.org/en/developer-guide#block-chain-overview\n"
+"https://www.youtube.com/watch?v=HScK4pkDNds"
+msgstr ""

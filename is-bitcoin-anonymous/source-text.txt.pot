@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-23 11:06+0100\n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 
 #: ./is-bitcoin-anonymous/source-text.txt:2
 msgid "bitcoindesigned.com"
@@ -90,17 +90,21 @@ msgid "How Am I Linked?"
 msgstr ""
 
 #: ./is-bitcoin-anonymous/source-text.txt:36
+msgid "Buying goods and services:"
+msgstr ""
+
+#: ./is-bitcoin-anonymous/source-text.txt:38
 msgid ""
 "Bitcoin doesn’t require any type of personal information from you, but most "
 "stores and services do (gorvernment requirement). If you pay this company "
 "with bitcoins, they will link your data to your address in their app."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:38
+#: ./is-bitcoin-anonymous/source-text.txt:40
 msgid "Reusing addresses:"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:40
+#: ./is-bitcoin-anonymous/source-text.txt:42
 msgid ""
 "If you use the same address to make various transactions, you create a "
 "record of your private financial life in a way that’s not private at all. "
@@ -108,207 +112,207 @@ msgid ""
 "some way."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:42
+#: ./is-bitcoin-anonymous/source-text.txt:44
 msgid "Public Spaces:"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:44
+#: ./is-bitcoin-anonymous/source-text.txt:46
 msgid ""
 "If you need to put your address in a very public space (to receive donations "
 "in a website, for example), you are associating it to your name or to the "
 "public image you use."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:46
+#: ./is-bitcoin-anonymous/source-text.txt:48
 msgid "IP Logging:"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:48
+#: ./is-bitcoin-anonymous/source-text.txt:50
 msgid ""
 "Your IP address can be logged by someone listening to the network when you "
 "send a transaction. But since full nodes also relay  transactions to the "
 "network, it can be difficult to find the exact IP address for a transaction."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:50
+#: ./is-bitcoin-anonymous/source-text.txt:52
 msgid "Protect Yourself"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:52
+#: ./is-bitcoin-anonymous/source-text.txt:54
 msgid ""
 "Avoid services with KYC/AML policies. And since that’s very difficult, just "
 "don’t reuse addresses in these services."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:54
+#: ./is-bitcoin-anonymous/source-text.txt:56
 msgid ""
 "Don’t reuse addresses at all (you can choose a Bitcoin client that does this "
 "automatically for you)."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:56
+#: ./is-bitcoin-anonymous/source-text.txt:58
 msgid ""
 "Be sure that’s an address that you don’t use for anything else and know "
 "that, when you transfer the funds to a new address, it will also be easily "
 "linked to you."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:58
+#: ./is-bitcoin-anonymous/source-text.txt:60
 msgid ""
 "Even if it’s difficult, you might want to try tools that hide your IP "
 "address (proxy, VPN)."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:60
+#: ./is-bitcoin-anonymous/source-text.txt:62
 msgid "Bitcoin Mixing"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:62
+#: ./is-bitcoin-anonymous/source-text.txt:64
 msgid "(or laundering, if you’re not too shy)"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:64
-msgid "How does it work?"
-msgstr ""
-
 #: ./is-bitcoin-anonymous/source-text.txt:66
-msgctxt "./is-bitcoin-anonymous/source-text.txt:66"
-msgid ""
-"That means weakening the link between an identity and a bitcoin address."
+msgid "How does it work?"
 msgstr ""
 
 #: ./is-bitcoin-anonymous/source-text.txt:68
 msgctxt "./is-bitcoin-anonymous/source-text.txt:68"
 msgid ""
+"That means weakening the link between an identity and a bitcoin address."
+msgstr ""
+
+#: ./is-bitcoin-anonymous/source-text.txt:70
+msgctxt "./is-bitcoin-anonymous/source-text.txt:70"
+msgid ""
 "For now, they are centralized services, so you have to trust them not to log "
 "you and not to run away with your money."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:70
+#: ./is-bitcoin-anonymous/source-text.txt:72
 msgid "START"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:72
+#: ./is-bitcoin-anonymous/source-text.txt:74
 msgid "You want to improve privacy."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:74
-msgctxt "./is-bitcoin-anonymous/source-text.txt:74"
+#: ./is-bitcoin-anonymous/source-text.txt:76
+msgctxt "./is-bitcoin-anonymous/source-text.txt:76"
 msgid ""
 "That means weakening the link between an identity and a bitcoin address."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:76
+#: ./is-bitcoin-anonymous/source-text.txt:78
 msgid "You look for a mixing service."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:78
-msgctxt "./is-bitcoin-anonymous/source-text.txt:78"
+#: ./is-bitcoin-anonymous/source-text.txt:80
+msgctxt "./is-bitcoin-anonymous/source-text.txt:80"
 msgid ""
 "For now, they are centralized services, so you have to trust them not to log "
 "you and not to run away with your money."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:80
+#: ./is-bitcoin-anonymous/source-text.txt:82
 msgid "User"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:82
-msgid "Mixer"
-msgstr ""
-
 #: ./is-bitcoin-anonymous/source-text.txt:84
-msgid ""
-"The unspent outputs (available bitcoins) of many people are brought together."
+msgid "Mixer"
 msgstr ""
 
 #: ./is-bitcoin-anonymous/source-text.txt:86
 msgid ""
-"These bitcoins are transacted in a way that mixes them up (details may vary)."
+"The unspent outputs (available bitcoins) of many people are brought together."
 msgstr ""
 
 #: ./is-bitcoin-anonymous/source-text.txt:88
 msgid ""
-"You receive your amount back, but they are not your old bitcoins anymore."
+"These bitcoins are transacted in a way that mixes them up (details may vary)."
 msgstr ""
 
 #: ./is-bitcoin-anonymous/source-text.txt:90
-msgid "FINISH"
+msgid ""
+"You receive your amount back, but they are not your old bitcoins anymore."
 msgstr ""
 
 #: ./is-bitcoin-anonymous/source-text.txt:92
-msgid "Nice to know:"
+msgid "FINISH"
 msgstr ""
 
 #: ./is-bitcoin-anonymous/source-text.txt:94
+msgid "Nice to know:"
+msgstr ""
+
+#: ./is-bitcoin-anonymous/source-text.txt:96
 msgid ""
 "It doesn't terminate your link your the bitcoins, but it becomes pretty "
 "unfeasible to track you."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:96
+#: ./is-bitcoin-anonymous/source-text.txt:98
 msgid ""
 "You will end with a weak link to someone else’s bitcoin and, consequently, "
 "to the activity the other person was doing. (Not something to worry a lot, "
 "but important to know)."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:98
+#: ./is-bitcoin-anonymous/source-text.txt:100
 msgid "It’s not an easy process for large amounts of bitcoins."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:100
+#: ./is-bitcoin-anonymous/source-text.txt:102
 msgid "You might have to pay a fee to use this type of service."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:102
+#: ./is-bitcoin-anonymous/source-text.txt:104
 msgid "BTC x Cash"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:104
+#: ./is-bitcoin-anonymous/source-text.txt:106
 msgid ""
 "Because of the blockchain’s transparency, cash is still more anonymous than "
 "Bitcoin."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:106
+#: ./is-bitcoin-anonymous/source-text.txt:108
 msgid ""
 "That’s why is not very accurate to say criminals use Bitcoin for its "
 "anonymity."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:108
+#: ./is-bitcoin-anonymous/source-text.txt:110
 msgid "Bottom Line"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:110
+#: ./is-bitcoin-anonymous/source-text.txt:112
 msgid "“Bitcoin is PRETTY Anonymous”"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:112
+#: ./is-bitcoin-anonymous/source-text.txt:114
 msgid ""
 "People won’t see your balance with the ease that your bank manager or any "
 "governmental agent can if they make the call."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:114
+#: ./is-bitcoin-anonymous/source-text.txt:116
 msgid ""
 "But if someone is REALLY looking for you, know that is not impossible to be "
 "found."
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:116
+#: ./is-bitcoin-anonymous/source-text.txt:118
 msgid "Main Source: https://bitcoin.org/en/protect-your-privacy"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:118
+#: ./is-bitcoin-anonymous/source-text.txt:120
 msgid "Author: Patrícia Estevão"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:120
+#: ./is-bitcoin-anonymous/source-text.txt:122
 msgid "Editor: Marco Agner"
 msgstr ""
 
-#: ./is-bitcoin-anonymous/source-text.txt:121
+#: ./is-bitcoin-anonymous/source-text.txt:123
 msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
 msgstr ""

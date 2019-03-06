@@ -1,0 +1,68 @@
+Bitcoin Privacy series
+
+Privacy and Bitcoin
+
+A non-exhaustive list of reasons of why you should care about privacy in Bitcoin.
+
+Let’s limit it to legal activities because, in the case of illegality, I believe the value of privacy is pretty straightforward.
+
+1. Personal risk
+
+If everyone knows how much money you have, criminals can decide that you are a worthy target to be attacked for your money.
+
+If you are lucky, the attack will be only digital but, in many known cases, it gets physical as well.
+
+This puts you and your loved ones at great risk.
+
+2. Targeted ads
+
+If your finances are easily followed and, let’s say, sold to advertising agencies that show you ads based on your spendings, other people besides yourself might end up seeing these ads and learning what you are buying.
+
+Even with legal harmless stuff, it might be a liking or a need that you’d prefer to keep private.
+
+There’s actually a real life example of a father learning his daughter was pregnant because of the ads that were directed to her.
+
+3. Business privacy
+
+For a business, having your finances transparent and available to anyone can cause serious damage.
+
+Imagine if your competitors knew all about your revenues, margins, suppliers, the salaries of your employers, etc.
+
+4. Commercial leverage
+
+What if a company knew that you had a lot of money and wouldn’t hurt you to pay three times the price they usually charge on a product?
+
+They could easily show “special prices” for you on their e-commerce website based on how much they think you’re going to pay.
+
+Just for you
+
+5. Miner censorship
+
+If your address is easily found and connected to you, miners can join forces to censor your transactions by actively not adding it to their proposed block.
+
+Why would they do that? For numerous reasons, including government pressure, business interest or just wanting to see the world burn.
+
+6. Fungibility
+
+Good money has to be fungible, that is, all “chunks” of money have to be equally accepted no matter its origin.
+
+This is the reality with cash. No one can refuse your cash or try to prosecute you just because the person who paid you got the money selling drugs.
+
+FUNGIBLE MONEY
+
+If it weren’t fungible, every bill would effectively be worth a different value (dirty notes would be worth less than clean ones) and the money wouldn’t work.
+
+NON-FUNGIBLE MONEY
+
+If Bitcoin has a bad privacy, this tracing of “bad money” becomes very feasible and the currency won’t be fungible.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]
+
+Main sources:
+https://bitcoinmagazine.com/articles/why-financial-privacy-about-more-using-bitcoin-buy-drugs-internet/
+https://www.youtube.com/watch?v=VuI-8EwqIS8
+
