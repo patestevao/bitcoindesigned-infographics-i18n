@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-23 11:06+0100\n"
+"PO-Revision-Date: 2019-02-22 15:27+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: what-is-bitcoin-the-network/source-text.txt:2
+msgid "What is Bitcoin? - The Network"
+msgstr "Qu'est-ce que le Bitcoin ? - Le Réseau"
+
+#: what-is-bitcoin-the-network/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: what-is-bitcoin-the-network/source-text.txt:6
+msgid "your techy friend’s explanation"
+msgstr "l'explication de votre ami geek"
+
+#: what-is-bitcoin-the-network/source-text.txt:8
+msgctxt "./what-is-bitcoin-the-network/source-text.txt:8"
+msgid ""
+"It’s a decentralized peer-to-peer network for electronic transactions "
+"without relying on a central point of trust."
+msgstr ""
+"C'est un réseau peer-to-peer décentralisé pour des transactions "
+"électroniques sans se reposer sur un point central de confiance."
+
+#: what-is-bitcoin-the-network/source-text.txt:10
+msgid "Ok, whaat? Let’s break it down."
+msgstr "Ok, quooi ? Analysons ceci:"
+
+#: what-is-bitcoin-the-network/source-text.txt:12
+msgctxt "./what-is-bitcoin-the-network/source-text.txt:12"
+msgid ""
+"It’s a decentralized peer-to-peer network for electronic transactions "
+"without relying on a central point of trust."
+msgstr ""
+"C'est un réseau peer-to-peer décentralisé pour des transactions "
+"électroniques sans se reposer sur un point central de confiance."
+
+#: what-is-bitcoin-the-network/source-text.txt:14
+msgid "decentralized"
+msgstr "décentralisé"
+
+#: what-is-bitcoin-the-network/source-text.txt:16
+msgid ""
+"No node has more power than others, only different roles. So there isn’t a "
+"single Bitcoin server or company controlling it."
+msgstr ""
+"Aucun nœud n'a plus de pouvoir que les autres, seulement des rôles "
+"différents. Donc il n'existe pas un seul serveur Bitcoin ni d'entreprise "
+"unique le contrôlant. "
+
+#: what-is-bitcoin-the-network/source-text.txt:18
+msgid "peer-to-peer"
+msgstr "peer-to-peer"
+
+#: what-is-bitcoin-the-network/source-text.txt:20
+msgid ""
+"All Bitcoin nodes receive and share information at the same time, so there’s "
+"no need to have a big server with all its data."
+msgstr ""
+"Tous les nœuds Bitcoin reçoivent et partagent de l'information en même "
+"temps, donc il n'y a pas besoin d'avoir un gros serveur avec toutes ses "
+"données."
+
+#: what-is-bitcoin-the-network/source-text.txt:22
+msgid "network for electronic transactions"
+msgstr "réseau pour des transactions électroniques"
+
+#: what-is-bitcoin-the-network/source-text.txt:24
+msgid ""
+"It allows you to send different types of transactions (contracts) using the "
+"bitcoin token as a medium of value exchange."
+msgstr ""
+"Il vous permet d'envoyer différents types de transactions (contrats) en "
+"utilisant le token bitcoin en tant que moyen d'échange de valeur."
+
+#: what-is-bitcoin-the-network/source-text.txt:26
+msgid "without relying on a central point of trust"
+msgstr "sans se reposer sur un point central de confiance"
+
+#: what-is-bitcoin-the-network/source-text.txt:28
+msgid ""
+"Bitcoin achieves consensus using the Proof of Work and the blockchain, so no "
+"single entity needs or has the authority to say if a transaction is valid - "
+"it proves itself."
+msgstr ""
+"Le Bitcoin créé un consensus en utilisant le Proof-of-Work et la blockchain, "
+"donc aucune identité seule n'a besoin d'une autorité pour dire si une "
+"transaction est valide - elle se prouve elle-même."
+
+#: what-is-bitcoin-the-network/source-text.txt:30
+msgid "Bitcoin CEO"
+msgstr "Le PDG Bitcoin"
+
+#: what-is-bitcoin-the-network/source-text.txt:32
+msgid "catch your breath because there’s more"
+msgstr "respirez un coup parce que ce n'est pas fini"
+
+#: what-is-bitcoin-the-network/source-text.txt:34
+msgid "Digital Cryptocurrency"
+msgstr "Cryptomonnaie Digitale"
+
+#: what-is-bitcoin-the-network/source-text.txt:36
+msgid ""
+"Transactions are made in the network by exchanging tokens. These tokens are "
+"a currency backed by mathematical and cryptographic functions that assure "
+"its value and legitimacy."
+msgstr ""
+"Les transactions peuvent être faites sur le réseau en échangeant des tokens. "
+"Ces tokens sont une monnaie soutenue par des fonctions mathématiques et "
+"cryptographiques qui assurent sa valeur et sa légitimité."
+
+#: what-is-bitcoin-the-network/source-text.txt:38
+msgid "Public Ledger"
+msgstr "Registre Publique"
+
+#: what-is-bitcoin-the-network/source-text.txt:40
+msgid ""
+"The Blockchain is the public ledger where new transactions are included and "
+"confirmed. It keeps all records of bitcoin ownership and it’s completely "
+"transparent - you can see and have your own copy."
+msgstr ""
+"La Blockchain est le registre publique où les nouvelles transactions sont "
+"inclues et confirmées. Elle garde une trace de la propriété du bitcoin et "
+"elle est complètement transparente - on peut la voir et en avoir sa propre "
+"copie."
+
+#: what-is-bitcoin-the-network/source-text.txt:42
+msgid "Bitcoin is..."
+msgstr "Le Bitcoin est..."
+
+#: what-is-bitcoin-the-network/source-text.txt:44
+msgid "Platform"
+msgstr "Plateforme"
+
+#: what-is-bitcoin-the-network/source-text.txt:46
+msgid ""
+"You can build all sorts of contracts on top of Bitcoin’s code; it’s "
+"programmable money."
+msgstr ""
+"Vous pouvez construire tous types de contrats sur le code du Bitcoin; c'est "
+"de l'argent programmable."
+
+#: what-is-bitcoin-the-network/source-text.txt:48
+msgid "Protocol"
+msgstr "Protocole"
+
+#: what-is-bitcoin-the-network/source-text.txt:50
+msgid ""
+"It’s a code for message exchange, so there are a bunch or rules and "
+"standards that make the whole thing work and guarantee some of its core "
+"features."
+msgstr ""
+"C'est un code pour l'échange de messages, donc il y a des règles et des "
+"standards qui font marcher tout le système et qui garantissent certaines des "
+"fonctionnalités importantes."
+
+#: what-is-bitcoin-the-network/source-text.txt:52
+msgid "Don’t panic... this is what you should know by now"
+msgstr "Ne paniquez pas… C'est ce que vous devriez savoir maintenant"
+
+#: what-is-bitcoin-the-network/source-text.txt:54
+msgid ""
+"Bitcoin is a technology that replaces the middleman or central authority, "
+"making it possible for money and other aspects of people’s life to be free "
+"from this figure of control."
+msgstr ""
+"Le Bitcoin est une technologie qui remplace l'intermédiaire ou l'autorité "
+"centrale, rendant possible pour l'argent et d'autres aspects de la vie des "
+"gens d'être exempts de ce contrôle."
+
+#: what-is-bitcoin-the-network/source-text.txt:56
+msgid "Bank"
+msgstr "Banque"
+
+#: what-is-bitcoin-the-network/source-text.txt:58
+msgid "the poetic touch"
+msgstr "la touche poétique"
+
+#: what-is-bitcoin-the-network/source-text.txt:60
+msgid ""
+"“What the Internet has done for information, Bitcoin will do for money.”"
+msgstr ""
+"\"Le Bitcoin fera pour l'argent ce que l'Internet a fait pour l'information."
+"\""
+
+#: what-is-bitcoin-the-network/source-text.txt:62
+msgid "Author: Patrícia Estevão"
+msgstr "Auteure: Patrícia Estevão"
+
+#: what-is-bitcoin-the-network/source-text.txt:64
+msgid "Editor: Marco Agner"
+msgstr "Editeur: Marco Agner"
+
+#: what-is-bitcoin-the-network/source-text.txt:65
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr "Traducteur: Louis Dormegnie"

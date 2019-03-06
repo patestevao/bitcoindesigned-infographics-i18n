@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-23 11:06+0100\n"
+"PO-Revision-Date: 2019-02-22 10:02+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:2
+msgid "The Bitcoin Transaction Life Cycle"
+msgstr "Le cycle de vie d'une transaction Bitcoin"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:4
+msgid "Rob’s quest to send 0.3 BTC to his friend Laura"
+msgstr "Rob et sa quête d'envoyer 0.3BTC à son amie Laura"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:6
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:8
+msgid "START"
+msgstr "DEBUT"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:10
+msgid "Rob opens his bitcoin wallet..."
+msgstr "Rob ouvre son portefeuille bitcoin..."
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:12
+msgid "scans/copies Laura’s address..."
+msgstr "scanne/copie l'adresse de Laura..."
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:14
+msgid "fills the amount and the fee..."
+msgstr "remplit la quantité et les frais..."
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:16
+msgid "and sends!"
+msgstr "et envoie !"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:18
+msgid "User"
+msgstr "Utilisateur"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:20
+msgid "Machine"
+msgstr "Machine"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:22
+msgid "The wallet signs the transaction using Rob’s private key."
+msgstr "Le portefeuille signe la transaction avec la clé privée de Rob."
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:24
+msgid "The transaction is propagated and validated by the network nodes."
+msgstr "La transaction est propagée et validée par les nœuds du réseau."
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:26
+msgid "10 seconds until now!"
+msgstr "Plus que 10 secondes !"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:28
+msgid "Miners include the transaction in tthe next block to be mined."
+msgstr ""
+"Les mineurs incluent la transaction dans le prochain bloc à être miné."
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:30
+msgid "Mining time!"
+msgstr "Il est temps de miner !"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:32
+msgid "Mining is the computational process of calculating a certain HASH."
+msgstr "Le minage est le processus de calcul d'un certain HASH."
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:34
+msgid ""
+"The miner who solves the Proof of Work propagates the new block to the "
+"network."
+msgstr ""
+"Le mineur qui trouve la solution du Proof of Work propage le nouveau "
+"bloc vers le réseau."
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:36
+msgid "New bitcoins are created!"
+msgstr "De nouveaux bitcoins sont créés !"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:38
+msgid "The nodes verify the result and propagate the block."
+msgstr "Les nœuds vérifient le résultat et propagent le bloc."
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:40
+msgid "Laura sees the first confirmation."
+msgstr "Laura voit la première confirmation."
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:42
+msgid "New confirmations appear with each new block that is created."
+msgstr ""
+"De nouvelles confirmations apparaissent avec chaque nouvelle création "
+"de bloc."
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:44
+msgid "THE END!"
+msgstr "C'EST FINI!"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:46
+msgid "Author: Patrícia Estevão"
+msgstr "Auteure: Patrícia Estevão"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:48
+msgid "Editor: Marco Agner"
+msgstr "Editeur: Marco Agner"
+
+#: the-bitcoin-transaction-life-cycle/source-text.txt:49
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr "Traducteur: Louis Dormegnie"
