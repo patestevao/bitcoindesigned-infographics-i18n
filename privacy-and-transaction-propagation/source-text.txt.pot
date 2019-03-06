@@ -1,0 +1,213 @@
+#. extracted from ./privacy-and-transaction-propagation/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
+
+#: ./privacy-and-transaction-propagation/source-text.txt:2
+msgid "Bitcoin Privacy series"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:4
+msgid "Privacy and Transaction Propagation"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:6
+msgid "What is transaction propagation?"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:8
+msgid ""
+"It’s about how your transaction propagates in the Bitcoin network after you "
+"send it to your peers."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:10
+msgid ""
+"Let’s visualize it by looking at the path your transaction is expected to "
+"take:"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:12
+msgid "You send a transaction from your node."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:14
+msgid "Your node sends it to all of its peers."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:16
+msgid "The peers send it to all of their peers."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:18
+msgid "This is why it’s called a peer-to-peer network."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:20
+msgid ""
+"But note that it’s not a perfect path every time. Nodes can sometimes drop "
+"or not relay your transactions."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:22
+msgid ""
+"And so on. Eventually, a good part of the network knows about your "
+"transaction."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:24
+msgid ""
+"Your transaction now waits in the nodes’ mempools - a place for valid but "
+"unconfirmed transactions - until someone mines it."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:26
+msgid "Cool. Is there a problem with that?"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:28
+msgid ""
+"This propagation happens a bit too transparently. So a very well connected "
+"node may be able to watch the propagation and infer information about the "
+"originating IP address of your transaction."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:30
+msgid "This revealing info can potentially give the eavesdropper access to:"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:32
+msgid "Your real world identity"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:34
+msgid "Citizen ID"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:36
+msgid "Your physical location"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:38
+msgid "Your Bitcoin balance"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:40
+msgid "Because of IP related information and related metadata."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:42
+msgid "Because of blockchain transparency."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:44
+msgid ""
+"And, does the eavesdropper have to be a super fancy government agency that "
+"will probably not be looking for you?"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:46
+msgid "NO."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:48
+msgid ""
+"Since it’s relatively cheap to set it up, it could be just anyone on the "
+"Internet."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:50
+msgid ""
+"Therefore, it increases the pool of people who might want to break your "
+"privacy this way to get your bitcoins."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:52
+msgid "Enter Dandelion"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:54
+msgid ""
+"Dandelion is a proposed mechanism of a privacy-preserving transaction "
+"propagation."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:56
+msgid ""
+"The basic idea is to keep the transaction circulating in private for a while "
+"so, when it goes public, no one knows where it originally came from."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:58
+msgid "Private phase"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:60
+msgid "Public phase"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:62
+msgid ""
+"If we reorganize the propagation above, it’s visible that the path of the "
+"transaction reminds us of a dandelion flower and, therefore, the choice of "
+"name."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:64
+msgid ""
+"The private and public phases are referred to as “stem phase” and “fluff "
+"phase”, respectivelly."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:66
+msgid "Stem phase"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:68
+msgid "Fluff phase"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:70
+msgid ""
+"The concept was first developed by a group of mathematicians and now it’s "
+"being implemented as BIP 156."
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:72
+msgid ""
+"Check it out here: https://github.com/bitcoin/bips/blob/master/"
+"bip-0156.mediawiki"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:74
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:76
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:78
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./privacy-and-transaction-propagation/source-text.txt:83
+msgid ""
+"Main sources:\n"
+"https://medium.com/@nopara73/coin-control-is-must-learn-if-you-care-about-"
+"your-privacy-in-bitcoin-33b9a5f224a2\n"
+"https://medium.com/@thecryptoconomy/dandelions-and-a-bright-future-for-"
+"bitcoin-privacy-712dbc4b1ec5\n"
+"https://www.youtube.com/watch?v=XORDEX-RrAI&t=7h34m24s\n"
+"https://github.com/gfanti/bips/blob/master/bip-dandelion.mediawiki"
+msgstr ""

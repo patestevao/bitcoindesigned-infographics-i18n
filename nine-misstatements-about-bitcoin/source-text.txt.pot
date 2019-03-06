@@ -1,0 +1,174 @@
+#. extracted from ./nine-misstatements-about-bitcoin/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:2
+msgid "9 misstatements you’ll read about Bitcoin on the media"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:4
+msgid ""
+"1  \"Miners use computers capable of solving VERY COMPLEX computations!\""
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:6
+msgid ""
+"Mining hardware actually solves a very simple problem: guessing random "
+"numbers. Then they check them against a SHA2 function."
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:8
+msgid ""
+"2   “Mining hardware VALIDATES transactions, ensuring they follow Bitcoin’s "
+"rules.”"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:10
+msgid ""
+"Mining hardware doesn’t validate, it receives (hopefully validated) "
+"transactions from full nodes."
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:12
+msgid "valid"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:14
+msgid "Mining"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:16
+msgid "3   \"If somebody controls 51% of hashrate, he controls Bitcoin!\""
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:18
+msgid ""
+"Even if somebody controls 100% of hashrate he still cannot turn invalid "
+"transactions into valid (stealing, inflating, changing rules), he can just "
+"CENSOR transactions."
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:20
+msgid "Censorship lever"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:22
+msgid "on"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:24
+msgid "off"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:26
+msgid ""
+"4   \"Blockchains are more efficient, faster & cheaper than traditional, "
+"centralized tech. We can replace them to save costs & time!\""
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:28
+msgid ""
+"Blockchains are actually LESS efficient, SLOWER and more EXPENSIVE than "
+"centralized technologies."
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:30
+msgid "Centralized"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:32
+msgid "Blockchain"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:34
+msgid ""
+"5   \"Blockchains use encryption, so they are PRIVATE. We can use them to "
+"encrypt and protect sensitive data!\""
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:36
+msgid ""
+"Blockchain information is usually unencrypted and public to everyone in a "
+"pretty much irreversible way."
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:38
+msgid "Blockchain transactions"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:40
+msgid ""
+"6   “Bitcoin can be surpassed, blockchain tech is the real revolution. We "
+"should research blockchain without Bitcoin!\""
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:42
+msgid ""
+"Blockchains don’t really have much use other than being a building part of a "
+"decentralized asset (Bitcoin)."
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:44
+msgid "7   \"Bitcoin is mostly used by violent people to commit crimes!\""
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:46
+msgid ""
+"Bitcoin will be mostly used by honest people protecting themselves against "
+"financial repression."
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:48
+msgid ""
+"8   \"Bitcoin's tech is trivial & nowadays obsolete, surpassed by other, "
+"most advanced ‘crypto’ projects!\""
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:50
+msgid ""
+"Bitcoin is the most advanced, up-to-date, bleeding-edge FOSS*/crypto project "
+"with one of the highest concentrations of brain-power."
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:52
+msgid "*FOSS: Free Open Source Software"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:54
+msgid "9   \"Altcoins invented new stuff that Bitcoin devs couldn't imagine!\""
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:56
+msgid ""
+"MOST selling-points in altcoin marketing (tangles, ZKPs, etc.) have "
+"previously been evaluated & dismissed/deferred by Bitcoin pioneers."
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:58
+msgid "Author: Patricia Estevao"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:60
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:62
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./nine-misstatements-about-bitcoin/source-text.txt:63
+msgid ""
+"Source: @giacomozucco tweet (https://twitter.com/giacomozucco/status/"
+"980186934969585665)"
+msgstr ""

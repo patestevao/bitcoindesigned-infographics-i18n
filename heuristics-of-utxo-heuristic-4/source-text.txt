@@ -1,0 +1,50 @@
+Bitcoin Privacy Series
+
+Heuristics of UTXO deanonymization
+
+Heuristic 4: “Wallets don’t spend unnecessary outputs”
+
+Alice made a transaction with multiple inputs in order to pay her rent.
+
+Alice’s UTXOs turned into inputs for rent tx
+
+If there’s a unique output of the transaction with a value smaller than any of the inputs, then that’s the change.
+
+Otherwise, the wallet would have spent an unneccessary UTXO.
+
+Rent tx
+
+Payment
+
+Change
+
+Outputs
+
+From the eavesdropper point of view:
+
+Inputs to rent tx
+
+Rent tx
+
+Outputs
+
+Is this the only UTXO smaller than all inputs?
+
+YES
+
+It’s the change.
+
+NO
+
+It isn’t the change.
+
+Now we know which address to keep following in order to learn more about Alice’s finances.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]
+
+Main sources:
+https://www.youtube.com/watch?v=HScK4pkDNds

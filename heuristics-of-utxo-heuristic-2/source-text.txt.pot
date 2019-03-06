@@ -1,0 +1,108 @@
+#. extracted from ./heuristics-of-utxo-heuristic-2/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:2
+msgid "Bitcoin Privacy series"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:4
+msgid "Heuristics of UTXO deanonymization"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:6
+msgid ""
+"Heuristic 2: “Changes are owned by addresses that were never seen in the "
+"blockchain.”"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:8
+msgid "Imagine a transaction with 2 UTXOs created to different addresses."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:10
+msgid "Address A"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:12
+msgid "Address B"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:14
+msgid ""
+"Since modern wallets generate completely new addresses for the change, an "
+"eavesdropper can conclude:"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:16
+msgid ""
+"If only one of them has never appeared in the blockchain, that’s probably "
+"the address generated for the change."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:18
+msgid "Change to Address B"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:20
+msgid "From the eavesdropper point of view:"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:22
+msgid "Bob’s Tx generates 2 UTXOs"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:24
+msgid "Goes to Address A"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:26
+msgid "Goes to Address B"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:28
+msgid "Is on the blockchain"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:30
+msgid "Isn’t on the blockchain"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:32
+msgid "This is Bob’s change."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:34
+msgid ""
+"Now we know which address to keep following in order to learn more about Bob’"
+"s finances."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:36
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:38
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:40
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-2/source-text.txt:42
+msgid ""
+"Main sources:\n"
+"https://www.youtube.com/watch?v=HScK4pkDNds"
+msgstr ""

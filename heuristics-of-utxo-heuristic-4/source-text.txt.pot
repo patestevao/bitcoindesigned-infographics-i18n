@@ -1,0 +1,124 @@
+#. extracted from ./heuristics-of-utxo-heuristic-4/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:2
+msgid "Bitcoin Privacy Series"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:4
+msgid "Heuristics of UTXO deanonymization"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:6
+msgid "Heuristic 4: “Wallets don’t spend unnecessary outputs”"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:8
+msgid "Alice made a transaction with multiple inputs in order to pay her rent."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:10
+msgid "Alice’s UTXOs turned into inputs for rent tx"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:12
+msgid ""
+"If there’s a unique output of the transaction with a value smaller than any "
+"of the inputs, then that’s the change."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:14
+msgid "Otherwise, the wallet would have spent an unneccessary UTXO."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:16
+msgctxt "./heuristics-of-utxo-heuristic-4/source-text.txt:16"
+msgid "Rent tx"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:18
+msgid "Payment"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:20
+msgid "Change"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:22
+msgctxt "./heuristics-of-utxo-heuristic-4/source-text.txt:22"
+msgid "Outputs"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:24
+msgid "From the eavesdropper point of view:"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:26
+msgid "Inputs to rent tx"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:28
+msgctxt "./heuristics-of-utxo-heuristic-4/source-text.txt:28"
+msgid "Rent tx"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:30
+msgctxt "./heuristics-of-utxo-heuristic-4/source-text.txt:30"
+msgid "Outputs"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:32
+msgid "Is this the only UTXO smaller than all inputs?"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:34
+msgid "YES"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:36
+msgid "It’s the change."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:38
+msgid "NO"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:40
+msgid "It isn’t the change."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:42
+msgid ""
+"Now we know which address to keep following in order to learn more about "
+"Alice’s finances."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:44
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:46
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:48
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-4/source-text.txt:50
+msgid ""
+"Main sources:\n"
+"https://www.youtube.com/watch?v=HScK4pkDNds"
+msgstr ""

@@ -1,0 +1,40 @@
+Bitcoin Privacy Series
+
+Heuristics of UTXO deanonymization
+
+Heuristic 3: “Transactions from consumer’s wallets have two or fewer outputs.”
+
+Bob sends a transaction to a service and there are two outputs, one is his change, the other is the payment to the service. But which one is which?
+
+If we follow the next transactions of these 2 UTXOs, we might see that one of them will be in a transaction with various outputs. That’s probably the money that went to the service.
+
+While the UTXO that went into a transaction with two or fewer outputs is identifiable as the change.
+
+From the eavesdropper point of view:
+
+Bob’s tx
+
+Is the UTXO change or payment?
+
+Next tx
+
+Next tx
+
+2 UTXOs
+
+Multiple UTXOs
+
+It was the change
+
+It was the payment
+
+Again, now we know which address is in Bob’s control, so we can follow it to learn more about Bob’s finances.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]
+
+Main sources:
+https://www.youtube.com/watch?v=HScK4pkDNds

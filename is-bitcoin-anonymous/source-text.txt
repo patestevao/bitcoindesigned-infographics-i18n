@@ -32,6 +32,8 @@ For the same reason you don’t show your bank extract to anyone. If someone kno
 
 How Am I Linked?
 
+Buying goods and services:
+
 Bitcoin doesn’t require any type of personal information from you, but most stores and services do (gorvernment requirement). If you pay this company with bitcoins, they will link your data to your address in their app.
 
 Reusing addresses:

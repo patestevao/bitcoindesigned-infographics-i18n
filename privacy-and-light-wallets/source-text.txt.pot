@@ -1,0 +1,254 @@
+#. extracted from ./privacy-and-light-wallets/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
+
+#: ./privacy-and-light-wallets/source-text.txt:2
+msgid "Bitcoin Privacy series"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:4
+msgid "Privacy and Light Wallets"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:6
+msgid "What are Light Wallets?"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:8
+msgid ""
+"Light (or lightweight) wallets are Bitcoin wallets that don’t download the "
+"full blockchain nor verify all the transactions."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:10
+msgid "Your mobile wallet is usually lightweight."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:12
+msgid ""
+"That’s because it can be very data, energy and time consuming to keep an "
+"updated blockchain using a smartphone hardware."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:14
+msgid ""
+"So the lightweight approach would seem as a very practical solution for an "
+"easy-to-use wallet."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:16
+msgid "But there is a problem."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:18
+msgid ""
+"If the wallet doesn’t have the blockchain with it, it can’t know by itself "
+"how much money you have in your addresses."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:20
+msgid ""
+"It’s with the blockchain that we can find the records of transactions and "
+"calculate how many bitcoins each address has the right to spend."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:22
+msgid ""
+"The wallet, then, will have to ask full nodes — the ones with the full "
+"blockchain — to send it the relevant transactions where your addresses "
+"appear."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:24
+msgctxt "./privacy-and-light-wallets/source-text.txt:24"
+msgid "Light wallet"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:26
+msgid "Tell me about my addresses."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:28
+msgid "Sure, let me check."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:30
+msgctxt "./privacy-and-light-wallets/source-text.txt:30"
+msgid "Full-node"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:32
+msgid ""
+"The problem is that an eavesdropper can monitor the traffic of the light "
+"wallet or directly connect to it as a node in the network."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:35
+msgid ""
+"It can be more or less difficult for the eavesdropper to get useful info,\n"
+"depending on the type of communication the light wallet uses."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:37
+msgid "Hi, I’m a node. Connect with me."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:39
+msgctxt "./privacy-and-light-wallets/source-text.txt:39"
+msgid "Eavesdropper node"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:41
+msgid ""
+"But, eventually, the eavespropper will be able to identify the addresses of "
+"that wallet and how much money they can spend."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:43
+msgid "What is to be done?"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:45
+msgid "Go Full-node"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:47
+msgid ""
+"The older and already functional method to avoid this privacy breach is to "
+"run your own full-node."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:49
+msgid "My light wallet"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:51
+msgid "My full-node"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:53
+msgid ""
+"There are wallets that provide the interface to connect your own full-node "
+"to their light wallet app, such as Samourai Wallet."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:55
+msgid "Compact Client Side Filtering for Light Wallets"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:57
+msgid ""
+"This big name technology was proposed by the Lightning Labs team of "
+"researchers  as an approach to this problem."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:59
+msgid ""
+"The general idea is that the full-node will provide a small index table of "
+"the blockchain that light wallets can download and use as a reference."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:61
+msgctxt "./privacy-and-light-wallets/source-text.txt:61"
+msgid "Full-node"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:63
+msgid "Index table"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:65
+msgctxt "./privacy-and-light-wallets/source-text.txt:65"
+msgid "Light wallet"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:67
+msgid ""
+"The light wallet is, then, able to figure out by itself which blocks it "
+"needs to download in order to learn about the addresses it controls."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:69
+msgid "Light wallet with index table"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:71
+msgid "I want block 742."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:73
+msgid "Aren’t you gonna tell me your addresses?"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:75
+msgid "No, just the block."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:77
+msgctxt "./privacy-and-light-wallets/source-text.txt:77"
+msgid "Eavesdropper node"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:79
+msgid ""
+"The two current projects known to be experimenting with this solution are:"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:81
+msgid "Neutrino"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:83
+msgid ""
+"It’s the Lightning Labs implementation of their own proposal and it’s mainly "
+"focused on mobile Lightning Network wallets."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:85
+msgid "Wasabi Wallet"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:87
+msgid ""
+"Wasabi is a privacy-focused Bitcoin wallet that is doing its own "
+"implementation of the proposal above."
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:89
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:91
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:93
+msgid "Reviewer: @nopara73"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:95
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./privacy-and-light-wallets/source-text.txt:102
+msgid ""
+"Main sources:\n"
+"https://medium.com/@nopara73/anonymous-bitcoin-1fae5d1e33b7\n"
+"https://www.youtube.com/watch?v=HScK4pkDNds\n"
+"https://breaking-bitcoin.com/slides/SPVSecurity.pdf\n"
+"Wasabi wallet: https://medium.com/@nopara73/wasabi-privacy-focused-bitcoin-"
+"wallet-for-desktop-3962d567045a\n"
+"Neutrino: https://github.com/lightninglabs/neutrino\n"
+"Samourai wallet: https://samouraiwallet.com/features/trustednode"
+msgstr ""

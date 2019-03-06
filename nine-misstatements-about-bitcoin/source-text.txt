@@ -1,0 +1,63 @@
+9 misstatements you’ll read about Bitcoin on the media
+
+1  "Miners use computers capable of solving VERY COMPLEX computations!"
+
+Mining hardware actually solves a very simple problem: guessing random numbers. Then they check them against a SHA2 function.
+
+2   “Mining hardware VALIDATES transactions, ensuring they follow Bitcoin’s rules.”
+
+Mining hardware doesn’t validate, it receives (hopefully validated) transactions from full nodes.
+
+valid
+
+Mining
+
+3   "If somebody controls 51% of hashrate, he controls Bitcoin!"
+
+Even if somebody controls 100% of hashrate he still cannot turn invalid transactions into valid (stealing, inflating, changing rules), he can just CENSOR transactions.
+
+Censorship lever
+
+on
+
+off
+
+4   "Blockchains are more efficient, faster & cheaper than traditional, centralized tech. We can replace them to save costs & time!"
+
+Blockchains are actually LESS efficient, SLOWER and more EXPENSIVE than centralized technologies.
+
+Centralized
+
+Blockchain
+
+5   "Blockchains use encryption, so they are PRIVATE. We can use them to encrypt and protect sensitive data!"
+
+Blockchain information is usually unencrypted and public to everyone in a pretty much irreversible way.
+
+Blockchain transactions
+
+6   “Bitcoin can be surpassed, blockchain tech is the real revolution. We should research blockchain without Bitcoin!"
+
+Blockchains don’t really have much use other than being a building part of a decentralized asset (Bitcoin).
+
+7   "Bitcoin is mostly used by violent people to commit crimes!"
+
+Bitcoin will be mostly used by honest people protecting themselves against financial repression.
+
+8   "Bitcoin's tech is trivial & nowadays obsolete, surpassed by other, most advanced ‘crypto’ projects!"
+
+Bitcoin is the most advanced, up-to-date, bleeding-edge FOSS*/crypto project with one of the highest concentrations of brain-power.
+
+*FOSS: Free Open Source Software
+
+9   "Altcoins invented new stuff that Bitcoin devs couldn't imagine!"
+
+MOST selling-points in altcoin marketing (tangles, ZKPs, etc.) have previously been evaluated & dismissed/deferred by Bitcoin pioneers.
+
+Author: Patricia Estevao
+
+Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]
+
+Source: @giacomozucco tweet (https://twitter.com/giacomozucco/status/980186934969585665)

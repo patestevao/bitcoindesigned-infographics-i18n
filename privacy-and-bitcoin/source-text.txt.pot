@@ -1,0 +1,188 @@
+#. extracted from ./privacy-and-bitcoin/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
+
+#: ./privacy-and-bitcoin/source-text.txt:2
+msgid "Bitcoin Privacy series"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:4
+msgid "Privacy and Bitcoin"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:6
+msgid ""
+"A non-exhaustive list of reasons of why you should care about privacy in "
+"Bitcoin."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:8
+msgid ""
+"Let’s limit it to legal activities because, in the case of illegality, I "
+"believe the value of privacy is pretty straightforward."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:10
+msgid "1. Personal risk"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:12
+msgid ""
+"If everyone knows how much money you have, criminals can decide that you are "
+"a worthy target to be attacked for your money."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:14
+msgid ""
+"If you are lucky, the attack will be only digital but, in many known cases, "
+"it gets physical as well."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:16
+msgid "This puts you and your loved ones at great risk."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:18
+msgid "2. Targeted ads"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:20
+msgid ""
+"If your finances are easily followed and, let’s say, sold to advertising "
+"agencies that show you ads based on your spendings, other people besides "
+"yourself might end up seeing these ads and learning what you are buying."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:22
+msgid ""
+"Even with legal harmless stuff, it might be a liking or a need that you’d "
+"prefer to keep private."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:24
+msgid ""
+"There’s actually a real life example of a father learning his daughter was "
+"pregnant because of the ads that were directed to her."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:26
+msgid "3. Business privacy"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:28
+msgid ""
+"For a business, having your finances transparent and available to anyone can "
+"cause serious damage."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:30
+msgid ""
+"Imagine if your competitors knew all about your revenues, margins, "
+"suppliers, the salaries of your employers, etc."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:32
+msgid "4. Commercial leverage"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:34
+msgid ""
+"What if a company knew that you had a lot of money and wouldn’t hurt you to "
+"pay three times the price they usually charge on a product?"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:36
+msgid ""
+"They could easily show “special prices” for you on their e-commerce website "
+"based on how much they think you’re going to pay."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:38
+msgid "Just for you"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:40
+msgid "5. Miner censorship"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:42
+msgid ""
+"If your address is easily found and connected to you, miners can join forces "
+"to censor your transactions by actively not adding it to their proposed "
+"block."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:44
+msgid ""
+"Why would they do that? For numerous reasons, including government pressure, "
+"business interest or just wanting to see the world burn."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:46
+msgid "6. Fungibility"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:48
+msgid ""
+"Good money has to be fungible, that is, all “chunks” of money have to be "
+"equally accepted no matter its origin."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:50
+msgid ""
+"This is the reality with cash. No one can refuse your cash or try to "
+"prosecute you just because the person who paid you got the money selling "
+"drugs."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:52
+msgid "FUNGIBLE MONEY"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:54
+msgid ""
+"If it weren’t fungible, every bill would effectively be worth a different "
+"value (dirty notes would be worth less than clean ones) and the money wouldn’"
+"t work."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:56
+msgid "NON-FUNGIBLE MONEY"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:58
+msgid ""
+"If Bitcoin has a bad privacy, this tracing of “bad money” becomes very "
+"feasible and the currency won’t be fungible."
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:60
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:62
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:64
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./privacy-and-bitcoin/source-text.txt:68
+msgid ""
+"Main sources:\n"
+"https://bitcoinmagazine.com/articles/"
+"why-financial-privacy-about-more-using-bitcoin-buy-drugs-internet/\n"
+"https://www.youtube.com/watch?v=VuI-8EwqIS8"
+msgstr ""

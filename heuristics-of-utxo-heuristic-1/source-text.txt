@@ -1,0 +1,42 @@
+Bitcoin Privacy Series
+
+Heuristics of UTXO deanonymization
+
+Heuristic 1: “All inputs of a transaction belong to the same wallet.”
+
+Most of the times, joining multiple inputs is a way to make a payment that is larger than any of the inputs alone.
+
+Amount to pay
+
+UTXOs you’ll use
+
+So you have a good chance to be right by saying that all those inputs used in the same transaction belonged to the same wallet (and probably the same person).
+
+UTXOs in Bob’s wallet
+
+Which implies that the transactions that previously generated those UTXOs were all made to pay the same person/wallet.
+
+Tx to Bob
+
+New UTXO
+
+From the eavesdropper point of view:
+
+Bob makes a 2.5 BTC payment.
+
+Assuming the inputs used were from the same wallet
+
+We can look at the txs that generated those UTXO
+
+And conclude they were both payments to Bob.
+
+So if one of the addresses that paid him is a known website for freelance programmers, we now know that Bob worked as a freelancer for them.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]
+
+Main sources:
+https://www.youtube.com/watch?v=HScK4pkDNds

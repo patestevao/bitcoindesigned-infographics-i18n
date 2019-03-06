@@ -1,0 +1,109 @@
+#. extracted from ./heuristics-of-utxo-heuristic-3/source-text.txt
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:2
+msgid "Bitcoin Privacy Series"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:4
+msgid "Heuristics of UTXO deanonymization"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:6
+msgid ""
+"Heuristic 3: “Transactions from consumer’s wallets have two or fewer "
+"outputs.”"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:8
+msgid ""
+"Bob sends a transaction to a service and there are two outputs, one is his "
+"change, the other is the payment to the service. But which one is which?"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:10
+msgid ""
+"If we follow the next transactions of these 2 UTXOs, we might see that one "
+"of them will be in a transaction with various outputs. That’s probably the "
+"money that went to the service."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:12
+msgid ""
+"While the UTXO that went into a transaction with two or fewer outputs is "
+"identifiable as the change."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:14
+msgid "From the eavesdropper point of view:"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:16
+msgid "Bob’s tx"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:18
+msgid "Is the UTXO change or payment?"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:20
+msgctxt "./heuristics-of-utxo-heuristic-3/source-text.txt:20"
+msgid "Next tx"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:22
+msgctxt "./heuristics-of-utxo-heuristic-3/source-text.txt:22"
+msgid "Next tx"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:24
+msgid "2 UTXOs"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:26
+msgid "Multiple UTXOs"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:28
+msgid "It was the change"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:30
+msgid "It was the payment"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:32
+msgid ""
+"Again, now we know which address is in Bob’s control, so we can follow it to "
+"learn more about Bob’s finances."
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:34
+msgid "Author: Patrícia Estevão"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:36
+msgid "Editor: Marco Agner"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:38
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr ""
+
+#: ./heuristics-of-utxo-heuristic-3/source-text.txt:40
+msgid ""
+"Main sources:\n"
+"https://www.youtube.com/watch?v=HScK4pkDNds"
+msgstr ""

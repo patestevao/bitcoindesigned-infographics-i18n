@@ -1,0 +1,42 @@
+Bitcoin Privacy series
+
+Heuristics of UTXO deanonymization
+
+Heuristic 2: “Changes are owned by addresses that were never seen in the blockchain.”
+
+Imagine a transaction with 2 UTXOs created to different addresses.
+
+Address A
+
+Address B
+
+Since modern wallets generate completely new addresses for the change, an eavesdropper can conclude:
+
+If only one of them has never appeared in the blockchain, that’s probably the address generated for the change.
+
+Change to Address B
+
+From the eavesdropper point of view:
+
+Bob’s Tx generates 2 UTXOs
+
+Goes to Address A
+
+Goes to Address B
+
+Is on the blockchain
+
+Isn’t on the blockchain
+
+This is Bob’s change.
+
+Now we know which address to keep following in order to learn more about Bob’s finances.
+
+Author: Patrícia Estevão
+
+Editor: Marco Agner
+
+Translator: [Your name/handle or "Crowdsourced translation"]
+
+Main sources:
+https://www.youtube.com/watch?v=HScK4pkDNds
