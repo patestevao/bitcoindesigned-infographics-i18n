@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-22 15:17+0100\n"
+"PO-Revision-Date: 2019-05-06 10:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: source-text.txt:2
+msgid "Why build the Lightning Network?"
+msgstr "Pourquoi construire le Lightning Network ?"
+
+#: source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: source-text.txt:6
+msgid "What is the big idea?"
+msgstr "Quelle est la grande idée ?"
+
+#: source-text.txt:8
+msgid "The lightning network is a scaling approach to Bitcoin."
+msgstr "Le Lightning Network est une approche de scalabilité du Bitcoin."
+
+#: source-text.txt:10
+msgid ""
+"It’s really about moving a lot of Bitcoin transactions out of the blockchain "
+"and into private channels between users, but still counting on the "
+"blockchain’s security."
+msgstr ""
+"Cela repose sur le fait de bouger de nombreuses transactions Bitcoin hors de "
+"la blockchain vers des canaux privés entre utilisateurs, tout en comptant "
+"sur la sécurité de la blockchain."
+
+#: source-text.txt:12
+msgid "Off-chain transactions"
+msgstr "Transactions hors-blockchain"
+
+#: source-text.txt:14
+msgid "blockchain"
+msgstr "blockchain"
+
+#: source-text.txt:16
+msgid ""
+"It’s like a contract and arbitration system (with a poetic license, of "
+"course):"
+msgstr ""
+"C'est comme un contrat, un système d'arbitrage (avec une licence poétique "
+"bien sûr):"
+
+#: source-text.txt:18
+msgid ""
+"Imagine you want to make a deal with someone and, for that, you create a "
+"contract and register it with a notary."
+msgstr ""
+"Imaginez vouloir faire un marché avec quelqu'un et, pour ça, créer un "
+"contrat et l'enregistrer auprès d'un notaire."
+
+#: source-text.txt:20
+msgid "That’s you opening a lightning network channel with someone."
+msgstr "Ça, c'est vous ouvrant un canal du Lightning network avec quelqu'un."
+
+#: source-text.txt:22
+msgid ""
+"You expect to do this deal without any hassles, with both parties fulfilling "
+"their duties. But, anyway, you have a contract to protect yourself."
+msgstr ""
+"Vous espérez conclure ce marché sans difficulté, avec chaque deux parties "
+"respectant ses devoirs. Mais, dans tous les cas, vous avez un contrat pour "
+"vous protéger."
+
+#: source-text.txt:24
+msgid ""
+"You create commitment transactions that are not really broadcast, unless "
+"necessary to resolve a dispute."
+msgstr ""
+"Vous créez des transactions d'engagement qui ne sont pas vraiment diffusées, "
+"à moins d'être nécessaires à la résolution d'une dispute."
+
+#: source-text.txt:26
+msgid ""
+"If one of you breaks the agreement, you can take this contract to a court "
+"that will recognize it as valid and give gain to the honest party."
+msgstr ""
+"Si un d'entre vous brise cet accord, vous pouvez utiliser ce contrat dans un "
+"tribunal qui le reconnaîtra comme valide, et qui donnera raison à la partie "
+"honnête."
+
+#: source-text.txt:28
+msgid ""
+"If someone tries to rob you (broadcasting an old channel state), you can "
+"take the contract to the blockchain and get all the bitcoins in the channel. "
+"Only, in this case, there’s no subjectivity in interpreting the contract."
+msgstr ""
+"Si quelqu'un essaie de vous voler (en diffusant un vieil état du canal), "
+"vous pouvez emmener le contrat sur la blockchain et avoir tous les bitcoins "
+"du canal. Dans ce cas, il n'y a aucune subjectivité dans l'interprétation du "
+"contrat."
+
+#: source-text.txt:30
+msgid ""
+"In practice, most people don’t ever need to go to a court because nobody "
+"broke their contract, so the arbitration system doesn’t get bloated."
+msgstr ""
+"En pratique, la plupart des gens n'ont pas besoin d'aller au tribunal parce "
+"que personne n'a brisé leur contrat, donc le système d'arbitrage ne gonfle "
+"pas."
+
+#: source-text.txt:32
+msgid "OPEN"
+msgstr "OUVERT"
+
+#: source-text.txt:34
+msgid ""
+"Countless transactions can occur in private and off-chain while a channel is "
+"open and both parties are being honest, therefore, unburdening the "
+"blockchain."
+msgstr ""
+"De nombreuses transactions peuvent être faites en privé et hors-chain quand "
+"un canal est ouvert et que les deux parties sont honnêtes, déchargeant la "
+"blockchain."
+
+#: source-text.txt:36
+msgid ""
+"If using the lightning network, only 3 types of transactions need to be "
+"broadcast to the blockchain:"
+msgstr ""
+"En utilisant le Lightning network, seuls 3 types de transactions doivent "
+"être diffusées sur la blockchain:"
+
+#: source-text.txt:38
+msgid "The transaction that opens a channel."
+msgstr "La transaction qui ouvre un canal."
+
+#: source-text.txt:40
+msgid "The transaction that closes a channel."
+msgstr "La transaction qui ferme le canal."
+
+#: source-text.txt:42
+msgid "Disputes that need to be settled."
+msgstr "Les disputes qui doivent être réglées."
+
+#: source-text.txt:44
+msgid "The big features"
+msgstr "Les fonctionnalités importantes"
+
+#: source-text.txt:46
+msgid "Fast and cheap"
+msgstr "Rapide et peu cher"
+
+#: source-text.txt:48
+msgid ""
+"Now you can actually get instant and almost free payments since you can "
+"mainly transact without the limitations of writing on the blockchain. Which "
+"means micro-payments are now totally viable!"
+msgstr ""
+"Maintenant, vous pouvez effectuer des paiements instantanés et quasi-"
+"gratuits car vous pouvez échanger sans les limitations de l'écriture sur la "
+"blockchain. Les micro-paiements sont désormais viables !"
+
+#: source-text.txt:50
+msgid "Practical"
+msgstr "Pratique"
+
+#: source-text.txt:52
+msgid ""
+"You only have to open a few channels to be able to transact with the whole "
+"network because channels are interconnected."
+msgstr ""
+"Vous n'avez besoin que d'ouvrir quelques canaux pour effectuer les "
+"transactions avec tout le réseau, parce que les canaux sont interconnectés."
+
+#: source-text.txt:54
+msgid "No expiration date"
+msgstr "Pas de date d'expiration"
+
+#: source-text.txt:56
+msgid ""
+"Channels can stay open indefinitely, maximizing the unburdening effect on "
+"the blockchain and dissolving the fees for the opening and closing "
+"transactions of a channel."
+msgstr ""
+"Les canaux peuvent rester ouverts indéfiniment, maximisant leur effet de "
+"décharge sur la blockchain et diluant les frais pour les transactions "
+"d'ouverture et de fermeture d'un canal."
+
+#: source-text.txt:58
+msgid "OPEN 24/7"
+msgstr "OUVERT 24/7"
+
+#: source-text.txt:60
+msgid "Improved privacy"
+msgstr "Une discrétion améliorée"
+
+#: source-text.txt:62
+msgid ""
+"It can use encryption and intermediary nodes that relay transactions without "
+"knowing its origin and destiny (onion-style routing)."
+msgstr ""
+"Il peut utiliser l'encodage et les nœuds intermédiaires qui relaient les "
+"transactions sans connaître leur origine et destination (semblable au "
+"routage onion)."
+
+#: source-text.txt:64
+msgid "Author: Patrícia Estevão"
+msgstr "Auteure: Patrícia Estevão"
+
+#: source-text.txt:66
+msgid "Editor: Marco Agner"
+msgstr "Editeur: Marco Agner"
+
+#: source-text.txt:68
+msgid "Sources: https://en.bitcoin.it/wiki/Lightning_Network"
+msgstr "Sources: https://en.bitcoin.it/wiki/Lightning_Network"
+
+#: source-text.txt:69
+msgid ""
+"The court analogy was described in reddit a while ago, I just couldn’t find "
+"a link to it. If someone finds it, please send it to me. :)"
+msgstr ""
+"L'analogie du tribunal était décrite en détail sur reddit il y a quelque "
+"temps, je n'ai pas pu en trouver le lien. Si quelqu'un le trouve, envoyez-le "
+"moi s'il vous plaît. :)"
