@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: 2019-05-10 10:40+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: what-is-the-mining-difficulty/source-text.txt:2
+msgid "The bitcoin mining saga  - Part III"
+msgstr "La saga du minage de Bitcoin - Partie III"
+
+#: what-is-the-mining-difficulty/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: what-is-the-mining-difficulty/source-text.txt:6
+msgid "What is the Mining Difficulty?"
+msgstr "Qu'est-ce que la difficulté de minage ?"
+
+#: what-is-the-mining-difficulty/source-text.txt:8
+msgid ""
+"It’s a mesure of how difficult is to find a hash below the target value (a "
+"256-bit number) during the Proof of Work."
+msgstr ""
+"C'est une mesure de la difficulté pour trouver un hash en dessous de la "
+"valeur cible (un nombre 256-bit) pendant le Proof of Work."
+
+#: what-is-the-mining-difficulty/source-text.txt:10
+msgid "Mining Difficulty"
+msgstr "Difficulté de Minage"
+
+#: what-is-the-mining-difficulty/source-text.txt:12
+msgid "Target Value"
+msgstr "Valeur Ciblée"
+
+#: what-is-the-mining-difficulty/source-text.txt:14
+msgid "How does it work?"
+msgstr "Comment ça marche ?"
+
+#: what-is-the-mining-difficulty/source-text.txt:16
+msgid "More miners join the network"
+msgstr "Plus de mineurs rejoignent le réseau"
+
+#: what-is-the-mining-difficulty/source-text.txt:18
+msgid "Block creation rate increases"
+msgstr "La vitesse de création de blocs augmente"
+
+#: what-is-the-mining-difficulty/source-text.txt:20
+msgid "Average mining time decreases"
+msgstr "Le temps de minage moyen baisse"
+
+#: what-is-the-mining-difficulty/source-text.txt:22
+msgid "Mining difficulty increases"
+msgstr "La difficulté de minage augmente"
+
+#: what-is-the-mining-difficulty/source-text.txt:24
+msgid "Block creation rate goes down"
+msgstr "La vitesse de création de blocs baisse"
+
+#: what-is-the-mining-difficulty/source-text.txt:26
+msgid "Average mining time goes back to normal"
+msgstr "Le temps de minage moyen revient à la normale"
+
+#: what-is-the-mining-difficulty/source-text.txt:28
+msgid ""
+"The target value is recalculated every 2,016 blocks (aproximately two weeks)"
+msgstr ""
+"La valeur cible est recalculée tous les 2016 blocs (environ deux semaines)"
+
+#: what-is-the-mining-difficulty/source-text.txt:30
+msgid "The ideal average mining time is stablished as 10 minutes per block."
+msgstr "Le temps de minage moyen est établit à 10 minutes par bloc."
+
+#: what-is-the-mining-difficulty/source-text.txt:32
+msgid "Author: Patrícia Estevão"
+msgstr "Auteure: Patrícia Estevão"
+
+#: what-is-the-mining-difficulty/source-text.txt:34
+msgid "Editor: Marco Agner"
+msgstr "Editeur: Marco Agner"
+
+#: what-is-the-mining-difficulty/source-text.txt:35
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr "Traducteur: Louis Dormegnie"
