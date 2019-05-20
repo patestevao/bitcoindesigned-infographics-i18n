@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: 2019-05-10 10:57+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: what-is-pow/source-text.txt:2
+msgid "THE BITCOIN MINING SAGA - PART II"
+msgstr "LA SAGA DU MINING DE BITCOIN - PARTIE II"
+
+#: what-is-pow/source-text.txt:4
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: what-is-pow/source-text.txt:6
+msgid "What is Proof of Work (PoW)?"
+msgstr "Qu'est-ce que le Proof of Work (PoW) ?"
+
+#: what-is-pow/source-text.txt:8
+msgid ""
+"It’s a method to ensure that the information (the new block) was difficult "
+"(costly, time-consuming) to be made."
+msgstr ""
+"C'est une méthode qui assure que l'information (le nouveau bloc) était "
+"difficile (coûteux, chronophage) à créer."
+
+#: what-is-pow/source-text.txt:10
+msgid "It costs processing power."
+msgstr "Cela coûte de la puissance de traitement."
+
+#: what-is-pow/source-text.txt:12
+msgid "Which can be translated to: hardware, energy and time."
+msgstr "Qui peut se traduire par: hardware, énergie et temps."
+
+#: what-is-pow/source-text.txt:14
+msgid ""
+"It’s easy, on the other hand, for others to check if the requirements were "
+"met."
+msgstr ""
+"C'est facile, par contre, pour les autres de vérifier si les exigences "
+"sont rencontrées."
+
+#: what-is-pow/source-text.txt:16
+msgid "In Practice"
+msgstr "En Pratique"
+
+#: what-is-pow/source-text.txt:18
+msgid "(made simple)"
+msgstr "(version simple)"
+
+#: what-is-pow/source-text.txt:20
+msgid "BEGIN HERE"
+msgstr "COMMENCER ICI"
+
+#: what-is-pow/source-text.txt:22
+msgid "Miner proposes new block"
+msgstr "Un mineur propose un nouveau bloc"
+
+#: what-is-pow/source-text.txt:24
+msgid "Header of the most recent block"
+msgstr "Header du bloc le plus récent"
+
+#: what-is-pow/source-text.txt:26
+msgid "NONCE (an incremental number)"
+msgstr "NONCE (un nombre incrémentiel)"
+
+#: what-is-pow/source-text.txt:28
+msgid "Combines and hashes"
+msgstr "Combine et \"hash\""
+
+#: what-is-pow/source-text.txt:30
+msgid "HASH number"
+msgstr "Nombre HASH"
+
+#: what-is-pow/source-text.txt:32
+msgid "Mining Difficulty"
+msgstr "Difficulté de Minage"
+
+#: what-is-pow/source-text.txt:34
+msgid "Determines"
+msgstr "Détermine"
+
+#: what-is-pow/source-text.txt:36
+msgid "Target Value"
+msgstr "La Valeur Cible"
+
+#: what-is-pow/source-text.txt:38
+msgid "Compares"
+msgstr "Compare"
+
+#: what-is-pow/source-text.txt:40
+msgid "Is HASH < Target Value?"
+msgstr "Le HASH est-il < à la Valeur Cible ?"
+
+#: what-is-pow/source-text.txt:42
+msgid "NO"
+msgstr "NO"
+
+#: what-is-pow/source-text.txt:44
+msgid "Increments and try again"
+msgstr "Incrémente et réessaye"
+
+#: what-is-pow/source-text.txt:46
+msgid "YES"
+msgstr "OUI"
+
+#: what-is-pow/source-text.txt:48
+msgid "You solved the PoW!"
+msgstr "Vous avez résolu le PoW !"
+
+#: what-is-pow/source-text.txt:50
+msgid "Mining Reward"
+msgstr "Récompense de Minage"
+
+#: what-is-pow/source-text.txt:52
+msgid "Author: Patrícia Estevão"
+msgstr "Auteure: Patrícia Estevão"
+
+#: what-is-pow/source-text.txt:54
+msgid "Editor: Marco Agner"
+msgstr "Editeur: Marco Agner"
+
+#: what-is-pow/source-text.txt:55
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr "Traducteur: Louis Dormegnie"
