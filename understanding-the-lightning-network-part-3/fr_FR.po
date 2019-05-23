@@ -1,0 +1,525 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 12:51+0100\n"
+"PO-Revision-Date: 2019-05-22 16:56+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:2
+msgid "Understanding the Lightning Network - Part 3:"
+msgstr "Comprendre le Lightning Network - Partie 3:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:4
+msgid "Going Off-chain"
+msgstr "Aller off-chain"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:6
+msgid "bitcoindesigned.com"
+msgstr "bitcoindesigned.com"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:8
+msgid ""
+"Last time, we used HTLC (Hash Time-Locked Contracts) so Alice could pay 1 "
+"btc to Carol using the already open channel between Alice and Bob. This "
+"effectively turned our bidirectional channel into a network."
+msgstr ""
+"La dernière fois, nous avons utilisé le HTLC (Hash Time-Locked Contracts) "
+"pour qu'Alice puisse payer 1 btc à Carol en utilisant le canal déjà ouvert "
+"d'Alice et Bob. Notre canal bidirectionnel est devenu un réseau."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:10
+msgid ""
+"Now, we are going to see how the HTLC transaction will be included in the "
+"channel balance so that we don’t need to update it immediately on the "
+"blockchain."
+msgstr ""
+"Maintenant, nous allons voir comment la transaction HTLC sera incluse dans "
+"la solde du canal pour qu'on ait pas besoin de la mettre à jour "
+"immédiatement sur la blockchain."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:12
+msgid ""
+"On their last commitment transactions before the HTLC, Alice and Bob had "
+"decided on the following balance:"
+msgstr ""
+"Sur leurs dernières transactions d'engagement avant le HTLC, Alice et Bob "
+"ont choisi la solde suivante:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:14
+msgid "Three bitcoins for Bob"
+msgstr "Trois bitcoins pour Bob"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:16
+msgid "Five bitcoins for Alice"
+msgstr "Cinq bitcoins pour Alice"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:18
+msgid ""
+"To include the HTLC, they will follow almost the same procedure as before."
+msgstr ""
+"Pour inclure le HTLC, ils vont presque suivre la même procédure "
+"qu'auparavant."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:20
+msgid ""
+"Create new secret, exchange the hash and create new commitment transactions "
+"with the following structure:"
+msgstr ""
+"Créer un nouveau secret, échanger le hash et créer des nouvelles "
+"transactions d'engagement avec la structure suivante:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:22
+msgid "Alice’s commitment"
+msgstr "L'engagement d'Alice"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:24
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:24"
+msgid "4 bitcoins to herself."
+msgstr "4 bitcoins à elle-même."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:26
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:26"
+msgid "4 BTC"
+msgstr "4 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:28
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:28"
+msgid "to Alice’s key"
+msgstr "vers la clé d'Alice"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:30
+msgid "3 bitcoins to a multisig address that can be unlocked by:"
+msgstr "3 bitcoins vers une adresse multisig qui peut être débloquée par:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:32
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:32"
+msgid "3 BTC"
+msgstr "3 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:34
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:34"
+msgid "Bob, after 1000 blocks."
+msgstr "Bob, après 1000 blocs."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:36
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:36"
+msgid "Alice, if she presents Bob’s secret."
+msgstr "Alice, si elle présente le secret de Bob."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:38
+msgid "All businness as usual until now. But then..."
+msgstr "Tout va bien pour l'instant. Mais ensuite..."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:40
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:40"
+msgid "1 bitcoin to a multisig address that can be unlocked by:"
+msgstr "1 bitcoin vers une adresse multisig qui peut être débloquée par:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:42
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:42"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:44
+msgid "Bob, if he presents Carol’s secret and waits 1000 blocks."
+msgstr "Bob, si il présente le secret de Carol et attend 1000 blocs."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:46
+msgid ""
+"Security measure to give Alice time to “steal” the funds if Bob drops an old "
+"channel state and tries to rob her. In which case, she will unlock like this:"
+msgstr ""
+"Mesure de sécurité qui donne à Alice du temps pour \"voler\" les fonds si "
+"Bob lâche un vieil état de canal et essaie de l'escroquer. Dans ce cas, elle "
+"va le déverrouiller comme ceci:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:48
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:48"
+msgid "Alice, after 14 days."
+msgstr "Alice, après 14 jours."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:50
+msgid "Alice,  if she presents Bob’s secret."
+msgstr "Alice, si elle présente le secret de Bob."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:52
+msgid "Bob’s commitment"
+msgstr "L'engagement de Bob"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:54
+msgid "3 bitcoins to himself."
+msgstr "3 bitcoins à lui-même."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:56
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:56"
+msgid "3 BTC"
+msgstr "3 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:58
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:58"
+msgid "to Bob’s key"
+msgstr "vers la clé de Bob"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:60
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:60"
+msgid "4 bitcoins to a multisig address that can be unlocked by:"
+msgstr "4 bitcoins vers l'adresse multisig qui peut être débloquée par:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:62
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:62"
+msgid "4 BTC"
+msgstr "4 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:64
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:64"
+msgid "Alice, after 1000 blocks."
+msgstr "Alice, après 1000 blocs."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:66
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:66"
+msgid "Bob, if he presents Alice’s secret."
+msgstr "Bob, si il présente le secret d'Alice."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:68
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:68"
+msgid "1 bitcoin to a multisig address that can be unlocked by:"
+msgstr "1 bitcoin vers une adresse multisig qui peut être débloquée par:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:70
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:70"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:72
+msgid "Bob, if he presents Carol’s secret."
+msgstr "Bob, si il présente le secret de Carol."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:74
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:74"
+msgid "Alice, after 14 days."
+msgstr "Alice, après 14 days."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:76
+msgid ""
+"Time for Alice to retrieve the bitcoin in case Bob doesn’t present the "
+"secret."
+msgstr ""
+"Du temps pour qu'Alice récupère le bitcoin si Bob ne présente pas le secret."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:78
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:78"
+msgid "Bob, if he presents Alice’s secret."
+msgstr "Bob, s'il présente le secret d'Alice."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:80
+msgid ""
+"If Alice tries to rob him by droping an old channel state, he doesn’t need "
+"to have Carol’s secret to unlock the bitcoin."
+msgstr ""
+"Si Alice essaie de le voler en lâchant un vieil état de canal, il n'a pas "
+"besoin d'avoir le secret de Carol pour déverrouiller le bitcoin."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:82
+msgid ""
+"Again, each of them signs their  half-valid transaction and gives it to the "
+"other."
+msgstr ""
+"Encore une fois, chacun d'entre eux signe sa transaction à moitié valide et "
+"la donne à l'autre."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:84
+msgid "Current state of things"
+msgstr "L'état actuel des choses"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:86
+msgid ""
+"So this is what will happen next if one of them drops this current channel "
+"state on the blockchain:"
+msgstr ""
+"Donc c'est ce qui arrivera si l'un d'entre eux lâche l'état actuel du canal "
+"sur la blockchain:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:88
+msgid "Alice drops the channel:"
+msgstr "Alice lâche le canal:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:90
+msgid "Bob gets 3 bitcoins immediately."
+msgstr "Bob reçoit 3 bitcoins immédiatement."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:92
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:92"
+msgid "3 BTC"
+msgstr "3 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:94
+msgid "Alice gets 4 bitcoins in 1000 blocks."
+msgstr "Alice reçoit 4 bitcoins dans 1000 blocs."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:96
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:96"
+msgid "4 BTC"
+msgstr "4 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:98
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:98"
+msgid ""
+"Bob has 2 weeks to present Carol’s secret and retrieve the remaining "
+"bitcoin. If he doesn’t, Alice can take it back to herself."
+msgstr ""
+"Bob a 2 semaines pour présenter le secret de Carol et récupérer le bitcoin "
+"restant. S'il ne le fait pas, Alice peut le récupérer."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:100
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:100"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:102
+msgid "Bob drops the channel:"
+msgstr "Bob laisse tomber le canal:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:104
+msgid "Alice gets 4 bitcoins immediately."
+msgstr "Alice récupère 4 bitcoins immédiatement."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:106
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:106"
+msgid "4 BTC"
+msgstr "4 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:108
+msgid "Bob gets 3 bitcoins in 1000 blocks."
+msgstr "Bob récupère 3 bitcoins en 1000 blocs."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:110
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:110"
+msgid "3 BTC"
+msgstr "3 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:112
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:112"
+msgid ""
+"Bob has 2 weeks to present Carol’s secret and retrieve the remaining "
+"bitcoin. If he doesn’t, Alice can take it back to herself."
+msgstr ""
+"Bob a 2 semaines pour présenter le secret de Carol et récupérer le bitcoin "
+"restant. S'il ne le fait pas, Alice peut le récupérer."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:114
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:114"
+msgid "1 BTC"
+msgstr "1 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:116
+msgid ""
+"And if any of them tries to broadcast this state when it’s already outdated, "
+"the other can “steal” all the bitcoins."
+msgstr ""
+"Et si l'un d'entre eux essaie de diffuser cet état alors qu'il est déjà "
+"dépassé, l'autre peut \"voler\" tous les bitcoins."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:118
+msgid "The updating agreement"
+msgstr "L'accord de mise à jour"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:120
+msgid ""
+"Both Alice and Bob know that Bob will have the HTLC bitcoin if he has "
+"Carol’s secret. So, in order to keep the channel open and simplify things, "
+"they can agree to update the balance with new commitment transactions as "
+"follows:"
+msgstr ""
+"Alice et Bob savent tous deux que Bob aura le bitcoin HTLC si il a le secret "
+"de Carol. Donc, pour garder le canal ouvert et simplifier les choses, ils "
+"peuvent se mettre d'accord en mettant à jour la solde avec de nouvelles "
+"transactions d'engagement:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:122
+msgid "Alice’s new commitment"
+msgstr "Le nouvel engagement d'Alice"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:124
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:124"
+msgid "4 bitcoins to herself."
+msgstr "4 bitcoins à elle-même."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:126
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:126"
+msgid "4 BTC"
+msgstr "4 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:128
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:128"
+msgid "to Alice’s key"
+msgstr "vers la clé d'Alice"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:130
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:130"
+msgid "4 bitcoins to a multisig address that can be unlocked by:"
+msgstr "4 bitcoins vers une adresse multisig qui peut être débloquée par:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:132
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:132"
+msgid "4 BTC"
+msgstr "4 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:134
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:134"
+msgid "Bob, after 1000 blocks."
+msgstr "Bob, après 1000 blocs."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:136
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:136"
+msgid "Alice, if she presents Bob’s secret."
+msgstr "Alice, si elle présente le secret de Bob."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:138
+msgid "Bob’s new commitment"
+msgstr "Le nouvel engagement de Bob"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:140
+msgid "4 bitcoins to himself."
+msgstr "4 bitcoins envers lui-même."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:142
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:142"
+msgid "4 BTC"
+msgstr "4 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:144
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:144"
+msgid "to Bob’s key"
+msgstr "vers la clé de Bob"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:146
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:146"
+msgid "4 bitcoins to a multisig address that can be unlocked by:"
+msgstr "4 bitcoins vers une adresse multisig qui peut être débloquée par:"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:148
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:148"
+msgid "4 BTC"
+msgstr "4 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:150
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:150"
+msgid "Alice, after 1000 blocks."
+msgstr "Alice, après 1000 blocs."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:152
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:152"
+msgid "Bob, if he presents Alice’s secret."
+msgstr "Bob, s'il présente le secret d'Alice."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:154
+msgid "Closing the channel"
+msgstr "Fermer le canal"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:156
+msgid ""
+"To finally close the channel, Alice and Bob will create and broadcast a "
+"transaction directly from the opening transaction with the final balance, i."
+"e., the most recent channel state."
+msgstr ""
+"Pour clore le canal, Alice et Bob doivent créer et diffuser une transaction "
+"venant directement d'une transaction d'ouverture avec la solde finale, c'est "
+"à dire l'état de canal le plus récent."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:158
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:158"
+msgid "4 BTC"
+msgstr "4 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:160
+msgid "4 bitcoins to Bob."
+msgstr "4 bitcoins vers Bob."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:162
+msgctxt "./understanding-the-lightning-network-part-3/source-text.txt:162"
+msgid "4 BTC"
+msgstr "4 BTC"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:164
+msgid "4 bitcoins to Alice."
+msgstr "4 bitcoins vers Alice."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:166
+msgid ""
+"This means that only 2 transactions actually got to be written on the "
+"blockchain: the opening and the closing transaction."
+msgstr ""
+"Cela veut dire que seules 2 transactions peuvent être écrites sur la "
+"blockchain: celle d'ouverture et de fermeture."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:168
+msgid "Off-chain transactions"
+msgstr "Transactions off-chain"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:170
+msgid "Opening transaction"
+msgstr "Transaction d'ouverture"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:172
+msgid "Closing transaction"
+msgstr "Transaction de fermeture"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:174
+msgid ""
+"It works the same no matter how many times they transacted with the channel "
+"open."
+msgstr ""
+"Cela fonctionne de la même façon quel que soit le nombre de fois où ils ont "
+"échangé avec le canal ouvert."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:176
+msgid ""
+"That’s why the lightning network is such a huge step to reduce the overload "
+"of transactions on the blockchain; and, therefore, improve Bitcoin’s "
+"scalability."
+msgstr ""
+"C'est pour ça que le Lightning network est une étape énorme pour réduire la "
+"surcharge de transactions sur la blockchain; et, du coup, améliorer la "
+"scalabilité du Bitcoin."
+
+#: understanding-the-lightning-network-part-3/source-text.txt:178
+msgid "POWERED BY"
+msgstr "ALIMENTE PAR"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:180
+msgid "Off-chain"
+msgstr "Off-chain"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:182
+msgid "On-chain"
+msgstr "On-chain"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:184
+msgid "Author: Patrícia Estevão"
+msgstr "Auteure: Patrícia Estevão"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:186
+msgid "Editor: Marco Agner"
+msgstr "Editeur: Marco Agner"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:188
+msgid "Translator: [Your name/handle or \"Crowdsourced translation\"]"
+msgstr "Traducteur: Louis Dormegnie"
+
+#: understanding-the-lightning-network-part-3/source-text.txt:189
+msgid ""
+"Main resources: https://bitcoinmagazine.com/articles/understanding-the-"
+"lightning-network-part-completing-the-puzzle-and-closing-the-"
+"channel-1466178980/"
+msgstr ""
+"Sources principales: https://bitcoinmagazine.com/articles/understanding-the-"
+"lightning-network-part-completing-the-puzzle-and-closing-the-"
+"channel-1466178980/"
